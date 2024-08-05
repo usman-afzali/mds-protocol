@@ -1,0 +1,294 @@
+---
+title: "A national longitudinal study of Muslim diversity and flourishing in Aotearoa New Zealand: A quantitative study protocol"
+shorttitle: "A preprint"
+author:
+  - name: Usman Afzali
+    corresponding: true
+    orcid: 0000-0001-5119-9388
+    email: usman.afzali@canterbury.ac.nz
+    affiliations:
+      - name: University of Canterbury
+        department: School of Psychology, Speech and Hearing
+        address: 20 Kirkwood Ave
+        city: Christchurch
+        region: Canterbury
+        country: New Zealand
+        postal-code: 8041
+  - name: Jamila Badis
+    corresponding: false
+    orcid: 0009-0005-2866-5033
+    affiliations:
+      - name: University of Canterbury
+        department: School of Psychology, Speech and Hearing
+        address: 20 Kirkwood Ave
+        city: Christchurch
+        region: Canterbury
+        country: New Zealand
+        postal-code: 8041
+  - name: Parus Khoso
+    corresponding: false
+    orcid: 0000-0001-6384-038X
+    affiliations:
+      - name: University of Canterbury
+        department: College of Education
+        address: 20 Kirkwood Ave
+        city: Christchurch
+        region: Canterbury
+        country: New Zealand
+        postal-code: 8041
+  - name: Gul e Aqsa
+    corresponding: false
+    orcid: 0009-0003-0928-8039
+    affiliations:
+      - name: University of Canterbury
+        department: School of Health Sciences
+  - name: Farah Shawkat
+    corresponding: false
+    orcid: 0000-0000-0000-0001
+    affiliations:
+      - name: University of Canterbury
+        department: School of Psychology, Speech and Hearing
+        address: 20 Kirkwood Ave
+        city: Christchurch
+        region: Canterbury
+        country: New Zealand
+        postal-code: 8041
+  - name: Fatima Junaid
+    corresponding: false
+    orcid: 0000-0002-6656-8120 
+    affiliations:
+      - name: Massey University
+        department: School of Management
+  - name: Hussain Raissi
+    corresponding: false
+    orcid: 0000-0000-0000-0001
+    affiliations:
+      - name: University of Otago
+        department: School of Social Science
+  - name: Hala Burhoum
+    corresponding: false
+    orcid: 0000-0000-0000-0001
+    affiliations:
+      - name: University of Canterbury
+        department: School of Psychology, Speech and Hearing
+        address: 20 Kirkwood Ave
+        city: Christchurch
+        region: Canterbury
+        country: New Zealand
+        postal-code: 8041
+  - name: Zarqa Shaheen
+    corresponding: false
+    orcid: 0000-0002-7145-5788
+    affiliations:
+      - name: New Zealand Skills and Education College
+        department: TBA
+  - name: Zahra Haidary
+    corresponding: false
+    orcid: 0009-0000-5259-622X
+    affiliations:
+      - name: University of Canterbury
+        department: School of Psychology, Speech and Hearing
+        address: 20 Kirkwood Ave
+        city: Christchurch
+        region: Canterbury
+        country: New Zealand
+        postal-code: 8041
+  - name: Nasratullah Hamid
+    corresponding: false
+    orcid: 0009-0002-0120-7428
+    affiliations:
+      - name: Universit of Otago
+        department: School of Psychological Medicine
+  - name: Rizwan Sulehry
+    corresponding: false
+    orcid: 0000-0002-1209-0635
+    affiliations:
+      - name: Victoria University of Wellington
+        department: School of Management
+  - name: Somia Tasneem
+    corresponding: false
+    orcid: 0000-0001-5471-6934
+    affiliations:
+      - name: University of Canterbury
+        department: School of Psychology, Speech and Hearing
+        address: 20 Kirkwood Ave
+        city: Christchurch
+        region: Canterbury
+        country: New Zealand
+        postal-code: 8041
+  - name: Aarif Rasheed
+    corresponding: false
+    orcid: 0000-0000-0000-0001
+    affiliations:
+      - name: Just Community
+  - name: Kumar Yogeewaran
+    corresponding: false
+    orcid: 0000-0002-1978-5077
+    affiliations:
+      - name: University of Canterbury
+        department: School of Psychology, Speech and Hearing
+        address: 20 Kirkwood Ave
+        city: Christchurch
+        region: Canterbury
+        country: New Zealand
+        postal-code: 8041
+  - name: Chris G. Sibley
+    corresponding: false
+    orcid: 0000-0002-4064-8800
+    affiliations:
+      - name: University of Auckland
+        department: School of Psychology
+  - name: Joseph A. Bulbulia
+    corresponding: false
+    orcid: 0000-0002-5861-2056
+    affiliations:
+      - name: Victoria University of Wellington
+        department: School of Psychology
+      - name: Max Planck Institute for Evolutionary Anthropology
+        department: Department of Linguistic and Cultural Evolution                                                                                                
+author-note:
+  status-changes: 
+    affiliation-change: ~
+    deceased: ~
+  disclosures:
+    study-registration: ~
+    data-sharing: ~
+    related-report: ~
+    conflict-of-interest: ~
+    financial-support: ~
+    gratitude: ~
+    authorship-agreements: ~
+abstract: "  The New Zealand Attitudes and Values Study (NZAVS) is a large longitudinal national probability annual panel study of social attitudes, personality, ideology and health outcomes that began in 2009 and has collected data from more than 70,000 subjects so far. NZAVS has been instrumental in exploring minority issues, including but not limited to discrimination, intergroup relations, identity, security, and etc. In this pursuit, NZAVS has also explored perception of Muslims and the mechanisms of attitudinal changes towards Muslims following 15 March 2019 Christchurch terrorist attacks. However, much of the NZAVS work to date with the Muslim community has focused on conveying information about how Muslims are perceived. After receiving strong positive signals from the Muslim community to scientifically explore diversity, discrimination, self-perception, resilience, meaning-making, and flourishing; this longitudinal study was conceived to address such a worthwhile scientific need. This protocol addresses our pilot community consultation, the decisions made and modified based on consultation, community engagement, data collection, team, and measures. The study primarily aims to explore the diveristy of Muslims in New Zealand, assess Muslims' perceived discrimination in comparison with other groups, unearth predictors of flourishing and meaning-making, and measure the effect of service-attendance and religious-identification on these constructs."
+keywords: [Muslim, Islam, religion, diversity, discrimination, flourishing, meaning-making, identity]
+bibliography: bibliography.bib
+format:
+  # apaquarto-docx: default
+  # apaquarto-html: default
+  # apaquarto-pdf:
+  #   documentmode: man
+  apaquarto-pdf: default
+  #apaquarto-docx: default
+---
+
+**Abstract:** Provide a brief overview of the longitudinal study protocol, highlighting its aim to investigate the psychological effects of the Christchurch mosque attacks on the Muslim community using quantitative measures over time.
+
+# Introduction {#sec-intro}
+
+Introduce the context of the study, emphasizing the need to understand the psychological impact of mass trauma events on diverse populations such as the Christchurch Muslim community. Highlight the significance of longitudinal research in assessing long-term mental health outcomes. @bulbulia2022
+
+# Background
+
+-   Provide a brief overview of the Christchurch mosque attacks and their aftermath.
+-   Discuss existing literature on the psychological effects of mass trauma events, particularly on diverse cultural groups.
+-   Outline the gaps in current knowledge regarding the long-term psychological effects of such events on the Muslim community.
+
+# Research Aims
+
+-   Clearly state the research questions and objectives of the longitudinal study.
+-   Emphasize the importance of assessing psychological outcomes over time to understand the trajectory of mental health in the affected population.
+
+# Methods
+
+-   **Study Design:** Describe the longitudinal design of the study, including the planned follow-up periods.
+
+-   **Participant Selection:** Define the inclusion criteria for participants, specifying age, residency, and other relevant factors.
+
+-   **Recruitment:** Detail the recruitment strategy, including outreach methods and sources of recruitment.
+
+-   **Data Collection:** Explain the quantitative measures to be used in data collection, including validated self-report instruments and clinical assessments.
+
+```{r}
+library(ggplot2)
+
+data <- data.frame(
+  Date = c("Dec-2023", "Feb-2024", "Apr-2024", "Jun-2024"),
+  Responses = c(151, 241, 373, 453)
+)
+
+data$Date <- as.Date(paste("01-", data$Date, sep=""), format="%d-%b-%Y")
+
+ggplot(data, aes(x = Date, y = Responses)) +
+  geom_line(color = "#2c3e50", size = 1) +
+  geom_point(color = "#27ae60", size = 2) +
+  geom_text(aes(label = Responses), vjust = -0.5, color = "#e74c3c", size = 3) +  # Changed color to bright green
+  labs(title = "Response Rate Over Time",
+       x = "Date",
+       y = "Number of Responses") +
+  scale_x_date(date_labels = "%b-%Y", date_breaks = "1 month") +
+  theme_light(base_size = 10) +
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold", size = 10, color = "#34495e"),
+    axis.title = element_text(face = "bold", size = 10, color = "#34495e"),
+    axis.text = element_text(color = "#2c3e50")
+  )
+```
+
+-   **Procedure:** Outline the procedure for data collection at each time point, whether face-to-face or virtual.
+-   **Ethical Considerations:** Discuss ethical approval obtained for the study and procedures for obtaining informed consent from participants.
+-   **Data Analysis:** Provide an overview of the planned data analysis methods, including statistical techniques for longitudinal data analysis.
+
+# Expected Outcomes
+
+-   Anticipated findings based on the research questions and objectives.
+-   Potential contributions of the study to the field of mental health research and implications for policy and practice.
+
+# Timeline
+
+-   Present a timeline indicating key milestones in the study, including recruitment periods, data collection waves, and analysis phases.
+
+# Conclusion
+
+Summarize the importance of the longitudinal study in understanding the psychological effects of the Christchurch mosque attacks on the Muslim community and reiterate the significance of the research aims.
+
+# Ethics
+
+# Funding
+
+A National Longitudinal Study of Muslim Diversity and Flourishing (famously knownas Muslim Diversity Study) is supported by a grant from the Templeton Religion Trust(TRT-2022-30579). The funders had no role in preparing the manuscript or the decisionto publish it.
+
+# Data Availability
+
+The data described in this study are part of the Muslim Diversity Study, that is conducted under the [New Zealand Attitudes and Values Study](https://osf.io/75snb/).
+
+<!-- # Method -->
+
+<!-- ## Participants -->
+
+<!-- ## Measures -->
+
+<!-- ## Procedure -->
+
+<!-- # Results -->
+
+<!-- # Discussion -->
+
+<!-- ## Limitations and Future Directions -->
+
+<!-- ## Conclusion -->
+
+# CoI
+
+We have no conflict of interest to disclose.
+
+# References
+
+<!-- References will auto-populate in the refs div below -->
+
+::: {#refs}
+:::
+
+{{< pagebreak >}}
+
+# Acknowledgements
+
+W. Joel Schneider for the [Quarto template](https://github.com/wjschne/apaquarto).
+
+{{< pagebreak >}}
+
+# CRediT Taxonomy Statement
+
+**M. Usman Afzali:** Conceptualization, Methodology, Formal analysis, Investigation, Resources, Data Curation, Writing - Original Draft, Writing - Review & Editing, Visualization, Supervision, Project Administration, Funding Acquisition. **Jamila Badis:** Data Curation, Project Administration, Writing - Original Draft, Writing - Review & Editing. **Parus Khoso:** Formal analysis, Writing - Original Draft, Writing - Review & Editing. **Gul e Aqsa:** Formal analysis, Writing - Original Draft, Writing - Review & Editing. **Farah Shawkat:** Writing - Original Draft, Writing - Review & Editing. **Hussain Raissi:** Writing - Original Draft, Writing - Review & Editing. **Hala Burhoum:** Writing - Original Draft, Writing - Review & Editing. **Zarqa Shaheen:** Writing - Original Draft, Writing - Review & Editing. **Zahra Haidary:** Writing - Original Draft, Writing - Review & Editing. **Nasratullah Hamid:** Writing - Original Draft, Writing - Review & Editing. **Rizwan Sulehry:** Writing - Original Draft, Writing - Review & Editing. **Somia Tasneem:** Writing - Original Draft, Writing - Review & Editing. **Aarif Rasheed:** Conceptualization, Data Curation, Writing - Review & Editing, Funding Acquisition. **Kumar Yogeeswara:** Conceptualization, Methodology, Writing - Original Draft, Writing - Review & Editing, Funding Acquisition. **Chris G. Sibley:** Conceptualization, Methodology, Resources, Data Curation, Supervision, Writing - Original Draft, Writing - Review & Editing, Project Administration, Funding Acquisition. **Joseph A. Bulbulia:** Conceptualization, Methodology, Resources, Data Curation, Supervision, Writing - Original Draft, Writing - Review & Editing, Project Administration, Funding Acquisition.
+
+# Appendix
+
+# Title for Appendix
