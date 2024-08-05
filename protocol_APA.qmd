@@ -121,7 +121,7 @@ author:
     orcid: 0000-0000-0000-0001
     affiliations:
       - name: Just Community
-  - name: Kumar Yogeewaran
+  - name: Kumar Yogeeswaran
     corresponding: false
     orcid: 0000-0002-1978-5077
     affiliations:
