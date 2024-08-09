@@ -76,12 +76,29 @@ author:
         region: Canterbury
         country: New Zealand
         postal-code: 8041
-  - name: Zarqa Shaheen
+  - name: Tuba Azeem
+    corresponding: false
+    orcid: 0000-0000-0000-0001
+    affiliations:
+      - name: Victoria University of Wellington
+        department: School of ABC     
+  - name: Iman Husain
+    corresponding: false
+    orcid: 0000-0003-4032-4387
+    affiliations:
+      - name: University of Canterbury
+        department: School of Psychology, Speech and Hearing
+        address: 20 Kirkwood Ave
+        city: Christchurch
+        region: Canterbury
+        country: New Zealand
+        postal-code: 8041       
+  - name: Zarqa Shaheen Ali
     corresponding: false
     orcid: 0000-0002-7145-5788
     affiliations:
       - name: New Zealand Skills and Education College
-        department: TBA
+        department: ICL Business School
   - name: Zahra Haidary
     corresponding: false
     orcid: 0009-0000-5259-622X
@@ -267,6 +284,10 @@ ggplot(data, aes(x = Date, y = Responses)) +
 1.  Usman and Jamila
 
 ```{r}
+# | echo: false
+# | include: false
+# | warning: false
+# | message: false
 library(tidyverse)
 library(plan)
 df <- data.frame(task=c("Community Consultation", "RA Hiring"), 
@@ -276,17 +297,23 @@ df <- df %>%
   mutate(start = as.Date(start), end = as.Date(end))
 ```
 ```{r}
+# | echo: false
+# | include: false
+# | warning: false
+# | message: false
 df_tidy <- df %>% 
   gather(key=date_type, value=date, -task)             
 ```
 
 ```{r}
+# | echo: false
+# | include: false
+# | warning: false
+# | message: false
 ggplot() +
-  geom_line(data=df_tidy, mapping=aes(x=task, y=date), size=10) +
+  geom_line(data=df_tidy, mapping=aes(x=task, y=date), size=2) +
   coord_flip() 
 ```
-
-
 
 # Strengths and Limitations
 
@@ -345,7 +372,7 @@ W. Joel Schneider for the [Quarto template](https://github.com/wjschne/apaquarto
 
 # CRediT Taxonomy Statement
 
-**M. Usman Afzali:** Conceptualization, Methodology, Formal analysis, Investigation, Resources, Data Curation, Writing - Original Draft, Writing - Review & Editing, Visualization, Supervision, Project Administration, Funding Acquisition. **Jamila Badis:** Data Curation, Project Administration, Writing - Original Draft, Writing - Review & Editing. **Parus Khoso:** Formal analysis, Writing - Original Draft, Writing - Review & Editing. **Gul e Aqsa:** Formal analysis, Writing - Original Draft, Writing - Review & Editing. **Farah Shawkat:** Writing - Original Draft, Writing - Review & Editing. **Fatima Junaid:** Writing - Original Draft, Writing - Review & Editing. **Hussain Raissi:** Writing - Original Draft, Writing - Review & Editing. **Hala Burhoum:** Writing - Original Draft, Writing - Review & Editing. **Zarqa Shaheen:** Writing - Original Draft, Writing - Review & Editing. **Zahra Haidary:** Writing - Original Draft, Writing - Review & Editing. **Nasratullah Hamid:** Writing - Original Draft, Writing - Review & Editing. **Zahra Emamzadeh:** Writing - Original Draft, Writing - Review & Editing. **Rizwan Sulehry:** Writing - Original Draft, Writing - Review & Editing. **Somia Tasneem:** Writing - Original Draft, Writing - Review & Editing. **Aarif Rasheed:** Conceptualization, Data Curation, Writing - Review & Editing, Funding Acquisition. **Kumar Yogeeswara:** Conceptualization, Methodology, Writing - Original Draft, Writing - Review & Editing, Funding Acquisition. **Chris G. Sibley:** Conceptualization, Methodology, Resources, Data Curation, Supervision, Writing - Original Draft, Writing - Review & Editing, Project Administration, Funding Acquisition. **Joseph A. Bulbulia:** Conceptualization, Methodology, Resources, Data Curation, Supervision, Writing - Original Draft, Writing - Review & Editing, Project Administration, Funding Acquisition.
+**M. Usman Afzali:** Conceptualization, Methodology, Formal analysis, Investigation, Resources, Data Curation, Writing - Original Draft, Writing - Review & Editing, Visualization, Supervision, Project Administration, Funding Acquisition. **Jamila Badis:** Data Curation, Project Administration, Writing - Original Draft, Writing - Review & Editing. **Parus Khoso:** Formal analysis, Data Curation, Writing - Original Draft (Pilot Community Consultation), Writing - Review & Editing. **Gul e Aqsa:** Formal analysis, Data Curation, Writing - Original Draft (Pilot Community Consultation), Writing - Review & Editing. **Farah Shawkat:** Data Curation, Writing - Original Draft (Other Related Work), Writing - Review & Editing. **Fatima Junaid:** Writing - Original Draft (Introduction), Writing - Review & Editing. **Hussain Raissi:** Writing - Original Draft (Method), Writing - Review & Editing. **Hala Burhoum:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Tuba Azeem:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Iman Husain:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Zarqa Shaheen Ali:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Zahra Haidary:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Nasratullah Hamid:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Zahra Emamzadeh:** Writing - Original Draft  (Strengths and Limitations, Conclusion), Writing - Review & Editing. **Rizwan Sulehry:** Writing - Original Draft (Strengths and Limitations, Conclusion), Writing - Review & Editing. **Somia Tasneem:** Writing - Original Draft (Strengths and Limitations, Conclusion), Writing - Review & Editing. **Aarif Rasheed:** Conceptualization, Data Curation, Writing - Review & Editing, Funding Acquisition. **Kumar Yogeeswaran:** Conceptualization, Methodology, Writing - Original Draft, Writing - Review & Editing, Funding Acquisition. **Chris G. Sibley:** Conceptualization, Methodology, Resources, Data Curation, Supervision, Writing - Original Draft, Writing - Review & Editing, Project Administration, Funding Acquisition. **Joseph A. Bulbulia:** Conceptualization, Methodology, Resources, Supervision, Writing - Original Draft, Writing - Review & Editing, Project Administration, Funding Acquisition.
 
 # Appendix
 
