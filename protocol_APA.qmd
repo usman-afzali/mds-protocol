@@ -192,17 +192,18 @@ format:
   apaquarto-pdf: default
   #apaquarto-docx: default
 ---
-# Introduction {#sec-intro}
-  
-  The devastating far-right extremist attack on two mosques in Christchurch that killed 51 and injured another 49 Muslims (REF), albeit shocking to the world (REF) and unprecedented in New Zealand (REF), was not as surprising to the Muslim community and their leadreship (REF) due to the widespread experience of Islamophobia and prejudice (REF). With oversease reports showing increased Islamophobia following these attacks (REF), we have reasons to see an array of hope in New Zealand due to reports of recent improved attitudes towards Muslims (REF). Most New Zealand research in this area so far has shed light on such attitudes from a non-Muslim perspective. In other words, we reported on on how Muslims are perceived, and not how Muslims perceive themselves. While such reports are an absolute necessity, one can never underestimate the self-experience of Muslims themselves - the direct victims of this heinous crime.
 
-  1.  Far right terrorism and attitudes toward Muslims (Usman)
-  2.  Other research on Muslim wellbeing (Dr Fatima)
-  3.  Other ongoing projects: Qual (Farah); and Islamophobia scale to verify our previous findings (Jamila).
-  
-  The New Zealand Attitudes and Values Study (NZAVS) is a large longitudinal national probability annual panel study of social attitudes, personality, ideology and health outcomes that began in 2009 and has collected data from more than 70,000 subjects so far. NZAVS has been instrumental in exploring minority issues, including but not limited to discrimination, intergroup relations, identity, security, and etc. In this pursuit, NZAVS has also explored perception of Muslims and the mechanisms of attitudinal changes towards Muslims following 15 March 2019 Christchurch terrorist attacks. However, much of the NZAVS work to date with the Muslim community has focused on conveying information about how Muslims are perceived. After receiving strong positive signals from the Muslim community to scientifically explore diversity, discrimination, self-perception, resilience, meaning-making, and flourishing; this longitudinal study was conceived to address such a worthwhile scientific need. This protocol addresses our pilot community consultation, the decisions made and modified based on consultation, community engagement, data collection, team, and measures. The study primarily aims to explore the diveristy of Muslims in New Zealand, assess Muslims' perceived discrimination in comparison with other groups, unearth predictors of flourishing and meaning-making, and measure the effect of service-attendance and religious-identification on these constructs.
-  
-  Introduce the context of the study, emphasizing the need to understand the psychological impact of mass trauma events on diverse populations such as the Christchurch Muslim community. Highlight the significance of longitudinal research in assessing long-term mental health outcomes. @bulbulia2022
+# Introduction {#sec-intro}
+
+The devastating far-right extremist attack on two mosques in Christchurch that killed 51 and injured another 49 Muslims [@royalco2020], albeit shocking to the world [@worldle2019] and unprecedented in New Zealand [@jacinda2019b], was not as surprising to the Muslim community and their leadreship [@rahman2019] due to the widespread experience of Islamophobia and prejudice [@sibley2020]. With oversease reports showing increased Islamophobia following these attacks [@islamoph2022], we have reasons to see an array of hope in New Zealand due to reports of recent improved attitudes towards Muslims [@shanaah2021; @bulbulia2023]. Most New Zealand research in this area so far has shed light on such attitudes from a non-Muslim perspective. In other words, we reported on on how Muslims are perceived, and not how Muslims perceive themselves. While such reports are an absolute necessity, one can never underestimate the self-experience of Muslims themselves - the direct victims of this heinous crime.
+
+1.  Far right terrorism and attitudes toward Muslims (Usman)
+2.  Other research on Muslim wellbeing (Dr Fatima)
+3.  Other ongoing projects: Qual (Farah); and Islamophobia scale to verify our previous findings (Jamila).
+
+The New Zealand Attitudes and Values Study (NZAVS) is a large longitudinal national probability annual panel study of social attitudes, personality, ideology and health outcomes that began in 2009 and has collected data from more than 70,000 subjects so far. NZAVS has been instrumental in exploring minority issues, including but not limited to discrimination, intergroup relations, identity, security, and etc. In this pursuit, NZAVS has also explored perception of Muslims and the mechanisms of attitudinal changes towards Muslims following 15 March 2019 Christchurch terrorist attacks. However, much of the NZAVS work to date with the Muslim community has focused on conveying information about how Muslims are perceived. After receiving strong positive signals from the Muslim community to scientifically explore diversity, discrimination, self-perception, resilience, meaning-making, and flourishing; this longitudinal study was conceived to address such a worthwhile scientific need. This protocol addresses our pilot community consultation, the decisions made and modified based on consultation, community engagement, data collection, team, and measures. The study primarily aims to explore the diveristy of Muslims in New Zealand, assess Muslims' perceived discrimination in comparison with other groups, unearth predictors of flourishing and meaning-making, and measure the effect of service-attendance and religious-identification on these constructs.
+
+Introduce the context of the study, emphasizing the need to understand the psychological impact of mass trauma events on diverse populations such as the Christchurch Muslim community. Highlight the significance of longitudinal research in assessing long-term mental health outcomes.
 
 # Background
 
@@ -232,6 +233,26 @@ Having sensed interest in these data from researchers in New Zealand and oversea
 -   **Study Design:** Describe the longitudinal design of the study, including the planned follow-up periods.
 
 -   **Participant Selection:** Define the inclusion criteria for participants, specifying age, residency, and other relevant factors.
+
+-   **Measures:**
+
+1.  Religious behaviours: Religion.Church.T... (How many times did you attend a church or place of worship in the last month?) Religion.Prayer.T... (How many times did you pray in the last week?)
+
+2.  Perceived discrimination - personal: Perc.Religious.Discrim.T... (I feel that I am often discriminated against because of my religious/spiritual beliefs.)
+
+3.  Intergroup Warmth Ratings: Warm.Muslims.T... (Warmth toward Muslims).
+
+4.  Other potentially relevant variables include: Rel.Belong01.T... (Know that people in my life accept and value me.) Rel.Support01.T... (There are people I can depend on to help me if I really need it.)
+
+5.  Employment variables: Emp.CurrentJobYEARS.T… (How long have you worked at your current organization? (years/months)) Emp.JobSat.T… (How satisfied are you with your current job?) Emp.JobSecure.T… (How secure do you feel in your current job?) Emp.JobValued.T… (How valued do you feel by your current organization?) Emp.WorkHome.T… (How able are you to perform your job from home?) Emp.SkillDev.T… (To what extent does your organization provide opportunities for skill development/further training?) Emp.Retrain.T… (How likely is it that you will need to re-train or gain a qualification for a new job within the next 5 years?) Emp.WorkLifeBalance.T... (I have a good balance between work and other important things in my life.)
+
+6.  Health variables: HLTH.SFHealth01.T... (In general, would you say your health is...) HLTH.SFHealth02r.T... (I seem to get sick a little easier than other people.) HLTH.SFHealth03r.T... (I expect my health to get worse.) HLTH.Disability.T… (Do you have a health condition or disability that limits you, and that has lasted for 6+ months?) HLTH.Diagnose.Cholesterol.L2.T… HLTH.Diagnose.BloodPressure.L2.T… HLTH.Diagnose.Asthma.L2.T… HLTH.Diagnose.HeartDisease.L2.T… HLTH.Diagnose.Diabetes.L2.T… HLTH.Diagnose.Depression.L2.T… HLTH.Diagnose.Anxiety.L2.T… HLTH.Diagnose.VitDef.L2.T… Disease diagnosis - Other (open-ended) (coded string) HLTH.Kessler01.T... to HLTH.Kessler06.T... (Kessler-6 items measuring psychological distress) SWB.LifeSat01.T..., SWB.LifeSat02.T... (Satisfaction with life items)
+
+7.  Subjective well-being variables: SWB.LifeSat01.T..., SWB.LifeSat02.T... (Satisfaction with life items) SWB.SatPWI01.T... to SWB.SatPWI04.T... (Personal Wellbeing Index items) SWB.SatNWI01.T... to SWB.SatNWI03.T... (National Wellbeing Index items) SWB.SoC01.T... (I feel a sense of community with others in my local neighbourhood.) Happiness01.T... to Happiness04r.T... (Happiness items)
+
+8.  Meaning of life variables: LifeMeaning01.T... (My life has a clear sense of purpose.) LifeMeaning02.T... (I have a good sense of what makes my life meaningful.)
+
+9.  Psychological distress variables: SWB.Kessler01.T... to SWB.Kessler06.T... (Kessler-6 items measuring psychological distress) HLTH.Diagnose.Depression.L2.T…, HLTH.Diagnose.Anxiety.L2.T… (Depression and anxiety diagnosis variables) Rumination.T... (During the last 30 days, how often did.... you have negative thoughts that repeated over and over?) EmotionRegulation01.T... to EmotionRegulation03.T... (Emotion regulation items)
 
 -   **Recruitment:** Detail the recruitment strategy, including outreach methods and sources of recruitment.
 
@@ -268,7 +289,6 @@ ggplot(data, aes(x = Date, y = Responses)) +
 1.  Community consultation in 2022: Aqsa and Parus
 2.  Current Wave general procedure: Usman and Jamila with input from all RA's: Farah, Hussain, Hala, Zarqa, Zahra H, Nasrat
 
-
 -   **Ethical Considerations:** Discuss ethical approval obtained for the study and procedures for obtaining informed consent from participants.
 -   **Data Analysis:** Provide an overview of the planned data analysis methods, including statistical techniques for longitudinal data analysis.
 
@@ -296,6 +316,7 @@ df <- data.frame(task=c("Community Consultation", "RA Hiring"),
 df <- df %>% 
   mutate(start = as.Date(start), end = as.Date(end))
 ```
+
 ```{r}
 # | echo: false
 # | include: false
@@ -355,6 +376,8 @@ The data described in this study are part of the Muslim Diversity Study, that is
 
 We have no conflict of interest to disclose.
 
+{{< pagebreak >}}
+
 # References
 
 <!-- References will auto-populate in the refs div below -->
@@ -372,7 +395,7 @@ W. Joel Schneider for the [Quarto template](https://github.com/wjschne/apaquarto
 
 # CRediT Taxonomy Statement
 
-**M. Usman Afzali:** Conceptualization, Methodology, Formal analysis, Investigation, Resources, Data Curation, Writing - Original Draft, Writing - Review & Editing, Visualization, Supervision, Project Administration, Funding Acquisition. **Jamila Badis:** Data Curation, Project Administration, Writing - Original Draft, Writing - Review & Editing. **Parus Khoso:** Formal analysis, Data Curation, Writing - Original Draft (Pilot Community Consultation), Writing - Review & Editing. **Gul e Aqsa:** Formal analysis, Data Curation, Writing - Original Draft (Pilot Community Consultation), Writing - Review & Editing. **Farah Shawkat:** Data Curation, Writing - Original Draft (Other Related Work), Writing - Review & Editing. **Fatima Junaid:** Writing - Original Draft (Introduction), Writing - Review & Editing. **Hussain Raissi:** Writing - Original Draft (Method), Writing - Review & Editing. **Hala Burhoum:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Tuba Azeem:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Iman Husain:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Zarqa Shaheen Ali:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Zahra Haidary:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Nasratullah Hamid:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Zahra Emamzadeh:** Writing - Original Draft  (Strengths and Limitations, Conclusion), Writing - Review & Editing. **Rizwan Sulehry:** Writing - Original Draft (Strengths and Limitations, Conclusion), Writing - Review & Editing. **Somia Tasneem:** Writing - Original Draft (Strengths and Limitations, Conclusion), Writing - Review & Editing. **Aarif Rasheed:** Conceptualization, Data Curation, Writing - Review & Editing, Funding Acquisition. **Kumar Yogeeswaran:** Conceptualization, Methodology, Writing - Original Draft, Writing - Review & Editing, Funding Acquisition. **Chris G. Sibley:** Conceptualization, Methodology, Resources, Data Curation, Supervision, Writing - Original Draft, Writing - Review & Editing, Project Administration, Funding Acquisition. **Joseph A. Bulbulia:** Conceptualization, Methodology, Resources, Supervision, Writing - Original Draft, Writing - Review & Editing, Project Administration, Funding Acquisition.
+**M. Usman Afzali:** Conceptualization, Methodology, Formal analysis, Investigation, Resources, Data Curation, Writing - Original Draft, Writing - Review & Editing, Visualization, Supervision, Project Administration, Funding Acquisition. **Jamila Badis:** Data Curation, Project Administration, Writing - Original Draft, Writing - Review & Editing. **Parus Khoso:** Formal analysis, Data Curation, Writing - Original Draft (Pilot Community Consultation), Writing - Review & Editing. **Gul e Aqsa:** Formal analysis, Data Curation, Writing - Original Draft (Pilot Community Consultation), Writing - Review & Editing. **Farah Shawkat:** Data Curation, Writing - Original Draft (Other Related Work), Writing - Review & Editing. **Fatima Junaid:** Writing - Original Draft (Introduction), Writing - Review & Editing. **Hussain Raissi:** Writing - Original Draft (Method), Writing - Review & Editing. **Hala Burhoum:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Tuba Azeem:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Iman Husain:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Zarqa Shaheen Ali:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Zahra Haidary:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Nasratullah Hamid:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Zahra Emamzadeh:** Writing - Original Draft (Strengths and Limitations, Conclusion), Writing - Review & Editing. **Rizwan Sulehry:** Writing - Original Draft (Strengths and Limitations, Conclusion), Writing - Review & Editing. **Somia Tasneem:** Writing - Original Draft (Strengths and Limitations, Conclusion), Writing - Review & Editing. **Aarif Rasheed:** Conceptualization, Data Curation, Writing - Review & Editing, Funding Acquisition. **Kumar Yogeeswaran:** Conceptualization, Methodology, Writing - Original Draft, Writing - Review & Editing, Funding Acquisition. **Chris G. Sibley:** Conceptualization, Methodology, Resources, Data Curation, Supervision, Writing - Original Draft, Writing - Review & Editing, Project Administration, Funding Acquisition. **Joseph A. Bulbulia:** Conceptualization, Methodology, Resources, Supervision, Writing - Original Draft, Writing - Review & Editing, Project Administration, Funding Acquisition.
 
 # Appendix
 
