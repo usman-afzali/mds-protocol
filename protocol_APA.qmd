@@ -228,25 +228,120 @@ Given that the present project functions as a booster for NZAVS and uses the sam
 
 Having sensed interest in these data from researchers in New Zealand and overseas, it maybe possible to immediately test other hypotheses within the realm of MDS, that would be published as independent research articles.
 
-# Methods
+# Method
 
 -   **Study Design:** Describe the longitudinal design of the study, including the planned follow-up periods.
 
 -   **Participant Selection:** Define the inclusion criteria for participants, specifying age, residency, and other relevant factors.
 
--   **Measures:**
+**Materials**
 
-1.  Religious behaviours: Religion.Church.T... (How many times did you attend a church or place of worship in the last month?) Religion.Prayer.T... (How many times did you pray in the last week?)
+NZAVS questionnaire has a large number of measures. Here, we are only highlighting and explaining those that are pertinent to the readily planned papers that are going to published from the booster study, with levels of measurement indicated, as well as the reversed coded ones. We might choose to report further measures too, which will then be elaborated upon in the individual articles.
 
-2.  Perceived discrimination - personal: Perc.Religious.Discrim.T... (I feel that I am often discriminated against because of my religious/spiritual beliefs.)
+-   Service attendance and religiosity:
 
-3.  Intergroup Warmth Ratings: Warm.Muslims.T... (Warmth toward Muslims).
+    1.  Do you identify with a religion and/or spiritual group? (Yes/No). If yes, what religion or spiritual group? (String entry).
 
-4.  Other potentially relevant variables include: Rel.Belong01.T... (Know that people in my life accept and value me.) Rel.Support01.T... (There are people I can depend on to help me if I really need it.)
+    2.  How many times did you attend a church or place of worship in the last month? (String entry)
 
-5.  Employment variables: Emp.CurrentJobYEARS.T… (How long have you worked at your current organization? (years/months)) Emp.JobSat.T… (How satisfied are you with your current job?) Emp.JobSecure.T… (How secure do you feel in your current job?) Emp.JobValued.T… (How valued do you feel by your current organization?) Emp.WorkHome.T… (How able are you to perform your job from home?) Emp.SkillDev.T… (To what extent does your organization provide opportunities for skill development/further training?) Emp.Retrain.T… (How likely is it that you will need to re-train or gain a qualification for a new job within the next 5 years?) Emp.WorkLifeBalance.T... (I have a good balance between work and other important things in my life.)
+    3.  How many times did you pray in the last week? (String entry)
 
-6.  Health variables: HLTH.SFHealth01.T... (In general, would you say your health is...) HLTH.SFHealth02r.T... (I seem to get sick a little easier than other people.) HLTH.SFHealth03r.T... (I expect my health to get worse.) HLTH.Disability.T… (Do you have a health condition or disability that limits you, and that has lasted for 6+ months?) HLTH.Diagnose.Cholesterol.L2.T… HLTH.Diagnose.BloodPressure.L2.T… HLTH.Diagnose.Asthma.L2.T… HLTH.Diagnose.HeartDisease.L2.T… HLTH.Diagnose.Diabetes.L2.T… HLTH.Diagnose.Depression.L2.T… HLTH.Diagnose.Anxiety.L2.T… HLTH.Diagnose.VitDef.L2.T… Disease diagnosis - Other (open-ended) (coded string) HLTH.Kessler01.T... to HLTH.Kessler06.T... (Kessler-6 items measuring psychological distress) SWB.LifeSat01.T..., SWB.LifeSat02.T... (Satisfaction with life items)
+    4.  How many times did you read religious scripture in the last week? (String entry)
+
+    5.  How important is your religion to how you see yourself? (String entry) (Not important 1-7 Very important)
+
+    6.  I identify as a religious person.
+
+    7.  All things considered, religion is a cause for good in the world.
+
+    8.  The teachings of traditional religions are still helpful today.
+
+    9.  I oppose religion in any form.
+
+    10. Do you believe in God? %
+
+    11. Do you believe in any form of spirit or life force?
+
+-   Prejudice:
+
+    1.  I feel that I am often discriminated against because of my religious/spiritual beliefs. (Strongly Disagree 1-7 Strongly Agree)
+
+    2.  People from my ethnic group are discriminated against in New Zealand. (Strongly Disagree 1-7 Strongly Agree)
+
+    3.  I feel that I am often discriminated against because of my age. (Strongly Disagree 1-7 Strongly Agree)
+
+    4.  I feel that I am often discriminated against because of my ethnicity. (Very Innacurate 1-7 Very Accurate)
+
+    5.  I feel that I am often discriminated against because of my gender. (Very Innacurate 1-7 Very Accurate)
+
+-   Intergroup Warmth Ratings: Participants are asked to rate their feelings of warmth toward different groups using “feeling thermometer scale” for each group from least to most warmth on a 1-7 Likert scale (see @fig-warmth for reference). Groups include: NZ Europeans, Māori, Asians in general, Pacific Islanders, Elderly people, People with a disability, Refugees, Overweight people, Immigrants in general, Chinese, Indians, Muslims, LGBTQ+ people, People with mental illness.
+
+```{r}
+#| label: fig-warmth
+#| fig-cap: Feeling thermometer scale
+#| apa-note: From NZAVS Wave 15 <https://osf.io/75snb/>
+#| fig-width: 3
+#| out-width: 75%
+knitr::include_graphics("figs/warmth.png")
+```
+
+-   Felt belonging:
+
+    1.  I know that people in my life accept and value me. (Very Innacurate 1-7 Very Accurate)
+
+    2.  I feel like an outsider. (Very Innacurate 1-7 Very Accurate)
+
+    3.  I know that people in around me share my attitudes and beliefs. (Very Innacurate 1-7 Very Accurate)
+
+-   Support:
+
+    1.  There are people I can depend on to help me if I really need it. (Strongly Disagree 1-7 Strongly Agree)
+
+    2.  There is no one I can turn to for guidance in times of stress (R). (Strongly Disagree 1-7 Strongly Agree)
+
+    3.  I know there are people I can turn to when I need help. (Strongly Disagree 1-7 Strongly Agree)
+
+-   Employment:
+
+-   Health:
+
+-   Matching with other religious group:
+
+-   Subjective wellbeing:
+
+-   Meaning of life:
+
+-   Psychological distress:
+
+-   Community making:
+
+-   Employment variables: Emp.CurrentJobYEARS.T… (How long have you worked at your current organization? Number entry (years/months)) Emp.JobSat.T… (How satisfied are you with your current job? (Not satisfied 1-7 Very satisfied)) Emp.JobSecure.T… (How secure do you feel in your current job? (Not secure 1-7 Very secure)) Emp.JobValued.T… (How valued do you feel by your current organization? (Not valued 1-7 Very valued)). Education. currently employed. current occupation. main activity.
+
+-   Health variables: HLTH.SFHealth01.T... (In general, would you say your health is...) HLTH.SFHealth02r.T... (I seem to get sick a little easier than other people.) HLTH.SFHealth03r.T... (I expect my health to get worse.) HLTH.Disability.T… (Do you have a health condition or disability that limits you, and that has lasted for 6+ months?) Have you been diagnosed with, or treated for, any of the following health conditions by a doctor in the last five years? Tick HLTH.Diagnose.Cholesterol.L2.T… HLTH.Diagnose.BloodPressure.L2.T… HLTH.Diagnose.Asthma.L2.T… HLTH.Diagnose.HeartDisease.L2.T… HLTH.Diagnose.Diabetes.L2.T… HLTH.Diagnose.Depression.L2.T… HLTH.Diagnose.Anxiety.L2.T… HLTH.Diagnose.VitDef.L2.T… Disease diagnosis - Other (open-ended) (coded string) Do you have a health condition or disability that limits you, and that has lasted for 6+ months? Yes/No. If yes, please state
+
+In general, would you say that your health (Poor 1-7 Excellent). How often do you have a drink containing alcohol? Never - I don't drink. Monthly or less. Up to 4 times a month. Up to 3 times a week. 4 or more times a week. Don't know.
+
+HLTH.Kessler01.T... to HLTH.Kessler06.T... (Kessler-6 items measuring psychological distress) During the last 30 days how often did 0 - 4 (see @fig-Kess-6)
+
+```{r}
+#| label: fig-Kess-6
+#| fig-cap: Kessler 6
+#| apa-note: From NZAVS Wave 15 <https://osf.io/75snb/>
+#| fig-width: 3
+#| out-width: 75%
+knitr::include_graphics("figs/kessler-6.png")
+```
+
+SWB.LifeSat01.T..., SWB.LifeSat02.T... (Satisfaction with life items). Access to GP. measures of life satisfaction SL, health, future security, business, access to health care. see @fig-life-sat
+
+```{r}
+#| label: fig-life-sat
+#| fig-cap: Life Satisfaction
+#| apa-note: From NZAVS Wave 15 <https://osf.io/75snb/>
+#| fig-width: 3
+#| out-width: 75%
+knitr::include_graphics("figs/life-sat.png")
+```
 
 7.  Subjective well-being variables: SWB.LifeSat01.T..., SWB.LifeSat02.T... (Satisfaction with life items) SWB.SatPWI01.T... to SWB.SatPWI04.T... (Personal Wellbeing Index items) SWB.SatNWI01.T... to SWB.SatNWI03.T... (National Wellbeing Index items) SWB.SoC01.T... (I feel a sense of community with others in my local neighbourhood.) Happiness01.T... to Happiness04r.T... (Happiness items)
 
@@ -259,6 +354,7 @@ Having sensed interest in these data from researchers in New Zealand and oversea
 -   **Data Collection:** Explain the quantitative measures to be used in data collection, including validated self-report instruments and clinical assessments.
 
 ```{r}
+#| out-width: 50%
 library(ggplot2)
 
 data <- data.frame(
@@ -291,6 +387,7 @@ ggplot(data, aes(x = Date, y = Responses)) +
 
 -   **Ethical Considerations:** Discuss ethical approval obtained for the study and procedures for obtaining informed consent from participants.
 -   **Data Analysis:** Provide an overview of the planned data analysis methods, including statistical techniques for longitudinal data analysis.
+-   **Preregistration:** The design, hypotheses, measures, and anticipated data analysis are preregistered on OSF (). The study was preregistered before any attempted analyses of data.
 
 # Expected Outcomes
 

@@ -1,0 +1,37 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[!htbp]
+
+{\caption{{Feeling thermometer scale}{\label{fig-warmth}}}}
+
+\includegraphics[width=0.75\textwidth,height=\textheight]{figs/warmth.png}
+
+{\noindent \emph{Note.} From NZAVS Wave 15 \url{https://osf.io/75snb/}}
+
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[!htbp]
+
+{\caption{{Kessler 6}{\label{fig-Kess-6}}}}
+
+\includegraphics[width=0.75\textwidth,height=\textheight]{figs/kessler-6.png}
+
+{\noindent \emph{Note.} From NZAVS Wave 15 \url{https://osf.io/75snb/}}
+
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[!htbp]
+
+{\caption{{Life Satisfaction}{\label{fig-life-sat}}}}
+
+\includegraphics[width=0.75\textwidth,height=\textheight]{figs/life-sat.png}
+
+{\noindent \emph{Note.} From NZAVS Wave 15 \url{https://osf.io/75snb/}}
+
+\end{figure*}
