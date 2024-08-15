@@ -236,7 +236,7 @@ Having sensed interest in these data from researchers in New Zealand and oversea
 
 **Materials**
 
-NZAVS questionnaire has a large number of measures. Here, we are only highlighting and explaining those that are pertinent to the readily planned papers that are going to published from the booster study, with levels of measurement indicated, as well as the reversed coded ones. We might choose to report further measures too, which will then be elaborated upon in the individual articles.
+NZAVS questionnaire has a large number of measures. Here, we are only highlighting and explaining those that are pertinent to the readily planned papers that are going to published from the booster study, with levels of measurement indicated, as well as the reversed coded ones. For Likert type scales, we are noting the the minimum and maximum level along with description. For instance, *(Not important 1-7 Very important)* would mean that it is rated on a scale of 1 to 7 where 1 indicates not important and 7 indicates very important. Notwithstanding, we might choose to report further measures too, which will then be elaborated upon in the individual articles.
 
 -   Service attendance and religiosity:
 
@@ -303,9 +303,65 @@ knitr::include_graphics("figs/warmth.png")
 
 -   Employment:
 
+    1.  What is your highest level of qualification?(String entry)
+
+    2.  Are you currently employed (This includes self-employed of casual work)? (Yes/No). This leads to a four-point nominal response: employed full-time, employed part-time, unemployed, and not in the labour force.
+
+    3.  In that job, what is your current occupation (String entry)
+
+    4.  What is the main activity of the business or employer that you work for? (String entry)
+
+    5.  How long have you worked at your current organization? (String entry: years/months)
+
+    6.  How satisfied are you with your current job? (Not satisfied 1-7 Very satisfied)
+
+    7.  How secure do you feel in your current job? (Not secure 1-7 Very secure)
+
+    8.  How valued do you feel by your current organization? (Not valued 1-7 Very valued)
+
 -   Health:
 
--   Matching with other religious group:
+    1.  In general, would you say your health is... (Poor 1-7 Excellent)
+
+    2.  I seem to get sick a little easier than other people. (Strogly disagree 1-7 Strongly agree)
+
+    3.  I expect my health to get worse. (Strogly disagree 1-7 Strongly agree)
+
+    4.  Do you have a health condition or disability that limits you, and that has lasted for 6+ months? (Yes/No). If yes, please state: (String entry)
+
+    5.  Chronic diseases diagnosis: See @fig-chrondis.
+
+```{r}
+#| label: fig-chrondis
+#| fig-cap: Chronic disease diagnosis
+#| apa-note: From NZAVS Wave 15 <https://osf.io/75snb/>
+#| fig-width: 3
+#| out-width: 75%
+knitr::include_graphics("figs/chronic-disease.png")
+```
+
+-   Matching with other religious group: Similar to @bulbulia2023, we will use the following demography and personality variables to identify matching members in different religions groups.
+
+-   Age: What is your age? (String entry) and when is your date of birth (String entry)
+
+-   Education: An 11-point ordinal scale (No qualification 0-11 Doctoral degree, based on the New Zealand Qualification Framework [@thenew2016]) based on the responses to the qualification-related question.
+
+-   Employment: A binary variable is created (0 = unemployed, 1 = employed) based on the responses to employment items "Are you currently employed?"
+
+-   Ethnicity: The items displayed in @fig-ethnicgroups are categorised following the New Zealand Census Groups: European, Māori, Pacific Peoples, Asian, MELAA (Middle Eastern, Latin American/African), and Other.
+
+```{r}
+#| label: fig-ethnicgroups
+#| fig-cap: Ethnic Groups
+#| apa-note: From NZAVS Wave 15 <https://osf.io/75snb/>
+#| fig-width: 3
+#| out-width: 75%
+knitr::include_graphics("figs/ethnic-groups.png")
+```
+
+-   Gender: Responses to the string entry item "What is your gender?", gender will be used to create a binary measure (Male = 1, Not male = 0).
+
+-   Socioeconomic status: Using participants' immediate neighbourhood using the 2013 New Zealand Deprivation Index (), that utilises aggregate census information
 
 -   Subjective wellbeing:
 
@@ -315,9 +371,7 @@ knitr::include_graphics("figs/warmth.png")
 
 -   Community making:
 
--   Employment variables: Emp.CurrentJobYEARS.T… (How long have you worked at your current organization? Number entry (years/months)) Emp.JobSat.T… (How satisfied are you with your current job? (Not satisfied 1-7 Very satisfied)) Emp.JobSecure.T… (How secure do you feel in your current job? (Not secure 1-7 Very secure)) Emp.JobValued.T… (How valued do you feel by your current organization? (Not valued 1-7 Very valued)). Education. currently employed. current occupation. main activity.
-
--   Health variables: HLTH.SFHealth01.T... (In general, would you say your health is...) HLTH.SFHealth02r.T... (I seem to get sick a little easier than other people.) HLTH.SFHealth03r.T... (I expect my health to get worse.) HLTH.Disability.T… (Do you have a health condition or disability that limits you, and that has lasted for 6+ months?) Have you been diagnosed with, or treated for, any of the following health conditions by a doctor in the last five years? Tick HLTH.Diagnose.Cholesterol.L2.T… HLTH.Diagnose.BloodPressure.L2.T… HLTH.Diagnose.Asthma.L2.T… HLTH.Diagnose.HeartDisease.L2.T… HLTH.Diagnose.Diabetes.L2.T… HLTH.Diagnose.Depression.L2.T… HLTH.Diagnose.Anxiety.L2.T… HLTH.Diagnose.VitDef.L2.T… Disease diagnosis - Other (open-ended) (coded string) Do you have a health condition or disability that limits you, and that has lasted for 6+ months? Yes/No. If yes, please state
+-   Health variables: HLTH.SFHealth01.T... () HLTH.SFHealth02r.T... () HLTH.SFHealth03r.T.) HLTH.Disability.T… () Have you been diagnosed with, or treated for, any of the following health conditions by a doctor in the last five years? Tick HLTH.Diagnose.Cholesterol.L2.T… HLTH.Diagnose.BloodPressure.L2.T… HLTH.Diagnose.Asthma.L2.T… HLTH.Diagnose.HeartDisease.L2.T… HLTH.Diagnose.Diabetes.L2.T… HLTH.Diagnose.Depression.L2.T… HLTH.Diagnose.Anxiety.L2.T… HLTH.Diagnose.VitDef.L2.T… Disease diagnosis - Other (open-ended) (coded string) Do you have a health condition or disability that limits you, and that has lasted for 6+ months? Yes/No. If yes, please state
 
 In general, would you say that your health (Poor 1-7 Excellent). How often do you have a drink containing alcohol? Never - I don't drink. Monthly or less. Up to 4 times a month. Up to 3 times a week. 4 or more times a week. Don't know.
 
