@@ -190,7 +190,7 @@ format:
   # apaquarto-pdf:
   #   documentmode: man
   apaquarto-pdf: default
-  #apaquarto-docx: default
+  apaquarto-docx: default
 ---
 
 # Introduction {#sec-intro}
@@ -250,17 +250,11 @@ NZAVS questionnaire has a large number of measures. Here, we are only highlighti
 
     5.  How important is your religion to how you see yourself? (String entry) (Not important 1-7 Very important)
 
-    6.  I identify as a religious person.
+    6.  I identify as a spiritual person. (Strongly Disagree 1-7 Strongly Agree)
 
-    7.  All things considered, religion is a cause for good in the world.
+    7.  Do you believe in God? (Yes/No)
 
-    8.  The teachings of traditional religions are still helpful today.
-
-    9.  I oppose religion in any form.
-
-    10. Do you believe in God? %
-
-    11. Do you believe in any form of spirit or life force?
+    8.  Do you believe in any form of spirit or life force? (Yes/No)
 
 -   Prejudice:
 
@@ -303,7 +297,7 @@ knitr::include_graphics("figs/warmth.png")
 
 -   Employment:
 
-    1.  What is your highest level of qualification?(String entry)
+    1.  What is your highest level of qualification? (String entry)
 
     2.  Are you currently employed (This includes self-employed of casual work)? (Yes/No). This leads to a four-point nominal response: employed full-time, employed part-time, unemployed, and not in the labour force.
 
@@ -329,7 +323,11 @@ knitr::include_graphics("figs/warmth.png")
 
     4.  Do you have a health condition or disability that limits you, and that has lasted for 6+ months? (Yes/No). If yes, please state: (String entry)
 
-    5.  Chronic diseases diagnosis: See @fig-chrondis.
+    5.  How often do you have a drink containing alcohol? Measured using a 6 point nominal scale (Never - I don't drink, Monthly or less, Up to 4 times a month, Up to 3 times a week, 4 or more times a week, Don't know)
+
+    6.  Access to and satisfaction with GP: Do you have a regular family doctor/GP? (Yes/No). (If yes) How satisfied are you with the service and care you receive from your family doctor/GP? (Not satisfied 1-7 Very satisfied). Do you think your doctor/GP shares a similar cultural background to you? (Definitely no 1-7 Definitely yes). Does your doctor/GP respect your cultural background when you are discussing health issues with them? (Definitely no 1-7 Definitely yes).
+
+    7.  Chronic diseases diagnosis: See @fig-chrondis.
 
 ```{r}
 #| label: fig-chrondis
@@ -342,13 +340,35 @@ knitr::include_graphics("figs/chronic-disease.png")
 
 -   Matching with other religious group: Similar to @bulbulia2023, we will use the following demography and personality variables to identify matching members in different religions groups.
 
--   Age: What is your age? (String entry) and when is your date of birth (String entry)
+    1.  Age: What is your age? (String entry) and when is your date of birth (String entry)
 
--   Education: An 11-point ordinal scale (No qualification 0-11 Doctoral degree, based on the New Zealand Qualification Framework [@thenew2016]) based on the responses to the qualification-related question.
+    2.  Education: An 11-point ordinal scale (No qualification 0-11 Doctoral degree, based on the New Zealand Qualification Framework [@thenew2016]) based on the responses to the qualification-related question.
 
--   Employment: A binary variable is created (0 = unemployed, 1 = employed) based on the responses to employment items "Are you currently employed?"
+    3.  Employment: A binary variable is created (0 = unemployed, 1 = employed) based on the responses to employment items "Are you currently employed?"
 
--   Ethnicity: The items displayed in @fig-ethnicgroups are categorised following the New Zealand Census Groups: European, Māori, Pacific Peoples, Asian, MELAA (Middle Eastern, Latin American/African), and Other.
+    4.  Ethnicity: The items displayed in @fig-ethnicgroups are categorised following the New Zealand Census Groups: European, Māori, Pacific Peoples, Asian, MELAA (Middle Eastern, Latin American/African), and Other.
+
+    5.  Gender: Responses to the string entry item "What is your gender?", gender will be used to create a binary measure (Male = 1, Not male = 0).
+
+    6.  Socioeconomic status: Measured based on 2013 New Zealand Deprivation Index [@atkinson2014] that assigns a decile-rank index (Least deprived 1-10 Most deprived) using participants' immediate neighbourhood's aggregate census information. This index is calculated using component factor analysis of nine variables in weighted order as follows: proportion of adults who received a means-tested benefit, household income, proportion not owning own home, proportion of single-parent families, the proportion of unemployed, proportion lacking qualifications, proportion household crowding, proportion no telephone access, and proportion no car access. Hence, this index reflects nationwide mean deprivation level for small neighbourhood-type units (i.e., small community areas consisting about 80-90 people).
+
+    7.  Parent: Measured by assigning a binary variable (1 = those with children, 0 = the rest) to the item: How many children have you given birth to, fathered, or adopted? (String entry).
+
+    8.  Partner: Responses to "What is you relationship status?" are assigned a binary variable (1 = Has a partner, 0 = Doesn't have a partner).
+
+    9.  Religious identification: "Yes" responses to "Do you identify with a religion and/or spiritual group?" are assigned 1 and "No" responses are coded 0.
+
+    10. Political orientation: Based on responses to "Please rate how politically left-wing versus right-wing you see yourself as being", political orientation is assigned a 7-point scale (extremely left-wing 1-7 extremely right-wing).
+
+    11. Residence: Urban or rural residence (a two-item nominal variable) is identified based on the physical addresses provided.
+
+    12. Region of habituation (?)
+
+    13. Occupational prestige (?)
+
+    14. Race rejection anxiety:
+
+    15. Big six personality traits: Six personality traits, agreeableness, conscientiousness, extraversion, openness, honesty-humility, and neuroticism, are measured using a 7-point (very inaccurate 1-7 very accurate) Mini-IPIP6 scale [@sibley2011].
 
 ```{r}
 #| label: fig-ethnicgroups
@@ -359,23 +379,7 @@ knitr::include_graphics("figs/chronic-disease.png")
 knitr::include_graphics("figs/ethnic-groups.png")
 ```
 
--   Gender: Responses to the string entry item "What is your gender?", gender will be used to create a binary measure (Male = 1, Not male = 0).
-
--   Socioeconomic status: Using participants' immediate neighbourhood using the 2013 New Zealand Deprivation Index (), that utilises aggregate census information
-
--   Subjective wellbeing:
-
--   Meaning of life:
-
--   Psychological distress:
-
--   Community making:
-
--   Health variables: HLTH.SFHealth01.T... () HLTH.SFHealth02r.T... () HLTH.SFHealth03r.T.) HLTH.Disability.T… () Have you been diagnosed with, or treated for, any of the following health conditions by a doctor in the last five years? Tick HLTH.Diagnose.Cholesterol.L2.T… HLTH.Diagnose.BloodPressure.L2.T… HLTH.Diagnose.Asthma.L2.T… HLTH.Diagnose.HeartDisease.L2.T… HLTH.Diagnose.Diabetes.L2.T… HLTH.Diagnose.Depression.L2.T… HLTH.Diagnose.Anxiety.L2.T… HLTH.Diagnose.VitDef.L2.T… Disease diagnosis - Other (open-ended) (coded string) Do you have a health condition or disability that limits you, and that has lasted for 6+ months? Yes/No. If yes, please state
-
-In general, would you say that your health (Poor 1-7 Excellent). How often do you have a drink containing alcohol? Never - I don't drink. Monthly or less. Up to 4 times a month. Up to 3 times a week. 4 or more times a week. Don't know.
-
-HLTH.Kessler01.T... to HLTH.Kessler06.T... (Kessler-6 items measuring psychological distress) During the last 30 days how often did 0 - 4 (see @fig-Kess-6)
+-   Subjective wellbeing/psychological distress: Measured using the Kessler-6 items (items 1-6 in @fig-Kess-6) rated on a 5-point scale (None of the time 0-4 All of the time) [@kessler2010].
 
 ```{r}
 #| label: fig-Kess-6
@@ -386,7 +390,9 @@ HLTH.Kessler01.T... to HLTH.Kessler06.T... (Kessler-6 items measuring psychologi
 knitr::include_graphics("figs/kessler-6.png")
 ```
 
-SWB.LifeSat01.T..., SWB.LifeSat02.T... (Satisfaction with life items). Access to GP. measures of life satisfaction SL, health, future security, business, access to health care. see @fig-life-sat
+-   Meaning of life: My life has a clear sense of purpose (Strongly disagree 1-7 Strongly agree) and I have a good sense of what makes my life meaningful (Strongly disagree 1-7 Strongly agree).
+
+-   Life satisfaction and national wellbeing: Items from @fig-life-sat measured on 11-item measure (Completely dissatisfied 0-10 Completely satisfied). In addition, "I am satisfied with my life. (Strongly disagree 1-7 Strongly agree)" and "In most ways my life is close to ideal. (Strongly disagree 1-7 Strongly agree)".
 
 ```{r}
 #| label: fig-life-sat
@@ -397,11 +403,7 @@ SWB.LifeSat01.T..., SWB.LifeSat02.T... (Satisfaction with life items). Access to
 knitr::include_graphics("figs/life-sat.png")
 ```
 
-7.  Subjective well-being variables: SWB.LifeSat01.T..., SWB.LifeSat02.T... (Satisfaction with life items) SWB.SatPWI01.T... to SWB.SatPWI04.T... (Personal Wellbeing Index items) SWB.SatNWI01.T... to SWB.SatNWI03.T... (National Wellbeing Index items) SWB.SoC01.T... (I feel a sense of community with others in my local neighbourhood.) Happiness01.T... to Happiness04r.T... (Happiness items)
-
-8.  Meaning of life variables: LifeMeaning01.T... (My life has a clear sense of purpose.) LifeMeaning02.T... (I have a good sense of what makes my life meaningful.)
-
-9.  Psychological distress variables: SWB.Kessler01.T... to SWB.Kessler06.T... (Kessler-6 items measuring psychological distress) HLTH.Diagnose.Depression.L2.T…, HLTH.Diagnose.Anxiety.L2.T… (Depression and anxiety diagnosis variables) Rumination.T... (During the last 30 days, how often did.... you have negative thoughts that repeated over and over?) EmotionRegulation01.T... to EmotionRegulation03.T... (Emotion regulation items)
+7.  Community making: I feel a sense of community with others in my local neighbourhood (Strongly disagree 1-7 Strongly agree).
 
 -   **Recruitment:** Detail the recruitment strategy, including outreach methods and sources of recruitment.
 
