@@ -190,7 +190,7 @@ format:
   # apaquarto-pdf:
   #   documentmode: man
   apaquarto-pdf: default
-  #apaquarto-docx: default
+  # apaquarto-docx: default
 ---
 
 # Introduction {#sec-intro}
@@ -201,7 +201,7 @@ The devastating far-right extremist attack on two mosques in Christchurch that k
 
 The New Zealand Attitudes and Values Study (NZAVS) is a large longitudinal national probability annual panel study of social attitudes, personality, ideology and health outcomes that began in 2009 and has so far collected data from more than 70,000 subjects [@newzeal2024]. NZAVS has been instrumental in exploring minority issues, including but not limited to discrimination, intergroup relations, identity, distress, security, etc, and the dynamics and mechanisms behind them. For instance, our findings indicated the importance of national identity in Muslim perception [@yogeeswaran2019]. More specifically, the more one believed a specific ancestral heritage (being European or Māori) or cultural aspects (ability to speak English) were important for being considered a *true* New Zealander, the lower they rated their level of warmth toward Muslims [@yogeeswaran2019]. A follow-up longitudinal examination indicated that the warmth rating of Muslims has historically been the lowest (based on data from 2012-2018) compared to other minority groups (Indians, Chinese, immigrants in general, and Asians in general), though, there was a small steady increase in warmth towards all groups along these years [@sibley2020]. @sibley2020 also indicated that lower education, lower socioeconomic status, being male, older age, unemployment, lower agreeableness (based on Big-6 personality test), and lower on openness (based on Big-6 personality test) predicted lower warmth toward Muslims. Interestingly, but not unexpectedly, warmth rating of Mulsims was increased unprecedentedly (above and beyond the steady small increase reported in @sibley2020) following Christchurch shootings [@shanaah2021], and sustained for three years post shootings [@bulbulia2023]. @bulbulia2023 indicated that shootings caused increase in warmth toward Muslims, but not toward other groups – known as negative controls – stigmatised groups that were not anticipated to be affected by the shootings (e.g., people with mental illness, overweight people, and elderly people).
 
-Warmth vs islamophobia.
+**Warmth vs islamophobia (Jamila).**
 
 psychological effects.
 
