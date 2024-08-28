@@ -345,9 +345,27 @@ knitr::include_graphics("figs/warmth.png")
 
     5.  How often do you have a drink containing alcohol? Measured using a 6 point nominal scale (Never - I don't drink, Monthly or less, Up to 4 times a month, Up to 3 times a week, 4 or more times a week, Don't know)
 
-    6.  Access to and satisfaction with GP: Do you have a regular family doctor/GP? (Yes/No). (If yes) How satisfied are you with the service and care you receive from your family doctor/GP? (Not satisfied 1-7 Very satisfied). Do you think your doctor/GP shares a similar cultural background to you? (Definitely no 1-7 Definitely yes). Does your doctor/GP respect your cultural background when you are discussing health issues with them? (Definitely no 1-7 Definitely yes).
+    6.  Have you ever regularly smoked tobacco cigarettes? (Yes/No).
 
-    7.  Chronic diseases diagnosis: See @fig-chrondis.
+    7.  Have you ever regularly used e-cigarettes? (Yes/No).
+
+    8.  Do you currently smoke tobacco cigarettes? (Yes/No).
+
+    9.  Do you currently vape or use e-cigarettes? (Yes/No).
+
+    10. Access to and satisfaction with GP: Do you have a regular family doctor/GP? (Yes/No). (If yes) How satisfied are you with the service and care you receive from your family doctor/GP? (Not satisfied 1-7 Very satisfied). Do you think your doctor/GP shares a similar cultural background to you? (Definitely no 1-7 Definitely yes). Does your doctor/GP respect your cultural background when you are discussing health issues with them? (Definitely no 1-7 Definitely yes).
+
+    11. Please estimate how many hours you spent during each of the following things last week (String entry). Options provided: Working in paid employment, housework/cooking, looking after children, volunteer/charitable work, exercising/physical activity, watching TV/Netflix/movies, travelling/commuting, watching/reading news, using the internet (in total), using social media (e.g., Facebook), playing video games/computer games.
+
+    12. BMI: Calculated by using a person's weight (Kg) divided by square root of height (m) that are asked separately, using "What is your height? (String entry (meters))", and "What is your weight? (String entry (kgs))"
+
+    13. Forgiveness vs vengeful rumination: Sometimes I can't sleep because of thinking about past wrongs I have suffered., I can usually forgive and forget when someone does me wrong., I find myself regularly thinking about past times that I have been wronged. (1 = Strongly disagree, 7 = Strongly agree)
+
+    14. During the past month, on average, how many hours of actual sleep did you get per night? (String entry)
+
+    15. Do you have a health condition or disability that limits you, and that has lasted for 6+ months? (Yes/No). If yes, please state: (String entry)
+
+    16. Chronic diseases diagnosis: See @fig-chrondis.
 
 ```{r}
 #| label: fig-chrondis
@@ -370,7 +388,7 @@ knitr::include_graphics("figs/chronic-disease.png")
 
     5.  Gender: Responses to the string entry item "What is your gender?", gender will be used to create a binary measure (Male = 1, Not male = 0).
 
-    6.  Socioeconomic status: Measured based on 2013 New Zealand Deprivation Index [@atkinson2014] that assigns a decile-rank index (Least deprived 1-10 Most deprived) using participants' immediate neighbourhood's aggregate census information. This index is calculated using component factor analysis of nine variables in weighted order as follows: proportion of adults who received a means-tested benefit, household income, proportion not owning own home, proportion of single-parent families, the proportion of unemployed, proportion lacking qualifications, proportion household crowding, proportion no telephone access, and proportion no car access. Hence, this index reflects nationwide mean deprivation level for small neighbourhood-type units (i.e., small community areas consisting about 80-90 people).
+    6.  Socioeconomic status: Measured based on 2018 New Zealand Deprivation Index [@atkinson2019] that assigns a decile-rank index (Least deprived 1-10 Most deprived) using participants' immediate neighbourhood's aggregate census information. This index is calculated using component factor analysis of nine variables in weighted order as follows: proportion of adults who received a means-tested benefit, household income, proportion not owning own home, proportion of single-parent families, the proportion of unemployed, proportion lacking qualifications, proportion household crowding, proportion no telephone access, and proportion no car access. Hence, this index reflects nationwide mean deprivation level for small neighbourhood-type units (i.e., small community areas consisting about 80-90 people).
 
     7.  Parent: Measured by assigning a binary variable (1 = those with children, 0 = the rest) to the item: How many children have you given birth to, fathered, or adopted? (String entry).
 
@@ -423,9 +441,11 @@ knitr::include_graphics("figs/kessler-6.png")
 knitr::include_graphics("figs/life-sat.png")
 ```
 
-7.  Community making: I feel a sense of community with others in my local neighbourhood (Strongly disagree 1-7 Strongly agree).
-8.  Values:
-9.  Resilience:
+7.  Self esteem: On the whole am satisfied with myself. Take a positive attitude toward myself. Am inclined to feel that I am a failure.
+8.  Gratitude: I have much in my life to be thankful for. When I look at the world, I don’t see much to be grateful for. I am grateful to a wide variety of people.
+9.  Community making: I feel a sense of community with others in my local neighbourhood (Strongly disagree 1-7 Strongly agree).
+10. Values:
+11. Resilience:
 
 -   **Recruitment:** Detail the recruitment strategy, including outreach methods and sources of recruitment.
 
