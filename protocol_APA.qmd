@@ -194,8 +194,8 @@ format:
   # apaquarto-docx: default
   # apaquarto-html: default
   # apaquarto-pdf:
-  #   documentmode: man
-  apaquarto-pdf: default
+  # documentmode: man
+    apaquarto-pdf: default
   # apaquarto-docx: default
 ---
 
