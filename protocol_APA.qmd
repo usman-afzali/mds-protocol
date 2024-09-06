@@ -14,7 +14,7 @@ author:
         region: Canterbury
         country: New Zealand
         postal-code: 8041
-  - name: Jamila Badis
+  - name: Jamila S. Badis
     corresponding: false
     orcid: 0009-0005-2866-5033
     affiliations:
@@ -53,7 +53,7 @@ author:
         region: Canterbury
         country: New Zealand
         postal-code: 8041
-  - name: Fatima Junaid
+  - name: Fatima A. Junaid
     corresponding: false
     orcid: 0000-0002-6656-8120 
     affiliations:
@@ -70,7 +70,7 @@ author:
     orcid: 0000-0000-0000-0001
     affiliations:
       - name: University of Otago
-        department: School of Social Science
+        department: School of Social Sciences
   - name: Hala Burhoum
     corresponding: false
     orcid: 0000-0000-0000-0001
@@ -116,6 +116,12 @@ author:
         region: Canterbury
         country: New Zealand
         postal-code: 8041
+  - name: Mashal Khan
+    corresponding: false
+    orcid: 0000-0000-0000-0000
+    affiliations:
+      - name: Massey University
+        department: Department of Psychology       
   - name: Nasratullah Hamid
     corresponding: false
     orcid: 0009-0002-0120-7428
@@ -145,6 +151,18 @@ author:
         region: Canterbury
         country: New Zealand
         postal-code: 8041
+  - name: Aamina Ali
+    corresponding: false
+    orcid: 0000-0000-0000-0001
+    affiliations:
+      - name: TBA
+        department: TBA   
+  - name: Adepate Mustapha-Koiki
+    corresponding: false
+    orcid: 0000-0003-4731-1781
+    affiliations:
+      - name: TBA
+        department: TBA            
   - name: Aarif Rasheed
     corresponding: false
     orcid: 0000-0000-0000-0001
@@ -187,37 +205,57 @@ author-note:
     financial-support: ~
     gratitude: ~
     authorship-agreements: ~
-abstract: "The New Zealand Attitudes and Values Study is a longitudinal study of social values and attitudes of New Zealanders that has started in 2009 and collected data from thousands of subjects so far. Within the realm of this study, negative attitudes towards minority groups, such as discrimination and prejudice have been examined. Given that the Muslim community has recently been subjected to a terrorist attack in Christchurch, we decided to use data from the New Zealand Attitudes and Values Study to look into Islamophobia from the Muslims' perspective, as well as the remarkable resilience of Muslims despite many challenges. In addition, we deemed necessary to investigate the overall wellbeing and flourishing of Muslims, and whether values, identity, religiosity, and meaning-making affect Muslims’ self-perception and health outcomes. However, we were limited by the sample size of Muslims within the New Zealand Attitudes and Values Study to make such inferences. Therefore, the current project was designed to boost the sample of Muslims within the New Zealand Attitudes and Values Study over a three-year quantitative longitudinal study. This protocol describes our pilot community consultation, the decisions made and modified based on consultation, community engagement, data collection, team, measures, timeline, and proposed analyses, mostly focusing on the first year of the booster. We also address the overall nuances in terms of perceived enablers and challengers of data collection from a culturally distinct minority religious community. We think that this protocol will be useful to researchers who want to work with Muslims and similar communities in New Zealand and globally."
-keywords: [Muslim, Islam, religion, diversity, discrimination, flourishing, meaning-making, identity]
+abstract: "The New Zealand Attitudes and Values Study is a longitudinal study of social values and attitudes of New Zealanders that started in 2009. Since its inception, it has collected data from thousands of subjects. In addition to examining numerous social, political, and health aspects of New Zealanders' lives, this research has particularly examined negative attitudes towards minority groups, such as discrimination and prejudice have been examined. In 2019, the Muslim community was the target of the worst terrorist attack in New Zealand’s modern history. Following this devastating event, we aimed to extract data from the New Zealand Attitudes and Values Study to understand Islamophobia from the Muslim perspective and look deeper into the remarkable resilience of Muslims despite many challenges. In addition, we deem necessary to investigate the overall wellbeing and flourishing of Muslims in New Zealand, and whether values, identity, religiosity, and meaning-making affect Muslims’ self-perception and health outcomes. However, we were limited by the sample size of Muslims within the New Zealand Attitudes and Values Study to make such inferences. Therefore, the current project, titled the Muslim Diversity Study, was designed to recruit more Muslim participants within the New Zealand Attitudes and Values Study over a three-year quantitative longitudinal study. This protocol describes the context that motivated this research, our pilot Muslim community consultation, the decisions made and modified based on consultation (e.g., whether or not to translate the questionnaiere, which groups to target, etc.), data collection methods, research team, quantitative measures, and timeline. It also provides our initial findings and observations, mainly based on the first year of the research and addresses the perceived enablers and challengers of data collection from a culturally distinct religious community in New Zealand. This protocol will serve as a reference text for researchers conducting work not only on Islam and the Muslim community in New Zealand but also on other ethnic and religious communities and minorities in the country. It will also allow researchers to apply the methods and findings to other contexts and regions across the world and provide comparative insights and analyses."
+keywords: [Muslim, Islam, religion, diversity, discrimination, flourishing, wellbeing, meaning-making, identity, New Zealand]
 bibliography: bibliography.bib
 format:
   # apaquarto-docx: default
   # apaquarto-html: default
   # apaquarto-pdf:
   # documentmode: man
-    apaquarto-pdf: default
-  # apaquarto-docx: default
+  # apaquarto-pdf: default
+   apaquarto-docx: default
 ---
 
 # Introduction {#sec-intro}
 
-The devastating far-right extremist attack on two mosques in Christchurch that killed 51 and injured another 49 Muslims [@royalco2020], albeit shocking to the world [@worldle2019] and unprecedented in New Zealand [@jacinda2019b], was not as surprising to the Muslim community and their leadreship [@rahman2019] due to the widespread experience of Islamophobia and prejudice [@sibley2020]. With oversease reports showing increased Islamophobia following these attacks [@islamoph2022], we have reasons to see an array of hope in New Zealand due to reports of recent improved attitudes towards Muslims [@shanaah2021; @bulbulia2023]. Most of our research in this area, primarily from the New Zealand Attitudes and Values Study (NZAVS) [@newzeal2024] lens, has so far shed light on such attitudes from a non-Muslim perspective. In other words, we have reported on how Muslims are perceived, and not how Muslims perceive themselves. While the published NZAVS reports are an absolute necessity, one can never underestimate the self-experience of Muslims themselves - the direct victims of this heinous crime. This article aims to elaborate on the protocol of a pioneering longitudinal study that is poised to achieve the very goal – examining Muslims' self-perception in New Zealand from a variety of angles, as well as, the predictors of resilience, flourishing, and wellbeing within Muslims. Given that the Muslim community is positioned very uniquely in New Zealand: a minority, historically stigmatized group that were direct victims of a terrorist attacks and showed remarkable resilience [@royalco2020; @sibley2020; @anwar2020], we had to consult with the community, make and/or amend decisions based on the feedback received, and learn from other stakeholders that had worked with community. Therefore, it is important that such processes and decisions are recorded in the form of a study protocol so that the future researchers in New Zealand and across the globe can benefit and save valuable research time and resources.
+On 15 March 2019, a devastating far-right extremist attack on two mosques took place in Christchurch, killing 51 Muslims and injuring 40 [@royalco2020]. Although this attacked shocked the world [@worldle2019] and was unprecedented in New Zealand [@jacinda2019b], it was not as surprising to the Muslim community [@rahman2019] due to Muslims' widespread experience of Islamophobia and prejudice in the country [@sibley2020]. Islamophobia has been reportedly increased overseas following these attacks [@islamoph2022], however, the evidence in New Zealand seems to be mixed. News articles have reported increased hate towards Muslims [@frykberg2023]. On the other hand, our findings are indicative of improved attitudes towards Muslims [@shanaah2021; @bulbulia2023] following attacks. Addressing this discrepancy is beyond the scope of current article, however, it is worth noting that most of our research in this area, primarily from the New Zealand Attitudes and Values Study (NZAVS) [@newzeal2024] lens, has so far shed light on such attitudes from a non-Muslim perspective. In other words, we have reported on how Muslims are perceived by non-Muslim members of New Zealand society, rather than how Muslims perceive themselves. While the published NZAVS reports are an absolute necessity, the self-experience of Muslims themselves as the direct victims of this heinous crime is equally, if not more, important.
+
+This article aims to elaborate on the protocol of a pioneering three-year longitudinal study titled the Muslim Diversity Study poised to achieve this very goal – examining Muslims' self-perception in New Zealand from a variety of angles, as well as, the predictors of resilience, flourishing, and wellbeing within Muslims. The study started in 2023 and is planned to conclude in 2026. The goal is to achieve as many as 650 Muslim respondents. The Muslim community is expanding in New Zealand.
+
+The Muslim community is expanding in New Zealand. According to the 2018 census, there are more than 60,000 Muslims in the country. The 2023 census results on religion have not been made publicly available yet, however it is expected that the Muslim community has grown in the last few years. Studies also show that the number of converts to Islam, particularly among the Indigenous Māori community, has increased after the 2019 terror attack [@arkilic2020]. The Muslim community is uniquely positioned in New Zealand: as a growing religious minority, it is a historically stigmatized group that were the direct victims of the 2019 terrorist attack. Despite this tragedy and post-2019 trauma and increasing online hatred towards them, they have shown remarkable resilience [@royalco2020; @sibley2020; @anwar2020; @sulaiman-hill2021; @sulaiman-hill2024]. By resilience, we mean....
+
+This study embraces a community-oriented approach in the sense that we have consulted with the Muslim community and made decisions related to translating the questionnaires, pathways to work with community in an effective way, reaching out to community leaders and scholars, etc., based on the feedback received from them. We have also learned from other stakeholders, such as researchers from other institutions[@sulaiman-hill2021; @sulaiman-hill2024] that had worked with community. It is important that such processes and decisions are recorded in the form of a study protocol so that our findings are shared with the broader public and future researchers in New Zealand and across the globe can benefit from our outputs.
+
+This protocol addresses our pilot community consultation, the decisions made and modified based on consultation, community engagement, data collection, team, and measures. The study primarily aims to explore the diversity of Muslims in New Zealand, assess Muslims' perceived discrimination in comparison with other groups, unearth predictors of flourishing and meaning-making, and measure the effect of service-attendance and religious-identification on these constructs.
 
 ## Perception of Muslims based on NZAVS
 
-The New Zealand Attitudes and Values Study (NZAVS) is a large longitudinal national probability annual panel study of social attitudes, personality, ideology and health outcomes that began in 2009 and has so far collected data from more than 70,000 subjects [@newzeal2024]. NZAVS has been instrumental in exploring minority issues, including but not limited to discrimination, intergroup relations, identity, distress, security, etc, and the dynamics and mechanisms behind them. For instance, our findings indicated the importance of national identity in Muslim perception [@yogeeswaran2019]. More specifically, the more one believed a specific ancestral heritage (being European or Māori) or cultural aspects (ability to speak English) were important for being considered a *true* New Zealander, the lower they rated their level of warmth toward Muslims [@yogeeswaran2019]. A follow-up longitudinal examination indicated that the warmth rating of Muslims has historically been the lowest (based on data from 2012-2018) compared to other minority groups (Indians, Chinese, immigrants in general, and Asians in general), though, there was a small steady increase in warmth towards all groups along these years [@sibley2020]. @sibley2020 also indicated that lower education, lower socioeconomic status, being male, older age, unemployment, lower agreeableness (based on Big-6 personality test), and lower on openness (based on Big-6 personality test) predicted lower warmth toward Muslims. Interestingly, but not unexpectedly, warmth rating of Mulsims was increased unprecedentedly (above and beyond the steady small increase reported in @sibley2020) following Christchurch shootings [@shanaah2021], and sustained for three years post shootings [@bulbulia2023]. @bulbulia2023 indicated that shootings caused increase in warmth toward Muslims, but not toward other groups – known as negative controls – stigmatised groups that were not anticipated to be affected by the shootings (e.g., people with mental illness, overweight people, and elderly people).
+The New Zealand Attitudes and Values Study (NZAVS) is a planned 20-year-long large longitudinal national probability annual panel study of social attitudes, personality, ideology and health outcomes that began in 2009 and is currently in 15th year. It has so far collected data from more than 70,000 subjects [@newzeal2024]. The NZAVS has been instrumental in exploring key issues related to minorities, including but not limited to discrimination, intergroup relations, identity, distress, security, and the dynamics and mechanisms behind them. For instance, our findings indicated the importance of national identity in Muslim perception [@yogeeswaran2019]. More specifically, the more one believed a specific ancestral heritage (being European or Māori) or cultural aspects (ability to speak English) were important for being considered a *true* New Zealander, the lower they rated their level of warmth toward Muslims [@yogeeswaran2019]. A follow-up longitudinal examination indicated that the rating of warmth towards Muslims has historically been the lowest (based on data from 2012-2018) compared to other minority groups such as Indians, Chinese, and other migrants. However, there was a visible small steady increase in trends of warmth towards all groups along the years 2012-2018 [@sibley2020]. @sibley2020 also indicated that lower education, lower socioeconomic status, being male, older age, unemployment, lower agreeableness (based on Big-6 personality test), and lower openness (based on Big-6 personality test) predicted lower warmth toward Muslims. In addition, studies have pointed out specific anti-Muslim prejudice when compared with other religious groups [@greaves2020]. Interestingly, but not unexpectedly, the overall rating of New Zealanders' warmth towards Muslims was increased unprecedentedly (above and beyond the steady small increase reported in @sibley2020) following the 2019 Christchurch shootings [@shanaah2021] and sustained for three years post shootings [@bulbulia2023]. @bulbulia2023 argued that shootings caused increase in warmth toward Muslims, but not toward other groups – known as negative controls – stigmatised groups that were not anticipated to be affected by the shootings (e.g., people with mental illness, overweight people, and elderly people).
 
 **Warmth vs islamophobia (Jamila).**
 
-**Muslim political representation in the media (Ayca Arkilic).**
+The mentioned NZAVS papers used warmth towards Muslims as a proxy for Islamophobia and prejudice towards Muslims. (add islamophobia scale here) [@badis]
 
-psychological effects.
+Have a look at this too, Jamila if you haven't yet [@greaves2020]:
+
+**Anti-Muslim sentiments and Muslim political representation in the media**
+
+In the aftermath of the Christchurch shootings, the Government introduced unprecedented counter-terrorism measures. For example, the then Prime Minister Jacinda Ardern announced the prohibition of the sale of all military-style semi-automatic and assault rifles under stricter gun laws less than a week after March 15. The Government also vowed to create the Royal Commission of Inquiry into the Terrorist Attack in Christchurch Masjidain to scrutinise and report on “the actions of the individual, the actions of relevant Public sector agencies and any changes that could prevent such terrorist attacks in the future” [@royalco2020]. In November 2020, the Royal Commission of Inquiry presented an 800-page report entitled *Ko tō tātou kāinga tēnei* (‘This is our home’) to emphasise New Zealand’s inclusive and welcoming identity, among other measures [@arkilic2021a].
+
+Until the Christchurch terror attack, news stories on Islam and Muslims in New Zealand media were mostly an extension of ‘the negative othering rhetoric’ of Western media and portrayed Muslims as terror-prone and a threat to democracy and free speech. New Zealand’s Muslim community, particularly converts to Islam, faced scrutiny from security officials, the media, and the public. The national media tended to link Muslim converts to jihadis [@drury2016]. Yet shortly after March 15, New Zealand press embraced a more inclusive and positive narrative with respect to Islam and Muslims [@rahman2020]. Another study has similarly found that rather than embracing an Orientalist approach to Muslims that sidelines or dehumanises them, major New Zealand newspapers, such as *The New Zealand Herald* and *The Press* played a constructive role in condemning the terrorist attack and supporting the Muslim community as essential members of the society after the Christchurch shooting [@kabir2024]. Notably, this was not the case in the past. Findings from before the 2019 Christchurch provided evidence for media-induced Islamophobia in New Zealand [@shaver2017].
+
+However, media and public interest in the Muslim community has declined rapidly. Many Muslim leaders have warned that the threat of white supremacist violence has not disappeared after the Christchurch attacks [@arkilic2021a]. Studies have shown that anti-Muslim hate crimes and Islamophobic abuse have increased dramatically after the March 15 terrorist attacks [@wilson2020]. @spoonley2020 has also confirmed that there were approximately 60 to 70 groups and 150 to 300 core right-wing activists in New Zealand in 2020, which is not a small number given New Zealand’s small population of five million. Another study has suggested that while the Muslim community was the focus of intense and positive public and media coverage soon after March 15, more recent media articles about Muslims mostly involved negative words, such as sad, angry, upset and fearful. This is in stark contrast to stories involving the Christian community, which are overall neutral [@newzeal2021].
+
+The Muslim Diversity Study becomes all the way more important given recent developments that the governmental change has triggered. The new Government’s decision to end the coordinated response to the March 15 attacks has undermined trust and a sense of belonging in New Zealand’s Muslim community [@arkilic2024]. Concerns about the safety and security of everyone in New Zealand have also been called into question with the Government’s separate announcement it is overhauling firearms laws, which could see the reintroduction of the military-style semi-automatic weapons used in the March 15 attack.
+
+As it stands, we have explored perception of Muslims and the mechanisms of attitudinal changes towards Muslims following 15 March 2019 attacks [@hawi2019; @yogeeswaran2019; @byrne2022; @sibley2020]. However, much of the NZAVS work to date with the Muslim community has focused on conveying information about how Muslims are perceived by the non-Muslim members of New Zealand society. After receiving strong positive signals from the Muslim community to scientifically explore diversity, discrimination, self-perception, resilience, meaning-making, and flourishing; this longitudinal study was conceived in 2022 to address this scholarly and community knowledge gap.
+
+Introduce the context of the study, emphasizing the need to understand the psychological impact of mass trauma events on diverse populations such as the Christchurch Muslim community. Highlight the significance of longitudinal research in assessing long-term mental health outcomes.
 
 **Perceived discrimination and belonging: Raissi**
 
-This implied that has also explored perception of Muslims and the mechanisms of attitudinal changes towards Muslims following 15 March 2019 Christchurch terrorist attacks [@hawi2019; @yogeeswaran2019; @byrne2022; @sibley2020]. However, much of the NZAVS work to date with the Muslim community has focused on conveying information about how Muslims are perceived. After receiving strong positive signals from the Muslim community to scientifically explore diversity, discrimination, self-perception, resilience, meaning-making, and flourishing; this longitudinal study was conceived to address such a worthwhile scientific need. This protocol addresses our pilot community consultation, the decisions made and modified based on consultation, community engagement, data collection, team, and measures. The study primarily aims to explore the diveristy of Muslims in New Zealand, assess Muslims' perceived discrimination in comparison with other groups, unearth predictors of flourishing and meaning-making, and measure the effect of service-attendance and religious-identification on these constructs.
-
-Introduce the context of the study, emphasizing the need to understand the psychological impact of mass trauma events on diverse populations such as the Christchurch Muslim community. Highlight the significance of longitudinal research in assessing long-term mental health outcomes.
+**Initial community consultation (Parus)**
 
 1.  Far right terrorism and attitudes toward Muslims (Usman)
 2.  Other research on Muslim wellbeing (Dr Fatima)
@@ -236,13 +274,15 @@ Introduce the context of the study, emphasizing the need to understand the psych
 
 ## Hypotheses
 
-Given that the present project functions as a booster for NZAVS and uses the same questionnaires, the questions that can be answered by MDS can be limitless, and one coud suggest a large number of hypotheses to be tested and questions that can be answered from these data in the years to come. However, immediately we are trying to test the following hypotheses -- within the span of MDS:
+Given that the present project functions as a booster for the NZAVS and uses the same questionnaires, the questions that can be answered by MDS can be limitless, and one coud suggest a large number of hypotheses to be tested and questions that can be answered from these data in the years to come. However, immediately we are trying to test the following hypotheses -- within the span of MDS:
 
 *Hypothesis 1:* Muslims with the strongest ties to their community as measured by service attendance and prayer are buffered most from anti-Muslim prejudice.
 
 *Hypothesis 2:* Muslims experience greater challenges to employment and health than matched members of other religious groups.
 
 *Hypothesis 3:* Subjective well-being, the meaning of life, and psychological distress are similar among Muslims and matched members of religious groups from the buffering of religious community-making.
+
+Based on your initial findings, can you here include any hypothesis about how perceptions of Islamophobia and racism have changed for Muslims after the 2019 ChCh attack? This would be one of the key goals and contributions of this study. (Ayca)
 
 Having sensed interest in these data from researchers in New Zealand and overseas, it maybe possible to immediately test other hypotheses within the realm of MDS, that would be published as independent research articles.
 
@@ -252,7 +292,7 @@ Having sensed interest in these data from researchers in New Zealand and oversea
 
 -   **Participant Selection:** Define the inclusion criteria for participants, specifying age, residency, and other relevant factors.
 
-    Mulsim = 1.3% of New Zealand population.
+    Muslim = 1.3% of New Zealand population.
 
 **Materials**
 
