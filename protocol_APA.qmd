@@ -161,8 +161,8 @@ author:
     corresponding: false
     orcid: 0000-0003-4731-1781
     affiliations:
-      - name: TBA
-        department: TBA            
+      - name: University of Auckland
+        department: Department of Politics and International Relations            
   - name: Aarif Rasheed
     corresponding: false
     orcid: 0000-0000-0000-0001
@@ -213,8 +213,8 @@ format:
   # apaquarto-html: default
   # apaquarto-pdf:
   # documentmode: man
-  # apaquarto-pdf: default
-   apaquarto-docx: default
+   apaquarto-pdf: default
+  # apaquarto-docx: default
 ---
 
 # Introduction {#sec-intro}
@@ -225,15 +225,13 @@ This article aims to elaborate on the protocol of a pioneering three-year longit
 
 The Muslim community is expanding in New Zealand. According to the 2018 census, there are more than 60,000 Muslims in the country. The 2023 census results on religion have not been made publicly available yet, however it is expected that the Muslim community has grown in the last few years. Studies also show that the number of converts to Islam, particularly among the Indigenous Māori community, has increased after the 2019 terror attack [@arkilic2020]. The Muslim community is uniquely positioned in New Zealand: as a growing religious minority, it is a historically stigmatized group that were the direct victims of the 2019 terrorist attack. Despite this tragedy and post-2019 trauma and increasing online hatred towards them, they have shown remarkable resilience [@royalco2020; @sibley2020; @anwar2020; @sulaiman-hill2021; @sulaiman-hill2024]. By resilience, we mean....
 
-This study embraces a community-oriented approach in the sense that we have consulted with the Muslim community and made decisions related to translating the questionnaires, pathways to work with community in an effective way, reaching out to community leaders and scholars, etc., based on the feedback received from them. We have also learned from other stakeholders, such as researchers from other institutions[@sulaiman-hill2021; @sulaiman-hill2024] that had worked with community. It is important that such processes and decisions are recorded in the form of a study protocol so that our findings are shared with the broader public and future researchers in New Zealand and across the globe can benefit from our outputs.
+This study embraces a community-oriented approach in the sense that we have consulted with the Muslim community and made decisions related to translating the questionnaires, pathways to work with community in an effective way, reaching out to community leaders and scholars, etc., based on the feedback received from them. We have also learned from other stakeholders, such as researchers from other institutions [@sulaiman-hill2021; @sulaiman-hill2024] that had worked with community. It is important that such processes and decisions are recorded in the form of a study protocol so that our findings are shared with the broader public and future researchers in New Zealand and across the globe can benefit from our outputs.
 
 This protocol addresses our pilot community consultation, the decisions made and modified based on consultation, community engagement, data collection, team, and measures. The study primarily aims to explore the diversity of Muslims in New Zealand, assess Muslims' perceived discrimination in comparison with other groups, unearth predictors of flourishing and meaning-making, and measure the effect of service-attendance and religious-identification on these constructs.
 
 ## Perception of Muslims based on NZAVS
 
-The New Zealand Attitudes and Values Study (NZAVS) is a planned 20-year-long large longitudinal national probability annual panel study of social attitudes, personality, ideology and health outcomes that began in 2009 and is currently in 15th year. It has so far collected data from more than 70,000 subjects [@newzeal2024]. The NZAVS has been instrumental in exploring key issues related to minorities, including but not limited to discrimination, intergroup relations, identity, distress, security, and the dynamics and mechanisms behind them. For instance, our findings indicated the importance of national identity in Muslim perception [@yogeeswaran2019]. More specifically, the more one believed a specific ancestral heritage (being European or Māori) or cultural aspects (ability to speak English) were important for being considered a *true* New Zealander, the lower they rated their level of warmth toward Muslims [@yogeeswaran2019]. A follow-up longitudinal examination indicated that the rating of warmth towards Muslims has historically been the lowest (based on data from 2012-2018) compared to other minority groups such as Indians, Chinese, and other migrants. However, there was a visible small steady increase in trends of warmth towards all groups along the years 2012-2018 [@sibley2020]. @sibley2020 also indicated that lower education, lower socioeconomic status, being male, older age, unemployment, lower agreeableness (based on Big-6 personality test), and lower openness (based on Big-6 personality test) predicted lower warmth toward Muslims. In addition, studies have pointed out specific anti-Muslim prejudice when compared with other religious groups [@greaves2020]. Interestingly, but not unexpectedly, the overall rating of New Zealanders' warmth towards Muslims was increased unprecedentedly (above and beyond the steady small increase reported in @sibley2020) following the 2019 Christchurch shootings [@shanaah2021] and sustained for three years post shootings [@bulbulia2023]. @bulbulia2023 argued that shootings caused increase in warmth toward Muslims, but not toward other groups – known as negative controls – stigmatised groups that were not anticipated to be affected by the shootings (e.g., people with mental illness, overweight people, and elderly people).
-
-**Warmth vs islamophobia (Jamila).**
+The New Zealand Attitudes and Values Study (NZAVS) is a planned 20-year-long large longitudinal national probability annual panel study of social attitudes, personality, ideology and health outcomes that began in 2009 and is currently in 15th year. It has so far collected data from more than 70,000 subjects [@newzeal2024]. The NZAVS has been instrumental in exploring key issues related to minorities, including but not limited to discrimination, intergroup relations, identity, distress, security, and the dynamics and mechanisms behind them. For instance, our findings indicated the importance of national identity in Muslim perception [@yogeeswaran2019]. More specifically, the more one believed a specific ancestral heritage (being European or Māori) or cultural aspects (ability to speak English) were important for being considered a *true* New Zealander, the lower they rated their level of warmth toward Muslims [@yogeeswaran2019]. A follow-up longitudinal examination indicated that the rating of warmth towards Muslims has historically been the lowest (based on data from 2012-2018) compared to other minority groups such as Indians, Chinese, and other migrants. However, there was a visible small steady increase in trends of warmth towards all groups along the years 2012-2018 [@sibley2020]. @sibley2020 also indicated that lower education, lower socioeconomic status, being male, older age, unemployment, lower agreeableness (based on Big-6 personality test), and lower openness (based on Big-6 personality test) predicted lower warmth toward Muslims. These predictors were tested again by [@badis].... (report predictors here and how they related to Sibley 2020) In addition, studies have pointed out specific anti-Muslim prejudice when compared with other religious groups [@greaves2020]. Interestingly, but not unexpectedly, the overall rating of New Zealanders' warmth towards Muslims was increased unprecedentedly (above and beyond the steady small increase reported in @sibley2020) following the 2019 Christchurch shootings [@shanaah2021] and sustained for three years post shootings [@bulbulia2023]. @bulbulia2023 argued that shootings caused increase in warmth toward Muslims, but not toward other groups – known as negative controls – stigmatised groups that were not anticipated to be affected by the shootings (e.g., people with mental illness, overweight people, and elderly people).
 
 The mentioned NZAVS papers used warmth towards Muslims as a proxy for Islamophobia and prejudice towards Muslims. (add islamophobia scale here) [@badis]
 
@@ -296,7 +294,9 @@ Having sensed interest in these data from researchers in New Zealand and oversea
 
 **Materials**
 
-NZAVS questionnaire has a large number of measures. Here, we are only highlighting and explaining those that are pertinent to the readily planned papers that are going to published from the booster study, with levels of measurement indicated, as well as the reversed coded ones. For Likert type scales, we are noting the the minimum and maximum level along with description. For instance, *(Not important 1-7 Very important)* would mean that it is rated on a scale of 1 to 7 where 1 indicates not important and 7 indicates very important. Notwithstanding, we might choose to report further measures too, which will then be elaborated upon in the individual articles.
+NZAVS questionnaire has a large number of measures. Here, we are only highlighting and explaining those that are pertinent to the readily planned papers that are going to published from the booster study, with levels of measurement indicated, as well as the reversed coded ones. Please visit @sibley2024 for further details and history of NZAVS measures.
+
+For Likert type scales, we are noting the the minimum and maximum level along with description. For instance, *(Not important 1-7 Very important)* would mean that it is rated on a scale of 1 to 7 where 1 indicates not important and 7 indicates very important. Notwithstanding, we might choose to report further measures too, which will then be elaborated upon in the individual articles.
 
 -   Service attendance and religiosity:
 
@@ -428,25 +428,27 @@ knitr::include_graphics("figs/chronic-disease.png")
 
     5.  Gender: Responses to the string entry item "What is your gender?", gender will be used to create a binary measure (Male = 1, Not male = 0).
 
-    6.  Socioeconomic status: Measured based on 2018 New Zealand Deprivation Index [@atkinson2019] that assigns a decile-rank index (Least deprived 1-10 Most deprived) using participants' immediate neighbourhood's aggregate census information. This index is calculated using component factor analysis of nine variables in weighted order as follows: proportion of adults who received a means-tested benefit, household income, proportion not owning own home, proportion of single-parent families, the proportion of unemployed, proportion lacking qualifications, proportion household crowding, proportion no telephone access, and proportion no car access. Hence, this index reflects nationwide mean deprivation level for small neighbourhood-type units (i.e., small community areas consisting about 80-90 people).
+    6.  Area-unit deprivation: Measured based on 2018 New Zealand Deprivation Index [@atkinson2019] that assigns a decile-rank index (Least deprived 1-10 Most deprived) using participants' immediate neighbourhood's aggregate census information. This index is calculated using component factor analysis of nine variables in weighted order as follows: proportion of adults who received a means-tested benefit, household income, proportion not owning own home, proportion of single-parent families, the proportion of unemployed, proportion lacking qualifications, proportion household crowding, proportion no telephone access, and proportion no car access. Hence, this index reflects nationwide mean deprivation level for small neighbourhood-type units (i.e., small community areas consisting about 80-90 people).
 
-    7.  Parent: Measured by assigning a binary variable (1 = those with children, 0 = the rest) to the item: How many children have you given birth to, fathered, or adopted? (String entry).
+    7.  Socioeconomic status: A census-derived occupation-based measure NZSEI (New Zealand Socioeconomic Index) is used to estimate one's socioeconomic status. It uses an open-ended question regarding their occupation, which is subsequently classified in accordance with the Australian and New Zealand Standard Classification of Occupations (ANZSCO) Level 3. In the case of missing values, the measures is imputed using a combination of age and education.
 
-    8.  Partner: Responses to "What is you relationship status?" are assigned a binary variable (1 = Has a partner, 0 = Doesn't have a partner).
+    8.  Parent: Measured by assigning a binary variable (1 = those with children, 0 = the rest) to the item: How many children have you given birth to, fathered, or adopted? (String entry).
 
-    9.  Religious identification: "Yes" responses to "Do you identify with a religion and/or spiritual group?" are assigned 1 and "No" responses are coded 0.
+    9.  Partner: Responses to "What is you relationship status?" are assigned a binary variable (1 = Has a partner, 0 = Doesn't have a partner).
 
-    10. Political orientation: Based on responses to "Please rate how politically left-wing versus right-wing you see yourself as being", political orientation is assigned a 7-point scale (extremely left-wing 1-7 extremely right-wing).
+    10. Religious identification: "Yes" responses to "Do you identify with a religion and/or spiritual group?" are assigned 1 and "No" responses are coded 0.
 
-    11. Residence: Urban or rural residence (a two-item nominal variable) is identified based on the physical addresses provided.
+    11. Political orientation: Based on responses to "Please rate how politically left-wing versus right-wing you see yourself as being", political orientation is assigned a 7-point scale (extremely left-wing 1-7 extremely right-wing).
 
-    12. Region of habituation (?)
+    12. Residence: Urban or rural residence (a two-item nominal variable) is identified based on the physical addresses provided.
 
-    13. Occupational prestige (?)
+    13. Region of habituation: coded whether they are living in an urban or rural area (1 = Urban, 0 = Rural) based on the addresses provided
 
-    14. Race rejection anxiety:
+    14. Occupational prestige (?)
 
-    15. Big six personality traits: Six personality traits, agreeableness, conscientiousness, extraversion, openness, honesty-humility, and neuroticism, are measured using a 7-point (very inaccurate 1-7 very accurate) Mini-IPIP6 scale [@sibley2011].
+    15. Race-based rejection anxiety: People from other races would be likely to reject me on the basis of my race. (Strogly disagree 1-7 Strongly agree)
+
+    16. Big six personality traits: Six personality traits, agreeableness, conscientiousness, extraversion, openness, honesty-humility, and neuroticism, are measured using a 7-point (very inaccurate 1-7 very accurate) Mini-IPIP6 scale [@sibley2011].
 
 ```{r}
 #| label: fig-ethnicgroups
@@ -484,8 +486,9 @@ knitr::include_graphics("figs/life-sat.png")
 7.  Self esteem: On the whole am satisfied with myself. Take a positive attitude toward myself. Am inclined to feel that I am a failure.
 8.  Gratitude: I have much in my life to be thankful for. When I look at the world, I don’t see much to be grateful for. I am grateful to a wide variety of people.
 9.  Community making: I feel a sense of community with others in my local neighbourhood (Strongly disagree 1-7 Strongly agree).
-10. Values:
-11. Resilience:
+10. Intergroup anxiety: I feel anxious about interacting with people from other races. (Strongly disagree 1-7 Strongly agree).
+11. Rumination: During the last 30 days, how often did.... you have negative thoughts that repeated over and over? (0 = None of the time, 4 = All of the time).
+12. Forgivingness versus Vengeful Rumination. Sometimes I can't sleep because of thinking about past wrongs I have suffered. (1-7 Strongly disagree 1-7 Strongly agree). I can usually forgive and forget when someone does me wrong (1-7 Strongly disagree 1-7 Strongly agree).. I find myself regularly thinking about past times that I have been wronged. (1-7 Strongly disagree 1-7 Strongly agree).
 
 -   **Recruitment:** Detail the recruitment strategy, including outreach methods and sources of recruitment.
 
