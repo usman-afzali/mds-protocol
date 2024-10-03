@@ -5,37 +5,29 @@ author:
   - name: Usman Afzali
     corresponding: true
     orcid: 0000-0001-5119-9388
-    email: usman.afzali@canterbury.ac.nz
+    email: usman.afzali@otago.ac.nz
     affiliations:
-      - name: University of Canterbury
-        department: School of Psychology, Speech and Hearing
-        address: 20 Kirkwood Ave
-        city: Christchurch
-        region: Canterbury
+      - name: University of Otago
+        department: Religion Programme
+        address: 362 Leith Street
+        city: Dunedin
+        region: Otago
         country: New Zealand
-        postal-code: 8041
+        postal-code: 9016
+      - name: University of Canterbury
+        department: School of Psychology, Speech and Hearing 
   - name: Jamila S. Badis
     corresponding: false
     orcid: 0009-0005-2866-5033
     affiliations:
       - name: University of Canterbury
         department: School of Psychology, Speech and Hearing
-        address: 20 Kirkwood Ave
-        city: Christchurch
-        region: Canterbury
-        country: New Zealand
-        postal-code: 8041
   - name: Parus Khoso
     corresponding: false
     orcid: 0000-0001-6384-038X
     affiliations:
       - name: University of Canterbury
         department: College of Education
-        address: 20 Kirkwood Ave
-        city: Christchurch
-        region: Canterbury
-        country: New Zealand
-        postal-code: 8041
   - name: Gul e Aqsa
     corresponding: false
     orcid: 0009-0003-0928-8039
@@ -48,11 +40,6 @@ author:
     affiliations:
       - name: University of Canterbury
         department: School of Psychology, Speech and Hearing
-        address: 20 Kirkwood Ave
-        city: Christchurch
-        region: Canterbury
-        country: New Zealand
-        postal-code: 8041
   - name: Fatima A. Junaid
     corresponding: false
     orcid: 0000-0002-6656-8120 
@@ -77,11 +64,6 @@ author:
     affiliations:
       - name: University of Canterbury
         department: School of Psychology, Speech and Hearing
-        address: 20 Kirkwood Ave
-        city: Christchurch
-        region: Canterbury
-        country: New Zealand
-        postal-code: 8041
   - name: Tuba Azeem
     corresponding: false
     orcid: 0000-0000-0000-0001
@@ -93,12 +75,7 @@ author:
     orcid: 0000-0003-4032-4387
     affiliations:
       - name: University of Canterbury
-        department: School of Psychology, Speech and Hearing
-        address: 20 Kirkwood Ave
-        city: Christchurch
-        region: Canterbury
-        country: New Zealand
-        postal-code: 8041       
+        department: School of Psychology, Speech and Hearing     
   - name: Zarqa Shaheen Ali
     corresponding: false
     orcid: 0000-0002-7145-5788
@@ -111,11 +88,6 @@ author:
     affiliations:
       - name: University of Canterbury
         department: School of Psychology, Speech and Hearing
-        address: 20 Kirkwood Ave
-        city: Christchurch
-        region: Canterbury
-        country: New Zealand
-        postal-code: 8041
   - name: Mashal Khan
     corresponding: false
     orcid: 0000-0000-0000-0000
@@ -146,11 +118,6 @@ author:
     affiliations:
       - name: University of Canterbury
         department: School of Psychology, Speech and Hearing
-        address: 20 Kirkwood Ave
-        city: Christchurch
-        region: Canterbury
-        country: New Zealand
-        postal-code: 8041
   - name: Aamina Ali
     corresponding: false
     orcid: 0000-0000-0000-0001
@@ -162,7 +129,13 @@ author:
     orcid: 0000-0003-4731-1781
     affiliations:
       - name: University of Auckland
-        department: Department of Politics and International Relations            
+        department: Department of Politics and International Relations
+  - name: Afrah Ali
+    corresponding: false
+    orcid: 0000-0000-0000-0001
+    affiliations:
+      - name: TBA
+        department: TBA
   - name: Aarif Rasheed
     corresponding: false
     orcid: 0000-0000-0000-0001
@@ -174,11 +147,6 @@ author:
     affiliations:
       - name: University of Canterbury
         department: School of Psychology, Speech and Hearing
-        address: 20 Kirkwood Ave
-        city: Christchurch
-        region: Canterbury
-        country: New Zealand
-        postal-code: 8041
   - name: Chris G. Sibley
     corresponding: false
     orcid: 0000-0002-4064-8800
@@ -192,7 +160,7 @@ author:
       - name: Victoria University of Wellington
         department: School of Psychology
       - name: Max Planck Institute for Evolutionary Anthropology
-        department: Department of Linguistic and Cultural Evolution                                                                                                
+        department: Department of Linguistic and Cultural Evolution                                                
 author-note:
   status-changes: 
     affiliation-change: ~
@@ -205,7 +173,7 @@ author-note:
     financial-support: ~
     gratitude: ~
     authorship-agreements: ~
-abstract: "The New Zealand Attitudes and Values Study is a longitudinal study of social values and attitudes of New Zealanders that started in 2009. Since its inception, it has collected data from thousands of subjects. In addition to examining numerous social, political, and health aspects of New Zealanders' lives, this research has particularly examined negative attitudes towards minority groups, such as discrimination and prejudice have been examined. In 2019, the Muslim community was the target of the worst terrorist attack in New Zealand’s modern history. Following this devastating event, we aimed to extract data from the New Zealand Attitudes and Values Study to understand Islamophobia from the Muslim perspective and look deeper into the remarkable resilience of Muslims despite many challenges. In addition, we deem necessary to investigate the overall wellbeing and flourishing of Muslims in New Zealand, and whether values, identity, religiosity, and meaning-making affect Muslims’ self-perception and health outcomes. However, we were limited by the sample size of Muslims within the New Zealand Attitudes and Values Study to make such inferences. Therefore, the current project, titled the Muslim Diversity Study, was designed to recruit more Muslim participants within the New Zealand Attitudes and Values Study over a three-year quantitative longitudinal study. This protocol describes the context that motivated this research, our pilot Muslim community consultation, the decisions made and modified based on consultation (e.g., whether or not to translate the questionnaiere, which groups to target, etc.), data collection methods, research team, quantitative measures, and timeline. It also provides our initial findings and observations, mainly based on the first year of the research and addresses the perceived enablers and challengers of data collection from a culturally distinct religious community in New Zealand. This protocol will serve as a reference text for researchers conducting work not only on Islam and the Muslim community in New Zealand but also on other ethnic and religious communities and minorities in the country. It will also allow researchers to apply the methods and findings to other contexts and regions across the world and provide comparative insights and analyses."
+abstract: "The New Zealand Attitudes and Values Study is a longitudinal study of social values and attitudes of New Zealanders that started in 2009. Since its inception, it has collected data from thousands of subjects. In addition to examining numerous social, political, and health aspects of New Zealanders' lives, this research has particularly examined negative attitudes towards minority groups, such as discrimination and prejudice have been examined. In 2019, the Muslim community was the target of the worst terrorist attack in New Zealand’s modern history. Following this devastating event, we aimed to extract data from the New Zealand Attitudes and Values Study to understand Islamophobia from the Muslim perspective and look deeper into the remarkable resilience of Muslims despite many challenges. In addition, we deem necessary to investigate the overall wellbeing and flourishing of Muslims in New Zealand, and whether values, identity, religiosity, and meaning-making affect Muslims’ self-perception and health outcomes. However, we were limited by the sample size of Muslims within the New Zealand Attitudes and Values Study to make such inferences. Therefore, the current project, titled the Muslim Diversity Study, was designed to recruit more Muslim participants within the New Zealand Attitudes and Values Study over a three-year quantitative longitudinal study. This protocol describes the context that motivated this research, our pilot Muslim community consultation, the decisions made and modified based on consultation (e.g., whether or not to translate the questionnaire, which groups to target, etc.), data collection methods, research team, quantitative measures, and timeline. It also provides our initial findings and observations, mainly based on the first year of the research and addresses the perceived enablers and challengers of data collection from a culturally distinct religious community in New Zealand. This protocol will serve as a reference text for researchers conducting work not only on Islam and the Muslim community in New Zealand but also on other ethnic and religious communities and minorities in the country. It will also allow researchers to apply the methods and findings to other contexts and regions across the world and provide comparative insights and analyses."
 keywords: [Muslim, Islam, religion, diversity, discrimination, flourishing, wellbeing, meaning-making, identity, New Zealand]
 bibliography: bibliography.bib
 format:
@@ -257,7 +225,7 @@ Introduce the context of the study, emphasizing the need to understand the psych
 
 **Pilot community consultation**
 
-Before applying for the research grant, we deemed necessary to gauge Muslim community's interest in the project, as well as the feasibility of the project for the Muslim community. This pilot consultation took place between Feb and Dec 2022 where the PI reached out to 29 Muslims (20 representing community, religious or cultural organisations and 9 individuals) in different cities from different academic and cultural backgrounds, age groups, and genders including community leaders, religious scholars, and activists. The conversations focused around four objectives: 1) To assess the feasibility of the project for Muslims, 2) To assess interest of Muslims in the project, 3) To get feedback on the survey items, and 4) To inquire if translation may be needed. First, all 29 respondents believed that the study was feasible and timely for Muslims, and that Muslims will be interested to participate. In addition, the highest participation should be anticipated from youth, second generation migrants, educated, and women. Second, not only did they believe that the study and our planned measures were important, they have also promised to support us in every possible way.
+Before applying for the research grant, we deemed necessary to gauge Muslim community's interest in the project, as well as the feasibility of the project for the Muslim community. This pilot consultation took place between Feb and Nov 2022 where the PI reached out to 29 Muslims (20 representing community, religious or cultural organisations and 9 individuals) in different cities from different academic and cultural backgrounds, age groups, and genders including community leaders, religious scholars, and activists. The conversations focused around four objectives: 1) To assess the feasibility of the project for Muslims, 2) To assess interest of Muslims in the project, 3) To get feedback on the survey items, and 4) To inquire if translation may be needed. First, all 29 respondents believed that the study was feasible and timely for Muslims, and that Muslims will be interested to participate. In addition, the highest participation should be anticipated from youth, second generation migrants, educated, and women. Second, not only did they believe that the study and our planned measures were important, they have also promised to support us in every possible way.
 
 Challenges identified: 1. Those from Christchurch might not be up to the expectations as after Christchurch shooting people were surveyed a lot. 2. It might not be easy for people to understand the questionnaires due to unfamiliarity of the community with research. 3. Elderly might not be interested, so we need to find avenues to address them.
 
@@ -266,6 +234,62 @@ Recommendations: 1. The participants must be informed about the study motivation
 **Translation**
 
 Third, there has been a consensus that a majority of participants will be able to use the English version. Nevertheless, to reach a broader bandwidth of Muslim diversity, we initially need to pilot and test translated versions of the NZAVS flourishing scales and survey.
+
+*Translation: As pointed out previously, the qualitative process that the reviewer has*
+
+*suggested has already been going on for the last five months. As a result, we*
+
+*developed a 6-page comprehensive guideline that addresses feasibility, advice on*
+
+*engagement with the community, the possible challenges, avenues to enhance*
+
+*participation, etc. All 29 respondents evaluated our projects as a positive and needed*
+
+*initiative. They have also agreed to assist with piloting and translation.*
+
+*Our consultation with the Advisory Group shows that the translation may only be*
+
+*needed for a small number of Muslims living in New Zealand, and that a majority will be*
+
+*able to use the English version. This gives us a methodological safety-net since we can*
+
+*be more confident that the meaning of concepts is not distorted because of*
+
+*translation. As far as the translation itself is concerned, we have consulted with a group*
+
+*(Sulaiman-Hill and colleagues) who have been conducting research within the Muslim*
+
+*community. Therefore, instead of using the common translation back-translation*
+
+*procedure, we will use a more effective way of translating, back-translating, and*
+
+*comparing notes to ensure conceptual equivalence (Sulaiman-Hill et al., 2021). This*
+
+*method is inspired by the recent developments and recommendations based on the*
+
+*needs in countries that home an increasing number of refugees (Barger et al., 2010;*
+
+*Ozolins et al., 2020). Following this, the translation will be checked by experts as*
+
+*recommend by Fenn et al. (2020) and piloted within the Advisory Group to ensure*
+
+*reliability and conceptual equivalence. (Proposal updated: Project Description -\> Methodology -\>*
+
+*Translation).*
+
+*In addition, Dr. Afzali has established connections with a network of Muslim researchers*
+
+*in New Zealand. These researchers will be recruited as Research Assistants (RAs) for this*
+
+*project. The prospective RAs live in the three largest cities of New Zealand*
+
+*(Christchurch, Wellington, and Auckland) and are related to different cultural groups.*
+
+*The participants who need to use translated surveys will be supported by our*
+
+*competent RAs – who are well aware of the risks of the loss of concepts because of*
+
+*translation.*
 
 **Sections**
 
@@ -312,39 +336,39 @@ Having sensed interest in these data from researchers in New Zealand and oversea
 
 NZAVS questionnaire has a large number of measures. Here, we are only highlighting and explaining those that are pertinent to the readily planned papers that are going to published from the booster study, with levels of measurement indicated, as well as the reversed coded ones. Please visit @sibley2024 for further details and history of NZAVS measures.
 
-For Likert type scales, we are noting the the minimum and maximum level along with description. For instance, *(Not important 1-7 Very important)* would mean that it is rated on a scale of 1 to 7 where 1 indicates not important and 7 indicates very important. Notwithstanding, we might choose to report further measures too, which will then be elaborated upon in the individual articles.
+For Likert type scales, we are noting the the minimum and maximum level along with description, for instance, 1 = Not Important 1, 7 = Very Important, whereas (R) shows the reverse-scored items. Notwithstanding, we might choose to report further measures too, which will then be elaborated upon in the individual articles.
 
 -   Service attendance and religiosity:
 
     1.  Do you identify with a religion and/or spiritual group? (Yes/No). If yes, what religion or spiritual group? (String entry).
 
-    2.  How many times did you attend a church or place of worship in the last month? (String entry)
+    2.  How many times did you attend a church or place of worship in the last month? (String entry).
 
-    3.  How many times did you pray in the last week? (String entry)
+    3.  How many times did you pray in the last week? (String entry).
 
-    4.  How many times did you read religious scripture in the last week? (String entry)
+    4.  How many times did you read religious scripture in the last week? (String entry).
 
-    5.  How important is your religion to how you see yourself? (String entry) (Not important 1-7 Very important)
+    5.  How important is your religion to how you see yourself? (String entry) (1 = Not Important 1, 7 = Very Important).
 
-    6.  I identify as a spiritual person. (Strongly Disagree 1-7 Strongly Agree)
+    6.  I identify as a spiritual person. (1 = Strongly Disagree, 1-7 Strongly Agree).
 
     7.  Do you believe in God? (Yes/No)
 
-    8.  Do you believe in any form of spirit or life force? (Yes/No)
+    8.  Do you believe in any form of spirit or life force? (Yes/No).
 
 -   Prejudice:
 
-    1.  I feel that I am often discriminated against because of my religious/spiritual beliefs. (Strongly Disagree 1-7 Strongly Agree)
+    1.  I feel that I am often discriminated against because of my religious/spiritual beliefs. (1 = Strongly Disagree 1, 7 = Strongly Agree).
 
-    2.  People from my ethnic group are discriminated against in New Zealand. (Strongly Disagree 1-7 Strongly Agree)
+    2.  People from my ethnic group are discriminated against in New Zealand. (1 = Strongly Disagree, 7 = Strongly Agree).
 
-    3.  I feel that I am often discriminated against because of my age. (Strongly Disagree 1-7 Strongly Agree)
+    3.  I feel that I am often discriminated against because of my age. (1 = Strongly Disagree, 7 = Strongly Agree).
 
-    4.  I feel that I am often discriminated against because of my ethnicity. (Very Innacurate 1-7 Very Accurate)
+    4.  I feel that I am often discriminated against because of my ethnicity. (1 = Very Innacurate, 7 = Very Accurate).
 
-    5.  I feel that I am often discriminated against because of my gender. (Very Innacurate 1-7 Very Accurate)
+    5.  I feel that I am often discriminated against because of my gender. (1 = Very Innacurate, 7 = Very Accurate).
 
--   Intergroup Warmth Ratings: Participants are asked to rate their feelings of warmth toward different groups using “feeling thermometer scale” for each group from least to most warmth on a 1-7 Likert scale (see @fig-warmth for reference). Groups include: NZ Europeans, Māori, Asians in general, Pacific Islanders, Elderly people, People with a disability, Refugees, Overweight people, Immigrants in general, Chinese, Indians, Muslims, LGBTQ+ people, People with mental illness.
+-   Intergroup Warmth Ratings: Participants are asked to rate their feelings of warmth toward different groups using “feeling thermometer scale” for each group from least to most warmth on a Likert scale where 1 = Least Warm and 7 = Most Warm (see @fig-warmth for reference). Groups include: NZ Europeans, Māori, Asians in general, Pacific Islanders, Elderly people, People with a disability, Refugees, Overweight people, Immigrants in general, Chinese, Indians, Muslims, LGBTQ+ people, People with mental illness.
 
 ```{r}
 #| label: fig-warmth
@@ -357,49 +381,49 @@ knitr::include_graphics("figs/warmth.png")
 
 -   Felt belonging:
 
-    1.  I know that people in my life accept and value me. (Very Innacurate 1-7 Very Accurate)
+    1.  I know that people in my life accept and value me. (1 = Very Innacurate, 7 = Very Accurate).
 
-    2.  I feel like an outsider. (Very Innacurate 1-7 Very Accurate)
+    2.  I feel like an outsider. (1 = Very Innacurate, 7 = Very Accurate).
 
-    3.  I know that people in around me share my attitudes and beliefs. (Very Innacurate 1-7 Very Accurate)
+    3.  I know that people in around me share my attitudes and beliefs. (1 = Very Innacurate, 7 = Very Accurate).
 
 -   Support:
 
-    1.  There are people I can depend on to help me if I really need it. (Strongly Disagree 1-7 Strongly Agree)
+    1.  There are people I can depend on to help me if I really need it. (1 = Strongly Disagree, 7 = Strongly Agree).
 
-    2.  There is no one I can turn to for guidance in times of stress (R). (Strongly Disagree 1-7 Strongly Agree)
+    2.  There is no one I can turn to for guidance in times of stress (R). (1 = Strongly Disagree, 7 = Strongly Agree).
 
-    3.  I know there are people I can turn to when I need help. (Strongly Disagree 1-7 Strongly Agree)
+    3.  I know there are people I can turn to when I need help. (1 = Strongly Disagree, 7 = Strongly Agree).
 
 -   Employment:
 
-    1.  What is your highest level of qualification? (String entry)
+    1.  What is your highest level of qualification? (String entry).
 
     2.  Are you currently employed (This includes self-employed of casual work)? (Yes/No). This leads to a four-point nominal response: employed full-time, employed part-time, unemployed, and not in the labour force.
 
-    3.  In that job, what is your current occupation (String entry)
+    3.  In that job, what is your current occupation (String entry).
 
-    4.  What is the main activity of the business or employer that you work for? (String entry)
+    4.  What is the main activity of the business or employer that you work for? (String entry).
 
-    5.  How long have you worked at your current organization? (String entry: years/months)
+    5.  How long have you worked at your current organization? (String entry: years/months).
 
-    6.  How satisfied are you with your current job? (Not satisfied 1-7 Very satisfied)
+    6.  How satisfied are you with your current job? (1 = Not Satisfied, 7 = Very Satisfied).
 
-    7.  How secure do you feel in your current job? (Not secure 1-7 Very secure)
+    7.  How secure do you feel in your current job? (1 = Not Secure, 7 = Very Secure).
 
-    8.  How valued do you feel by your current organization? (Not valued 1-7 Very valued)
+    8.  How valued do you feel by your current organization? (1 = Not valued, 7 = Very Valued).
 
 -   Health:
 
-    1.  In general, would you say your health is... (Poor 1-7 Excellent)
+    1.  In general, would you say your health is... (1 = Poor, 7 = Excellent).
 
-    2.  I seem to get sick a little easier than other people. (Strogly disagree 1-7 Strongly agree)
+    2.  I seem to get sick a little easier than other people. (1 = Strongly Disagree, 7 = Strongly Agree).
 
-    3.  I expect my health to get worse. (Strogly disagree 1-7 Strongly agree)
+    3.  I expect my health to get worse. (1 = Strongly Disagree, 7 = Strongly Agree).
 
-    4.  Do you have a health condition or disability that limits you, and that has lasted for 6+ months? (Yes/No). If yes, please state: (String entry)
+    4.  Do you have a health condition or disability that limits you, and that has lasted for 6+ months? (Yes/No). If yes, please state: (String entry).
 
-    5.  How often do you have a drink containing alcohol? Measured using a 6 point nominal scale (Never - I don't drink, Monthly or less, Up to 4 times a month, Up to 3 times a week, 4 or more times a week, Don't know)
+    5.  How often do you have a drink containing alcohol? This is measured using a 6 point nominal scale (a. Never - I don't drink, b. Monthly or less, c. Up to 4 times a month, d. Up to 3 times a week, e. 4 or more times a week, f. Don't know).
 
     6.  Have you ever regularly smoked tobacco cigarettes? (Yes/No).
 
@@ -409,7 +433,7 @@ knitr::include_graphics("figs/warmth.png")
 
     9.  Do you currently vape or use e-cigarettes? (Yes/No).
 
-    10. Access to and satisfaction with GP: Do you have a regular family doctor/GP? (Yes/No). (If yes) How satisfied are you with the service and care you receive from your family doctor/GP? (Not satisfied 1-7 Very satisfied). Do you think your doctor/GP shares a similar cultural background to you? (Definitely no 1-7 Definitely yes). Does your doctor/GP respect your cultural background when you are discussing health issues with them? (Definitely no 1-7 Definitely yes).
+    10. Access to and satisfaction with GP: Do you have a regular family doctor/GP? (Yes/No). (If yes) How satisfied are you with the service and care you receive from your family doctor/GP? (1 = Not Satisfied, 7 = Very Satisfied). Do you think your doctor/GP shares a similar cultural background to you? (1 = Definitely No, 7 = Definitely yes). Does your doctor/GP respect your cultural background when you are discussing health issues with them? (1= Definitely No, 7 = Definitely Yes).
 
     11. Please estimate how many hours you spent during each of the following things last week (String entry). Options provided: Working in paid employment, housework/cooking, looking after children, volunteer/charitable work, exercising/physical activity, watching TV/Netflix/movies, travelling/commuting, watching/reading news, using the internet (in total), using social media (e.g., Facebook), playing video games/computer games.
 
