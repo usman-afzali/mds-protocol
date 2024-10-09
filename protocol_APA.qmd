@@ -2,11 +2,13 @@
 title: "A national longitudinal study of Muslim diversity and flourishing in Aotearoa New Zealand: A quantitative study protocol"
 shorttitle: "MDS - an NZAVS booster"
 author:
-  - name: Usman Afzali
+  - name: M. Usman Afzali
     corresponding: true
     orcid: 0000-0001-5119-9388
     email: usman.afzali@otago.ac.nz
     affiliations:
+      - name: University of Canterbury
+        department: School of Psychology, Speech and Hearing 
       - name: University of Otago
         department: Religion Programme
         address: 362 Leith Street
@@ -14,8 +16,6 @@ author:
         region: Otago
         country: New Zealand
         postal-code: 9016
-      - name: University of Canterbury
-        department: School of Psychology, Speech and Hearing 
   - name: Jamila S. Badis
     corresponding: false
     orcid: 0009-0005-2866-5033
@@ -28,12 +28,6 @@ author:
     affiliations:
       - name: University of Canterbury
         department: College of Education
-  - name: Gul e Aqsa
-    corresponding: false
-    orcid: 0009-0003-0928-8039
-    affiliations:
-      - name: University of Canterbury
-        department: School of Health Sciences
   - name: Farah Shawkat
     corresponding: false
     orcid: 0000-0000-0000-0001
@@ -51,7 +45,13 @@ author:
     orcid: 0000-0002-1775-3311 
     affiliations:
       - name: Victoria University of Wellington
-        department: School of History, Philosophy, Political Science and International Relations        
+        department: School of History, Philosophy, Political Science and International Relations
+  - name: Mazharuddin Syed Ahmed
+    corresponding: false
+    orcid: 0000-0000-0000-0001
+    affiliations:
+      - name: Ara Institute of Canterbury
+        department: Engineering and Architectural Studies
   - name: Hussain Raissi
     corresponding: false
     orcid: 0000-0000-0000-0001
@@ -100,6 +100,12 @@ author:
     affiliations:
       - name: Universit of Otago
         department: School of Psychological Medicine
+  - name: Gul e Aqsa
+    corresponding: false
+    orcid: 0009-0003-0928-8039
+    affiliations:
+      - name: University of Canterbury
+        department: School of Health Sciences      
   - name: Zahra Emamzadeh
     corresponding: false
     orcid: 0009-0000-0000-0001
@@ -130,7 +136,7 @@ author:
     affiliations:
       - name: University of Auckland
         department: Department of Politics and International Relations
-  - name: Afrah Ali
+  - name: Afrah Ali Nadukkudi Puthenpura
     corresponding: false
     orcid: 0000-0000-0000-0001
     affiliations:
@@ -166,11 +172,11 @@ author-note:
     affiliation-change: ~
     deceased: ~
   disclosures:
-    study-registration: ~
+    study-registration: OSF Preregistration <https://doi.org/10.17605/OSF.IO/B39XT>.
     data-sharing: ~
     related-report: ~
-    conflict-of-interest: ~
-    financial-support: ~
+    conflict-of-interest: The authors have no conflict of interest to disclose.
+    financial-support: Templeton Religion Trust.
     gratitude: ~
     authorship-agreements: ~
 abstract: "The New Zealand Attitudes and Values Study is a longitudinal study of social values and attitudes of New Zealanders that started in 2009. Since its inception, it has collected data from thousands of subjects. In addition to examining numerous social, political, and health aspects of New Zealanders' lives, this research has particularly examined negative attitudes towards minority groups, such as discrimination and prejudice have been examined. In 2019, the Muslim community was the target of the worst terrorist attack in New Zealand’s modern history. Following this devastating event, we aimed to extract data from the New Zealand Attitudes and Values Study to understand Islamophobia from the Muslim perspective and look deeper into the remarkable resilience of Muslims despite many challenges. In addition, we deem necessary to investigate the overall wellbeing and flourishing of Muslims in New Zealand, and whether values, identity, religiosity, and meaning-making affect Muslims’ self-perception and health outcomes. However, we were limited by the sample size of Muslims within the New Zealand Attitudes and Values Study to make such inferences. Therefore, the current project, titled the Muslim Diversity Study, was designed to recruit more Muslim participants within the New Zealand Attitudes and Values Study over a three-year quantitative longitudinal study. This protocol describes the context that motivated this research, our pilot Muslim community consultation, the decisions made and modified based on consultation (e.g., whether or not to translate the questionnaire, which groups to target, etc.), data collection methods, research team, quantitative measures, and timeline. It also provides our initial findings and observations, mainly based on the first year of the research and addresses the perceived enablers and challengers of data collection from a culturally distinct religious community in New Zealand. This protocol will serve as a reference text for researchers conducting work not only on Islam and the Muslim community in New Zealand but also on other ethnic and religious communities and minorities in the country. It will also allow researchers to apply the methods and findings to other contexts and regions across the world and provide comparative insights and analyses."
@@ -181,12 +187,9 @@ format:
   # apaquarto-html: default
   # apaquarto-pdf:
   # documentmode: man
-   apaquarto-pdf: default
+  apaquarto-pdf: default
   # apaquarto-docx: default
 ---
-
-# Introduction {#sec-intro}
-
 On 15 March 2019, a devastating far-right extremist attack on two mosques took place in Christchurch, killing 51 Muslims and injuring 40 [@royalco2020]. Although this attacked shocked the world [@worldle2019] and was unprecedented in New Zealand [@jacinda2019b], it was not as surprising to the Muslim community [@rahman2019] due to Muslims' widespread experience of Islamophobia and prejudice in the country [@sibley2020]. Islamophobia has been reportedly increased overseas following these attacks [@islamoph2022], however, the evidence in New Zealand seems to be mixed. News articles have reported increased hate towards Muslims [@frykberg2023]. On the other hand, our findings are indicative of improved attitudes towards Muslims [@shanaah2021; @bulbulia2023] following attacks. Addressing this discrepancy is beyond the scope of current article, however, it is worth noting that most of our research in this area, primarily from the New Zealand Attitudes and Values Study (NZAVS) [@newzeal2024] lens, has so far shed light on such attitudes from a non-Muslim perspective. In other words, we have reported on how Muslims are perceived by non-Muslim members of New Zealand society, rather than how Muslims perceive themselves. While the published NZAVS reports are an absolute necessity, the self-experience of Muslims themselves as the direct victims of this heinous crime is equally, if not more, important.
 
 This article aims to elaborate on the protocol of a pioneering three-year longitudinal study titled the Muslim Diversity Study poised to achieve this very goal – examining Muslims' self-perception in New Zealand from a variety of angles, as well as, the predictors of resilience, flourishing, and wellbeing within Muslims. The study started in 2023 and is planned to conclude in 2026. The goal is to achieve as many as 650 Muslim respondents. The Muslim community is expanding in New Zealand.
@@ -522,11 +525,11 @@ knitr::include_graphics("figs/life-sat.png")
 ```
 
 7.  Self esteem: Items are, "On the whole I am satisfied with myself"(1 = Very Inaccurate, 7 = Very Accurate), "I take a positive attitude toward myself" (1 = Very Inaccurate, 7 = Very Accurate) and "I am inclined to feel that I am a failure" (R) (1 = Very Inaccurate, 7 = Very Accurate).
-8.  Gratitude: I have much in my life to be thankful for. When I look at the world, I don’t see much to be grateful for. I am grateful to a wide variety of people.
-9.  Community making: I feel a sense of community with others in my local neighbourhood (Strongly disagree 1-7 Strongly agree).
-10. Intergroup anxiety: I feel anxious about interacting with people from other races. (Strongly disagree 1-7 Strongly agree).
-11. Rumination: During the last 30 days, how often did.... you have negative thoughts that repeated over and over? (0 = None of the time, 4 = All of the time).
-12. Forgivingness versus Vengeful Rumination. Sometimes I can't sleep because of thinking about past wrongs I have suffered. (1-7 Strongly disagree 1-7 Strongly agree). I can usually forgive and forget when someone does me wrong (1-7 Strongly disagree 1-7 Strongly agree).. I find myself regularly thinking about past times that I have been wronged. (1-7 Strongly disagree 1-7 Strongly agree).
+8.  Gratitude: Items are, "I have much in my life to be thankful for" (1 = Strongly Disagree, 7 = Strongly Agree), "When I look at the world, I don’t see much to be grateful for" (1 = Strongly Disagree, 7 = Strongly Agree) and "I am grateful to a wide variety of people" (1 = Strongly Disagree, 7 = Strongly Agree).
+9.  Community making: I feel a sense of community with others in my local neighbourhood (1 = Strongly Disagree, 7 = Strongly Agree).
+10. Intergroup anxiety: I feel anxious about interacting with people from other races (1 = Strongly Disagree, 7 = Strongly Agree).
+11. Rumination: During the last 30 days, how often did you have negative thoughts that repeated over and over? (0 = None of the time, 4 = All of the time).
+12. Forgivingness versus Vengeful Rumination: Items are, "Sometimes I can't sleep because of thinking about past wrongs I have suffered" (1 = Strongly Disagree, 7 = Strongly Agree), "I can usually forgive and forget when someone does me wrong" (1 = Strongly Disagree, 7 = Strongly Agree), and "I find myself regularly thinking about past times that I have been wronged" (1 = Strongly Disagree, 7 = Strongly Agree).
 
 -   **Recruitment:** Detail the recruitment strategy, including outreach methods and sources of recruitment.
 
@@ -648,9 +651,6 @@ The data described in this study are part of the Muslim Diversity Study, that is
 
 <!-- ## Conclusion -->
 
-# CoI
-
-We have no conflict of interest to disclose.
 
 {{< pagebreak >}}
 
