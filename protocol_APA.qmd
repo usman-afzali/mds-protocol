@@ -16,149 +16,261 @@ author:
         region: Otago
         country: New Zealand
         postal-code: 9016
+    roles:
+      - conceptualisation
+      - data curation
+      - formal analysis
+      - funding acquistion
+      - investigation
+      - methodology
+      - project administration
+      - reources
+      - supervision
+      - visualisation
+      - writing - original draft
+      - writing - review & editing
   - name: Jamila S. Badis
     corresponding: false
     orcid: 0009-0005-2866-5033
     affiliations:
       - name: University of Canterbury
         department: School of Psychology, Speech and Hearing
+    roles:
+      - data curation
+      - project administration 
+      - writing - original draft
+      - writing - review & editing   
   - name: Parus Khoso
     corresponding: false
     orcid: 0000-0001-6384-038X
     affiliations:
       - name: University of Canterbury
         department: College of Education
+    roles:
+      - data curation
+      - formal analysis
+      - writing - original draft (pilot community consultation)
+      - writing - review & editing   
   - name: Farah Shawkat
     corresponding: false
     orcid: 0000-0000-0000-0001
     affiliations:
       - name: University of Canterbury
         department: School of Psychology, Speech and Hearing
+    roles:
+      - data curation
+      - writing - original draft (method)
+      - writing - review & editing     
   - name: Fatima A. Junaid
     corresponding: false
     orcid: 0000-0002-6656-8120 
     affiliations:
       - name: Massey University
         department: School of Management
+    roles:
+      - writing - original draft (introduction)
+      - writing - review & editing     
   - name: Ayca Arkilic
     corresponding: false
     orcid: 0000-0002-1775-3311 
     affiliations:
       - name: Victoria University of Wellington
         department: School of History, Philosophy, Political Science and International Relations
+    roles:
+      - writing - original draft (introduction)
+      - writing - review & editing     
   - name: Mazharuddin Syed Ahmed
     corresponding: false
     orcid: 0000-0000-0000-0001
     affiliations:
       - name: Ara Institute of Canterbury
         department: Engineering and Architectural Studies
+    roles:
+      - data curation
+      - writing - review & editing     
   - name: Hussain Raissi
     corresponding: false
     orcid: 0009-0000-7985-1622
     affiliations:
       - name: University of Otago
         department: The National Centre for Peace and Conflict Studies
+    roles:
+      - data curation
+      - writing - original draft (method)
+      - writing - review & editing     
   - name: Hala Burhoum
     corresponding: false
     orcid: 0000-0000-0000-0001
     affiliations:
       - name: University of Canterbury
         department: School of Psychology, Speech and Hearing
+    roles:
+      - data curation
+      - writing - original draft (method)
+      - writing - review & editing     
   - name: Tuba Azeem
     corresponding: false
     orcid: 0000-0000-0000-0001
     affiliations:
       - name: Victoria University of Wellington
-        department: School of ABC     
+        department: School of ABC
+    roles:
+      - data curation
+      - writing - original draft (method)
+      - writing - review & editing          
   - name: Iman Husain
     corresponding: false
     orcid: 0000-0003-4032-4387
     affiliations:
       - name: University of Canterbury
-        department: School of Psychology, Speech and Hearing     
+        department: School of Psychology, Speech and Hearing
+    roles:
+      - data curation
+      - writing - original draft (method)
+      - writing - review & editing          
   - name: Zarqa Shaheen Ali
     corresponding: false
     orcid: 0000-0002-7145-5788
     affiliations:
       - name: New Zealand Skills and Education College
         department: ICL Business School
+    roles:
+      - data curation
+      - writing - original draft (method)
+      - writing - review & editing     
   - name: Zahra Haidary
     corresponding: false
     orcid: 0009-0000-5259-622X
     affiliations:
       - name: University of Canterbury
         department: School of Psychology, Speech and Hearing
+    roles:
+      - data curation
+      - writing - original draft (method)
+      - writing - review & editing     
   - name: Mashal Khan
     corresponding: false
     orcid: 0000-0000-0000-0000
     affiliations:
       - name: Massey University
-        department: Department of Psychology       
+        department: Department of Psychology
+    roles:
+      - data curation
+      - writing - original draft (method)
+      - writing - review & editing            
   - name: Nasratullah Hamid
     corresponding: false
     orcid: 0009-0002-0120-7428
     affiliations:
       - name: Universit of Otago
         department: School of Psychological Medicine
+    roles:
+      - data curation
+      - writing - original draft (method)
+      - writing - review & editing     
   - name: Gul e Aqsa
     corresponding: false
     orcid: 0009-0003-0928-8039
     affiliations:
       - name: University of Canterbury
-        department: School of Health Sciences      
+        department: School of Health Sciences
+    roles:
+      - data curation
+      - writing - review & editing           
   - name: Zahra Emamzadeh
     corresponding: false
     orcid: 0009-0000-0000-0001
     affiliations:
       - name: Ministry of Education
-        department: TBA        
+        department: TBA
+    roles:
+      - writing - original draft (strengths and limitations)
+      - writing - review & editing             
   - name: Rizwan Sulehry
     corresponding: false
     orcid: 0000-0002-1209-0635
     affiliations:
       - name: Victoria University of Wellington
         department: School of Management
+    roles:
+      - data curation
+      - writing - original draft (strengths and limitations)
+      - writing - review & editing     
   - name: Somia Tasneem
     corresponding: false
     orcid: 0000-0001-5471-6934
     affiliations:
       - name: University of Canterbury
         department: School of Psychology, Speech and Hearing
+    roles:
+      - writing - original draft (strengths and limitations)
+      - writing - review & editing     
   - name: Aamina Ali
     corresponding: false
     orcid: 0000-0000-0000-0001
     affiliations:
       - name: TBA
-        department: TBA   
+        department: TBA
+    roles:
+      - writing - original draft (strengths and limitations)
+      - writing - review & editing       
   - name: Adepate Mustapha-Koiki
     corresponding: false
     orcid: 0000-0003-4731-1781
     affiliations:
       - name: University of Auckland
         department: Department of Politics and International Relations
+    roles:
+      - writing - original draft (conclusions)
+      - writing - review & editing     
   - name: Afrah Ali Nadukkudi Puthenpura
     corresponding: false
     orcid: 0000-0000-0000-0001
     affiliations:
       - name: TBA
         department: TBA
+    roles:
+      - writing - original draft (conclusions)
+      - writing - review & editing     
   - name: Aarif Rasheed
     corresponding: false
     orcid: 0000-0000-0000-0001
     affiliations:
       - name: Just Community
+    roles:
+      - conceptualisation
+      - data curation
+      - funding acquistion
+      - reources
+      - writing - review & editing   
   - name: Kumar Yogeeswaran
     corresponding: false
     orcid: 0000-0002-1978-5077
     affiliations:
       - name: University of Canterbury
         department: School of Psychology, Speech and Hearing
+    roles:
+      - conceptualisation
+      - funding acquistion
+      - methodology
+      - writing - original draft
+      - writing - review & editing    
   - name: Chris G. Sibley
     corresponding: false
     orcid: 0000-0002-4064-8800
     affiliations:
       - name: University of Auckland
         department: School of Psychology
+    roles:
+      - conceptualisation
+      - data curation
+      - funding acquistion
+      - methodology
+      - project administration
+      - reources
+      - supervision
+      - writing - original draft
+      - writing - review & editing    
   - name: Joseph A. Bulbulia
     corresponding: false
     orcid: 0000-0002-5861-2056
@@ -166,18 +278,27 @@ author:
       - name: Victoria University of Wellington
         department: School of Psychology
       - name: Max Planck Institute for Evolutionary Anthropology
-        department: Department of Linguistic and Cultural Evolution                                                
+        department: Department of Linguistic and Cultural Evolution 
+    roles:
+      - conceptualisation
+      - funding acquistion
+      - methodology
+      - project administration
+      - reources
+      - supervision
+      - writing - original draft
+      - writing - review & editing                                                    
 author-note:
   status-changes: 
     affiliation-change: ~
     deceased: ~
   disclosures:
-    study-registration: OSF Preregistration <https://doi.org/10.17605/OSF.IO/B39XT>.
-    data-sharing: ~
+    study-registration: This hypotheses and data analysis plan for this study are preregistred at OSF <https://doi.org/10.17605/OSF.IO/B39XT>. 
+    data-sharing: The data described in this study are part of the Muslim Diversity Study, that is conducted under the [New Zealand Attitudes and Values Study](https://osf.io/75snb/).
     related-report: ~
     conflict-of-interest: The authors have no conflict of interest to disclose.
-    financial-support: Templeton Religion Trust.
-    gratitude: ~
+    financial-support: A National Longitudinal Study of Muslim Diversity and Flourishing (famously knownas Muslim Diversity Study) is supported by a grant from the Templeton Religion Trust (TRT-2022-30579). The funders had no role in preparing the manuscript or the decision to publish it.
+    gratitude: The authores are grateful to W. Joel Schneider for the [Quarto template](https://github.com/wjschne/apaquarto).
     authorship-agreements: ~
 abstract: "The New Zealand Attitudes and Values Study is a longitudinal study of social values and attitudes of New Zealanders that started in 2009. Since its inception, it has collected data from > 70,000 adults. In addition to examining numerous social, political, and health aspects of New Zealanders' lives, this research has particularly examined negative attitudes towards minority groups, such as discrimination and prejudice have been examined. In 2019, the Muslim community was the target of the worst terrorist attack in New Zealand’s modern history. Following this devastating event, we aimed to extract data from the New Zealand Attitudes and Values Study to understand Islamophobia and its implications for the Muslim community. In addition, we deem necessary to investigate the overall wellbeing and flourishing of Muslims in New Zealand, and whether values, identity, religiosity, and meaning-making affect Muslims’ self-perception and health outcomes. However, we were limited by the sample size of Muslims within the New Zealand Attitudes and Values Study to make such inferences. Therefore, the current project, titled the Muslim Diversity Study, was designed to recruit more Muslim participants within the New Zealand Attitudes and Values Study over a three-year quantitative longitudinal study. This protocol describes the context that motivated this research, our pilot Muslim community consultation, the decisions made and modified based on consultation (e.g., whether or not to translate the questionnaire, which groups to target, etc.), data collection methods, research team, quantitative measures, and timeline. It also provides our initial findings and observations, mainly based on the first year of the research and addresses the perceived enablers and challengers of data collection from a culturally distinct religious community in New Zealand. This protocol will serve as a reference text for researchers conducting work not only on Islam and the Muslim community in New Zealand but also on other ethnic and religious communities and minorities in the country. It will also allow researchers to apply the methods and findings to other contexts and regions across the world and provide comparative insights and analyses."
 keywords: [Muslim, Islam, religion, diversity, discrimination, flourishing, wellbeing, meaning-making, identity, New Zealand, MDS, NZAVS]
@@ -209,13 +330,11 @@ In the aftermath of Christchurch shootings, the Government introduced unpreceden
 
 Although, there have been sporadic reports of increased hate crimes after the attacks [@wilson2020], the average sentiments have improved. The New Zealand Attitudes and Values Study (NZAVS), in a series of articles, reported the positive shift in these attitudes toward Muslims post Christchurch attacks [@shanaah2021; @bulbulia2023], and the psychological response of New Zealand public to shootings [@byrne2022].
 
-The Christchurch shootings prompted many research groups to study Muslims further, that so far have been a culturally-distinct, under-researched, minority group. These studies included trauma-focused response [@sulaiman-hill2021; @sulaiman-hill2024], wellbeing (Junaid et al., 2023), perceived discrimination among Muslim immigrant youth [@raissi2024], the political implications of government decisions [@arkilic2021a]. 
+The Christchurch shootings prompted many research groups to study Muslims further, that so far have been a culturally-distinct, under-researched, minority group. These studies included trauma-focused response [@sulaiman-hill2021; @sulaiman-hill2024], inclusion, Islamophobia, and wellbeing [@junaid2024], perceived discrimination among Muslim immigrant youth [@raissi2024], the political implications of government decisions [@arkilic2021a] and etc. Given that, at NZAVS, we have explored perception of Muslims and the mechanisms of attitudinal changes towards Muslims following 15 March 2019 attacks [@sibley2020; @shaver2017; @bulbulia2023; @hawi2019], it was timely and necessary that we expanded our reach further.
 
-Given that, at NZAVS, we have explored perception of Muslims and the mechanisms of attitudinal changes towards Muslims following 15 March 2019 attacks [@sibley2020; @shaver2017; @bulbulia2023; @hawi2019], it was timely and necessary that we expanded our reach further.
+The NZAVS is a planned 20-year-long longitudinal national probability annual panel study of social attitudes, personality, ideology and health outcomes that began in 2009 and is currently in its 15th year. It has so far collected data from more than 70,000 New Zealand residents using the electoral roll [@newzeal2024]. The NZAVS has been instrumental in exploring key issues related to minorities, including but not limited to discrimination, intergroup relations, identity, distress, security, and the dynamics and mechanisms behind them.
 
-The NZAVS is a planned 20-year-long longitudinal national probability annual panel study of social attitudes, personality, ideology and health outcomes that began in 2009 and is currently in its 15th year. It has so far collected data from more than 70,000 New Zealand residents using the electoral roll [@newzeal2024]. The NZAVS has been instrumental in exploring key issues related to minorities, including but not limited to discrimination, intergroup relations, identity, distress, security, and the dynamics and mechanisms behind them. 
-
-The NZAVS has been uniquely positioned due to its prestigious reputation (> 150 peer-reviewed publications), longiutinal panel design, large sample size, and a large multi-disciplinary research team [@sibley2024]. However, the Muslim sample in NZAVS has been < 100. This did not allow us to make meaningful inferences regarding Mulsim lives and issues in comparison with other identity groups. Hence, there was an immediate need to collect more data from Muslims in New Zealand.
+The NZAVS has been uniquely positioned due to its prestigious reputation (\> 150 peer-reviewed publications), longiutinal panel design, large sample size, and a large multi-disciplinary research team [@sibley2024]. However, the Muslim sample in NZAVS has been \< 100. This did not allow us to make meaningful inferences regarding Mulsim lives and issues in comparison with other identity groups. Hence, there was an immediate need to collect more data from Muslims in New Zealand.
 
 In addition, much of the NZAVS work to date with the Muslim community has focused on conveying information about how Muslims are perceived by the non-Muslim members of New Zealand society. After receiving strong positive signals from the Muslim community to scientifically explore diversity, discrimination, self-perception, resilience, meaning-making, and flourishing; this three-year longitudinal study was conceived in 2022 to address this scholarly and community knowledge gap. Therefore, MDS is effectively a booster to NZVAS, and uses the NZVAS questionnaires to collect data from the members of Muslim community in New Zealand.
 
@@ -565,6 +684,9 @@ ggplot(data, aes(x = Date, y = Responses)) +
 2.  Current Wave general procedure: Usman and Jamila with input from all RA's: Farah, Hussain, Hala, Zarqa, Zahra H, Nasrat
 
 -   **Ethical Considerations:** Discuss ethical approval obtained for the study and procedures for obtaining informed consent from participants.
+
+# Ethics
+
 -   **Data Analysis:** Provide an overview of the planned data analysis methods, including statistical techniques for longitudinal data analysis.
 -   **Preregistration:** The design, hypotheses, measures, and anticipated data analysis are preregistered on OSF (). The study was preregistered before any attempted analyses of data.
 
@@ -576,6 +698,8 @@ ggplot(data, aes(x = Date, y = Responses)) +
 # Timeline
 
 -   Present a timeline indicating key milestones in the study, including recruitment periods, data collection waves, and analysis phases.
+
+# Waves - years - with NZAVS corresponding
 
 1.  Usman and Jamila
 
@@ -624,16 +748,6 @@ Summarize the importance of the longitudinal study in understanding the psycholo
 
 1.  Zahra E, Rizwan, Somia
 
-# Ethics
-
-# Funding
-
-A National Longitudinal Study of Muslim Diversity and Flourishing (famously knownas Muslim Diversity Study) is supported by a grant from the Templeton Religion Trust(TRT-2022-30579). The funders had no role in preparing the manuscript or the decisionto publish it.
-
-# Data Availability
-
-The data described in this study are part of the Muslim Diversity Study, that is conducted under the [New Zealand Attitudes and Values Study](https://osf.io/75snb/).
-
 <!-- # Method -->
 
 <!-- ## Participants -->
@@ -660,16 +774,6 @@ The data described in this study are part of the Muslim Diversity Study, that is
 :::
 
 {{< pagebreak >}}
-
-# Acknowledgements
-
-W. Joel Schneider for the [Quarto template](https://github.com/wjschne/apaquarto).
-
-{{< pagebreak >}}
-
-# CRediT Taxonomy Statement
-
-**M. Usman Afzali:** Conceptualization, Methodology, Formal analysis, Investigation, Resources, Data Curation, Writing - Original Draft, Writing - Review & Editing, Visualization, Supervision, Project Administration, Funding Acquisition. **Jamila Badis:** Data Curation, Project Administration, Writing - Original Draft, Writing - Review & Editing. **Parus Khoso:** Formal analysis, Data Curation, Writing - Original Draft (Pilot Community Consultation), Writing - Review & Editing. **Gul e Aqsa:** Formal analysis, Data Curation, Writing - Original Draft (Pilot Community Consultation), Writing - Review & Editing. **Farah Shawkat:** Data Curation, Writing - Original Draft (Other Related Work), Writing - Review & Editing. **Fatima Junaid:** Writing - Original Draft (Introduction), Writing - Review & Editing. **Ayca Arkilic:** Writing - Original Draft (Introduction), Writing - Review & Editing. **Hussain Raissi:** Writing - Original Draft (Method), Writing - Review & Editing. **Hala Burhoum:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Tuba Azeem:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Iman Husain:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Zarqa Shaheen Ali:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Zahra Haidary:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Nasratullah Hamid:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Zahra Emamzadeh:** Writing - Original Draft (Strengths and Limitations, Conclusion), Writing - Review & Editing. **Rizwan Sulehry:** Writing - Original Draft (Strengths and Limitations, Conclusion), Writing - Review & Editing. **Somia Tasneem:** Writing - Original Draft (Strengths and Limitations, Conclusion), Writing - Review & Editing. **Aarif Rasheed:** Conceptualization, Data Curation, Writing - Review & Editing, Funding Acquisition. **Kumar Yogeeswaran:** Conceptualization, Methodology, Writing - Original Draft, Writing - Review & Editing, Funding Acquisition. **Chris G. Sibley:** Conceptualization, Methodology, Resources, Data Curation, Supervision, Writing - Original Draft, Writing - Review & Editing, Project Administration, Funding Acquisition. **Joseph A. Bulbulia:** Conceptualization, Methodology, Resources, Supervision, Writing - Original Draft, Writing - Review & Editing, Project Administration, Funding Acquisition.
 
 # Appendix
 
