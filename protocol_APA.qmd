@@ -1,5 +1,5 @@
 ---
-title: "A national longitudinal study of Muslim diversity and flourishing in Aotearoa New Zealand: A quantitative study protocol"
+title: "Muslim Diversity Study: A quantitative study protocol"
 shorttitle: "MDS - an NZAVS booster"
 author:
   - name: M. Usman Afzali
@@ -297,8 +297,8 @@ author-note:
     data-sharing: The data described in this study are part of the Muslim Diversity Study, that is conducted under the [New Zealand Attitudes and Values Study](https://osf.io/75snb/).
     related-report: ~
     conflict-of-interest: The authors have no conflict of interest to disclose.
-    financial-support: A National Longitudinal Study of Muslim Diversity and Flourishing (famously knownas Muslim Diversity Study) is supported by a grant from the Templeton Religion Trust (TRT-2022-30579). The funders had no role in preparing the manuscript or the decision to publish it.
-    gratitude: The authores are grateful to W. Joel Schneider for the [Quarto template](https://github.com/wjschne/apaquarto).
+    financial-support: The Muslim Diversity Study - officially known as "A National Longitudinal Study of Muslim Diversity and Flourishing" is supported by a grant from the Templeton Religion Trust (TRT-2022-30579). The funders had no role in preparing the manuscript or the decision to publish it.
+    gratitude: The authors are grateful to W. Joel Schneider for the [Quarto template](https://github.com/wjschne/apaquarto).
     authorship-agreements: ~
 abstract: "The New Zealand Attitudes and Values Study is a longitudinal study of social values and attitudes of New Zealanders that started in 2009. Since its inception, it has collected data from > 70,000 adults. In addition to examining numerous social, political, and health aspects of New Zealanders' lives, this research has particularly examined negative attitudes towards minority groups, such as discrimination and prejudice have been examined. In 2019, the Muslim community was the target of the worst terrorist attack in New Zealand’s modern history. Following this devastating event, we aimed to extract data from the New Zealand Attitudes and Values Study to understand Islamophobia and its implications for the Muslim community. In addition, we deem necessary to investigate the overall wellbeing and flourishing of Muslims in New Zealand, and whether values, identity, religiosity, and meaning-making affect Muslims’ self-perception and health outcomes. However, we were limited by the sample size of Muslims within the New Zealand Attitudes and Values Study to make such inferences. Therefore, the current project, titled the Muslim Diversity Study, was designed to recruit more Muslim participants within the New Zealand Attitudes and Values Study over a three-year quantitative longitudinal study. This protocol describes the context that motivated this research, our pilot Muslim community consultation, the decisions made and modified based on consultation (e.g., whether or not to translate the questionnaire, which groups to target, etc.), data collection methods, research team, quantitative measures, and timeline. It also provides our initial findings and observations, mainly based on the first year of the research and addresses the perceived enablers and challengers of data collection from a culturally distinct religious community in New Zealand. This protocol will serve as a reference text for researchers conducting work not only on Islam and the Muslim community in New Zealand but also on other ethnic and religious communities and minorities in the country. It will also allow researchers to apply the methods and findings to other contexts and regions across the world and provide comparative insights and analyses."
 keywords: [Muslim, Islam, religion, diversity, discrimination, flourishing, wellbeing, meaning-making, identity, New Zealand, MDS, NZAVS]
@@ -316,9 +316,11 @@ On 15 March 2019, a devastating far-right extremist attack on two mosques took p
 
 The current article elaborates on the protocol of a pioneering three-year longitudinal study titled the Muslim Diversity Study poised to achieve this very goal – examining Muslims' self-perception in New Zealand from a variety of angles, as well as, the predictors of resilience, flourishing, and wellbeing within Muslims. The study started in 2023 and is planned to conclude in 2026. The goal is to achieve as many as 650 Muslim respondents.
 
+## Introduction
+
 The Muslim community has been expanding in New Zealand. Based on the 2018 census, New Zealand had more than 60,000 Muslims; which has grown to \> 75,000 according to the 2023 Census [@statsnz2023]. Studies also show that the number of converts to Islam has increased after the 2019 terror attack [@arkilic2020]. The Muslim community is uniquely positioned in New Zealand: as a growing religious minority, it is a historically stigmatized group that were the direct victims of the 2019 terrorist attack [@royalco2020; @sibley2020].
 
-*A national longitudinal study of Muslim diversity and flourishing in Aotearoa New Zealand* (hereafter: the Muslim Diversity Study or **MDS**) embraces a community-oriented approach by collaborating with the Muslim community in order to make decisions about the execution of data collection and for identifying key questions of interest for the community at large. It is important that such processes and decisions are recorded in the form of a study protocol so that our findings are shared with the broader public and future researchers in New Zealand and across the globe can benefit from our outputs.
+Muslim Diversity Study (MDS) — officially known as *A national longitudinal study of Muslim diversity and flourishing* embraces a community-oriented approach by collaborating with the Muslim community in order to make decisions about the execution of data collection and for identifying key questions of interest for the community at large. It is important that such processes and decisions are recorded in the form of a study protocol so that our findings are shared with the broader public and future researchers in New Zealand and across the globe can benefit from our outputs.
 
 This protocol addresses MDS' pilot community consultation, the decisions made and modified based on consultation, community engagement, data collection, team, measures, and proposed data analysis plan. To set the rationale for MDS, it is important to have a brief look at attitudes towards Muslims in New Zealand.
 
@@ -330,85 +332,33 @@ In the aftermath of Christchurch shootings, the Government introduced unpreceden
 
 Although, there have been sporadic reports of increased hate crimes after the attacks [@wilson2020], the average sentiments have improved. The New Zealand Attitudes and Values Study (NZAVS), in a series of articles, reported the positive shift in these attitudes toward Muslims post Christchurch attacks [@shanaah2021; @bulbulia2023], and the psychological response of New Zealand public to shootings [@byrne2022].
 
-The Christchurch shootings prompted many research groups to study Muslims further, that so far have been a culturally-distinct, under-researched, minority group. These studies included trauma-focused response [@sulaiman-hill2021; @sulaiman-hill2024], inclusion, Islamophobia, and wellbeing [@junaid2024], perceived discrimination among Muslim immigrant youth [@raissi2024], the political implications of government decisions [@arkilic2021a] and etc. Given that, at NZAVS, we have explored perception of Muslims and the mechanisms of attitudinal changes towards Muslims following 15 March 2019 attacks [@sibley2020; @shaver2017; @bulbulia2023; @hawi2019], it was timely and necessary that we expanded our reach further.
+The Christchurch shootings prompted many New Zealand research groups and institutions to study Muslims further, that so far have been a culturally-distinct, under-researched, minority group. These studies included trauma-focused response [@sulaiman-hill2021; @sulaiman-hill2024], inclusion, Islamophobia, and wellbeing [@junaid2024], perceived discrimination among Muslim immigrant youth [@raissi2024], the political implications of government decisions [@arkilic2021a] and etc. Given that, at NZAVS, we have explored perception of Muslims and the mechanisms of attitudinal changes towards Muslims following 15 March 2019 attacks [@sibley2020; @shaver2017; @bulbulia2023; @hawi2019], it was timely and necessary that we expanded our reach further.
 
 The NZAVS is a planned 20-year-long longitudinal national probability annual panel study of social attitudes, personality, ideology and health outcomes that began in 2009 and is currently in its 15th year. It has so far collected data from more than 70,000 New Zealand residents using the electoral roll [@newzeal2024]. The NZAVS has been instrumental in exploring key issues related to minorities, including but not limited to discrimination, intergroup relations, identity, distress, security, and the dynamics and mechanisms behind them.
 
-The NZAVS has been uniquely positioned due to its prestigious reputation (\> 150 peer-reviewed publications), longiutinal panel design, large sample size, and a large multi-disciplinary research team [@sibley2024]. However, the Muslim sample in NZAVS has been \< 100. This did not allow us to make meaningful inferences regarding Mulsim lives and issues in comparison with other identity groups. Hence, there was an immediate need to collect more data from Muslims in New Zealand.
+The NZAVS has been uniquely positioned due to its prestigious reputation (\> 150 peer-reviewed publications), longiutinal panel design, large sample size, and a large multi-disciplinary research team [@sibley2024]. More importantly, NZAVS has a nationally representative sample with data from different identity and religious group [@sibley2024], thereby, allowing us to compare data from different identity groups. However, the Muslim sample in NZAVS has been \< 100, that did not allow us to make meaningful inferences regarding Mulsim lives and issues in comparison with other religious groups. Hence, there was an immediate need to collect more data from Muslims in New Zealand.
 
 In addition, much of the NZAVS work to date with the Muslim community has focused on conveying information about how Muslims are perceived by the non-Muslim members of New Zealand society. After receiving strong positive signals from the Muslim community to scientifically explore diversity, discrimination, self-perception, resilience, meaning-making, and flourishing; this three-year longitudinal study was conceived in 2022 to address this scholarly and community knowledge gap. Therefore, MDS is effectively a booster to NZVAS, and uses the NZVAS questionnaires to collect data from the members of Muslim community in New Zealand.
 
-The broader focus of MDS is not only examining the Muslim community, but also comparing it with members of other religious and identity groups. Thereofre, we aim to explore the diversity of Muslims in New Zealand, assess Muslims' perceived discrimination in comparison with other groups, unearth predictors of flourishing and meaning-making, and measure the effect of service-attendance and religious-identification on these constructs.
+We aim to explore the diversity of Muslims in New Zealand, assess Muslims' perceived discrimination in comparison with other groups, unearth predictors of flourishing and meaning-making, and measure the effect of service-attendance and religious-identification on these constructs.
 
 MDS started with pilot community consultation as detailed below in this protocol.
 
 **Pilot community consultation**
 
-Before applying for the research grant, we deemed necessary to gauge Muslim community's interest in the project, as well as the feasibility of the project for the Muslim community. This pilot consultation took place between Feb and Nov 2022 where the PI reached out to 29 Muslims (20 representing community, religious or cultural organisations and 9 individuals) in different cities from different academic and cultural backgrounds, age groups, and genders including community leaders, religious scholars, and activists. The conversations focused around four objectives: 1) To assess the feasibility of the project for Muslims, 2) To assess interest of Muslims in the project, 3) To get feedback on the survey items, and 4) To inquire if translation may be needed. First, all 29 respondents believed that the study was feasible and timely for Muslims, and that Muslims will be interested to participate. In addition, the highest participation should be anticipated from youth, second generation migrants, educated, and women. Second, not only did they believe that the study and our planned measures were important, they have also promised to support us in every possible way.
+Before applying for the research grant, we deemed necessary to gauge Muslim community's interest in the project, as well as the feasibility of the project for the Muslim community. This pilot consultation took place between Feb and Nov 2022 where the principal investigator reached out to 29 Muslims (20 representing community, religious or cultural organisations and 9 individuals) in different cities from different academic and cultural backgrounds, age groups, and genders including community leaders, religious scholars, and activists. The conversations focused around four objectives: 1) To assess the feasibility of the project for Muslims, 2) To assess interest of Muslims in the project, 3) To get feedback on the survey items, and 4) To inquire if translation may be needed. First, all 29 respondents believed that the study was feasible and timely for Muslims, and that Muslims will be interested to participate. In addition, the highest participation should be anticipated from youth, second generation migrants, educated, and women. Second, not only did they believe that the study and our planned measures were important, they have also promised to support us in every possible way.
 
-Challenges identified: 1. Those from Christchurch might not be up to the expectations as after Christchurch shooting people were surveyed a lot. 2. It might not be easy for people to understand the questionnaires due to unfamiliarity of the community with research. 3. Elderly might not be interested, so we need to find avenues to address them.
+Challenges identified: 1) The participation from Christchurch might not be up to the expectations as after Christchurch shooting people were surveyed a lot and not provided with the findings. 2) It might not be easy for people to understand the questionnaires due to unfamiliarity of the community with research. 3) The participation from elderly community and Muslim converts might be low, so we need to find avenues to address them. 4) Community members might be suspicious and consider the study to have ulterior or personal motives.
 
-Recommendations: 1. The participants must be informed about the study motivation and be transparent and clearly communicate, benefits to the community, and that it will increase Muslims' visibility and raise their voice in research. Especially the long-term benefits for the community and their children should be made clear. 2. We should reach out to the community via trusted community, ethnic, religious organisations, and mosques. 3. For youth engagement, we should go via youth organisations such as MSAs at universities. It was suggested that a family focused strategy should be used as starting with men would be more effective. 4. Findings should be shared back with the community in future due to the diversity it will present. 5. Many said that the questionnaire needs to be translated into seven ethnic languages. However, some community members thought it was not necessary since those that would participate would perhaps know English very well.
+Recommendations: 1) The participants must be informed about the study motivation and be transparent and clearly communicate, benefits to the community, and that it will increase Muslims' visibility and raise their voice in research. Especially the long-term benefits for the community and their children should be made clear. 2) We should reach out to the community via trusted community, ethnic, religious organisations, and mosques. 3) For youth engagement, we should go via youth organisations such as Muslim Student Associations (MSAs) at universities. It was suggested that a family focused strategy should be used as starting with men would be more effective. 4) Findings should be shared back with the community in future due to the diversity it will present. 5) Many said that the questionnaire needs to be translated into seven ethnic languages. However, they also indicated that a majority of potential participants could comprehend the English version easily. 6) To be able to share with the community and keep them up-to-date, it was also recommended to have a unique identity and website. Therefore, instead of calling it a booster to NZAVS, the project was named Muslim Diversity Study.
+
+This whole process led to develop a comprehensive guideline that addresses feasibility, advice on engagement with the community, the possible challenges, and avenues to enhance participation. The participants of this consultation form the Advisory Group of MDS and are being consulted regulary as needed.
 
 **Translation**
 
-Third, there has been a consensus that a majority of participants will be able to use the English version. Nevertheless, to reach a broader bandwidth of Muslim diversity, we initially need to pilot and test translated versions of the NZAVS flourishing scales and survey.
+Our consultation with the community indicated that the translation may only be needed for a small number of Muslims living in New Zealand, and that a majority will be able to use the English version. We had consulted with a group (Sulaiman-Hill and colleagues) who have been conducting research within the Muslim community. Therefore, instead of using the common translation back-translation procedure, we were thinking of using a more effective way of translating, back-translating, and comparing notes to ensure conceptual equivalence [@sulaiman-hill2021]. This method was inspired by the recent developments and recommendations based on the needs in countries that home an increasing number of refugees [@ozolins2020; @barger2010]. Following this, the translation was planned to be checked by experts as recommend by @fenn2020 and piloted within the Advisory Group to ensure reliability and conceptual equivalence.
 
-*Translation: As pointed out previously, the qualitative process that the reviewer has*
-
-*suggested has already been going on for the last five months. As a result, we*
-
-*developed a 6-page comprehensive guideline that addresses feasibility, advice on*
-
-*engagement with the community, the possible challenges, avenues to enhance*
-
-*participation, etc. All 29 respondents evaluated our projects as a positive and needed*
-
-*initiative. They have also agreed to assist with piloting and translation.*
-
-*Our consultation with the Advisory Group shows that the translation may only be*
-
-*needed for a small number of Muslims living in New Zealand, and that a majority will be*
-
-*able to use the English version. This gives us a methodological safety-net since we can*
-
-*be more confident that the meaning of concepts is not distorted because of*
-
-*translation. As far as the translation itself is concerned, we have consulted with a group*
-
-*(Sulaiman-Hill and colleagues) who have been conducting research within the Muslim*
-
-*community. Therefore, instead of using the common translation back-translation*
-
-*procedure, we will use a more effective way of translating, back-translating, and*
-
-*comparing notes to ensure conceptual equivalence (Sulaiman-Hill et al., 2021). This*
-
-*method is inspired by the recent developments and recommendations based on the*
-
-*needs in countries that home an increasing number of refugees (Barger et al., 2010;*
-
-*Ozolins et al., 2020). Following this, the translation will be checked by experts as*
-
-*recommend by Fenn et al. (2020) and piloted within the Advisory Group to ensure*
-
-*reliability and conceptual equivalence. (Proposal updated: Project Description -\> Methodology -\>*
-
-*Translation).*
-
-*In addition, Dr. Afzali has established connections with a network of Muslim researchers*
-
-*in New Zealand. These researchers will be recruited as Research Assistants (RAs) for this*
-
-*project. The prospective RAs live in the three largest cities of New Zealand*
-
-*(Christchurch, Wellington, and Auckland) and are related to different cultural groups.*
-
-*The participants who need to use translated surveys will be supported by our*
-
-*competent RAs – who are well aware of the risks of the loss of concepts because of*
-
-*translation.*
+However, an important aspect of MDS is comparing Muslim scores on NZAVS with members from other religious groups. With a translated questionnaire, we still faced the risk of inability to capture the attitudes and behaviours as accurately as the English version. Therefore, we would not know if differences between Muslim scores and other groups would be due to religion or a biased translation. We raised this problem with the Advisory Group, and it was recommended not to translate the questionnaire. This gave us a methodological safety-net since we could be more confident that the meaning of concepts is not distorted because of translation.
 
 **Sections**
 
@@ -417,6 +367,13 @@ Third, there has been a consensus that a majority of participants will be able t
 2.  Other research on Muslim wellbeing (Dr Fatima)
 
 3.  Other ongoing projects: Qual (Farah); and Islamophobia scale to verify our previous findings (Jamila).
+
+# Recruitment - 
+
+add stats
+
+RAs - re related to different cultural groups.
+
 
 # Background
 
