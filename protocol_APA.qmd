@@ -340,11 +340,11 @@ The NZAVS has been uniquely positioned due to its prestigious reputation (\> 150
 
 In addition, much of the NZAVS work to date with the Muslim community has focused on conveying information about how Muslims are perceived by the non-Muslim members of New Zealand society. After receiving strong positive signals from the Muslim community to scientifically explore diversity, discrimination, self-perception, resilience, meaning-making, and flourishing; this three-year longitudinal study was conceived in 2022 to address this scholarly and community knowledge gap. Therefore, MDS is effectively a booster to NZVAS, and uses the NZVAS questionnaires to collect data from the members of Muslim community in New Zealand.
 
-We aim to explore the diversity of Muslims in New Zealand, assess Muslims' perceived discrimination in comparison with other groups, unearth predictors of flourishing and meaning-making, and measure the effect of service-attendance and religious-identification on these constructs.
+We aim to explore the diversity of Muslims in New Zealand, assess Muslims' perceived discrimination in comparison with other religious groups, unearth predictors of flourishing and meaning-making, and measure the effect of service-attendance and religious-identification on these constructs.
 
 MDS started with pilot community consultation as detailed below in this protocol.
 
-**Pilot community consultation**
+## Pilot community consultation
 
 Before applying for the research grant, we deemed necessary to gauge Muslim community's interest in the project, as well as the feasibility of the project for the Muslim community. This pilot consultation took place between Feb and Nov 2022 where the principal investigator reached out to 29 Muslims (20 representing community, religious or cultural organisations and 9 individuals) in different cities from different academic and cultural backgrounds, age groups, and genders including community leaders, religious scholars, and activists. The conversations focused around four objectives: 1) To assess the feasibility of the project for Muslims, 2) To assess interest of Muslims in the project, 3) To get feedback on the survey items, and 4) To inquire if translation may be needed. First, all 29 respondents believed that the study was feasible and timely for Muslims, and that Muslims will be interested to participate. In addition, the highest participation should be anticipated from youth, second generation migrants, educated, and women. Second, not only did they believe that the study and our planned measures were important, they have also promised to support us in every possible way.
 
@@ -354,41 +354,13 @@ Recommendations: 1) The participants must be informed about the study motivation
 
 This whole process led to develop a comprehensive guideline that addresses feasibility, advice on engagement with the community, the possible challenges, and avenues to enhance participation. The participants of this consultation form the Advisory Group of MDS and are being consulted regulary as needed.
 
-**Translation**
+## Translation
 
 Our consultation with the community indicated that the translation may only be needed for a small number of Muslims living in New Zealand, and that a majority will be able to use the English version. We had consulted with a group (Sulaiman-Hill and colleagues) who have been conducting research within the Muslim community. Therefore, instead of using the common translation back-translation procedure, we were thinking of using a more effective way of translating, back-translating, and comparing notes to ensure conceptual equivalence [@sulaiman-hill2021]. This method was inspired by the recent developments and recommendations based on the needs in countries that home an increasing number of refugees [@ozolins2020; @barger2010]. Following this, the translation was planned to be checked by experts as recommend by @fenn2020 and piloted within the Advisory Group to ensure reliability and conceptual equivalence.
 
 However, an important aspect of MDS is comparing Muslim scores on NZAVS with members from other religious groups. With a translated questionnaire, we still faced the risk of inability to capture the attitudes and behaviours as accurately as the English version. Therefore, we would not know if differences between Muslim scores and other groups would be due to religion or a biased translation. We raised this problem with the Advisory Group, and it was recommended not to translate the questionnaire. This gave us a methodological safety-net since we could be more confident that the meaning of concepts is not distorted because of translation.
 
-**Sections**
-
-1.  Far right terrorism and attitudes toward Muslims (Usman)
-
-2.  Other research on Muslim wellbeing (Dr Fatima)
-
-3.  Other ongoing projects: Qual (Farah); and Islamophobia scale to verify our previous findings (Jamila).
-
-# Recruitment - 
-
-add stats
-
-RAs - re related to different cultural groups.
-
-
-# Background
-
--   Provide a brief overview of the Christchurch mosque attacks and their aftermath.
--   Discuss existing literature on the psychological effects of mass trauma events, particularly on diverse cultural groups.
--   Outline the gaps in current knowledge regarding the long-term psychological effects of such events on the Muslim community.
-
-# Research Aims
-
--   Clearly state the research questions and objectives of the longitudinal study.
--   Emphasize the importance of assessing psychological outcomes over time to understand the trajectory of mental health in the affected population.
-
 ## Hypotheses
-
-Given that the present project functions as a booster for the NZAVS and uses the same questionnaires, the questions that can be answered by MDS can be limitless, and one coud suggest a large number of hypotheses to be tested and questions that can be answered from these data in the years to come. However, immediately we are trying to test the following hypotheses -- within the span of MDS:
 
 *Hypothesis 1:* Muslims with the strongest ties to their community as measured by service attendance and prayer are buffered most from anti-Muslim prejudice.
 
@@ -396,17 +368,62 @@ Given that the present project functions as a booster for the NZAVS and uses the
 
 *Hypothesis 3:* Subjective well-being, the meaning of life, and psychological distress are similar among Muslims and matched members of religious groups from the buffering of religious community-making.
 
-Based on your initial findings, can you here include any hypothesis about how perceptions of Islamophobia and racism have changed for Muslims after the 2019 ChCh attack? This would be one of the key goals and contributions of this study. (Ayca)
-
-Having sensed interest in these data from researchers in New Zealand and overseas, it maybe possible to immediately test other hypotheses within the realm of MDS, that would be published as independent research articles.
-
 # Method
 
--   **Study Design:** Describe the longitudinal design of the study, including the planned follow-up periods.
+## Design
 
--   **Participant Selection:** Define the inclusion criteria for participants, specifying age, residency, and other relevant factors.
+MDS is a three-year-long booster for NZVAS. NZAVS is a planned 20-year-long longitudinal panel study of adult New Zealanders, currently in its 15th year (Wave 15) that correponds with Wave 1 (the firs year) of MDS (15 Oct 2023 to 14 Oct 2024). Wave 2 and Wave 3 of MDS will correspond with NZAVS Wave 16 and Wave 17, respectively.
 
-    Muslim = 1.3% of New Zealand population.
+## Participants
+
+NZAVS participant details will be available online after the completion of Wave 15 <https://osf.io/75snb/>. MDS attempts to increase the sample size of Muslims in NZAVS. Based on the 2018 Census, New Zealand had 60,261 Muslims in 2022 [@statsnz2023] --- about 1.3% of New Zealand population. As shown in Table @tbl-muslim-population, we selected six cities (Auckland, Christchurch, Hamilton, Wellington, Palmerston North, and Dunedin) that had at least 1,000 Muslims, for data collection. Inclusion criteria consisted of self identification as Muslim, being 18 year of age or older, and currently residing in New Zealand. 
+
+```{r}
+#| echo: false
+#| label: tbl-muslim-population
+
+library(readxl)
+library(gt)
+
+muslims_total <- "muslims_nz_statsnz.xlsx"
+data <- read_excel(muslims_total)
+
+# Filter for the six specific cities and rename Auckland
+selected_cities <- c("Auckland", "Hamilton City", "Palmerston North City", "Wellington City", "Christchurch City", "Dunedin City")
+filtered_data <- data[data$Area %in% selected_cities, ]
+
+# Rename Auckland to "Auckland City" in the data
+filtered_data$Area[filtered_data$Area == "Auckland"] <- "Auckland City"
+
+# Remove the word "City" from the area names
+filtered_data$Area <- gsub(" City", "", filtered_data$Area)
+
+# Add RA's column
+ra_values <- c(10, 4, 1, 5, 8, 2)  # RAs for Auckland, Hamilton, Palmerston North, Wellington, Christchurch, and Dunedin
+filtered_data$RAs <- ra_values[match(filtered_data$Area, c("Auckland", "Hamilton", "Palmerston North", "Wellington", "Christchurch", "Dunedin"))]
+
+# Order by Population (descending) and then by Area
+filtered_data <- filtered_data[order(filtered_data$pop, decreasing = TRUE), ]
+
+# Create the table with the specified order
+area_df <- data.frame(Area = filtered_data$Area, Population = as.integer(filtered_data$pop), RAs = filtered_data$RAs)
+area_df <- area_df[order(area_df$Population, decreasing = TRUE), ]
+
+# Create the table
+table <- gt(area_df) %>%
+  tab_header(title = "Muslim Population by Selected Cities") %>%
+  fmt_number(columns = "Population", use_seps = TRUE, decimals = 0) %>%
+  cols_label(Area = "City", Population = "Population", RAs = "Research Assistants") %>%
+  cols_align(align = "left", columns = "Area")  # Left-align the city names column
+
+table
+
+```
+
+
+
+
+
 
 **Materials**
 
@@ -606,6 +623,8 @@ knitr::include_graphics("figs/life-sat.png")
 
 -   **Recruitment:** Detail the recruitment strategy, including outreach methods and sources of recruitment.
 
+RAs - re related to different cultural groups.
+
 -   **Data Collection:** Explain the quantitative measures to be used in data collection, including validated self-report instruments and clinical assessments.
 
 ```{r}
@@ -697,7 +716,7 @@ ggplot() +
 
 1.  Zahra E, Rizwan, Somia
 
-Mentions Jamila's and Qual here..
+Mentions Jamila's and Qual here.. 
 
 # Conclusion
 
