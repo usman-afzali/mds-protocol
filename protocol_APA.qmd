@@ -333,7 +333,7 @@ In the aftermath of Christchurch shootings, the Government introduced unpreceden
 
 Although, there have been sporadic reports of increased hate crimes after the attacks [@wilson2020], the average sentiments have improved. The New Zealand Attitudes and Values Study (NZAVS), in a series of articles, reported the positive shift in these attitudes toward Muslims post Christchurch attacks [@shanaah2021; @bulbulia2023], and the psychological response of New Zealand public to shootings [@byrne2022].
 
-The Christchurch shootings prompted many New Zealand research groups and institutions to study Muslims further, that so far have been a culturally-distinct, under-researched, minority group. These studies included trauma-focused response [@sulaiman-hill2021; @sulaiman-hill2024], inclusion, Islamophobia, and wellbeing [@junaid2024], perceived discrimination among Muslim immigrant youth [@raissi2024], the political implications of government decisions [@arkilic2021a] and etc. Given that, at NZAVS, we have explored perception of Muslims and the mechanisms of attitudinal changes towards Muslims following 15 March 2019 attacks [@sibley2020; @shaver2017; @bulbulia2023; @hawi2019], it was timely and necessary that we expanded our reach further.
+The Christchurch shootings prompted many New Zealand research groups and institutions to further study Muslims and with Muslims, that so far have been a culturally-distinct, under-researched, minority group. These studies included trauma-focused response [@sulaiman-hill2021; @sulaiman-hill2024], inclusion, Islamophobia, and wellbeing [@junaid2024], perceived discrimination among Muslim immigrant youth [@raissi2024], the political implications of government decisions [@arkilic2021a] among others. Given that, at NZAVS, we have explored perception of Muslims and the mechanisms of attitudinal changes towards Muslims following 15 March 2019 attacks [@sibley2020; @shaver2017; @bulbulia2023; @hawi2019], it was timely and necessary that we expanded our reach further.
 
 The NZAVS is a planned 20-year-long longitudinal national probability annual panel study of social attitudes, personality, ideology and health outcomes that began in 2009 and is currently in its 15th year. It has so far collected data from more than 70,000 New Zealand residents using the electoral roll [@newzeal2024]. The NZAVS has been instrumental in exploring key issues related to minorities, including but not limited to discrimination, intergroup relations, identity, distress, security, and the dynamics and mechanisms behind them.
 
@@ -381,7 +381,7 @@ MDS is a three-year-long booster for NZAVS. NZAVS is a planned 20-year-long long
 
 ## Participants
 
-NZAVS participant details will be available online after the completion of Wave 15 <https://osf.io/75snb/>. MDS attempts to increase the sample size of Muslims in NZAVS by *n* = 650 (\> 1% of New Zealand Muslim population), corresponding with the NZAVS sampling rate from the overall New Zealand population. Based on the 2018 Census, New Zealand had 60,261 Muslims in 2022 [@statsnz2024] --- about 1.3% of New Zealand population. As shown in Table @tbl-muslim-population, we selected six cities (Auckland, Christchurch, Hamilton, Wellington, Palmerston North, and Dunedin) that had at least 1,000 Muslims, for data collection. Inclusion criteria consisted of self identification as Muslim, being 18 year of age or older, and currently residing in New Zealand.
+NZAVS participants details will be available online after the completion of Wave 15 <https://osf.io/75snb/>. MDS attempts to increase the sample size of Muslims in NZAVS by *n* = 650 (\> 1% of New Zealand Muslim population), corresponding with the NZAVS sampling rate from the overall New Zealand population. Based on the 2018 Census, New Zealand had 60,261 Muslims in 2022 [@statsnz2024] --- about 1.3% of New Zealand population. As shown in Table @tbl-muslim-population, we selected six cities (Auckland, Christchurch, Hamilton, Wellington, Palmerston North, and Dunedin) that had at least 1,000 Muslims, for data collection. Inclusion criteria consist of self identification as Muslim, being 18 year of age or older, and currently residing in New Zealand.
 
 ```{r}
 #| echo: false
@@ -441,7 +441,7 @@ For Likert type scales, the minimum and maximum levels are noted along with desc
 
 4.  How many times did you read religious scripture in the last week? (String entry).
 
-5.  How important is your religion to how you see yourself? (String entry) (1 = Not Important, 7 = Very Important).
+5.  How important is your religion to how you see yourself? (1 = Not Important, 7 = Very Important).
 
 6.  I identify as a spiritual person. (1 = Strongly Disagree, 7 = Strongly Agree).
 
@@ -451,7 +451,7 @@ For Likert type scales, the minimum and maximum levels are noted along with desc
 
 ### Prejudice
 
-1.  I feel that I am often discriminated against because of my religious/spiritual beliefs. (1 = Strongly Disagree 1, 7 = Strongly Agree).
+1.  I feel that I am often discriminated against because of my religious/spiritual beliefs. (1 = Strongly Disagree, 7 = Strongly Agree).
 
 2.  People from my ethnic group are discriminated against in New Zealand. (1 = Strongly Disagree, 7 = Strongly Agree).
 
@@ -461,7 +461,7 @@ For Likert type scales, the minimum and maximum levels are noted along with desc
 
 5.  I feel that I am often discriminated against because of my gender. (1 = Very Innacurate, 7 = Very Accurate).
 
-6.  Intergroup Warmth Ratings: Participants are asked to rate their feelings of warmth toward different groups using “feeling thermometer scale” for each group from least to most warmth on a Likert scale where 1 = Least Warm and 7 = Most Warm (see @fig-warmth for reference). Groups include: NZ Europeans, Māori, Asians in general, Pacific Islanders, Elderly people, People with a disability, Refugees, Overweight people, Immigrants in general, Chinese, Indians, Muslims, LGBTQ+ people, People with mental illness.
+6.  Intergroup Warmth Ratings: Participants are asked to rate their feelings of warmth toward different groups using the “feeling thermometer scale” for each group from least to most warmth on a Likert scale where 1 = Least Warm and 7 = Most Warm (see @fig-warmth for reference). Groups include: NZ Europeans, Māori, Asians in general, Pacific Islanders, Elderly people, People with a disability, Refugees, Overweight people, Immigrants in general, Chinese, Indians, Muslims, LGBTQ+ people, People with mental illness.
 
 ```{r}
 #| label: fig-warmth
@@ -472,7 +472,7 @@ For Likert type scales, the minimum and maximum levels are noted along with desc
 knitr::include_graphics("figs/warmth.png")
 ```
 
-### **Felt belonging**
+### Felt belonging
 
 1.  I know that people in my life accept and value me. (1 = Very Innacurate, 7 = Very Accurate).
 
@@ -494,7 +494,7 @@ knitr::include_graphics("figs/warmth.png")
 
 2.  Are you currently employed (This includes self-employed of casual work)? (Yes/No). This leads to a four-point nominal response: employed full-time, employed part-time, unemployed, and not in the labour force.
 
-3.  In that job, what is your current occupation (String entry).
+3.  In that job, what is your current occupation? (String entry).
 
 4.  What is the main activity of the business or employer that you work for? (String entry).
 
@@ -526,19 +526,17 @@ knitr::include_graphics("figs/warmth.png")
 
 9.  Do you currently vape or use e-cigarettes? (Yes/No).
 
-10. Access to and satisfaction with GP: Do you have a regular family doctor/GP? (Yes/No). (If yes) How satisfied are you with the service and care you receive from your family doctor/GP? (1 = Not Satisfied, 7 = Very Satisfied). Do you think your doctor/GP shares a similar cultural background to you? (1 = Definitely No, 7 = Definitely yes). Does your doctor/GP respect your cultural background when you are discussing health issues with them? (1= Definitely No, 7 = Definitely Yes).
+10. Access to and satisfaction with GP: Do you have a regular family doctor/GP? (Yes/No). (If yes) How satisfied are you with the service and care you receive from your family doctor/GP? (1 = Not Satisfied, 7 = Very Satisfied). Do you think your doctor/GP shares a similar cultural background to you? (1 = Definitely No, 7 = Definitely Yes). Does your doctor/GP respect your cultural background when you are discussing health issues with them? (1= Definitely No, 7 = Definitely Yes).
 
 11. Please estimate how many hours you spent during each of the following things last week (String entry). Options provided: Working in paid employment, housework/cooking, looking after children, volunteer/charitable work, exercising/physical activity, watching TV/Netflix/movies, travelling/commuting, watching/reading news, using the internet (in total), using social media (e.g., Facebook), playing video games/computer games.
 
-12. BMI: Calculated by using a person's weight (Kg) divided by square root of height (m) that are asked separately, using "What is your height? (String entry (meters))", and "What is your weight? (String entry (Kgs))"
+12. BMI: Calculated by using a person's weight (Kg) divided by square root of height (m) that are asked separately, using "What is your height? (String entry (meters))", and "What is your weight? (String entry (Kgs))".
 
-13. Forgiveness vs vengeful rumination: Items include "Sometimes I can't sleep because of thinking about past wrongs I have suffered.", "I can usually forgive and forget when someone does me wrong.", "I find myself regularly thinking about past times that I have been wronged." (1 = Strongly Disagree, 7 = Strongly Agree)
+13. During the past month, on average, how many hours of actual sleep did you get per night? (String entry).
 
-14. During the past month, on average, how many hours of actual sleep did you get per night? (String entry)
+14. Do you have a health condition or disability that limits you, and that has lasted for 6+ months? (Yes/No). If yes, please state: (String entry).
 
-15. Do you have a health condition or disability that limits you, and that has lasted for 6+ months? (Yes/No). If yes, please state: (String entry)
-
-16. Chronic diseases diagnosis: See @fig-chrondis.
+15. Chronic diseases diagnosis: See @fig-chrondis.
 
 ```{r}
 #| label: fig-chrondis
@@ -602,7 +600,11 @@ Items are, "I have much in my life to be thankful for" (1 = Strongly Disagree, 7
 
 ### Community making
 
-I feel a sense of community with others in my local neighbourhood (1 = Strongly Disagree, 7 = Strongly Agree). \### Intergroup anxiety I feel anxious about interacting with people from other races (1 = Strongly Disagree, 7 = Strongly Agree).
+I feel a sense of community with others in my local neighbourhood (1 = Strongly Disagree, 7 = Strongly Agree). 
+
+### Intergroup anxiety 
+
+I feel anxious about interacting with people from other races (1 = Strongly Disagree, 7 = Strongly Agree).
 
 ### Rumination
 
@@ -610,7 +612,7 @@ During the last 30 days, how often did you have negative thoughts that repeated 
 
 ### Forgivingness versus Vengeful Rumination
 
-Items are, "Sometimes I can't sleep because of thinking about past wrongs I have suffered" (1 = Strongly Disagree, 7 = Strongly Agree), "I can usually forgive and forget when someone does me wrong" (1 = Strongly Disagree, 7 = Strongly Agree), and "I find myself regularly thinking about past times that I have been wronged" (1 = Strongly Disagree, 7 = Strongly Agree).
+Items are, "Sometimes I can't sleep because of thinking about past wrongs I have suffered." (1 = Strongly Disagree, 7 = Strongly Agree), "I can usually forgive and forget when someone does me wrong. (R)" (1 = Strongly Disagree, 7 = Strongly Agree), and "I find myself regularly thinking about past times that I have been wronged." (1 = Strongly Disagree, 7 = Strongly Agree).
 
 -   **Recruitment:** Detail the recruitment strategy, including outreach methods and sources of recruitment.
 
