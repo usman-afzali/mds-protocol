@@ -270,7 +270,8 @@ author:
       - reources
       - supervision
       - writing - original draft
-      - writing - review & editing    
+      - writing - review & editing
+      - development and management of the New Zealand Attitudes and Values Study panel data collection from 2009 to the present
   - name: Joseph A. Bulbulia
     corresponding: false
     orcid: 0000-0002-5861-2056
@@ -318,7 +319,7 @@ The current article elaborates on the protocol of a pioneering three-year longit
 
 ## Introduction
 
-The Muslim community has been expanding in New Zealand. Based on the 2018 census, New Zealand had more than 60,000 Muslims; which has grown to \> 75,000 according to the 2023 Census [@statsnz2023]. Studies also show that the number of converts to Islam has increased after the 2019 terror attack [@arkilic2020]. The Muslim community is uniquely positioned in New Zealand: as a growing religious minority, it is a historically stigmatized group that were the direct victims of the 2019 terrorist attack [@royalco2020; @sibley2020].
+The Muslim community has been expanding in New Zealand. Based on the 2018 census, New Zealand had more than 60,000 Muslims; which has grown to \> 75,000 according to the 2023 Census [@statsnz2024]. Studies also show that the number of converts to Islam has increased after the 2019 terror attack [@arkilic2020]. The Muslim community is uniquely positioned in New Zealand: as a growing religious minority, it is a historically stigmatized group that were the direct victims of the 2019 terrorist attack [@royalco2020; @sibley2020].
 
 Muslim Diversity Study (MDS) — officially known as *A national longitudinal study of Muslim diversity and flourishing* embraces a community-oriented approach by collaborating with the Muslim community in order to make decisions about the execution of data collection and for identifying key questions of interest for the community at large. It is important that such processes and decisions are recorded in the form of a study protocol so that our findings are shared with the broader public and future researchers in New Zealand and across the globe can benefit from our outputs.
 
@@ -338,7 +339,7 @@ The NZAVS is a planned 20-year-long longitudinal national probability annual pan
 
 The NZAVS has been uniquely positioned due to its prestigious reputation (\> 150 peer-reviewed publications), longiutinal panel design, large sample size, and a large multi-disciplinary research team [@sibley2024]. More importantly, NZAVS has a nationally representative sample with data from different identity and religious group [@sibley2024], thereby, allowing us to compare data from different identity groups. However, the Muslim sample in NZAVS has been \< 100, that did not allow us to make meaningful inferences regarding Mulsim lives and issues in comparison with other religious groups. Hence, there was an immediate need to collect more data from Muslims in New Zealand.
 
-In addition, much of the NZAVS work to date with the Muslim community has focused on conveying information about how Muslims are perceived by the non-Muslim members of New Zealand society. After receiving strong positive signals from the Muslim community to scientifically explore diversity, discrimination, self-perception, resilience, meaning-making, and flourishing; this three-year longitudinal study was conceived in 2022 to address this scholarly and community knowledge gap. Therefore, MDS is effectively a booster to NZVAS, and uses the NZVAS questionnaires to collect data from the members of Muslim community in New Zealand.
+In addition, much of the NZAVS work to date with the Muslim community has focused on conveying information about how Muslims are perceived by the non-Muslim members of New Zealand society. After receiving strong positive signals from the Muslim community to scientifically explore diversity, discrimination, self-perception, resilience, meaning-making, and flourishing; this three-year longitudinal study was conceived in 2022 to address this scholarly and community knowledge gap. Therefore, MDS is effectively a booster to NZAVS, and uses the NZAVS questionnaires to collect data from the members of Muslim community in New Zealand.
 
 We aim to explore the diversity of Muslims in New Zealand, assess Muslims' perceived discrimination in comparison with other religious groups, unearth predictors of flourishing and meaning-making, and measure the effect of service-attendance and religious-identification on these constructs.
 
@@ -356,9 +357,13 @@ This whole process led to develop a comprehensive guideline that addresses feasi
 
 ## Translation
 
-Our consultation with the community indicated that the translation may only be needed for a small number of Muslims living in New Zealand, and that a majority will be able to use the English version. We had consulted with a group (Sulaiman-Hill and colleagues) who have been conducting research within the Muslim community. Therefore, instead of using the common translation back-translation procedure, we were thinking of using a more effective way of translating, back-translating, and comparing notes to ensure conceptual equivalence [@sulaiman-hill2021]. This method was inspired by the recent developments and recommendations based on the needs in countries that home an increasing number of refugees [@ozolins2020; @barger2010]. Following this, the translation was planned to be checked by experts as recommend by @fenn2020 and piloted within the Advisory Group to ensure reliability and conceptual equivalence.
+Our consultation with the community indicated that the translation may only be needed for a small number of New Zealand Muslims, and that a majority will be able to use the English version. We had consulted with a group (Sulaiman-Hill and colleagues) who have been conducting research within the Muslim community. Therefore, instead of using the common translation back-translation procedure, we were thinking of using a more effective way of translating, back-translating, and comparing notes to ensure conceptual equivalence [@sulaiman-hill2021]. This method was inspired by the recent developments and recommendations based on the needs in countries that home an increasing number of refugees [@ozolins2020; @barger2010]. Following this, the translation was planned to be checked by experts as recommend by @fenn2020 and piloted within the Advisory Group to ensure reliability and conceptual equivalence.
 
-However, an important aspect of MDS is comparing Muslim scores on NZAVS with members from other religious groups. With a translated questionnaire, we still faced the risk of inability to capture the attitudes and behaviours as accurately as the English version. Therefore, we would not know if differences between Muslim scores and other groups would be due to religion or a biased translation. We raised this problem with the Advisory Group, and it was recommended not to translate the questionnaire. This gave us a methodological safety-net since we could be more confident that the meaning of concepts is not distorted because of translation.
+However, one important aspect of MDS is comparing Muslim scores on NZAVS with members from other religious groups. With a translated questionnaire, we still faced the risk of inability to capture the attitudes and behaviours as accurately as the English version. Therefore, we would not know if differences between the scores of Muslims and other groups would be due to religious affiliation or a biased translation. We raised this problem with the Advisory Group, and it was recommended not to translate the questionnaire. This gave us a methodological safety-net since we could be more confident that the meaning of concepts is not distorted because of translation.
+
+## Consultation on survey items
+
+items that people did not like....
 
 ## Hypotheses
 
@@ -372,11 +377,11 @@ However, an important aspect of MDS is comparing Muslim scores on NZAVS with mem
 
 ## Design
 
-MDS is a three-year-long booster for NZVAS. NZAVS is a planned 20-year-long longitudinal panel study of adult New Zealanders, currently in its 15th year (Wave 15) that correponds with Wave 1 (the firs year) of MDS (15 Oct 2023 to 14 Oct 2024). Wave 2 and Wave 3 of MDS will correspond with NZAVS Wave 16 and Wave 17, respectively.
+MDS is a three-year-long booster for NZAVS. NZAVS is a planned 20-year-long longitudinal panel study of adult New Zealanders, currently in its 15th year (Wave 15) that correponds with Wave 1 (the firs year) of MDS (15 Oct 2023 to 14 Oct 2024). Wave 2 and Wave 3 of MDS will correspond with NZAVS Wave 16 (15 Oct 2024 to 14 Oct 2025) and Wave 17 (15 Oct 2025 to 14 Oct 2026), respectively.
 
 ## Participants
 
-NZAVS participant details will be available online after the completion of Wave 15 <https://osf.io/75snb/>. MDS attempts to increase the sample size of Muslims in NZAVS. Based on the 2018 Census, New Zealand had 60,261 Muslims in 2022 [@statsnz2023] --- about 1.3% of New Zealand population. As shown in Table @tbl-muslim-population, we selected six cities (Auckland, Christchurch, Hamilton, Wellington, Palmerston North, and Dunedin) that had at least 1,000 Muslims, for data collection. Inclusion criteria consisted of self identification as Muslim, being 18 year of age or older, and currently residing in New Zealand. 
+NZAVS participant details will be available online after the completion of Wave 15 <https://osf.io/75snb/>. MDS attempts to increase the sample size of Muslims in NZAVS by *n* = 650 (\> 1% of New Zealand Muslim population), corresponding with the NZAVS sampling rate from the overall New Zealand population. Based on the 2018 Census, New Zealand had 60,261 Muslims in 2022 [@statsnz2024] --- about 1.3% of New Zealand population. As shown in Table @tbl-muslim-population, we selected six cities (Auckland, Christchurch, Hamilton, Wellington, Palmerston North, and Dunedin) that had at least 1,000 Muslims, for data collection. Inclusion criteria consisted of self identification as Muslim, being 18 year of age or older, and currently residing in New Zealand.
 
 ```{r}
 #| echo: false
@@ -420,48 +425,43 @@ table
 
 ```
 
+## Materials
 
+NZAVS questionnaire consists of many psychological measures [see @sibley2024]. In this article, we are highlighting those that are pertinent to the readily planned papers aimed to publish from MDS.
 
+For Likert type scales, the minimum and maximum levels are noted along with description, for instance, 1 = Not Important, 7 = Very Important would mean that a score ranges between 1 and 7, with 1 being the minimum and 7 being the maximum score; whereas (R) indicates the reverse-scored items. Notwithstanding, we might choose to explore further measures which will then be elaborated on in the individual articles.
 
+### Service attendance and religiosity
 
+1.  Do you identify with a religion and/or spiritual group? (Yes/No). If yes, what religion or spiritual group? (String entry).
 
-**Materials**
+2.  How many times did you attend a church or place of worship in the last month? (String entry).
 
-NZAVS questionnaire has a large number of measures. Here, we are only highlighting and explaining those that are pertinent to the readily planned papers that are going to published from the booster study, with levels of measurement indicated, as well as the reversed coded ones. Please visit @sibley2024 for further details and history of NZAVS measures.
+3.  How many times did you pray in the last week? (String entry).
 
-For Likert type scales, we are noting the the minimum and maximum level along with description, for instance, 1 = Not Important 1, 7 = Very Important, whereas (R) shows the reverse-scored items. Notwithstanding, we might choose to report further measures too, which will then be elaborated upon in the individual articles.
+4.  How many times did you read religious scripture in the last week? (String entry).
 
--   Service attendance and religiosity:
+5.  How important is your religion to how you see yourself? (String entry) (1 = Not Important, 7 = Very Important).
 
-    1.  Do you identify with a religion and/or spiritual group? (Yes/No). If yes, what religion or spiritual group? (String entry).
+6.  I identify as a spiritual person. (1 = Strongly Disagree, 7 = Strongly Agree).
 
-    2.  How many times did you attend a church or place of worship in the last month? (String entry).
+7.  Do you believe in God? (Yes/No).
 
-    3.  How many times did you pray in the last week? (String entry).
+8.  Do you believe in any form of spirit or life force? (Yes/No).
 
-    4.  How many times did you read religious scripture in the last week? (String entry).
+### Prejudice
 
-    5.  How important is your religion to how you see yourself? (String entry) (1 = Not Important 1, 7 = Very Important).
+1.  I feel that I am often discriminated against because of my religious/spiritual beliefs. (1 = Strongly Disagree 1, 7 = Strongly Agree).
 
-    6.  I identify as a spiritual person. (1 = Strongly Disagree, 1-7 Strongly Agree).
+2.  People from my ethnic group are discriminated against in New Zealand. (1 = Strongly Disagree, 7 = Strongly Agree).
 
-    7.  Do you believe in God? (Yes/No)
+3.  I feel that I am often discriminated against because of my age. (1 = Strongly Disagree, 7 = Strongly Agree).
 
-    8.  Do you believe in any form of spirit or life force? (Yes/No).
+4.  I feel that I am often discriminated against because of my ethnicity. (1 = Very Innacurate, 7 = Very Accurate).
 
--   Prejudice:
+5.  I feel that I am often discriminated against because of my gender. (1 = Very Innacurate, 7 = Very Accurate).
 
-    1.  I feel that I am often discriminated against because of my religious/spiritual beliefs. (1 = Strongly Disagree 1, 7 = Strongly Agree).
-
-    2.  People from my ethnic group are discriminated against in New Zealand. (1 = Strongly Disagree, 7 = Strongly Agree).
-
-    3.  I feel that I am often discriminated against because of my age. (1 = Strongly Disagree, 7 = Strongly Agree).
-
-    4.  I feel that I am often discriminated against because of my ethnicity. (1 = Very Innacurate, 7 = Very Accurate).
-
-    5.  I feel that I am often discriminated against because of my gender. (1 = Very Innacurate, 7 = Very Accurate).
-
--   Intergroup Warmth Ratings: Participants are asked to rate their feelings of warmth toward different groups using “feeling thermometer scale” for each group from least to most warmth on a Likert scale where 1 = Least Warm and 7 = Most Warm (see @fig-warmth for reference). Groups include: NZ Europeans, Māori, Asians in general, Pacific Islanders, Elderly people, People with a disability, Refugees, Overweight people, Immigrants in general, Chinese, Indians, Muslims, LGBTQ+ people, People with mental illness.
+6.  Intergroup Warmth Ratings: Participants are asked to rate their feelings of warmth toward different groups using “feeling thermometer scale” for each group from least to most warmth on a Likert scale where 1 = Least Warm and 7 = Most Warm (see @fig-warmth for reference). Groups include: NZ Europeans, Māori, Asians in general, Pacific Islanders, Elderly people, People with a disability, Refugees, Overweight people, Immigrants in general, Chinese, Indians, Muslims, LGBTQ+ people, People with mental illness.
 
 ```{r}
 #| label: fig-warmth
@@ -472,73 +472,73 @@ For Likert type scales, we are noting the the minimum and maximum level along wi
 knitr::include_graphics("figs/warmth.png")
 ```
 
--   Felt belonging:
+### **Felt belonging**
 
-    1.  I know that people in my life accept and value me. (1 = Very Innacurate, 7 = Very Accurate).
+1.  I know that people in my life accept and value me. (1 = Very Innacurate, 7 = Very Accurate).
 
-    2.  I feel like an outsider. (1 = Very Innacurate, 7 = Very Accurate).
+2.  I feel like an outsider. (1 = Very Innacurate, 7 = Very Accurate).
 
-    3.  I know that people in around me share my attitudes and beliefs. (1 = Very Innacurate, 7 = Very Accurate).
+3.  I know that people in around me share my attitudes and beliefs. (1 = Very Innacurate, 7 = Very Accurate).
 
--   Support:
+### Support
 
-    1.  There are people I can depend on to help me if I really need it. (1 = Strongly Disagree, 7 = Strongly Agree).
+1.  There are people I can depend on to help me if I really need it. (1 = Strongly Disagree, 7 = Strongly Agree).
 
-    2.  There is no one I can turn to for guidance in times of stress (R). (1 = Strongly Disagree, 7 = Strongly Agree).
+2.  There is no one I can turn to for guidance in times of stress (R). (1 = Strongly Disagree, 7 = Strongly Agree).
 
-    3.  I know there are people I can turn to when I need help. (1 = Strongly Disagree, 7 = Strongly Agree).
+3.  I know there are people I can turn to when I need help. (1 = Strongly Disagree, 7 = Strongly Agree).
 
--   Employment:
+### Employment
 
-    1.  What is your highest level of qualification? (String entry).
+1.  What is your highest level of qualification? (String entry).
 
-    2.  Are you currently employed (This includes self-employed of casual work)? (Yes/No). This leads to a four-point nominal response: employed full-time, employed part-time, unemployed, and not in the labour force.
+2.  Are you currently employed (This includes self-employed of casual work)? (Yes/No). This leads to a four-point nominal response: employed full-time, employed part-time, unemployed, and not in the labour force.
 
-    3.  In that job, what is your current occupation (String entry).
+3.  In that job, what is your current occupation (String entry).
 
-    4.  What is the main activity of the business or employer that you work for? (String entry).
+4.  What is the main activity of the business or employer that you work for? (String entry).
 
-    5.  How long have you worked at your current organization? (String entry: years/months).
+5.  How long have you worked at your current organization? (String entry: years/months).
 
-    6.  How satisfied are you with your current job? (1 = Not Satisfied, 7 = Very Satisfied).
+6.  How satisfied are you with your current job? (1 = Not Satisfied, 7 = Very Satisfied).
 
-    7.  How secure do you feel in your current job? (1 = Not Secure, 7 = Very Secure).
+7.  How secure do you feel in your current job? (1 = Not Secure, 7 = Very Secure).
 
-    8.  How valued do you feel by your current organization? (1 = Not valued, 7 = Very Valued).
+8.  How valued do you feel by your current organization? (1 = Not valued, 7 = Very Valued).
 
--   Health:
+### Health
 
-    1.  In general, would you say your health is... (1 = Poor, 7 = Excellent).
+1.  In general, would you say your health is... (1 = Poor, 7 = Excellent).
 
-    2.  I seem to get sick a little easier than other people. (1 = Strongly Disagree, 7 = Strongly Agree).
+2.  I seem to get sick a little easier than other people. (1 = Strongly Disagree, 7 = Strongly Agree).
 
-    3.  I expect my health to get worse. (1 = Strongly Disagree, 7 = Strongly Agree).
+3.  I expect my health to get worse. (1 = Strongly Disagree, 7 = Strongly Agree).
 
-    4.  Do you have a health condition or disability that limits you, and that has lasted for 6+ months? (Yes/No). If yes, please state: (String entry).
+4.  Do you have a health condition or disability that limits you, and that has lasted for 6+ months? (Yes/No). If yes, please state: (String entry).
 
-    5.  How often do you have a drink containing alcohol? This is measured using a 6 point nominal scale (a. Never - I don't drink, b. Monthly or less, c. Up to 4 times a month, d. Up to 3 times a week, e. 4 or more times a week, f. Don't know).
+5.  How often do you have a drink containing alcohol? This is measured using a 6 point nominal scale (a. Never - I don't drink, b. Monthly or less, c. Up to 4 times a month, d. Up to 3 times a week, e. 4 or more times a week, f. Don't know).
 
-    6.  Have you ever regularly smoked tobacco cigarettes? (Yes/No).
+6.  Have you ever regularly smoked tobacco cigarettes? (Yes/No).
 
-    7.  Have you ever regularly used e-cigarettes? (Yes/No).
+7.  Have you ever regularly used e-cigarettes? (Yes/No).
 
-    8.  Do you currently smoke tobacco cigarettes? (Yes/No).
+8.  Do you currently smoke tobacco cigarettes? (Yes/No).
 
-    9.  Do you currently vape or use e-cigarettes? (Yes/No).
+9.  Do you currently vape or use e-cigarettes? (Yes/No).
 
-    10. Access to and satisfaction with GP: Do you have a regular family doctor/GP? (Yes/No). (If yes) How satisfied are you with the service and care you receive from your family doctor/GP? (1 = Not Satisfied, 7 = Very Satisfied). Do you think your doctor/GP shares a similar cultural background to you? (1 = Definitely No, 7 = Definitely yes). Does your doctor/GP respect your cultural background when you are discussing health issues with them? (1= Definitely No, 7 = Definitely Yes).
+10. Access to and satisfaction with GP: Do you have a regular family doctor/GP? (Yes/No). (If yes) How satisfied are you with the service and care you receive from your family doctor/GP? (1 = Not Satisfied, 7 = Very Satisfied). Do you think your doctor/GP shares a similar cultural background to you? (1 = Definitely No, 7 = Definitely yes). Does your doctor/GP respect your cultural background when you are discussing health issues with them? (1= Definitely No, 7 = Definitely Yes).
 
-    11. Please estimate how many hours you spent during each of the following things last week (String entry). Options provided: Working in paid employment, housework/cooking, looking after children, volunteer/charitable work, exercising/physical activity, watching TV/Netflix/movies, travelling/commuting, watching/reading news, using the internet (in total), using social media (e.g., Facebook), playing video games/computer games.
+11. Please estimate how many hours you spent during each of the following things last week (String entry). Options provided: Working in paid employment, housework/cooking, looking after children, volunteer/charitable work, exercising/physical activity, watching TV/Netflix/movies, travelling/commuting, watching/reading news, using the internet (in total), using social media (e.g., Facebook), playing video games/computer games.
 
-    12. BMI: Calculated by using a person's weight (Kg) divided by square root of height (m) that are asked separately, using "What is your height? (String entry (meters))", and "What is your weight? (String entry (Kgs))"
+12. BMI: Calculated by using a person's weight (Kg) divided by square root of height (m) that are asked separately, using "What is your height? (String entry (meters))", and "What is your weight? (String entry (Kgs))"
 
-    13. Forgiveness vs vengeful rumination: Items include "Sometimes I can't sleep because of thinking about past wrongs I have suffered.", "I can usually forgive and forget when someone does me wrong.", "I find myself regularly thinking about past times that I have been wronged." (1 = Strongly Disagree, 7 = Strongly Agree)
+13. Forgiveness vs vengeful rumination: Items include "Sometimes I can't sleep because of thinking about past wrongs I have suffered.", "I can usually forgive and forget when someone does me wrong.", "I find myself regularly thinking about past times that I have been wronged." (1 = Strongly Disagree, 7 = Strongly Agree)
 
-    14. During the past month, on average, how many hours of actual sleep did you get per night? (String entry)
+14. During the past month, on average, how many hours of actual sleep did you get per night? (String entry)
 
-    15. Do you have a health condition or disability that limits you, and that has lasted for 6+ months? (Yes/No). If yes, please state: (String entry)
+15. Do you have a health condition or disability that limits you, and that has lasted for 6+ months? (Yes/No). If yes, please state: (String entry)
 
-    16. Chronic diseases diagnosis: See @fig-chrondis.
+16. Chronic diseases diagnosis: See @fig-chrondis.
 
 ```{r}
 #| label: fig-chrondis
@@ -549,37 +549,9 @@ knitr::include_graphics("figs/warmth.png")
 knitr::include_graphics("figs/chronic-disease.png")
 ```
 
--   Matching with other religious groups: Similar to @bulbulia2023, we will use the following demography and personality variables to identify matching members in different religions groups.
+### Matching with other religious groups
 
-    1.  Age: What is your age? (String entry) and when is your date of birth (String entry)
-
-    2.  Education: An 11-point ordinal scale (0 = No Qualification, 11 = Doctoral Degree, based on the New Zealand Qualification Framework [@thenew2016]) based on the responses to the qualification-related question.
-
-    3.  Employment: A binary variable is created (0 = Unemployed, 1 = Employed) based on the responses to employment items "Are you currently employed?"
-
-    4.  Ethnicity: The items displayed in @fig-ethnicgroups are categorised following the New Zealand Census Groups: European, Māori, Pacific Peoples, Asian, MELAA (Middle Eastern, Latin American/African), and Other.
-
-    5.  Gender: Responses to the string entry item "What is your gender?" (String entry) will be used to create a binary measure (Male = 1, Not male = 0).
-
-    6.  Area-unit deprivation: Measured based on 2018 New Zealand Deprivation Index [@atkinson2019] that assigns a decile-rank index (1 = Least Deprived, 10 = Most Deprived) using participants' immediate neighbourhood's aggregate census information. This index is calculated using component factor analysis of nine variables in weighted order as follows: proportion of adults who received a means-tested benefit, household income, proportion not owning own home, proportion of single-parent families, the proportion of unemployed, proportion lacking qualifications, proportion household crowding, proportion no telephone access, and proportion no car access. Hence, this index reflects nationwide mean deprivation level for small neighbourhood-type units (i.e., small community areas consisting about 80-90 people).
-
-    7.  Socioeconomic status (Occupational prestige): A census-derived occupation-based measure NZSEI (New Zealand Socioeconomic Index) is used to estimate one's socioeconomic status. It uses an open-ended question regarding one's occupation, which is subsequently classified in accordance with the Australian and New Zealand Standard Classification of Occupations (ANZSCO) Level 3 based. In the case of missing values, the measures is imputed using a combination of age and education. The measure is assigned scores between 10 = Low and High = 90.
-
-    8.  Parent: Measured by assigning a binary variable (1 = Those with children, 0 = The rest) to the item: How many children have you given birth to, fathered, or adopted? (String entry).
-
-    9.  Partner: Responses to "What is you relationship status?" are assigned a binary variable (1 = Has a partner, 0 = Doesn't have a partner).
-
-    10. Religious identification: Responses to "Do you identify with a religion and/or spiritual group?" are coded a binary variable (1 = Yes, 0 = No).
-
-    11. Political orientation: Responses to "Please rate how politically left-wing versus right-wing you see yourself as being" are assigned a 7-point scale (1 = Extremely left-wing, 7 = Extremely right-wing).
-
-    12. Residence: Urban or rural residence (a two-item nominal variable) is identified based on the physical addresses provided.
-
-    13. Region of habituation: coded whether they are living in an urban or rural area (1 = Urban, 0 = Rural) based on the addresses provided.
-
-    14. Race-based rejection anxiety: People from other races would be likely to reject me on the basis of my race. (1 = Strogly Disagree, 7 = Strongly Agree).
-
-    15. Big six personality traits: Six personality traits, agreeableness, conscientiousness, extraversion, openness, honesty-humility, and neuroticism, are measured using a 7-point (1 = Very Inaccurate, 7 = Very Accurate) Mini-IPIP6 scale [@sibley2011].
+Similar to @bulbulia2023, we will use the following demography and personality variables to identify matching members in different religions groups.
 
 ```{r}
 #| label: fig-ethnicgroups
@@ -590,7 +562,9 @@ knitr::include_graphics("figs/chronic-disease.png")
 knitr::include_graphics("figs/ethnic-groups.png")
 ```
 
--   Subjective wellbeing/psychological distress: Measured using the Kessler-6 items (items 1-6 in @fig-Kess-6) rated on a 5-point scale (0 = None of the time, 4 = All of the time) [@kessler2010].
+### Subjective wellbeing/psychological distress
+
+Measured using the Kessler-6 items (items 1-6 in @fig-Kess-6) rated on a 5-point scale (0 = None of the time, 4 = All of the time) [@kessler2010].
 
 ```{r}
 #| label: fig-Kess-6
@@ -601,9 +575,13 @@ knitr::include_graphics("figs/ethnic-groups.png")
 knitr::include_graphics("figs/kessler-6.png")
 ```
 
--   Meaning of life: "My life has a clear sense of purpose" (1 = Strongly Disagree, 7 = Strongly Agree) and "I have a good sense of what makes my life meaningful" (1 = Strongly Disagree, 7 = Strongly Agree).
+### Meaning of life
 
--   Life satisfaction and national wellbeing: Items from @fig-life-sat measured on 11-item measure (0 = Completely Dissatisfied, 10 = Completely Satisfied). In addition, "I am satisfied with my life (1= Strongly Disagree, 7 = Strongly Agree)" and "In most ways my life is close to ideal (1 = Strongly Disagree, 7 = Strongly Agree)" are used.
+"My life has a clear sense of purpose" (1 = Strongly Disagree, 7 = Strongly Agree) and "I have a good sense of what makes my life meaningful" (1 = Strongly Disagree, 7 = Strongly Agree).
+
+### Life satisfaction and national wellbeing
+
+Items from @fig-life-sat measured on 11-item measure (0 = Completely Dissatisfied, 10 = Completely Satisfied). In addition, "I am satisfied with my life (1= Strongly Disagree, 7 = Strongly Agree)" and "In most ways my life is close to ideal (1 = Strongly Disagree, 7 = Strongly Agree)" are used.
 
 ```{r}
 #| label: fig-life-sat
@@ -614,12 +592,25 @@ knitr::include_graphics("figs/kessler-6.png")
 knitr::include_graphics("figs/life-sat.png")
 ```
 
-7.  Self esteem: Items are, "On the whole I am satisfied with myself"(1 = Very Inaccurate, 7 = Very Accurate), "I take a positive attitude toward myself" (1 = Very Inaccurate, 7 = Very Accurate) and "I am inclined to feel that I am a failure" (R) (1 = Very Inaccurate, 7 = Very Accurate).
-8.  Gratitude: Items are, "I have much in my life to be thankful for" (1 = Strongly Disagree, 7 = Strongly Agree), "When I look at the world, I don’t see much to be grateful for" (1 = Strongly Disagree, 7 = Strongly Agree) and "I am grateful to a wide variety of people" (1 = Strongly Disagree, 7 = Strongly Agree).
-9.  Community making: I feel a sense of community with others in my local neighbourhood (1 = Strongly Disagree, 7 = Strongly Agree).
-10. Intergroup anxiety: I feel anxious about interacting with people from other races (1 = Strongly Disagree, 7 = Strongly Agree).
-11. Rumination: During the last 30 days, how often did you have negative thoughts that repeated over and over? (0 = None of the time, 4 = All of the time).
-12. Forgivingness versus Vengeful Rumination: Items are, "Sometimes I can't sleep because of thinking about past wrongs I have suffered" (1 = Strongly Disagree, 7 = Strongly Agree), "I can usually forgive and forget when someone does me wrong" (1 = Strongly Disagree, 7 = Strongly Agree), and "I find myself regularly thinking about past times that I have been wronged" (1 = Strongly Disagree, 7 = Strongly Agree).
+### Self esteem
+
+Items are, "On the whole I am satisfied with myself"(1 = Very Inaccurate, 7 = Very Accurate), "I take a positive attitude toward myself" (1 = Very Inaccurate, 7 = Very Accurate) and "I am inclined to feel that I am a failure" (R) (1 = Very Inaccurate, 7 = Very Accurate).
+
+### Gratitude
+
+Items are, "I have much in my life to be thankful for" (1 = Strongly Disagree, 7 = Strongly Agree), "When I look at the world, I don’t see much to be grateful for" (1 = Strongly Disagree, 7 = Strongly Agree) and "I am grateful to a wide variety of people" (1 = Strongly Disagree, 7 = Strongly Agree).
+
+### Community making
+
+I feel a sense of community with others in my local neighbourhood (1 = Strongly Disagree, 7 = Strongly Agree). \### Intergroup anxiety I feel anxious about interacting with people from other races (1 = Strongly Disagree, 7 = Strongly Agree).
+
+### Rumination
+
+During the last 30 days, how often did you have negative thoughts that repeated over and over? (0 = None of the time, 4 = All of the time).
+
+### Forgivingness versus Vengeful Rumination
+
+Items are, "Sometimes I can't sleep because of thinking about past wrongs I have suffered" (1 = Strongly Disagree, 7 = Strongly Agree), "I can usually forgive and forget when someone does me wrong" (1 = Strongly Disagree, 7 = Strongly Agree), and "I find myself regularly thinking about past times that I have been wronged" (1 = Strongly Disagree, 7 = Strongly Agree).
 
 -   **Recruitment:** Detail the recruitment strategy, including outreach methods and sources of recruitment.
 
@@ -716,7 +707,7 @@ ggplot() +
 
 1.  Zahra E, Rizwan, Somia
 
-Mentions Jamila's and Qual here.. 
+Mentions Jamila's and Qual here..
 
 # Conclusion
 
