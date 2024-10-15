@@ -547,19 +547,6 @@ knitr::include_graphics("figs/warmth.png")
 knitr::include_graphics("figs/chronic-disease.png")
 ```
 
-### Matching with other religious groups
-
-Similar to @bulbulia2023, we will use the following demography and personality variables to identify matching members in different religions groups.
-
-```{r}
-#| label: fig-ethnicgroups
-#| fig-cap: Ethnic Groups
-#| apa-note: From NZAVS Wave 15 <https://osf.io/75snb/>
-#| fig-width: 3
-#| out-width: 75%
-knitr::include_graphics("figs/ethnic-groups.png")
-```
-
 ### Subjective wellbeing/psychological distress
 
 Measured using the Kessler-6 items (items 1-6 in @fig-Kess-6) rated on a 5-point scale (0 = None of the time, 4 = All of the time) [@kessler2010].
@@ -600,9 +587,9 @@ Items are, "I have much in my life to be thankful for" (1 = Strongly Disagree, 7
 
 ### Community making
 
-I feel a sense of community with others in my local neighbourhood (1 = Strongly Disagree, 7 = Strongly Agree). 
+I feel a sense of community with others in my local neighbourhood (1 = Strongly Disagree, 7 = Strongly Agree).
 
-### Intergroup anxiety 
+### Intergroup anxiety
 
 I feel anxious about interacting with people from other races (1 = Strongly Disagree, 7 = Strongly Agree).
 
@@ -613,6 +600,50 @@ During the last 30 days, how often did you have negative thoughts that repeated 
 ### Forgivingness versus Vengeful Rumination
 
 Items are, "Sometimes I can't sleep because of thinking about past wrongs I have suffered." (1 = Strongly Disagree, 7 = Strongly Agree), "I can usually forgive and forget when someone does me wrong. (R)" (1 = Strongly Disagree, 7 = Strongly Agree), and "I find myself regularly thinking about past times that I have been wronged." (1 = Strongly Disagree, 7 = Strongly Agree).
+
+### Matching with other religious groups
+
+Similar to @bulbulia2023, we will use the following demography and personality variables to identify matching members in different religions groups.
+
+1. Age: "What is your age?" (String entry), and "When is your date of birth?" (String entry). 
+
+2. Education: Measured by an 11-point ordinal scale (0 = No Qualification, 11 = Doctoral Degree, based on the New Zealand Qualification Framework [@thenew2016]) from responses to the qualification-related question.
+
+3. Employment: A binary variable is created (0 = Unemployed, 1 = Employed) based on the responses to employment item "Are you currently employed?".
+
+4. Ethnicity: The items displayed in @fig-ethnicgroups are categorised following the New Zealand Census Groups: European, Māori, Pacific Peoples, Asian, MELAA (Middle Eastern, Latin American/African), and Other.
+
+5. Gender: Responses to the string entry item "What is your gender?" will be used to create a binary variable (Male = 1, Not male = 0).
+
+6. Area-unit deprivation: Measured based on 2018 New Zealand Deprivation Index [@atkinson2019] that assigns a decile-rank index (1 = Least Deprived, 10 = Most Deprived) using participants' immediate neighbourhood's aggregate census information. This index is calculated using component factor analysis of nine variables in weighted order as follows: proportion of adults who received a means-tested benefit, household income, proportion not owning own home, proportion of single-parent families, the proportion of unemployed, proportion lacking qualifications, proportion household crowding, proportion no telephone access, and proportion no car access. Hence, this index reflects nationwide mean deprivation level for small neighbourhood-type units (i.e., small community areas consisting about 80-90 people).
+
+7. Socioeconomic status (Occupational prestige): A census-derived occupation-based measure NZSEI (New Zealand Socioeconomic Index) is used to estimate one's socioeconomic status. It uses an open-ended question regarding one's occupation, which is subsequently classified in accordance with the Australian and New Zealand Standard Classification of Occupations (ANZSCO) Level 3. In the case of missing values, the measures is imputed using a combination of age and education. The measure is assigned scores between 10 = Low and High = 90.
+
+8. Parent: Measured by assigning a binary variable (1 = Those with children, 0 = The rest) to the item: "How many children have you given birth to, fathered, or adopted?"9. (String entry).
+
+9. Partner: Responses to "What is you relationship status?" are assigned a binary variable (1 = Has a partner, 0 = Doesn't have a partner).
+
+10. Religious identification: Responses to "Do you identify with a religion and/or spiritual group?" are coded a binary variable (1 = Yes, 0 = No).
+
+11. Political orientation: Responses to "Please rate how politically left-wing versus right-wing you see yourself as being" are assigned a 7-point scale (1 = Extremely left-wing, 7 = Extremely right-wing).
+
+12. Residence: Urban or rural residence (a two-item nominal variable) is identified based on the physical addresses provided.
+
+13. Region of habituation: Whether participants are living in an urban or rural area, based on the addresses provided, is coded (1 = Urban, 0 = Rural).
+
+14. Race-based rejection anxiety: "People from other races would be likely to reject me on the basis of my race." (1 = Strogly Disagree, 7 = Strongly Agree).
+
+15. Big six personality traits: Six personality traits, agreeableness, conscientiousness, extraversion, openness, honesty-humility, and neuroticism, are measured using a 7-point (1 = Very Inaccurate, 7 = Very Accurate) Mini-IPIP6 scale [@sibley2011].
+
+```{r}
+#| label: fig-ethnicgroups
+#| fig-cap: Ethnic Groups
+#| apa-note: From NZAVS Wave 15 <https://osf.io/75snb/>
+#| fig-width: 3
+#| out-width: 75%
+knitr::include_graphics("figs/ethnic-groups.png")
+```
+
 
 -   **Recruitment:** Detail the recruitment strategy, including outreach methods and sources of recruitment.
 
