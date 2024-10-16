@@ -363,7 +363,26 @@ However, one important aspect of MDS is comparing Muslim scores on NZAVS with me
 
 ## Consultation on survey items
 
-items that people did not like....
+```{r}
+# Define the votes for each item
+items <- data.frame(
+  item = 1:6,
+  against = c(4, 4, 1, 2, 6, 1),
+  in_favour = c(14, 15, 15, 14, 12, 9),
+  na_undecided = c(1, 0, 3, 3, 1, 7)  # combined N/A and undecided
+)
+
+# Calculate the total number of valid votes (excluding N/A and undecided)
+items$total_valid_votes <- items$against + items$in_favour
+
+# Calculate the acceptance rate for each item as a percentage
+items$acceptance_rate_percent <- as.integer((items$in_favour / items$total_valid_votes) * 100)
+
+# Calculate the overall average acceptance rate as a percentage
+overall_acceptance_percent <- as.integer(mean(items$acceptance_rate_percent))
+```
+
+In consultation with 21 members of the Advisory Group, we identified six items of the NZAVS questionnaire that could be onf a sensitive nature and may pose challenges for individuals unfamiliar with research. A clear majority (`{r} overall_acceptance_percent`% -- averaging the acceptance rate for all 6 items) thought that no items needed to be removed. Given that the that the NZAVS items were developed with considering Christianity as the largest religious group at the conception of study, we decided not to change the items for MDS to allow us comparison between scores of different religious groups. In addition, the MDS cover letter states: "As the survey is designed for the general New Zealand population, there may be questions that do not necessarily apply to you. Please feel free to skip any questions that you do not wish to answer".
 
 ## Hypotheses
 
@@ -461,7 +480,7 @@ For Likert type scales, the minimum and maximum levels are noted along with desc
 
 5.  I feel that I am often discriminated against because of my gender. (1 = Very Innacurate, 7 = Very Accurate).
 
-6.  Intergroup Warmth Ratings: Participants are asked to rate their feelings of warmth toward different groups using the “feeling thermometer scale” for each group from least to most warmth on a Likert scale where 1 = Least Warm and 7 = Most Warm (see @fig-warmth for reference). Groups include: NZ Europeans, Māori, Asians in general, Pacific Islanders, Elderly people, People with a disability, Refugees, Overweight people, Immigrants in general, Chinese, Indians, Muslims, LGBTQ+ people, People with mental illness.
+6.  Intergroup Warmth Ratings: Participants are asked to rate their feelings of warmth toward different groups using the “feeling thermometer scale” for each group from least to most warmth on a 7-point scale where 1 = Least Warm and 7 = Most Warm (see @fig-warmth for reference). Groups include: NZ Europeans, Māori, Asians in general, Pacific Islanders, Elderly people, People with a disability, Refugees, Overweight people, Immigrants in general, Chinese, Indians, Muslims, LGBTQ+ people, People with mental illness.
 
 ```{r}
 #| label: fig-warmth
