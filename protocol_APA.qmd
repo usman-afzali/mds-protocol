@@ -347,7 +347,7 @@ MDS started with pilot community consultation as detailed below in this protocol
 
 ## Pilot community consultation
 
-Before applying for the research grant, we deemed necessary to gauge Muslim community's interest in the project, as well as the feasibility of the project for the Muslim community. This pilot consultation took place between Feb and Nov 2022 where the principal investigator reached out to 29 Muslims (20 representing community, religious or cultural organisations and 9 individuals) in different cities from different academic and cultural backgrounds, age groups, and genders including community leaders, religious scholars, and activists. The conversations focused around four objectives: 1) To assess the feasibility of the project for Muslims, 2) To assess interest of Muslims in the project, 3) To get feedback on the survey items, and 4) To inquire if translation may be needed. First, all 29 respondents believed that the study was feasible and timely for Muslims, and that Muslims will be interested to participate. In addition, the highest participation should be anticipated from youth, second generation migrants, educated, and women. Second, not only did they believe that the study and our planned measures were important, they have also promised to support us in every possible way.
+Before applying for the research grant, we deemed necessary to gauge Muslim community's interest in the project, as well as the feasibility of the project for the Muslim community. This pilot consultation took place between February and November, 2022 where the principal investigator reached out to 29 Muslims (20 representing community, religious or cultural organisations and 9 individuals) in different cities from different academic and cultural backgrounds, age groups, and genders including community leaders, religious scholars, and activists. The conversations focused around four objectives: 1) To assess the feasibility of the project for Muslims, 2) To assess interest of Muslims in the project, 3) To get feedback on the survey items, and 4) To inquire if translation may be needed. First, all 29 respondents believed that the study was feasible and timely for Muslims, and that Muslims will be interested to participate. In addition, the highest participation should be anticipated from youth, second generation migrants, educated, and women. Second, not only did they believe that the study and our planned measures were important, they have also promised to support us in every possible way.
 
 Challenges identified: 1) The participation from Christchurch might not be up to the expectations as after Christchurch shooting people were surveyed a lot and not provided with the findings. 2) It might not be easy for people to understand the questionnaires due to unfamiliarity of the community with research. 3) The participation from elderly community and Muslim converts might be low, so we need to find avenues to address them. 4) Community members might be suspicious and consider the study to have ulterior or personal motives.
 
@@ -394,13 +394,9 @@ In consultation with 21 members of the Advisory Group, we identified six items o
 
 # Method
 
-## Design
-
-MDS is a three-year-long booster for NZAVS. NZAVS is a planned 20-year-long longitudinal panel study of adult New Zealanders, currently in its 15th year (Wave 15) that correponds with Wave 1 (the firs year) of MDS (15 Oct 2023 to 14 Oct 2024). Wave 2 and Wave 3 of MDS will correspond with NZAVS Wave 16 (15 Oct 2024 to 14 Oct 2025) and Wave 17 (15 Oct 2025 to 14 Oct 2026), respectively.
-
 ## Participants
 
-NZAVS participants details will be available online after the completion of Wave 15 <https://osf.io/75snb/>. MDS attempts to increase the sample size of Muslims in NZAVS by *n* = 650 (\> 1% of New Zealand Muslim population), corresponding with the NZAVS sampling rate from the overall New Zealand population. Based on the 2018 Census, New Zealand had 60,261 Muslims in 2022 [@statsnz2024] --- about 1.3% of New Zealand population. As shown in Table @tbl-muslim-population, we selected six cities (Auckland, Christchurch, Hamilton, Wellington, Palmerston North, and Dunedin) that had at least 1,000 Muslims, for data collection. Inclusion criteria consist of self identification as Muslim, being 18 year of age or older, and currently residing in New Zealand.
+NZAVS participants details will be available online after the completion of Wave 15 <https://osf.io/75snb/>. MDS attempts to increase the sample size of Muslims in NZAVS by *n* = 650 (\> 1% of New Zealand Muslim population), corresponding with the NZAVS sampling rate from the overall New Zealand population. Based on the 2018 Census, New Zealand had 60,261 Muslims in 2022 [@statsnz2024] --- about 1.3% of New Zealand population. As shown in @tbl-muslim-population, we selected six cities (Auckland, Christchurch, Hamilton, Wellington, Palmerston North, and Dunedin) that had at least 1,000 Muslims, for data collection. Inclusion criteria consist of self identification as Muslim, being 18 year of age or older, and currently residing in New Zealand.
 
 ```{r}
 #| echo: false
@@ -446,7 +442,7 @@ table
 
 ## Materials
 
-NZAVS questionnaire consists of many psychological measures [see @sibley2024]. In this article, we are highlighting those that are pertinent to the readily planned papers aimed to publish from MDS.
+NZAVS questionnaire consists of many psychological measures [see @sibley2024]. In this protocol, we are highlighting measures that are pertinent to the readily planned papers aimed to publish from MDS.
 
 For Likert type scales, the minimum and maximum levels are noted along with description, for instance, 1 = Not Important, 7 = Very Important would mean that a score ranges between 1 and 7, with 1 being the minimum and 7 being the maximum score; whereas (R) indicates the reverse-scored items. Notwithstanding, we might choose to explore further measures which will then be elaborated on in the individual articles.
 
@@ -480,7 +476,7 @@ For Likert type scales, the minimum and maximum levels are noted along with desc
 
 5.  I feel that I am often discriminated against because of my gender. (1 = Very Innacurate, 7 = Very Accurate).
 
-6.  Intergroup Warmth Ratings: Participants are asked to rate their feelings of warmth toward different groups using the “feeling thermometer scale” for each group from least to most warmth on a 7-point scale where 1 = Least Warm and 7 = Most Warm (see @fig-warmth for reference). Groups include: NZ Europeans, Māori, Asians in general, Pacific Islanders, Elderly people, People with a disability, Refugees, Overweight people, Immigrants in general, Chinese, Indians, Muslims, LGBTQ+ people, People with mental illness.
+6.  Intergroup Warmth Ratings: Participants are asked to rate their feelings of warmth toward different groups using the “Feeling Thermometer Scale” for each group from least to most warmth on a 7-point scale where 1 = Least Warm and 7 = Most Warm (see @fig-warmth for reference). Groups include: NZ Europeans, Māori, Asians in general, Pacific Islanders, Elderly people, People with a disability, Refugees, Overweight people, Immigrants in general, Chinese, Indians, Muslims, LGBTQ+ people, People with mental illness.
 
 ```{r}
 #| label: fig-warmth
@@ -549,7 +545,7 @@ knitr::include_graphics("figs/warmth.png")
 
 11. Please estimate how many hours you spent during each of the following things last week (String entry). Options provided: Working in paid employment, housework/cooking, looking after children, volunteer/charitable work, exercising/physical activity, watching TV/Netflix/movies, travelling/commuting, watching/reading news, using the internet (in total), using social media (e.g., Facebook), playing video games/computer games.
 
-12. BMI: Calculated by using a person's weight (Kg) divided by square root of height (m) that are asked separately, using "What is your height? (String entry (meters))", and "What is your weight? (String entry (Kgs))".
+12. BMI: Calculated by using a person's weight (Kg) divided by square root of height (m) that is asked separately, using "What is your height? (String entry (meters))", and "What is your weight? (String entry (Kgs))".
 
 13. During the past month, on average, how many hours of actual sleep did you get per night? (String entry).
 
@@ -581,7 +577,7 @@ knitr::include_graphics("figs/kessler-6.png")
 
 ### Meaning of life
 
-"My life has a clear sense of purpose" (1 = Strongly Disagree, 7 = Strongly Agree) and "I have a good sense of what makes my life meaningful" (1 = Strongly Disagree, 7 = Strongly Agree).
+Items are: "My life has a clear sense of purpose" (1 = Strongly Disagree, 7 = Strongly Agree) and "I have a good sense of what makes my life meaningful" (1 = Strongly Disagree, 7 = Strongly Agree).
 
 ### Life satisfaction and national wellbeing
 
@@ -622,7 +618,7 @@ Items are, "Sometimes I can't sleep because of thinking about past wrongs I have
 
 ### Matching with other religious groups
 
-Similar to @bulbulia2023, we will use the following demography and personality variables to identify matching members in different religions groups.
+Similar to @bulbulia2023, we will use the following variables to identify matching members in different religions groups.
 
 1. Age: "What is your age?" (String entry), and "When is your date of birth?" (String entry). 
 
@@ -638,7 +634,7 @@ Similar to @bulbulia2023, we will use the following demography and personality v
 
 7. Socioeconomic status (Occupational prestige): A census-derived occupation-based measure NZSEI (New Zealand Socioeconomic Index) is used to estimate one's socioeconomic status. It uses an open-ended question regarding one's occupation, which is subsequently classified in accordance with the Australian and New Zealand Standard Classification of Occupations (ANZSCO) Level 3. In the case of missing values, the measures is imputed using a combination of age and education. The measure is assigned scores between 10 = Low and High = 90.
 
-8. Parent: Measured by assigning a binary variable (1 = Those with children, 0 = The rest) to the item: "How many children have you given birth to, fathered, or adopted?"9. (String entry).
+8. Parent: Measured by assigning a binary variable (1 = Those with children, 0 = The rest) to the item: "How many children have you given birth to, fathered, or adopted?". (String entry).
 
 9. Partner: Responses to "What is you relationship status?" are assigned a binary variable (1 = Has a partner, 0 = Doesn't have a partner).
 
@@ -648,11 +644,11 @@ Similar to @bulbulia2023, we will use the following demography and personality v
 
 12. Residence: Urban or rural residence (a two-item nominal variable) is identified based on the physical addresses provided.
 
-13. Region of habituation: Whether participants are living in an urban or rural area, based on the addresses provided, is coded (1 = Urban, 0 = Rural).
+13. Region of habituation: Whether participants are living in an urban or rural area, based on the addresses provided, is coded; 1 = Urban, 0 = Rural.
 
-14. Race-based rejection anxiety: "People from other races would be likely to reject me on the basis of my race." (1 = Strogly Disagree, 7 = Strongly Agree).
+14. Race-based rejection anxiety: "People from other races would be likely to reject me on the basis of my race". (1 = Strogly Disagree, 7 = Strongly Agree).
 
-15. Big six personality traits: Six personality traits, agreeableness, conscientiousness, extraversion, openness, honesty-humility, and neuroticism, are measured using a 7-point (1 = Very Inaccurate, 7 = Very Accurate) Mini-IPIP6 scale [@sibley2011].
+15. Big Six personality traits: Six personality traits, agreeableness, conscientiousness, extraversion, openness, honesty-humility, and neuroticism, are measured using a 7-point (1 = Very Inaccurate, 7 = Very Accurate) Mini-IPIP6 scale [@sibley2011].
 
 ```{r}
 #| label: fig-ethnicgroups
@@ -663,12 +659,77 @@ Similar to @bulbulia2023, we will use the following demography and personality v
 knitr::include_graphics("figs/ethnic-groups.png")
 ```
 
+## Ethics
+
+The NZAVS was approved by the University of Auckland Human Participants Ethics Committee on 26 May 2021 until 26 May 2027 (Reference: UAHPEC22576). All participants granted informed written consent and the University of Auckland Human Participants Ethics Committee approved all procedures.
+
+## Design
+
+MDS is a three-year-long booster for NZAVS. NZAVS is a planned 20-year-long longitudinal panel study of adult New Zealanders, currently in its 15th year (Wave 15) that correponds with Wave 1 (the firs year) of MDS (15 Oct 2023 to 14 Oct 2024). Wave 2 and Wave 3 of MDS will correspond with NZAVS Wave 16 (15 Oct 2024 to 14 Oct 2025) and Wave 17 (15 Oct 2025 to 14 Oct 2026), respectively. NZAVS uses quantitative measures. The following dependent variables will be considered to test the proposed MDS hypotheses.
+
+1. Perceived religious discrimination
+2. Perceived ethnic discrimination
+3. Employment status
+4. Job satisfaction
+5. Job security
+6. Feeling valued by organisation
+7. Self-rated health
+8. Perceived health decline
+9. Chronic diseases and disabilities
+10. Kessler-6 psychological distress scale
+11. Meaning of life
+12. Life satisfaction
+13. Sense of belonging
+14. Perceived support
+15. Warmth toward various groups
+16. Vengeful rumination
+17. Forgiveness
+
+## Data Analysis
+
+### Hypothesis 1
+- Correlation between religiosity and prejudice
+- Regression: Service attendance, prayer frequency, religious importance, and spiritual identification (IVs) and perceived discrimination (DV)
+- Moderation: Testing whether or not community involvement moderates the relationship between religiosity and perceived discrimination.
+- Mediation: Whether or not the sense of belonging mediates relationship between religiosity and perceived discrimination.
+
+### Hypothesis 2
+- Using propensity score matching to match Muslims with participants from other religious groups based on variables used in previous publications, such as @bulbulia2023. These are: age, education, employment, ethnicity, gender, deprivation index, socioeconomic status, being a parent, having a partner, religious identification, political orientation, urban vs. rural residence, region, race-based anxiety, and Big Six personality measures.
+- Regression: Employment status (binary) predicted from religious affiliation, job satisfaction, and job security.
+- Regression: Self-rated health and disability predicted from religious affiliation, health behaviours, and chronic diseases.
+- Chi square: Religious affiliation vs employment status and disability status.
+
+### Hypothesis 3
+- Matching participants similar to Hypothesis 2.
+- ANOVA: Comparing average scores of subjective wellbeing as well as psychological distress between Muslims and members of other religions.
+- Regression: Community support and religious community-making buffering against distress and enhancing wellbeing
+- Structural equation modelling: Modelling mediation of community-making on the relationship between religious affiliation and wellbeing outcomes.
+- Moderation: To find out whether the strength of community support and belonging  moderate the effects of religious group membership on wellbeing and distress.
+
+## Preregistration
+
+The hypotheses, measures, and proposed data analysis are preregistered on OSF (<https://doi.org/10.17605/OSF.IO/B39XT>). The study was preregistered before any attempted data analyses.
+
+## Procedure
+
+
+
+
+A booster sample was also conducted to increase the representation of Muslim participants. The booster sample was led by Usman Afzali, a member of the Al Noor Mosque in Christchurch. The booster sample was non-representative, and relied on a combination of community outreach at local Mosques, community and ethnic organisations, and MSA’s (Muslim Student Associations). Promotions were posted online by these organisations in social media and community message groups (e.g., WhatsApp), and shared via mailing lists too. In addition, tens of posters were placed in community facilities (e.g., mosques) and hundreds of flyers were handed over after Friday prayers as well as cultural and religious festivals.  A total of 30 Muslim research assistants were employed in the following cities: Auckland, Hamilton, Palmerston North, Wellington, Christchurch, and Dunedin (identified as having more than 1000 Muslim residents based on 2018 Census). With the support of the local and national community leaders, the research assistants approached Muslim attendees at about 150 local and national Muslim community and religious organizations, explained the study goals to them, and invited them to complete either the online version, or a provided paper version which included a pre-paid return envelope. Out of these, 68 have endorsed and promoted the study (as outlined earlier). As part of this recruitment drive, Usman Afzali also presented 17 talks, presentations, or lectures to Muslim community groups around New Zealand via mosques, universities, or community organisations in the mentioned cities, explaining the goals of the NZAVS, and how it would benefit the New Zealand Muslim community to be represented in this ongoing national longitudinal panel sample. In sum a total of xxx Muslim participants completed the questionnaire and joined the NZAVS.
+Outline the procedure for data collection at each time point, whether face-to-face or virtual.
+
+Cover letter
+
+2.  Current Wave general procedure: Usman and Jamila with input from all RA's: Farah, Hussain, Hala, Zarqa, Zahra H, Nasrat
 
 -   **Recruitment:** Detail the recruitment strategy, including outreach methods and sources of recruitment.
 
 RAs - re related to different cultural groups.
 
--   **Data Collection:** Explain the quantitative measures to be used in data collection, including validated self-report instruments and clinical assessments.
+## Timeline
+Present a timeline indicating key milestones in the study, including recruitment periods, data collection waves, and analysis phases.
+
+Waves 
 
 ```{r}
 #| out-width: 50%
@@ -697,30 +758,6 @@ ggplot(data, aes(x = Date, y = Responses)) +
   )
 ```
 
--   **Procedure:** Outline the procedure for data collection at each time point, whether face-to-face or virtual.
-
-1.  Community consultation in 2022: Aqsa and Parus
-2.  Current Wave general procedure: Usman and Jamila with input from all RA's: Farah, Hussain, Hala, Zarqa, Zahra H, Nasrat
-
--   **Ethical Considerations:** Discuss ethical approval obtained for the study and procedures for obtaining informed consent from participants.
-
-# Ethics
-
--   **Data Analysis:** Provide an overview of the planned data analysis methods, including statistical techniques for longitudinal data analysis.
--   **Preregistration:** The design, hypotheses, measures, and anticipated data analysis are preregistered on OSF (). The study was preregistered before any attempted analyses of data.
-
-# Expected Outcomes
-
--   Anticipated findings based on the research questions and objectives.
--   Potential contributions of the study to the field of mental health research and implications for policy and practice.
-
-# Timeline
-
--   Present a timeline indicating key milestones in the study, including recruitment periods, data collection waves, and analysis phases.
-
-# Waves - years - with NZAVS corresponding
-
-1.  Usman and Jamila
 
 ```{r}
 # | echo: false
@@ -761,27 +798,15 @@ ggplot() +
 
 Mentions Jamila's and Qual here..
 
+## Application and implications
+
+Potential contributions of the study to the field of mental health research and implications for policy and practice.
+
 # Conclusion
 
 Summarize the importance of the longitudinal study in understanding the psychological effects of the Christchurch mosque attacks on the Muslim community and reiterate the significance of the research aims.
 
 1.  Zahra E, Rizwan, Somia
-
-<!-- # Method -->
-
-<!-- ## Participants -->
-
-<!-- ## Measures -->
-
-<!-- ## Procedure -->
-
-<!-- # Results -->
-
-<!-- # Discussion -->
-
-<!-- ## Limitations and Future Directions -->
-
-<!-- ## Conclusion -->
 
 {{< pagebreak >}}
 
