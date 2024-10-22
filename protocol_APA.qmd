@@ -712,10 +712,21 @@ The hypotheses, measures, and proposed data analysis are preregistered on OSF (<
 
 ## Procedure
 
+### Research Assistant Recruitment and Training
 
+The 30 Research Assistants (RAs), as indicated in @tbl-muslim-population, were recruited before the MDS Wave 1. The position was advertised by University of Canterbury and shared via social media, emails, and community organisations. The eligibility criteria included studying at least at tertiary level in New Zealand, familiarity with research in humanities, interest in working with community, and experiences of working with a Muslim community organisation. Thirty RAs were recruited after initial screening and interviews from a total of 95 applicants.
 
+Before the commencement of study, a series of comprehensive Zoom trainings took place to familiarise RAs with NZAVS, the MDS background, and survey questionnaires; and the relevant material were made accessible. In addition, RAs learned about ethnical guidelines, confidentiality, and interacting with a culturally diverse participants pool.
 
-A booster sample was also conducted to increase the representation of Muslim participants. The booster sample was led by Usman Afzali, a member of the Al Noor Mosque in Christchurch. The booster sample was non-representative, and relied on a combination of community outreach at local Mosques, community and ethnic organisations, and MSA’s (Muslim Student Associations). Promotions were posted online by these organisations in social media and community message groups (e.g., WhatsApp), and shared via mailing lists too. In addition, tens of posters were placed in community facilities (e.g., mosques) and hundreds of flyers were handed over after Friday prayers as well as cultural and religious festivals.  A total of 30 Muslim research assistants were employed in the following cities: Auckland, Hamilton, Palmerston North, Wellington, Christchurch, and Dunedin (identified as having more than 1000 Muslim residents based on 2018 Census). With the support of the local and national community leaders, the research assistants approached Muslim attendees at about 150 local and national Muslim community and religious organizations, explained the study goals to them, and invited them to complete either the online version, or a provided paper version which included a pre-paid return envelope. Out of these, 68 have endorsed and promoted the study (as outlined earlier). As part of this recruitment drive, Usman Afzali also presented 17 talks, presentations, or lectures to Muslim community groups around New Zealand via mosques, universities, or community organisations in the mentioned cities, explaining the goals of the NZAVS, and how it would benefit the New Zealand Muslim community to be represented in this ongoing national longitudinal panel sample. In sum a total of xxx Muslim participants completed the questionnaire and joined the NZAVS.
+### Data Collection
+
+RAs used a snowball approach for data collection. RAs started reaching out to their close circles, and kept expanding their reach cricle. The booster sample was non-representative, and relied on a combination of community outreach at local Mosques, community and ethnic organisations, and MSA’s (Muslim Student Associations). Participants had the choice of filling in the online questionnaire using Qualtrics, or a paper questionnaire and returning it to the NZAVS headquarters in Auckland University using a pre-paid postal envelope.
+
+The PI was always available to guide the process, provide feedback, and talk with participants if and when needed via audio and video mediums.
+
+The data were entered in the HQ. and anonyised. 
+
+  Promotions were posted online by these organisations in social media and community message groups (e.g., WhatsApp), and shared via mailing lists too. In addition, tens of posters were placed in community facilities (e.g., mosques) and hundreds of flyers were handed over after Friday prayers as well as cultural and religious festivals.  A total of 30 Muslim research assistants were employed in the following cities: Auckland, Hamilton, Palmerston North, Wellington, Christchurch, and Dunedin (identified as having more than 1000 Muslim residents based on 2018 Census). With the support of the local and national community leaders, the research assistants approached Muslim attendees at about 150 local and national Muslim community and religious organizations, explained the study goals to them, and invited them to complete either the online version, or a provided paper version which included a pre-paid return envelope. Out of these, 68 have endorsed and promoted the study (as outlined earlier). As part of this recruitment drive, Usman Afzali also presented 17 talks, presentations, or lectures to Muslim community groups around New Zealand via mosques, universities, or community organisations in the mentioned cities, explaining the goals of the NZAVS, and how it would benefit the New Zealand Muslim community to be represented in this ongoing national longitudinal panel sample. In sum a total of xxx Muslim participants completed the questionnaire and joined the NZAVS.
 Outline the procedure for data collection at each time point, whether face-to-face or virtual.
 
 Cover letter
@@ -791,6 +802,8 @@ ggplot() +
   geom_line(data=df_tidy, mapping=aes(x=task, y=date), size=2) +
   coord_flip() 
 ```
+
+# Website
 
 # Strengths and Limitations
 
