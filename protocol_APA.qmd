@@ -729,7 +729,7 @@ The data were entered in the HQ. and anonyised.
   Promotions were posted online by these organisations in social media and community message groups (e.g., WhatsApp), and shared via mailing lists too. In addition, tens of posters were placed in community facilities (e.g., mosques) and hundreds of flyers were handed over after Friday prayers as well as cultural and religious festivals.  A total of 30 Muslim research assistants were employed in the following cities: Auckland, Hamilton, Palmerston North, Wellington, Christchurch, and Dunedin (identified as having more than 1000 Muslim residents based on 2018 Census). With the support of the local and national community leaders, the research assistants approached Muslim attendees at about 150 local and national Muslim community and religious organizations, explained the study goals to them, and invited them to complete either the online version, or a provided paper version which included a pre-paid return envelope. Out of these, 68 have endorsed and promoted the study (as outlined earlier). As part of this recruitment drive, Usman Afzali also presented 17 talks, presentations, or lectures to Muslim community groups around New Zealand via mosques, universities, or community organisations in the mentioned cities, explaining the goals of the NZAVS, and how it would benefit the New Zealand Muslim community to be represented in this ongoing national longitudinal panel sample. In sum a total of xxx Muslim participants completed the questionnaire and joined the NZAVS.
 Outline the procedure for data collection at each time point, whether face-to-face or virtual.
 
-Cover letter
+- Cover letter
 
 2.  Current Wave general procedure: Usman and Jamila with input from all RA's: Farah, Hussain, Hala, Zarqa, Zahra H, Nasrat
 
@@ -775,13 +775,37 @@ ggplot(data, aes(x = Date, y = Responses)) +
 # | include: false
 # | warning: false
 # | message: false
+# | fig.align: "center"
+# | fig.height: 6
+# | fig.width: 10
+# | page-break-before: true
+# | class-output: "landscape"
+# | out-width: 50%
+
 library(tidyverse)
 library(plan)
-df <- data.frame(task=c("Community Consultation", "RA Hiring"), 
-                 start=c("2022-02-01", "2023-08-15"),
-                 end=c("2024-08-08", "2023-10-14"))
-df <- df %>% 
-  mutate(start = as.Date(start), end = as.Date(end))
+
+# Create the data frame
+df <- data.frame(
+  task = c("Community Consultation", "RA Hiring", "RA Training", "Wave 1 Data Collection"), 
+  start = c("2022-02-01", "2023-07-24", "2023-10-09", "2023-10-23"),
+  end = c("2024-08-08", "2023-09-23", "2023-10-27", "2024-10-25")
+)
+
+# Convert start and end to Date format
+df <- df %>% mutate(start = as.Date(start), end = as.Date(end))
+
+# Plot the timeline with different colors for each task
+ggplot(df, aes(x = start, xend = end, y = task, yend = task, color = task)) +
+  geom_segment(size = 3) +  # Use geom_segment for the timeline bars
+  scale_color_manual(values = c("#1f77b4", "#ff7f0e", "#2ca02c", "#d62728")) +  # Assign specific colors
+  theme_minimal() +  # Clean background
+  labs(title = "Project Timeline", x = "Date", y = "Task") +
+  theme(
+    axis.text.y = element_text(size = 12),
+    plot.title = element_text(hjust = 0.5, size = 16),
+    legend.position = "none"
+  )
 ```
 
 ```{r}
