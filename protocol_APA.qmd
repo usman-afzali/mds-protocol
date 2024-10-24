@@ -212,7 +212,7 @@ author:
       - name: TBA
         department: TBA
     roles:
-      - writing - original draft (strengths and limitations)
+      - writing - original draft (applications and implications)
       - writing - review & editing       
   - name: Adepate Mustapha-Koiki
     corresponding: false
@@ -221,7 +221,7 @@ author:
       - name: University of Auckland
         department: Department of Politics and International Relations
     roles:
-      - writing - original draft (conclusions)
+      - writing - original draft (applications and implications)
       - writing - review & editing     
   - name: Afrah Ali Nadukkudi Puthenpura
     corresponding: false
@@ -230,8 +230,17 @@ author:
       - name: TBA
         department: TBA
     roles:
-      - writing - original draft (conclusions)
-      - writing - review & editing     
+      - writing - original draft (conclusion)
+      - writing - review & editing
+  - name: Sandila Tanveer
+    corresponding: false
+    orcid: 0000-0002-0648-5382
+    affiliations:
+      - name: University of Otago Christchurch
+        department: Department of Psychological Medicine
+    roles:
+      - writing - original draft (conclusion)
+      - writing - review & editing           
   - name: Aarif Rasheed
     corresponding: false
     orcid: 0000-0000-0000-0001
@@ -396,7 +405,7 @@ In consultation with 21 members of the Advisory Group, we identified six items o
 
 ## Participants
 
-NZAVS participants details will be available online after the completion of Wave 15 <https://osf.io/75snb/>. MDS attempts to increase the sample size of Muslims in NZAVS by *n* = 650 (\> 1% of New Zealand Muslim population), corresponding with the NZAVS sampling rate from the overall New Zealand population. Based on the 2018 Census, New Zealand had 60,261 Muslims in 2022 [@statsnz2024] --- about 1.3% of New Zealand population. As shown in @tbl-muslim-population, we selected six cities (Auckland, Christchurch, Hamilton, Wellington, Palmerston North, and Dunedin) that had at least 1,000 Muslims, for data collection. Inclusion criteria consist of self identification as Muslim, being 18 year of age or older, and currently residing in New Zealand.
+NZAVS participants details will be available online after the completion of Wave 15 <https://osf.io/75snb/>. MDS attempts to increase the sample size of Muslims in NZAVS by *n* = 650 (\> 1% of New Zealand Muslim population), corresponding with the NZAVS sampling rate from the overall New Zealand population. Based on the 2018 Census, New Zealand had 60,261 Muslims in 2022 [@statsnz2024] --- about 1.3% of New Zealand population. As shown in @tbl-muslim-population, we selected six cities (Auckland, Christchurch, Hamilton, Wellington, Palmerston North, and Dunedin) that had at least 1,000 Muslims, for data collection. Inclusion criteria consist of self identification as Muslim, being 18 year of age or older, and currently residing in New Zealand. In sum a total of xxx Muslim participants completed the questionnaire and joined the NZAVS.
 
 ```{r}
 #| echo: false
@@ -714,24 +723,52 @@ The hypotheses, measures, and proposed data analysis are preregistered on OSF (<
 
 ### Research Assistant Recruitment and Training
 
-The 30 Research Assistants (RAs), as indicated in @tbl-muslim-population, were recruited before the MDS Wave 1. The position was advertised by University of Canterbury and shared via social media, emails, and community organisations. The eligibility criteria included studying at least at tertiary level in New Zealand, familiarity with research in humanities, interest in working with community, and experiences of working with a Muslim community organisation. Thirty RAs were recruited after initial screening and interviews from a total of 95 applicants.
+The 30 Research Assistants (RAs), as indicated in @tbl-muslim-population, were recruited before the MDS Wave 1. The position was advertised by University of Canterbury and shared via social media, emails, and community organisations. The eligibility criteria included the least of tertiary level education in New Zealand, familiarity with research in humanities, interest in working with community, and experiences of working with a Muslim community organisation. Thirty RAs were recruited after initial screening and interviews from a total of 95 applicants.
 
 Before the commencement of study, a series of comprehensive Zoom trainings took place to familiarise RAs with NZAVS, the MDS background, and survey questionnaires; and the relevant material were made accessible. In addition, RAs learned about ethnical guidelines, confidentiality, and interacting with a culturally diverse participants pool.
 
+### Ongoing RA Support and Evolving Targets
+
 ### Data Collection
 
-RAs used a snowball approach for data collection. RAs started reaching out to their close circles, and kept expanding their reach cricle. The booster sample was non-representative, and relied on a combination of community outreach at local Mosques, community and ethnic organisations, and MSA’s (Muslim Student Associations). Participants had the choice of filling in the online questionnaire using Qualtrics, or a paper questionnaire and returning it to the NZAVS headquarters in Auckland University using a pre-paid postal envelope.
+```{r}
+data <- data.frame(
+  City = c("Auckland", "Palmerston North", "Christchurch", "Wellington", "Dunedin", "Hamilton"),
+  Total_Organizations = c(138, 5, 21, 20, 18, 16),
+  Reached_Out = c(52, 4, 17, 17, 6, 9),
+  Responded = c(43, 4, 11, 10, 6, 6)
+)
+
+# Display the data
+print("City-wise data:")
+print(data)
+
+# Calculate the total for each category
+total_organizations <- sum(data$Total_Organizations)
+total_reached_out <- sum(data$Reached_Out)
+total_responded <- sum(data$Responded)
+
+# Display the totals
+cat("Total number of organizations: ", total_organizations, "\n")
+cat("Total number of organizations reached out to: ", total_reached_out, "\n")
+cat("Total number of responses: ", total_responded, "\n")
+```
+
+RAs used a snowball approach for data collection. They started reaching out to their close circles, and kept expanding their reach cricle. The booster sample was non-representative, and participants had the choice of filling in the online questionnaire using Qualtrics, or a paper questionnaire and returning it to the NZAVS headquarters in Auckland University using a pre-paid postal envelope.
+
+For the purposes of promotion, we relied on a combination of community outreach at local mosques, religious, community, and ethnic organisations, Muslim schools and businesses, and MSA’s (Muslim Student Associations). From available databases and community contacts, we identified `{r} total_organizations` organisations and RAs were able to approach Muslims in `{r} total_reached_out` organisations. Out of these, `{r} total_responded` have endorsed and promoted the study. Different organisations endorsed us in different manners: some allowed us to give speeches to their audience, others shared our promotional material online in social media, community message groups (e.g., WhatsApp), and mailing lists. In addition, tens of posters were placed in community facilities (e.g., mosques) and hundreds of flyers were handed over after Friday prayers as well as cultural and religious festivals.
+
+In addiiton to reaching out to organisations, the principal investigator conversed with 28 local and national community leaders, celebrities, religious scholars, and academics to spread our message to the communities. As part of this recruitment drive, the principal investigator also presented 28 talks, presentations, or lectures to Muslim community groups around New Zealand via mosques, universities, or community organisations in the mentioned cities, explaining the goals of the NZAVS, and how it would benefit the New Zealand Muslim community to be represented in this ongoing national longitudinal panel sample. Five such talks were presented by research assistants too. 
 
 The PI was always available to guide the process, provide feedback, and talk with participants if and when needed via audio and video mediums.
 
 The data were entered in the HQ. and anonyised. 
 
-  Promotions were posted online by these organisations in social media and community message groups (e.g., WhatsApp), and shared via mailing lists too. In addition, tens of posters were placed in community facilities (e.g., mosques) and hundreds of flyers were handed over after Friday prayers as well as cultural and religious festivals.  A total of 30 Muslim research assistants were employed in the following cities: Auckland, Hamilton, Palmerston North, Wellington, Christchurch, and Dunedin (identified as having more than 1000 Muslim residents based on 2018 Census). With the support of the local and national community leaders, the research assistants approached Muslim attendees at about 150 local and national Muslim community and religious organizations, explained the study goals to them, and invited them to complete either the online version, or a provided paper version which included a pre-paid return envelope. Out of these, 68 have endorsed and promoted the study (as outlined earlier). As part of this recruitment drive, Usman Afzali also presented 17 talks, presentations, or lectures to Muslim community groups around New Zealand via mosques, universities, or community organisations in the mentioned cities, explaining the goals of the NZAVS, and how it would benefit the New Zealand Muslim community to be represented in this ongoing national longitudinal panel sample. In sum a total of xxx Muslim participants completed the questionnaire and joined the NZAVS.
+    
 Outline the procedure for data collection at each time point, whether face-to-face or virtual.
 
 - Cover letter
 
-2.  Current Wave general procedure: Usman and Jamila with input from all RA's: Farah, Hussain, Hala, Zarqa, Zahra H, Nasrat
 
 -   **Recruitment:** Detail the recruitment strategy, including outreach methods and sources of recruitment.
 
@@ -787,9 +824,9 @@ library(plan)
 
 # Create the data frame
 df <- data.frame(
-  task = c("Community Consultation", "RA Hiring", "RA Training", "Wave 1 Data Collection"), 
-  start = c("2022-02-01", "2023-07-24", "2023-10-09", "2023-10-23"),
-  end = c("2024-08-08", "2023-09-23", "2023-10-27", "2024-10-25")
+  task = c("Community Consultation", "RA Hiring and Training", "Wave 1 Data Collection", "Social Media Marketing"), 
+  start = c("2022-02-01", "2023-07-24", "2023-10-23", "2023-12-27"),
+  end = c("2024-08-08", "2023-10-27", "2024-10-25", "2024-10-25")
 )
 
 # Convert start and end to Date format
@@ -798,7 +835,7 @@ df <- df %>% mutate(start = as.Date(start), end = as.Date(end))
 # Plot the timeline with different colors for each task
 ggplot(df, aes(x = start, xend = end, y = task, yend = task, color = task)) +
   geom_segment(size = 3) +  # Use geom_segment for the timeline bars
-  scale_color_manual(values = c("#1f77b4", "#ff7f0e", "#2ca02c", "#d62728")) +  # Assign specific colors
+  scale_color_manual(values = c("#1f77b4", "#ff7f0e", "#d62728", "#FF00FF")) +  # Assign specific colors
   theme_minimal() +  # Clean background
   labs(title = "Project Timeline", x = "Date", y = "Task") +
   theme(
