@@ -366,9 +366,9 @@ This whole process led to develop a comprehensive guideline that addresses feasi
 
 ## Translation
 
-Our consultation with the community indicated that the translation may only be needed for a small number of New Zealand Muslims, and that a majority will be able to use the English version. We had consulted with a group (Sulaiman-Hill and colleagues) who have been conducting research within the Muslim community. Therefore, instead of using the common translation back-translation procedure, we were thinking of using a more effective way of translating, back-translating, and comparing notes to ensure conceptual equivalence [@sulaiman-hill2021]. This method was inspired by the recent developments and recommendations based on the needs in countries that home an increasing number of refugees [@ozolins2020; @barger2010]. Following this, the translation was planned to be checked by experts as recommend by @fenn2020 and piloted within the Advisory Group to ensure reliability and conceptual equivalence.
+Our consultation with the community indicated that the translation may only be needed for a small number of New Zealand Muslims, and that a majority will be able to use the English version. As a result of consultation with a group (Sulaiman-Hill and colleagues) who have been conducting research within the Muslim community, instead of using the common translation back-translation procedure, we were thinking of using a more effective way of translating, back-translating, and comparing notes to ensure conceptual equivalence [@sulaiman-hill2021]. This method was inspired by the recent developments and recommendations based on the needs in countries that home an increasing number of refugees [@ozolins2020; @barger2010]. Following this, the translation was planned to be checked by experts as recommend by @fenn2020 and piloted within the Advisory Group to ensure reliability and conceptual equivalence.
 
-However, one important aspect of MDS is comparing Muslim scores on NZAVS with members from other religious groups. With a translated questionnaire, we still faced the risk of inability to capture the attitudes and behaviours as accurately as the English version. Therefore, we would not know if differences between the scores of Muslims and other groups would be due to religious affiliation or a biased translation. We raised this problem with the Advisory Group, and it was recommended not to translate the questionnaire. This gave us a methodological safety-net since we could be more confident that the meaning of concepts is not distorted because of translation.
+However, one important aspect of MDS is comparing Muslim scores on NZAVS with members from other religious groups. With a translated questionnaire, we still faced the risk of inability to capture the attitudes and behaviours as accurately as the English version. Therefore, we would not know if differences between the scores of Muslims and other groups would be due to religious affiliation or a biased translation. We raised this problem with the Advisory Group, and it was recommended not to translate the questionnaire and to furnish the English version to all potential Muslim participants. This gave us a methodological safety-net since we could be more confident that the meaning of concepts is not distorted because of translation.
 
 ## Consultation on survey items
 
@@ -723,11 +723,9 @@ The hypotheses, measures, and proposed data analysis are preregistered on OSF (<
 
 ### Research Assistant Recruitment and Training
 
-The 30 Research Assistants (RAs), as indicated in @tbl-muslim-population, were recruited before the MDS Wave 1. The position was advertised by University of Canterbury and shared via social media, emails, and community organisations. The eligibility criteria included the least of tertiary level education in New Zealand, familiarity with research in humanities, interest in working with community, and experiences of working with a Muslim community organisation. Thirty RAs were recruited after initial screening and interviews from a total of 95 applicants.
+The 30 research assistants, as indicated in @tbl-muslim-population, were recruited before the MDS Wave 1. The position was advertised by University of Canterbury and shared via social media, emails, and community organisations. The eligibility criteria included the least of tertiary level education in New Zealand, familiarity with research in humanities, interest in working with community, and experiences of working with a Muslim community organisation. Thirty research assistants were recruited after initial screening and interviews from a total of 95 applicants.
 
-Before the commencement of study, a series of comprehensive Zoom trainings took place to familiarise RAs with NZAVS, the MDS background, and survey questionnaires; and the relevant material were made accessible. In addition, RAs learned about ethnical guidelines, confidentiality, and interacting with a culturally diverse participants pool.
-
-### Ongoing RA Support and Evolving Targets
+Before the commencement of study, a series of comprehensive Zoom trainings took place to familiarise research assistants with NZAVS, the MDS background, and survey questionnaires. In addition, research assistants learned about ethnical guidelines, confidentiality principles, and interacting with a culturally diverse participants pool.
 
 ### Data Collection
 
@@ -740,8 +738,8 @@ data <- data.frame(
 )
 
 # Display the data
-print("City-wise data:")
-print(data)
+#print("City-wise data:")
+#print(data)
 
 # Calculate the total for each category
 total_organizations <- sum(data$Total_Organizations)
@@ -749,63 +747,34 @@ total_reached_out <- sum(data$Reached_Out)
 total_responded <- sum(data$Responded)
 
 # Display the totals
-cat("Total number of organizations: ", total_organizations, "\n")
-cat("Total number of organizations reached out to: ", total_reached_out, "\n")
-cat("Total number of responses: ", total_responded, "\n")
+#cat("Total number of organizations: ", total_organizations, "\n")
+#cat("Total number of organizations reached out to: ", total_reached_out, "\n")
+#cat("Total number of responses: ", total_responded, "\n")
 ```
 
-RAs used a snowball approach for data collection. They started reaching out to their close circles, and kept expanding their reach cricle. The booster sample was non-representative, and participants had the choice of filling in the online questionnaire using Qualtrics, or a paper questionnaire and returning it to the NZAVS headquarters in Auckland University using a pre-paid postal envelope.
+Research assistants used the snowball approach for data collection. They started reaching out to their close circles, and kept expanding their reach. The sample was non-representative, and participants had the choice of filling in the online questionnaire using Qualtrics, or a paper questionnaire and returning it to the NZAVS headquarters in Auckland University using a pre-paid postal envelope.
 
-For the purposes of promotion, we relied on a combination of community outreach at local mosques, religious, community, and ethnic organisations, Muslim schools and businesses, and MSA’s (Muslim Student Associations). From available databases and community contacts, we identified `{r} total_organizations` organisations and RAs were able to approach Muslims in `{r} total_reached_out` organisations. Out of these, `{r} total_responded` have endorsed and promoted the study. Different organisations endorsed us in different manners: some allowed us to give speeches to their audience, others shared our promotional material online in social media, community message groups (e.g., WhatsApp), and mailing lists. In addition, tens of posters were placed in community facilities (e.g., mosques) and hundreds of flyers were handed over after Friday prayers as well as cultural and religious festivals.
+After the initial stage of reaching out to the close circle, the research assistants started reaching out to community organisations. A runsheet was provided, and different documents and promotional materials such as individual messages, community messages, flyers, and posters were at the research assistants disposal based on their needs. We have also developed a clear vision statement and ethics statement that were part of our MDS introductory letter. In addition, an additinal cover letter was sent to all Muslim participants alongside the information sheet. It was aimed to clearly convey the purposes of booster to the community. Please see appendices A-H for these materials. Finally, 10 promotional shirts were designed that the research assistants wore during festivals and community events for study promotion.
 
-In addiiton to reaching out to organisations, the principal investigator conversed with 28 local and national community leaders, celebrities, religious scholars, and academics to spread our message to the communities. As part of this recruitment drive, the principal investigator also presented 28 talks, presentations, or lectures to Muslim community groups around New Zealand via mosques, universities, or community organisations in the mentioned cities, explaining the goals of the NZAVS, and how it would benefit the New Zealand Muslim community to be represented in this ongoing national longitudinal panel sample. Five such talks were presented by research assistants too. 
+The social media campaign started at the beginning of 2024 and continued until the end of Wave 1. Beside regular posts on a weekly, and later on, on a fortnighly basis; we also used paid promotion to increase reach of the project.
 
-The PI was always available to guide the process, provide feedback, and talk with participants if and when needed via audio and video mediums.
+For the purposes of community promotion, we relied on a combination of community outreach at local mosques, religious, community, and ethnic organisations, Muslim schools and businesses, and MSA’s (Muslim Student Associations). From available databases and community contacts, we identified `{r} total_organizations` organisations and RAs were able to approach Muslims in `{r} total_reached_out` organisations. Out of these, `{r} total_responded` have endorsed and promoted the study. Different organisations endorsed us in different manners: some allowed us to give speeches to their audience, others shared our promotional material online in social media, community message groups (e.g., WhatsApp), and mailing lists. In addition, tens of posters were placed in community facilities (e.g., mosques) and hundreds of flyers were handed over after Friday prayers as well as cultural and religious festivals.
 
-The data were entered in the HQ. and anonyised. 
+In addition to reaching out to organisations, the principal investigator conversed with 28 local and national community leaders, celebrities, religious scholars, and academics to spread our message to the communities. As part of this recruitment drive, the principal investigator also presented 28 talks, presentations, or lectures to Muslim community groups around New Zealand via mosques, universities, or community organisations in the mentioned cities, explaining the goals of the NZAVS, and how it would benefit the New Zealand Muslim community to be represented in this ongoing national longitudinal panel sample. Five additional talks were delivered by research assistants too. 
 
-    
-Outline the procedure for data collection at each time point, whether face-to-face or virtual.
+### Ensuring Research Assistants convenience
 
-- Cover letter
+MDS research assistants come from differnet backgrounds. Some of them have had extensive researcch experience, whereas, for the some of them, it was the first attempt of engaging in data collection. Some research assistants wanted explicit weekly targets and others decided their own targets. The principal investigator conducted fortnightly check-ins with individuals and teams in cities to ensure that questions are answered, and was always available to guide the process, provide feedback. The principal investigator was also available talk with participants if and when needed via audio and video mediums. 
 
+The MDS website provides the most needed information for public and will keep updating as we make progress.
 
--   **Recruitment:** Detail the recruitment strategy, including outreach methods and sources of recruitment.
-
-RAs - re related to different cultural groups.
+The collected data are processed in the NZAVS headquarters, deidentified, and only made available to trusted researchers and collaborators.
 
 ## Timeline
+
+() indicates important phases of pre-Wave 1 and Wave of MDS.
+
 Present a timeline indicating key milestones in the study, including recruitment periods, data collection waves, and analysis phases.
-
-Waves 
-
-```{r}
-#| out-width: 50%
-library(ggplot2)
-
-data <- data.frame(
-  Date = c("Dec-2023", "Feb-2024", "Apr-2024", "Jun-2024"),
-  Responses = c(151, 241, 373, 453)
-)
-
-data$Date <- as.Date(paste("01-", data$Date, sep=""), format="%d-%b-%Y")
-
-ggplot(data, aes(x = Date, y = Responses)) +
-  geom_line(color = "#2c3e50", size = 1) +
-  geom_point(color = "#27ae60", size = 2) +
-  geom_text(aes(label = Responses), vjust = -0.5, color = "#e74c3c", size = 3) +  # Changed color to bright green
-  labs(title = "Response Rate Over Time",
-       x = "Date",
-       y = "Number of Responses") +
-  scale_x_date(date_labels = "%b-%Y", date_breaks = "1 month") +
-  theme_light(base_size = 10) +
-  theme(
-    plot.title = element_text(hjust = 0.5, face = "bold", size = 10, color = "#34495e"),
-    axis.title = element_text(face = "bold", size = 10, color = "#34495e"),
-    axis.text = element_text(color = "#2c3e50")
-  )
-```
-
 
 ```{r}
 # | echo: false
@@ -819,8 +788,10 @@ ggplot(data, aes(x = Date, y = Responses)) +
 # | class-output: "landscape"
 # | out-width: 50%
 
+suppressPackageStartupMessages({
 library(tidyverse)
-library(plan)
+library(plan)})
+
 
 # Create the data frame
 df <- data.frame(
@@ -833,7 +804,7 @@ df <- data.frame(
 df <- df %>% mutate(start = as.Date(start), end = as.Date(end))
 
 # Plot the timeline with different colors for each task
-ggplot(df, aes(x = start, xend = end, y = task, yend = task, color = task)) +
+suppressWarnings(ggplot(df, aes(x = start, xend = end, y = task, yend = task, color = task)) +
   geom_segment(size = 3) +  # Use geom_segment for the timeline bars
   scale_color_manual(values = c("#1f77b4", "#ff7f0e", "#d62728", "#FF00FF")) +  # Assign specific colors
   theme_minimal() +  # Clean background
@@ -842,7 +813,7 @@ ggplot(df, aes(x = start, xend = end, y = task, yend = task, color = task)) +
     axis.text.y = element_text(size = 12),
     plot.title = element_text(hjust = 0.5, size = 16),
     legend.position = "none"
-  )
+  ))
 ```
 
 ```{r}
@@ -864,15 +835,31 @@ ggplot() +
   coord_flip() 
 ```
 
-# Website
+# What does and what does not work
+
+Usman will elaborate on this. the followings improve data collection
+1. building rapport
+2. addressing confidentiality
+3. being transparent with the community
+4. going to community via trusted leaders
+5. reaching out to inviduals personally, not via groups.
+
+challengers:
+1. length of the questionnaire
+2. unfamiliarity with research
+3. other preferences - generatioanl differences.
+
+TBA: these are anecdotal. But we wanted to investigated further as to why our sample size stayed small. Therefore, we conducted a qualitative research of collecting research assistant experiences.
 
 # Strengths and Limitations
-
+Quantitative only. focus on english speakers only
 1.  Zahra E, Rizwan, Somia
 
 Mentions Jamila's and Qual here..
 
 ## Application and implications
+
+Aamina Ali, Adepate Mustapha-Koiki
 
 Potential contributions of the study to the field of mental health research and implications for policy and practice.
 
@@ -880,7 +867,7 @@ Potential contributions of the study to the field of mental health research and 
 
 Summarize the importance of the longitudinal study in understanding the psychological effects of the Christchurch mosque attacks on the Muslim community and reiterate the significance of the research aims.
 
-1.  Zahra E, Rizwan, Somia
+1.  Sandila. Afrah
 
 {{< pagebreak >}}
 
