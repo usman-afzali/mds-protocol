@@ -318,8 +318,8 @@ format:
   # apaquarto-html: default
   # apaquarto-pdf:
   # documentmode: man
-  apaquarto-pdf: default
-  # apaquarto-docx: default
+  # apaquarto-pdf: default
+  apaquarto-docx: default
 ---
 
 On 15 March 2019, a devastating far-right extremist attack on two mosques took place in Christchurch, killing 51 Muslims and injuring 40 [@royalco2020]. Although this attack shocked the world [@worldle2019] and was unprecedented in New Zealand [@jacinda2019b], it was not as surprising to the Muslim community [@rahman2019] due to Muslims' widespread experience of Islamophobia and prejudice in the country [@sibley2020]. Islamophobia has been reportedly increased overseas following these attacks [@islamoph2022], however, the evidence in New Zealand seems to be mixed. While news articles have reported increased hate towards Muslims [@frykberg2023], our findings are indicative of improved attitudes towards Muslims [@shanaah2021; @bulbulia2023] following attacks. Addressing this discrepancy is beyond the scope of current article, however, it is worth noting that most of our research in this area, primarily from the New Zealand Attitudes and Values Study (NZAVS) [@newzeal2024] lens, has so far shed light on such attitudes from a non-Muslim perspective. In other words, we have reported on how Muslims are perceived by non-Muslim members of New Zealand society, rather than how Muslims perceive themselves. While the published NZAVS reports are an absolute necessity, the self-experience of Muslims themselves as the direct victims of this heinous crime is equally, if not more, important.
