@@ -61,3 +61,18 @@
 {\noindent \emph{Note.} From NZAVS Wave 15 \url{https://osf.io/75snb/}}
 
 \end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+\caption{\label{fig-timeline}MDS Timeline}
+
+\centering{
+
+\includegraphics[width=1\textwidth,height=\textheight]{figs/project_timeline.png}
+
+}
+
+\end{figure*}

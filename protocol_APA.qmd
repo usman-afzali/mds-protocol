@@ -726,10 +726,6 @@ The collected data are processed in the NZAVS headquarters, deidentified, and on
 
 ## Timeline
 
-As displayed in @fig-ethnicgroups2, the community consultation started before Wave 1 and continued until the end of it. In addition, social media marketing has been an integral part of MDS data collection campaign. The planned future events, with approximate dates, are indicated too.
-
-Present a timeline indicating key milestones in the study, including recruitment periods, data collection waves, and analysis phases.
-
 ```{r}
 # | echo: false
 # | include: false
@@ -738,55 +734,60 @@ Present a timeline indicating key milestones in the study, including recruitment
 # | fig.align: "center"
 # | fig.height: 6
 # | fig.width: 10
-# | class-output: "landscape"
-# | out-width: 50%
+
 
 suppressPackageStartupMessages({
-library(tidyverse)
-library(plan)})
-
+  library(tidyverse)
+  library(plan)
+  library(forcats)
+})
 
 # Create the data frame
 df <- data.frame(
-  task = c("Community Consultation", "RA Hiring and Training", "Wave 1", "Social Media Marketing", "Wave 2", "Wave 3", "Research Symposia", "Wave 1 Data Analysis"), 
+  task = c("Community Consultation", "RA Hiring & Training", "Wave 1", "Social Media Marketing", "Wave 2", "Wave 3", "Research Symposia", "Wave 1 Data Analysis"), 
   start = c("2022-02-01", "2023-07-24", "2023-10-23", "2023-12-27", "2024-10-26", "2025-10-26", "2025-04-01", "2024-10-25"),
-  end = c("2024-10-25", "2023-10-27", "2024-10-25", "2024-10-25", "2025-10-25", "2026-10-25", "2025-06-30", "2025-02-28")
+  end = c("2024-10-25", "2023-10-27", "2024-10-25", "2024-10-25", "2025-10-25", "2026-02-14", "2025-06-30", "2025-02-28")
 )
 
 # Convert start and end to Date format
-df <- df %>% mutate(start = as.Date(start), end = as.Date(end))
+df <- df %>%
+  mutate(start = as.Date(start), end = as.Date(end))
 
-# Plot the timeline with different colors for each task
-suppressWarnings(ggplot(df, aes(x = start, xend = end, y = task, yend = task, color = task)) +
-  geom_segment(size = 3) +  # Use geom_segment for the timeline bars
-  scale_color_manual(values = c("#1f77b4", "#ff7f0e", "#d62728", "#FF00FF", "#FF00FF", "#FF00FF", "#1f77b4", "#1f77b4")) +  # Assign specific colors
-  theme_minimal() +  # Clean background
-  labs(title = "Project Timeline", x = "Date", y = "Task") +
-  theme(
-    axis.text.y = element_text(size = 12),
-    plot.title = element_text(hjust = 0.5, size = 16),
-    legend.position = "none"
-  ))
-```
+# Reorder tasks as desired
+custom_order <- c("Community Consultation", "RA Hiring & Training", "Wave 1", "Social Media Marketing", "Wave 2", "Wave 1 Data Analysis", "Research Symposia", "Wave 3")
+
+# Save the plot as a PNG file
+ggsave("figs/project_timeline.png", 
+       plot = ggplot(df, aes(x = start, xend = end, y = fct_relevel(task, custom_order), yend = fct_relevel(task, custom_order), color = task)) +
+                geom_segment(size = 2) +  
+                scale_color_manual(values = c("#1f77b4", "#ff7f0e", "#d62728", "#FF00FF", "#FF00FF", "#FF00FF", "#1f77b4", "#1f77b4")) +  
+                theme_minimal() +  
+                labs(title = "Project Timeline", x = "Date", y = "Task", caption = "Figure 1: Project timeline showing various tasks and their durations.") +  
+                theme(
+                  axis.text.y = element_text(size = 12),
+                  plot.title = element_text(hjust = 0.5, size = 16),
+                  legend.position = "none",
+                  panel.grid.major.x = element_line(color = "lightgray", linewidth = 0.5),
+                  panel.grid.minor.x = element_blank(),
+                  panel.grid.major.y = element_blank(),
+                  panel.grid.minor.y = element_blank(),
+                  panel.spacing = unit(0.5, "lines")
+                ),
+       width = 10, height = 6, units = "in")  # Set width and height for saved figure
+
+```  
 
 ```{r}
-# | echo: false
-# | include: false
-# | warning: false
-# | message: false
-df_tidy <- df %>% 
-  gather(key=date_type, value=date, -task)             
+#| label: fig-timeline
+#| fig-cap: MDS Timeline
+#| fig-width: 3
+#| out-width: 100%
+knitr::include_graphics("figs/project_timeline.png")
 ```
 
-```{r}
-# | echo: false
-# | include: false
-# | warning: false
-# | message: false
-ggplot() +
-  geom_line(data=df_tidy, mapping=aes(x=task, y=date), size=2) +
-  coord_flip() 
-```
+As displayed in @fig-timeline, the community consultation started before Wave 1 and continued until the end of it. In addition, social media marketing has been an integral part of MDS data collection campaign. The planned future events, with approximate dates, are indicated too.
+
+Present a timeline indicating key milestones in the study, including recruitment periods, data collection waves, and analysis phases.
 
 ## Enablers and challengers of data collection
 
@@ -809,6 +810,8 @@ We also learned that the following factors could hinder data collection efforts.
 
 Although these findings are anecdotal, we have witnessed enhanced participation by addressing some of the challengers to data collection. To better understand and document, we have conducted a qualitative research of research assistant experiences in terms of data collection [@afzali2024]. Findings from this research will be published in the near future.
 
+
+
 ## Strengths and limitations
 
 Quantitative only. focus on english speakers only 1. Zahra E, Rizwan, Somia
@@ -826,6 +829,8 @@ Potential contributions of the study to the field of mental health research and 
 ## Conclusion
 
 MDS is a crucial booster for the NZAVS because not only it addresses the under-representation of Muslim in NZVAS, but it only helps us answer many questions about Muslims' self-perception, meaning-making, flourishing, religiosity, and health outcomes. The current protocol also provides a preliminary understanding of how to work with a minoritised religious community in a culturally sensitive manner. Further discoveries are going to be published by the MDS team in the near future. Despite the well-known limitations of observational, quantitative, survey research, MDS provides substantial values in terms of implications and applications. Techniques learned from MDS can be applied while working with Muslims and other culturally similar groups in New Zealand and overseas.
+
+
 
 {{< pagebreak >}}
 

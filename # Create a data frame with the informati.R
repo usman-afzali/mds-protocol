@@ -49,3 +49,7 @@ ggplot(data, aes(x = Date, y = Responses)) +
     axis.title = element_text(face = "bold", size = 10, color = "#34495e"),
     axis.text = element_text(color = "#2c3e50")
   )
+
+
+
+
