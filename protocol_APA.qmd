@@ -759,13 +759,12 @@ custom_order <- c("Community Consultation", "RA Hiring & Training", "Wave 1", "S
 # Save the plot as a PNG file
 ggsave("figs/project_timeline.png", 
        plot = ggplot(df, aes(x = start, xend = end, y = fct_relevel(task, custom_order), yend = fct_relevel(task, custom_order), color = task)) +
-                geom_segment(size = 2) +  
-                scale_color_manual(values = c("#1f77b4", "#ff7f0e", "#d62728", "#FF00FF", "#FF00FF", "#FF00FF", "#1f77b4", "#1f77b4")) +  
+                geom_segment(linewidth = 2) +  
+                scale_color_manual(values = c("#6fb1e4", "#dca237", "#469c75", "#efe361", "#3071ad", "#c66626", "#c17da5", "#000000")) +  
                 theme_minimal() +  
-                labs(title = "Project Timeline", x = "Date", y = "Task", caption = "Figure 1: Project timeline showing various tasks and their durations.") +  
+                labs(x = "Years", y = "Tasks") +  
                 theme(
-                  axis.text.y = element_text(size = 12),
-                  plot.title = element_text(hjust = 0.5, size = 16),
+                  axis.text.y = element_text(size = 16),
                   legend.position = "none",
                   panel.grid.major.x = element_line(color = "lightgray", linewidth = 0.5),
                   panel.grid.minor.x = element_blank(),
@@ -779,15 +778,13 @@ ggsave("figs/project_timeline.png",
 
 ```{r}
 #| label: fig-timeline
-#| fig-cap: MDS Timeline
+#| fig-cap: MDS timeline showing various tasks and their durations
 #| fig-width: 3
 #| out-width: 100%
 knitr::include_graphics("figs/project_timeline.png")
 ```
 
 As displayed in @fig-timeline, the community consultation started before Wave 1 and continued until the end of it. In addition, social media marketing has been an integral part of MDS data collection campaign. The planned future events, with approximate dates, are indicated too.
-
-Present a timeline indicating key milestones in the study, including recruitment periods, data collection waves, and analysis phases.
 
 ## Enablers and challengers of data collection
 

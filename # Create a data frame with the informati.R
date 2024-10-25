@@ -25,31 +25,38 @@ cat("Total number of responses: ", total_responded, "\n")
 
 
 
-#| out-width: 50%
-library(ggplot2)
 
-data <- data.frame(
-  Date = c("Dec-2023", "Feb-2024", "Apr-2024", "Jun-2024"),
-  Responses = c(151, 241, 373, 453)
+library(tidyverse)
+library(plan)
+library(forcats)
+
+df <- data.frame(
+  task = c("Community Consultation", "RA Hiring & Training", "Wave 1", "Social Media Marketing", "Wave 2", "Wave 3", "Research Symposia", "Wave 1 Data Analysis"), 
+  start = c("2022-02-01", "2023-07-24", "2023-10-23", "2023-12-27", "2024-10-26", "2025-10-26", "2025-04-01", "2024-10-25"),
+  end = c("2024-10-25", "2023-10-27", "2024-10-25", "2024-10-25", "2025-10-25", "2026-02-14", "2025-06-30", "2025-02-28")
 )
 
-data$Date <- as.Date(paste("01-", data$Date, sep=""), format="%d-%b-%Y")
 
-ggplot(data, aes(x = Date, y = Responses)) +
-  geom_line(color = "#2c3e50", size = 1) +
-  geom_point(color = "#27ae60", size = 2) +
-  geom_text(aes(label = Responses), vjust = -0.5, color = "#e74c3c", size = 3) +  # Changed color to bright green
-  labs(title = "Response Rate Over Time",
-       x = "Date",
-       y = "Number of Responses") +
-  scale_x_date(date_labels = "%b-%Y", date_breaks = "1 month") +
-  theme_light(base_size = 10) +
-  theme(
-    plot.title = element_text(hjust = 0.5, face = "bold", size = 10, color = "#34495e"),
-    axis.title = element_text(face = "bold", size = 10, color = "#34495e"),
-    axis.text = element_text(color = "#2c3e50")
-  )
+df <- df %>%
+  mutate(start = as.Date(start), end = as.Date(end))
 
+# Reorder tasks as desired
+custom_order <- c("Community Consultation", "RA Hiring & Training", "Wave 1", "Social Media Marketing", "Wave 2", "Wave 1 Data Analysis", "Research Symposia", "Wave 3")
 
-
-
+ggsave("project_timeline.png", 
+       plot = ggplot(df, aes(x = start, xend = end, y = fct_relevel(task, custom_order), yend = fct_relevel(task, custom_order), color = task)) +
+                geom_segment(size = 2) +  
+                scale_color_manual(values = c("#6fb1e4", "#dca237", "#469c75", "#efe361", "#3071ad", "#c66626", "#c17da5", "#000000")) +  
+                theme_minimal() +  
+                labs(title = "Project Timeline", x = "Date", y = "Task", caption = "Figure 1: Project timeline showing various tasks and their durations.") +  
+                theme(
+                  axis.text.y = element_text(size = 12),
+                  plot.title = element_text(hjust = 0.5, size = 16),
+                  legend.position = "none",
+                  panel.grid.major.x = element_line(color = "lightgray", linewidth = 0.5),
+                  panel.grid.minor.x = element_blank(),
+                  panel.grid.major.y = element_blank(),
+                  panel.grid.minor.y = element_blank(),
+                  panel.spacing = unit(0.5, "lines")
+                ),
+       width = 10, height = 6, units = "in")
