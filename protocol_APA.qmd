@@ -20,11 +20,11 @@ author:
       - conceptualisation
       - data curation
       - formal analysis
-      - funding acquistion
+      - funding acquisition
       - investigation
       - methodology
       - project administration
-      - reources
+      - resources
       - supervision
       - visualisation
       - writing - original draft
@@ -55,8 +55,13 @@ author:
     corresponding: false
     orcid: 0000-0000-0000-0001
     affiliations:
-      - name: University of Canterbury
-        department: School of Psychology, Speech and Hearing
+      - name: University of Otago
+        department: Religion Programme
+        address: 362 Leith Street
+        city: Dunedin
+        region: Otago
+        country: New Zealand
+        postal-code: 9016
     roles:
       - data curation
       - writing - original draft (method)
@@ -110,10 +115,10 @@ author:
       - writing - review & editing     
   - name: Tuba Azeem
     corresponding: false
-    orcid: 0000-0000-0000-0001
+    orcid: 0000-0002-0611-8726
     affiliations:
       - name: Victoria University of Wellington
-        department: School of ABC
+        department: Faculty of Law
     roles:
       - data curation
       - writing - original draft (method)
@@ -152,8 +157,8 @@ author:
     corresponding: false
     orcid: 0000-0000-0000-0000
     affiliations:
-      - name: Massey University
-        department: Department of Psychology
+      - name: University of Canterbury
+        department: School of Psychology, Speech and Hearing 
     roles:
       - data curation
       - writing - original draft (method)
@@ -162,8 +167,8 @@ author:
     corresponding: false
     orcid: 0009-0002-0120-7428
     affiliations:
-      - name: Universit of Otago
-        department: School of Psychological Medicine
+      - name: University of Otago Christchurch
+        department: Department of Psychological Medicine
     roles:
       - data curation
       - writing - original draft (method)
@@ -179,7 +184,7 @@ author:
       - writing - review & editing           
   - name: Zahra Emamzadeh
     corresponding: false
-    orcid: 0009-0000-0000-0001
+    orcid: 0000-0003-1776-3912
     affiliations:
       - name: Ministry of Education
         department: TBA
@@ -227,10 +232,8 @@ author:
     corresponding: false
     orcid: 0000-0000-0000-0001
     affiliations:
-      - name: TBA
-        department: TBA
+      - name: Independent Researcher
     roles:
-      - writing - original draft (conclusion)
       - writing - review & editing
   - name: Sandila Tanveer
     corresponding: false
@@ -239,7 +242,6 @@ author:
       - name: University of Otago Christchurch
         department: Department of Psychological Medicine
     roles:
-      - writing - original draft (conclusion)
       - writing - review & editing           
   - name: Aarif Rasheed
     corresponding: false
@@ -249,8 +251,8 @@ author:
     roles:
       - conceptualisation
       - data curation
-      - funding acquistion
-      - reources
+      - funding acquisition
+      - resources
       - writing - review & editing   
   - name: Kumar Yogeeswaran
     corresponding: false
@@ -260,7 +262,7 @@ author:
         department: School of Psychology, Speech and Hearing
     roles:
       - conceptualisation
-      - funding acquistion
+      - funding acquisition
       - methodology
       - writing - original draft
       - writing - review & editing    
@@ -273,12 +275,11 @@ author:
     roles:
       - conceptualisation
       - data curation
-      - funding acquistion
+      - funding acquisition
       - methodology
       - project administration
-      - reources
+      - resources
       - supervision
-      - writing - original draft
       - writing - review & editing
       - development and management of the New Zealand Attitudes and Values Study panel data collection from 2009 to the present
   - name: Joseph A. Bulbulia
@@ -291,12 +292,11 @@ author:
         department: Department of Linguistic and Cultural Evolution 
     roles:
       - conceptualisation
-      - funding acquistion
+      - funding acquisition
       - methodology
       - project administration
-      - reources
+      - resources
       - supervision
-      - writing - original draft
       - writing - review & editing                                                    
 author-note:
   status-changes: 
@@ -318,8 +318,8 @@ format:
   # apaquarto-html: default
   # apaquarto-pdf:
   # documentmode: man
-  # apaquarto-pdf: default
-  apaquarto-docx: default
+  apaquarto-pdf: default
+  # apaquarto-docx: default
 ---
 
 On 15 March 2019, a devastating far-right extremist attack on two mosques took place in Christchurch, killing 51 Muslims and injuring 40 [@royalco2020]. Although this attack shocked the world [@worldle2019] and was unprecedented in New Zealand [@jacinda2019b], it was not as surprising to the Muslim community [@rahman2019] due to Muslims' widespread experience of Islamophobia and prejudice in the country [@sibley2020]. Islamophobia has been reportedly increased overseas following these attacks [@islamoph2022], however, the evidence in New Zealand seems to be mixed. While news articles have reported increased hate towards Muslims [@frykberg2023], our findings are indicative of improved attitudes towards Muslims [@shanaah2021; @bulbulia2023] following attacks. Addressing this discrepancy is beyond the scope of current article, however, it is worth noting that most of our research in this area, primarily from the New Zealand Attitudes and Values Study (NZAVS) [@newzeal2024] lens, has so far shed light on such attitudes from a non-Muslim perspective. In other words, we have reported on how Muslims are perceived by non-Muslim members of New Zealand society, rather than how Muslims perceive themselves. While the published NZAVS reports are an absolute necessity, the self-experience of Muslims themselves as the direct victims of this heinous crime is equally, if not more, important.
@@ -344,7 +344,7 @@ Although, there have been sporadic reports of increased hate crimes after the at
 
 The Christchurch shootings prompted many New Zealand research groups and institutions to further study Muslims and with Muslims, that so far have been a culturally-distinct, under-researched, minority group. These studies included trauma-focused response [@sulaiman-hill2021; @sulaiman-hill2024], inclusion, Islamophobia, and wellbeing [@junaid2024], perceived discrimination among Muslim immigrant youth [@raissi2024], the political implications of government decisions [@arkilic2021a] among others. Given that, at NZAVS, we have explored perception of Muslims and the mechanisms of attitudinal changes towards Muslims following 15 March 2019 attacks [@sibley2020; @shaver2017; @bulbulia2023; @hawi2019], it was timely and necessary that we expanded our reach further.
 
-The NZAVS is a planned 20-year-long longitudinal national probability annual panel study of social attitudes, personality, ideology and health outcomes that began in 2009 and is currently in its 15th year. It has so far collected data from more than 70,000 New Zealand residents using the electoral roll [@newzeal2024]. The NZAVS has been instrumental in exploring key issues related to minorities, including but not limited to discrimination, intergroup relations, identity, distress, security, and the dynamics and mechanisms behind them.
+The NZAVS is a planned 20-year-long longitudinal national probability annual panel study of social attitudes, personality, ideology and health outcomes that began in 2009 and is currently in its 15th year. It has so far collected data from more than 70,000 New Zealand residents using the electoral roll [@sibley2024]. The NZAVS has been instrumental in exploring key issues related to minorities, including but not limited to discrimination, intergroup relations, identity, distress, security, and the dynamics and mechanisms behind them.
 
 The NZAVS has been uniquely positioned due to its prestigious reputation (\> 150 peer-reviewed publications), longiutinal panel design, large sample size, and a large multi-disciplinary research team [@sibley2024]. More importantly, NZAVS has a nationally representative sample with data from different identity and religious group [@sibley2024], thereby, allowing us to compare data from different identity groups. However, the Muslim sample in NZAVS has been \< 100, that did not allow us to make meaningful inferences regarding Mulsim lives and issues in comparison with other religious groups. Hence, there was an immediate need to collect more data from Muslims in New Zealand.
 
@@ -458,33 +458,21 @@ For Likert type scales, the minimum and maximum levels are noted along with desc
 ### Service attendance and religiosity
 
 1.  Do you identify with a religion and/or spiritual group? (Yes/No). If yes, what religion or spiritual group? (String entry).
-
 2.  How many times did you attend a church or place of worship in the last month? (String entry).
-
 3.  How many times did you pray in the last week? (String entry).
-
 4.  How many times did you read religious scripture in the last week? (String entry).
-
 5.  How important is your religion to how you see yourself? (1 = Not Important, 7 = Very Important).
-
 6.  I identify as a spiritual person. (1 = Strongly Disagree, 7 = Strongly Agree).
-
 7.  Do you believe in God? (Yes/No).
-
 8.  Do you believe in any form of spirit or life force? (Yes/No).
 
 ### Prejudice
 
 1.  I feel that I am often discriminated against because of my religious/spiritual beliefs. (1 = Strongly Disagree, 7 = Strongly Agree).
-
 2.  People from my ethnic group are discriminated against in New Zealand. (1 = Strongly Disagree, 7 = Strongly Agree).
-
 3.  I feel that I am often discriminated against because of my age. (1 = Strongly Disagree, 7 = Strongly Agree).
-
 4.  I feel that I am often discriminated against because of my ethnicity. (1 = Very Innacurate, 7 = Very Accurate).
-
 5.  I feel that I am often discriminated against because of my gender. (1 = Very Innacurate, 7 = Very Accurate).
-
 6.  Intergroup Warmth Ratings: Participants are asked to rate their feelings of warmth toward different groups using the “Feeling Thermometer Scale” for each group from least to most warmth on a 7-point scale where 1 = Least Warm and 7 = Most Warm (see @fig-warmth for reference). Groups include: NZ Europeans, Māori, Asians in general, Pacific Islanders, Elderly people, People with a disability, Refugees, Overweight people, Immigrants in general, Chinese, Indians, Muslims, LGBTQ+ people, People with mental illness.
 
 ```{r}
@@ -499,67 +487,42 @@ knitr::include_graphics("figs/warmth.png")
 ### Felt belonging
 
 1.  I know that people in my life accept and value me. (1 = Very Innacurate, 7 = Very Accurate).
-
 2.  I feel like an outsider. (1 = Very Innacurate, 7 = Very Accurate).
-
 3.  I know that people in around me share my attitudes and beliefs. (1 = Very Innacurate, 7 = Very Accurate).
 
 ### Support
 
 1.  There are people I can depend on to help me if I really need it. (1 = Strongly Disagree, 7 = Strongly Agree).
-
 2.  There is no one I can turn to for guidance in times of stress (R). (1 = Strongly Disagree, 7 = Strongly Agree).
-
 3.  I know there are people I can turn to when I need help. (1 = Strongly Disagree, 7 = Strongly Agree).
 
 ### Employment
 
 1.  What is your highest level of qualification? (String entry).
-
 2.  Are you currently employed (This includes self-employed of casual work)? (Yes/No). This leads to a four-point nominal response: employed full-time, employed part-time, unemployed, and not in the labour force.
-
 3.  In that job, what is your current occupation? (String entry).
-
 4.  What is the main activity of the business or employer that you work for? (String entry).
-
 5.  How long have you worked at your current organization? (String entry: years/months).
-
 6.  How satisfied are you with your current job? (1 = Not Satisfied, 7 = Very Satisfied).
-
 7.  How secure do you feel in your current job? (1 = Not Secure, 7 = Very Secure).
-
 8.  How valued do you feel by your current organization? (1 = Not valued, 7 = Very Valued).
 
 ### Health
 
 1.  In general, would you say your health is... (1 = Poor, 7 = Excellent).
-
 2.  I seem to get sick a little easier than other people. (1 = Strongly Disagree, 7 = Strongly Agree).
-
 3.  I expect my health to get worse. (1 = Strongly Disagree, 7 = Strongly Agree).
-
 4.  Do you have a health condition or disability that limits you, and that has lasted for 6+ months? (Yes/No). If yes, please state: (String entry).
-
 5.  How often do you have a drink containing alcohol? This is measured using a 6 point nominal scale (a. Never - I don't drink, b. Monthly or less, c. Up to 4 times a month, d. Up to 3 times a week, e. 4 or more times a week, f. Don't know).
-
 6.  Have you ever regularly smoked tobacco cigarettes? (Yes/No).
-
 7.  Have you ever regularly used e-cigarettes? (Yes/No).
-
 8.  Do you currently smoke tobacco cigarettes? (Yes/No).
-
 9.  Do you currently vape or use e-cigarettes? (Yes/No).
-
 10. Access to and satisfaction with GP: Do you have a regular family doctor/GP? (Yes/No). (If yes) How satisfied are you with the service and care you receive from your family doctor/GP? (1 = Not Satisfied, 7 = Very Satisfied). Do you think your doctor/GP shares a similar cultural background to you? (1 = Definitely No, 7 = Definitely Yes). Does your doctor/GP respect your cultural background when you are discussing health issues with them? (1= Definitely No, 7 = Definitely Yes).
-
 11. Please estimate how many hours you spent during each of the following things last week (String entry). Options provided: Working in paid employment, housework/cooking, looking after children, volunteer/charitable work, exercising/physical activity, watching TV/Netflix/movies, travelling/commuting, watching/reading news, using the internet (in total), using social media (e.g., Facebook), playing video games/computer games.
-
 12. BMI: Calculated by using a person's weight (Kg) divided by square root of height (m) that is asked separately, using "What is your height? (String entry (meters))", and "What is your weight? (String entry (Kgs))".
-
 13. During the past month, on average, how many hours of actual sleep did you get per night? (String entry).
-
 14. Do you have a health condition or disability that limits you, and that has lasted for 6+ months? (Yes/No). If yes, please state: (String entry).
-
 15. Chronic diseases diagnosis: See @fig-chrondis.
 
 ```{r}
@@ -577,7 +540,7 @@ Measured using the Kessler-6 items (items 1-6 in @fig-Kess-6) rated on a 5-point
 
 ```{r}
 #| label: fig-Kess-6
-#| fig-cap: Kessler 6
+#| fig-cap: Kessler-6 subjective wellbeing scale
 #| apa-note: From NZAVS Wave 15 <https://osf.io/75snb/>
 #| fig-width: 3
 #| out-width: 75%
@@ -594,7 +557,7 @@ Items from @fig-life-sat measured on 11-item measure (0 = Completely Dissatisfie
 
 ```{r}
 #| label: fig-life-sat
-#| fig-cap: Life Satisfaction
+#| fig-cap: Life Satisfaction scale
 #| apa-note: From NZAVS Wave 15 <https://osf.io/75snb/>
 #| fig-width: 3
 #| out-width: 75%
@@ -621,47 +584,32 @@ I feel anxious about interacting with people from other races (1 = Strongly Disa
 
 During the last 30 days, how often did you have negative thoughts that repeated over and over? (0 = None of the time, 4 = All of the time).
 
-### Forgivingness versus Vengeful Rumination
+### Forgivingness versus vengeful rumination
 
 Items are, "Sometimes I can't sleep because of thinking about past wrongs I have suffered." (1 = Strongly Disagree, 7 = Strongly Agree), "I can usually forgive and forget when someone does me wrong. (R)" (1 = Strongly Disagree, 7 = Strongly Agree), and "I find myself regularly thinking about past times that I have been wronged." (1 = Strongly Disagree, 7 = Strongly Agree).
 
 ### Matching with other religious groups
 
 Similar to @bulbulia2023, we will use the following variables to identify matching members in different religions groups.
-
-1. Age: "What is your age?" (String entry), and "When is your date of birth?" (String entry). 
-
-2. Education: Measured by an 11-point ordinal scale (0 = No Qualification, 11 = Doctoral Degree, based on the New Zealand Qualification Framework [@thenew2016]) from responses to the qualification-related question.
-
-3. Employment: A binary variable is created (0 = Unemployed, 1 = Employed) based on the responses to employment item "Are you currently employed?".
-
-4. Ethnicity: The items displayed in @fig-ethnicgroups are categorised following the New Zealand Census Groups: European, Māori, Pacific Peoples, Asian, MELAA (Middle Eastern, Latin American/African), and Other.
-
-5. Gender: Responses to the string entry item "What is your gender?" will be used to create a binary variable (Male = 1, Not male = 0).
-
-6. Area-unit deprivation: Measured based on 2018 New Zealand Deprivation Index [@atkinson2019] that assigns a decile-rank index (1 = Least Deprived, 10 = Most Deprived) using participants' immediate neighbourhood's aggregate census information. This index is calculated using component factor analysis of nine variables in weighted order as follows: proportion of adults who received a means-tested benefit, household income, proportion not owning own home, proportion of single-parent families, the proportion of unemployed, proportion lacking qualifications, proportion household crowding, proportion no telephone access, and proportion no car access. Hence, this index reflects nationwide mean deprivation level for small neighbourhood-type units (i.e., small community areas consisting about 80-90 people).
-
-7. Socioeconomic status (Occupational prestige): A census-derived occupation-based measure NZSEI (New Zealand Socioeconomic Index) is used to estimate one's socioeconomic status. It uses an open-ended question regarding one's occupation, which is subsequently classified in accordance with the Australian and New Zealand Standard Classification of Occupations (ANZSCO) Level 3. In the case of missing values, the measures is imputed using a combination of age and education. The measure is assigned scores between 10 = Low and High = 90.
-
-8. Parent: Measured by assigning a binary variable (1 = Those with children, 0 = The rest) to the item: "How many children have you given birth to, fathered, or adopted?". (String entry).
-
-9. Partner: Responses to "What is you relationship status?" are assigned a binary variable (1 = Has a partner, 0 = Doesn't have a partner).
-
+1.  Age: "What is your age?" (String entry), and "When is your date of birth?" (String entry).
+2.  Education: Measured by an 11-point ordinal scale (0 = No Qualification, 11 = Doctoral Degree, based on the New Zealand Qualification Framework [@thenew2016]) from responses to the qualification-related question.
+3.  Employment: A binary variable is created (0 = Unemployed, 1 = Employed) based on the responses to employment item "Are you currently employed?".
+4.  Ethnicity: The items displayed in @fig-ethnicgroups are categorised following the New Zealand Census Groups: European, Māori, Pacific Peoples, Asian, MELAA (Middle Eastern, Latin American/African), and Other.
+5.  Gender: Responses to the string entry item "What is your gender?" will be used to create a binary variable (Male = 1, Not male = 0).
+6.  Area-unit deprivation: Measured based on 2018 New Zealand Deprivation Index [@atkinson2019] that assigns a decile-rank index (1 = Least Deprived, 10 = Most Deprived) using participants' immediate neighbourhood's aggregate census information. This index is calculated using component factor analysis of nine variables in weighted order as follows: proportion of adults who received a means-tested benefit, household income, proportion not owning own home, proportion of single-parent families, the proportion of unemployed, proportion lacking qualifications, proportion household crowding, proportion no telephone access, and proportion no car access. Hence, this index reflects nationwide mean deprivation level for small neighbourhood-type units (i.e., small community areas consisting about 80-90 people).
+7.  Socioeconomic status (Occupational prestige): A census-derived occupation-based measure NZSEI (New Zealand Socioeconomic Index) is used to estimate one's socioeconomic status. It uses an open-ended question regarding one's occupation, which is subsequently classified in accordance with the Australian and New Zealand Standard Classification of Occupations (ANZSCO) Level 3. In the case of missing values, the measures is imputed using a combination of age and education. The measure is assigned scores between 10 = Low and High = 90.
+8.  Parent: Measured by assigning a binary variable (1 = Those with children, 0 = The rest) to the item: "How many children have you given birth to, fathered, or adopted?". (String entry).
+9.  Partner: Responses to "What is you relationship status?" are assigned a binary variable (1 = Has a partner, 0 = Doesn't have a partner).
 10. Religious identification: Responses to "Do you identify with a religion and/or spiritual group?" are coded a binary variable (1 = Yes, 0 = No).
-
 11. Political orientation: Responses to "Please rate how politically left-wing versus right-wing you see yourself as being" are assigned a 7-point scale (1 = Extremely left-wing, 7 = Extremely right-wing).
-
 12. Residence: Urban or rural residence (a two-item nominal variable) is identified based on the physical addresses provided.
-
 13. Region of habituation: Whether participants are living in an urban or rural area, based on the addresses provided, is coded; 1 = Urban, 0 = Rural.
-
 14. Race-based rejection anxiety: "People from other races would be likely to reject me on the basis of my race". (1 = Strogly Disagree, 7 = Strongly Agree).
-
 15. Big Six personality traits: Six personality traits, agreeableness, conscientiousness, extraversion, openness, honesty-humility, and neuroticism, are measured using a 7-point (1 = Very Inaccurate, 7 = Very Accurate) Mini-IPIP6 scale [@sibley2011].
 
 ```{r}
 #| label: fig-ethnicgroups
-#| fig-cap: Ethnic Groups
+#| fig-cap: Ethnic groups
 #| apa-note: From NZAVS Wave 15 <https://osf.io/75snb/>
 #| fig-width: 3
 #| out-width: 75%
@@ -676,15 +624,15 @@ The NZAVS was approved by the University of Auckland Human Participants Ethics C
 
 MDS is a three-year-long booster for NZAVS. NZAVS is a planned 20-year-long longitudinal panel study of adult New Zealanders, currently in its 15th year (Wave 15) that correponds with Wave 1 (the firs year) of MDS (15 Oct 2023 to 14 Oct 2024). Wave 2 and Wave 3 of MDS will correspond with NZAVS Wave 16 (15 Oct 2024 to 14 Oct 2025) and Wave 17 (15 Oct 2025 to 14 Oct 2026), respectively. NZAVS uses quantitative measures. The following dependent variables will be considered to test the proposed MDS hypotheses.
 
-1. Perceived religious discrimination
-2. Perceived ethnic discrimination
-3. Employment status
-4. Job satisfaction
-5. Job security
-6. Feeling valued by organisation
-7. Self-rated health
-8. Perceived health decline
-9. Chronic diseases and disabilities
+1.  Perceived religious discrimination
+2.  Perceived ethnic discrimination
+3.  Employment status
+4.  Job satisfaction
+5.  Job security
+6.  Feeling valued by organisation
+7.  Self-rated health
+8.  Perceived health decline
+9.  Chronic diseases and disabilities
 10. Kessler-6 psychological distress scale
 11. Meaning of life
 12. Life satisfaction
@@ -697,23 +645,26 @@ MDS is a three-year-long booster for NZAVS. NZAVS is a planned 20-year-long long
 ## Data Analysis
 
 ### Hypothesis 1
-- Correlation between religiosity and prejudice
-- Regression: Service attendance, prayer frequency, religious importance, and spiritual identification (IVs) and perceived discrimination (DV)
-- Moderation: Testing whether or not community involvement moderates the relationship between religiosity and perceived discrimination.
-- Mediation: Whether or not the sense of belonging mediates relationship between religiosity and perceived discrimination.
+
+-   Correlation between religiosity and prejudice
+-   Regression: Service attendance, prayer frequency, religious importance, and spiritual identification (IVs) and perceived discrimination (DV)
+-   Moderation: Testing whether or not community involvement moderates the relationship between religiosity and perceived discrimination.
+-   Mediation: Whether or not the sense of belonging mediates relationship between religiosity and perceived discrimination.
 
 ### Hypothesis 2
-- Using propensity score matching to match Muslims with participants from other religious groups based on variables used in previous publications, such as @bulbulia2023. These are: age, education, employment, ethnicity, gender, deprivation index, socioeconomic status, being a parent, having a partner, religious identification, political orientation, urban vs. rural residence, region, race-based anxiety, and Big Six personality measures.
-- Regression: Employment status (binary) predicted from religious affiliation, job satisfaction, and job security.
-- Regression: Self-rated health and disability predicted from religious affiliation, health behaviours, and chronic diseases.
-- Chi square: Religious affiliation vs employment status and disability status.
+
+-   Using propensity score matching to match Muslims with participants from other religious groups based on variables used in previous publications, such as @bulbulia2023. These are: age, education, employment, ethnicity, gender, deprivation index, socioeconomic status, being a parent, having a partner, religious identification, political orientation, urban vs. rural residence, region, race-based anxiety, and Big Six personality measures.
+-   Regression: Employment status (binary) predicted from religious affiliation, job satisfaction, and job security.
+-   Regression: Self-rated health and disability predicted from religious affiliation, health behaviours, and chronic diseases.
+-   Chi square: Religious affiliation vs employment status and disability status.
 
 ### Hypothesis 3
-- Matching participants similar to Hypothesis 2.
-- ANOVA: Comparing average scores of subjective wellbeing as well as psychological distress between Muslims and members of other religions.
-- Regression: Community support and religious community-making buffering against distress and enhancing wellbeing
-- Structural equation modelling: Modelling mediation of community-making on the relationship between religious affiliation and wellbeing outcomes.
-- Moderation: To find out whether the strength of community support and belonging  moderate the effects of religious group membership on wellbeing and distress.
+
+-   Matching participants similar to Hypothesis 2.
+-   ANOVA: Comparing average scores of subjective wellbeing as well as psychological distress between Muslims and members of other religions.
+-   Regression: Community support and religious community-making buffering against distress and enhancing wellbeing
+-   Structural equation modelling: Modelling mediation of community-making on the relationship between religious affiliation and wellbeing outcomes.
+-   Moderation: To find out whether the strength of community support and belonging moderate the effects of religious group membership on wellbeing and distress.
 
 ## Preregistration
 
@@ -721,13 +672,13 @@ The hypotheses, measures, and proposed data analysis are preregistered on OSF (<
 
 ## Procedure
 
-### Research Assistant Recruitment and Training
+### Research assistant recruitment and training
 
 The 30 research assistants, as indicated in @tbl-muslim-population, were recruited before the MDS Wave 1. The position was advertised by University of Canterbury and shared via social media, emails, and community organisations. The eligibility criteria included the least of tertiary level education in New Zealand, familiarity with research in humanities, interest in working with community, and experiences of working with a Muslim community organisation. Thirty research assistants were recruited after initial screening and interviews from a total of 95 applicants.
 
 Before the commencement of study, a series of comprehensive Zoom trainings took place to familiarise research assistants with NZAVS, the MDS background, and survey questionnaires. In addition, research assistants learned about ethnical guidelines, confidentiality principles, and interacting with a culturally diverse participants pool.
 
-### Data Collection
+### Data collection
 
 ```{r}
 data <- data.frame(
@@ -760,19 +711,22 @@ The social media campaign started at the beginning of 2024 and continued until t
 
 For the purposes of community promotion, we relied on a combination of community outreach at local mosques, religious, community, and ethnic organisations, Muslim schools and businesses, and MSA’s (Muslim Student Associations). From available databases and community contacts, we identified `{r} total_organizations` organisations and RAs were able to approach Muslims in `{r} total_reached_out` organisations. Out of these, `{r} total_responded` have endorsed and promoted the study. Different organisations endorsed us in different manners: some allowed us to give speeches to their audience, others shared our promotional material online in social media, community message groups (e.g., WhatsApp), and mailing lists. In addition, tens of posters were placed in community facilities (e.g., mosques) and hundreds of flyers were handed over after Friday prayers as well as cultural and religious festivals.
 
-In addition to reaching out to organisations, the principal investigator conversed with 28 local and national community leaders, celebrities, religious scholars, and academics to spread our message to the communities. As part of this recruitment drive, the principal investigator also presented 28 talks, presentations, or lectures to Muslim community groups around New Zealand via mosques, universities, or community organisations in the mentioned cities, explaining the goals of the NZAVS, and how it would benefit the New Zealand Muslim community to be represented in this ongoing national longitudinal panel sample. Five additional talks were delivered by research assistants too. 
+In addition to reaching out to organisations, the principal investigator conversed with 28 local and national community leaders, celebrities, religious scholars, and academics to spread our message to the communities. As part of this recruitment drive, the principal investigator also presented 28 talks, presentations, or lectures to Muslim community groups around New Zealand via mosques, universities, or community organisations in the mentioned cities, explaining the goals of the NZAVS, and how it would benefit the New Zealand Muslim community to be represented in this ongoing national longitudinal panel sample. Five additional talks were delivered by research assistants too.
 
-### Ensuring Research Assistants convenience
+### Ensuring research assistants' convenience
 
-MDS research assistants come from differnet backgrounds. Some of them have had extensive researcch experience, whereas, for the some of them, it was the first attempt of engaging in data collection. Some research assistants wanted explicit weekly targets and others decided their own targets. The principal investigator conducted fortnightly check-ins with individuals and teams in cities to ensure that questions are answered, and was always available to guide the process, provide feedback. The principal investigator was also available talk with participants if and when needed via audio and video mediums. 
+MDS research assistants come from differnet backgrounds. Some of them have had extensive researcch experience, whereas, for the some of them, it was the first attempt of engaging in data collection. Some research assistants wanted explicit weekly targets and others decided their own targets. The principal investigator conducted fortnightly check-ins with individuals and teams in cities to ensure that questions are answered, and was always available to guide the process, provide feedback. The principal investigator was also available talk with participants if and when needed via audio and video mediums.
 
-The MDS website provides the most needed information for public and will keep updating as we make progress.
+### Web hosting
 
-The collected data are processed in the NZAVS headquarters, deidentified, and only made available to trusted researchers and collaborators.
+The MDS website (access from [here](https://linktr.ee/muslimdiversity)) provides the most up-to-date and needed information for public and professionals and will keep updating as we make progress.
+
+### Data management
+The collected data are processed in the NZAVS headquarters, deidentified, and only made available to trusted researchers and collaborators. The NZAVS data dictionary, sampling procedure, sample details and other relevant information can be accessed online (<https://osf.io/75snb/wiki/home/>) [@sibley2024].
 
 ## Timeline
 
-() indicates important phases of pre-Wave 1 and Wave of MDS.
+As displayed in @fig-ethnicgroups2, the community consultation started before Wave 1 and continued until the end of it. In addition, social media marketing has been an integral part of MDS data collection campaign. The planned future events, with approximate dates, are indicated too.
 
 Present a timeline indicating key milestones in the study, including recruitment periods, data collection waves, and analysis phases.
 
@@ -784,7 +738,6 @@ Present a timeline indicating key milestones in the study, including recruitment
 # | fig.align: "center"
 # | fig.height: 6
 # | fig.width: 10
-# | page-break-before: true
 # | class-output: "landscape"
 # | out-width: 50%
 
@@ -795,9 +748,9 @@ library(plan)})
 
 # Create the data frame
 df <- data.frame(
-  task = c("Community Consultation", "RA Hiring and Training", "Wave 1 Data Collection", "Social Media Marketing"), 
-  start = c("2022-02-01", "2023-07-24", "2023-10-23", "2023-12-27"),
-  end = c("2024-08-08", "2023-10-27", "2024-10-25", "2024-10-25")
+  task = c("Community Consultation", "RA Hiring and Training", "Wave 1", "Social Media Marketing", "Wave 2", "Wave 3", "Research Symposia", "Wave 1 Data Analysis"), 
+  start = c("2022-02-01", "2023-07-24", "2023-10-23", "2023-12-27", "2024-10-26", "2025-10-26", "2025-04-01", "2024-10-25"),
+  end = c("2024-10-25", "2023-10-27", "2024-10-25", "2024-10-25", "2025-10-25", "2026-10-25", "2025-06-30", "2025-02-28")
 )
 
 # Convert start and end to Date format
@@ -806,7 +759,7 @@ df <- df %>% mutate(start = as.Date(start), end = as.Date(end))
 # Plot the timeline with different colors for each task
 suppressWarnings(ggplot(df, aes(x = start, xend = end, y = task, yend = task, color = task)) +
   geom_segment(size = 3) +  # Use geom_segment for the timeline bars
-  scale_color_manual(values = c("#1f77b4", "#ff7f0e", "#d62728", "#FF00FF")) +  # Assign specific colors
+  scale_color_manual(values = c("#1f77b4", "#ff7f0e", "#d62728", "#FF00FF", "#FF00FF", "#FF00FF", "#1f77b4", "#1f77b4")) +  # Assign specific colors
   theme_minimal() +  # Clean background
   labs(title = "Project Timeline", x = "Date", y = "Task") +
   theme(
@@ -835,25 +788,32 @@ ggplot() +
   coord_flip() 
 ```
 
-# What does and what does not work
+## Enablers and challengers of data collection
 
-Usman will elaborate on this. the followings improve data collection
-1. building rapport
-2. addressing confidentiality
-3. being transparent with the community
-4. going to community via trusted leaders
-5. reaching out to inviduals personally, not via groups.
+Based on our interactions with the Muslim community and feedback from research assistants, we anecdotally know that the following elements encourage increased participantion of the Muslim community in research.
 
-challengers:
-1. length of the questionnaire
-2. unfamiliarity with research
-3. other preferences - generatioanl differences.
+1.  Building rapport
+2.  Addressing concerns regarding confidentiality and data management
+3.  Being transparent and truthful with the community
+4.  Approaching the community via trusted leaders
+5.  Reaching out to inviduals personally, not via groups.
 
-TBA: these are anecdotal. But we wanted to investigated further as to why our sample size stayed small. Therefore, we conducted a qualitative research of collecting research assistant experiences.
+We also learned that the following factors could hinder data collection efforts.
 
-# Strengths and Limitations
-Quantitative only. focus on english speakers only
-1.  Zahra E, Rizwan, Somia
+1.  Length of the questionnaire measured by the time taken to complete it
+2.  Unfamiliarity of participants with scientific research
+3.  Privacy concerns
+4.  Political climate
+5.  Language barriers
+6.  Generatioanl differences, with older generations less likely to take part.
+
+Although these findings are anecdotal, we have witnessed enhanced participation by addressing some of the challengers to data collection. To better understand and document, we have conducted a qualitative research of research assistant experiences in terms of data collection [@afzali2024]. Findings from this research will be published in the near future.
+
+## Strengths and limitations
+
+Quantitative only. focus on english speakers only 1. Zahra E, Rizwan, Somia
+
+Generalisablity
 
 Mentions Jamila's and Qual here..
 
@@ -863,11 +823,9 @@ Aamina Ali, Adepate Mustapha-Koiki
 
 Potential contributions of the study to the field of mental health research and implications for policy and practice.
 
-# Conclusion
+## Conclusion
 
-Summarize the importance of the longitudinal study in understanding the psychological effects of the Christchurch mosque attacks on the Muslim community and reiterate the significance of the research aims.
-
-1.  Sandila. Afrah
+MDS is a crucial booster for the NZAVS because not only it addresses the under-representation of Muslim in NZVAS, but it only helps us answer many questions about Muslims' self-perception, meaning-making, flourishing, religiosity, and health outcomes. The current protocol also provides a preliminary understanding of how to work with a minoritised religious community in a culturally sensitive manner. Further discoveries are going to be published by the MDS team in the near future. Despite the well-known limitations of observational, quantitative, survey research, MDS provides substantial values in terms of implications and applications. Techniques learned from MDS can be applied while working with Muslims and other culturally similar groups in New Zealand and overseas.
 
 {{< pagebreak >}}
 

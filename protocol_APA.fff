@@ -28,7 +28,7 @@
 \ifnextchar[{\eatarg}{}
 [!htbp]
 
-{\caption{{Kessler 6}{\label{fig-Kess-6}}}}
+{\caption{{Kessler-6 subjective wellbeing scale}{\label{fig-Kess-6}}}}
 
 \includegraphics[width=0.75\textwidth,height=\textheight]{figs/kessler-6.png}
 
@@ -41,7 +41,7 @@
 \ifnextchar[{\eatarg}{}
 [!htbp]
 
-{\caption{{Life Satisfaction}{\label{fig-life-sat}}}}
+{\caption{{Life Satisfaction scale}{\label{fig-life-sat}}}}
 
 \includegraphics[width=0.75\textwidth,height=\textheight]{figs/life-sat.png}
 
@@ -54,7 +54,7 @@
 \ifnextchar[{\eatarg}{}
 [!htbp]
 
-{\caption{{Ethnic Groups}{\label{fig-ethnicgroups}}}}
+{\caption{{Ethnic groups}{\label{fig-ethnicgroups}}}}
 
 \includegraphics[width=0.75\textwidth,height=\textheight]{figs/ethnic-groups.png}
 
