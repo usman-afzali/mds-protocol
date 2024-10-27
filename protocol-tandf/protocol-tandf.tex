@@ -118,6 +118,22 @@
 \usepackage{multirow}
 \usepackage{orcidlink}
 \makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
 \ifdefined\contentsname
@@ -317,7 +333,7 @@ resilience, flourishing, and wellbeing within Muslims. The study started
 in 2023 and is planned to conclude in 2026. The goal is to achieve as
 many as 650 Muslim respondents.
 
-\subsection{Introduction}\label{introduction}
+\section{Introduction}\label{sec-intro}
 
 The Muslim community has been expanding in New Zealand. Based on the
 2018 census, New Zealand had more than 60,000 Muslims; which has grown
@@ -657,11 +673,23 @@ religiosity}\label{service-attendance-and-religiosity}
   feelings of warmth toward different groups using the ``Feeling
   Thermometer Scale'' for each group from least to most warmth on a
   7-point scale where 1 = Least Warm and 7 = Most Warm (see
-  \textbf{?@fig-warmth} for reference). Groups include: NZ Europeans,
+  Figure~\ref{fig-warmth} for reference). Groups include: NZ Europeans,
   Māori, Asians in general, Pacific Islanders, Elderly people, People
   with a disability, Refugees, Overweight people, Immigrants in general,
   Chinese, Indians, Muslims, LGBTQ+ people, People with mental illness.
 \end{enumerate}
+
+\begin{figure}
+
+\centering{
+
+\includegraphics{figs/warmth.png}
+
+}
+
+\caption{\label{fig-warmth}Feeling thermometer scale}
+
+\end{figure}%
 
 \subsubsection{Felt belonging}\label{felt-belonging}
 
@@ -786,15 +814,39 @@ religiosity}\label{service-attendance-and-religiosity}
   has lasted for 6+ months? (Yes/No). If yes, please state: (String
   entry).
 \item
-  Chronic diseases diagnosis: See \textbf{?@fig-chrondis}.
+  Chronic diseases diagnosis: See Figure~\ref{fig-chrondis}.
 \end{enumerate}
+
+\begin{figure}
+
+\centering{
+
+\includegraphics{figs/chronic-disease.png}
+
+}
+
+\caption{\label{fig-chrondis}Chronic disease diagnosis}
+
+\end{figure}%
 
 \subsubsection{Subjective wellbeing/psychological
 distress}\label{subjective-wellbeingpsychological-distress}
 
-Measured using the Kessler-6 items (items 1-6 in \textbf{?@fig-Kess-6})
-rated on a 5-point scale (0 = None of the time, 4 = All of the time)
-(Kessler et al. 2010).
+Measured using the Kessler-6 items (items 1-6 in
+Figure~\ref{fig-Kess-6}) rated on a 5-point scale (0 = None of the time,
+4 = All of the time) (Kessler et al. 2010).
+
+\begin{figure}
+
+\centering{
+
+\includegraphics{figs/kessler-6.png}
+
+}
+
+\caption{\label{fig-Kess-6}Kessler-6 subjective wellbeing scale}
+
+\end{figure}%
 
 \subsubsection{Meaning of life}\label{meaning-of-life}
 
@@ -805,11 +857,23 @@ life meaningful'' (1 = Strongly Disagree, 7 = Strongly Agree).
 \subsubsection{Life satisfaction and national
 wellbeing}\label{life-satisfaction-and-national-wellbeing}
 
-Items from \textbf{?@fig-life-sat} measured on 11-item measure (0 =
+Items from Figure~\ref{fig-life-sat} measured on 11-item measure (0 =
 Completely Dissatisfied, 10 = Completely Satisfied). In addition, ``I am
 satisfied with my life (1= Strongly Disagree, 7 = Strongly Agree)'' and
 ``In most ways my life is close to ideal (1 = Strongly Disagree, 7 =
 Strongly Agree)'' are used.
+
+\begin{figure}
+
+\centering{
+
+\includegraphics{figs/life-sat.png}
+
+}
+
+\caption{\label{fig-life-sat}Life Satisfaction scale}
+
+\end{figure}%
 
 \subsubsection{Self esteem}\label{self-esteem}
 
@@ -855,61 +919,100 @@ Disagree, 7 = Strongly Agree).
 groups}\label{matching-with-other-religious-groups}
 
 Similar to Bulbulia et al. (2023), we will use the following variables
-to identify matching members in different religions groups. 1. Age:
-``What is your age?'' (String entry), and ``When is your date of
-birth?'' (String entry). 2. Education: Measured by an 11-point ordinal
-scale (0 = No Qualification, 11 = Doctoral Degree, based on the New
-Zealand Qualification Framework ({``The New Zealand Qualifications
-Framework''} 2016)) from responses to the qualification-related
-question. 3. Employment: A binary variable is created (0 = Unemployed, 1
-= Employed) based on the responses to employment item ``Are you
-currently employed?''. 4. Ethnicity: The items displayed in
-\textbf{?@fig-ethnicgroups} are categorised following the New Zealand
-Census Groups: European, Māori, Pacific Peoples, Asian, MELAA (Middle
-Eastern, Latin American/African), and Other. 5. Gender: Responses to the
-string entry item ``What is your gender?'' will be used to create a
-binary variable (Male = 1, Not male = 0). 6. Area-unit deprivation:
-Measured based on 2018 New Zealand Deprivation Index (Atkinson, Salmond,
-and Crampton 2019) that assigns a decile-rank index (1 = Least Deprived,
-10 = Most Deprived) using participants' immediate neighbourhood's
-aggregate census information. This index is calculated using component
-factor analysis of nine variables in weighted order as follows:
-proportion of adults who received a means-tested benefit, household
-income, proportion not owning own home, proportion of single-parent
-families, the proportion of unemployed, proportion lacking
-qualifications, proportion household crowding, proportion no telephone
-access, and proportion no car access. Hence, this index reflects
-nationwide mean deprivation level for small neighbourhood-type units
-(i.e., small community areas consisting about 80-90 people). 7.
-Socioeconomic status (Occupational prestige): A census-derived
-occupation-based measure NZSEI (New Zealand Socioeconomic Index) is used
-to estimate one's socioeconomic status. It uses an open-ended question
-regarding one's occupation, which is subsequently classified in
-accordance with the Australian and New Zealand Standard Classification
-of Occupations (ANZSCO) Level 3. In the case of missing values, the
-measures is imputed using a combination of age and education. The
-measure is assigned scores between 10 = Low and High = 90. 8. Parent:
-Measured by assigning a binary variable (1 = Those with children, 0 =
-The rest) to the item: ``How many children have you given birth to,
-fathered, or adopted?''. (String entry). 9. Partner: Responses to ``What
-is you relationship status?'' are assigned a binary variable (1 = Has a
-partner, 0 = Doesn't have a partner). 10. Religious identification:
-Responses to ``Do you identify with a religion and/or spiritual group?''
-are coded a binary variable (1 = Yes, 0 = No). 11. Political
-orientation: Responses to ``Please rate how politically left-wing versus
-right-wing you see yourself as being'' are assigned a 7-point scale (1 =
-Extremely left-wing, 7 = Extremely right-wing). 12. Residence: Urban or
-rural residence (a two-item nominal variable) is identified based on the
-physical addresses provided. 13. Region of habituation: Whether
-participants are living in an urban or rural area, based on the
-addresses provided, is coded; 1 = Urban, 0 = Rural. 14. Race-based
-rejection anxiety: ``People from other races would be likely to reject
-me on the basis of my race''. (1 = Strogly Disagree, 7 = Strongly
-Agree). 15. Big Six personality traits: Six personality traits,
-agreeableness, conscientiousness, extraversion, openness,
-honesty-humility, and neuroticism, are measured using a 7-point (1 =
-Very Inaccurate, 7 = Very Accurate) Mini-IPIP6 scale (Sibley et al.
-2011).
+to identify matching members in different religions groups.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Age: ``What is your age?'' (String entry), and ``When is your date of
+  birth?'' (String entry).
+\item
+  Education: Measured by an 11-point ordinal scale (0 = No
+  Qualification, 11 = Doctoral Degree, based on the New Zealand
+  Qualification Framework ({``The New Zealand Qualifications
+  Framework''} 2016)) from responses to the qualification-related
+  question.
+\item
+  Employment: A binary variable is created (0 = Unemployed, 1 =
+  Employed) based on the responses to employment item ``Are you
+  currently employed?''.
+\item
+  Ethnicity: The items displayed in Figure~\ref{fig-ethnicgroups} are
+  categorised following the New Zealand Census Groups: European, Māori,
+  Pacific Peoples, Asian, MELAA (Middle Eastern, Latin
+  American/African), and Other.
+\item
+  Gender: Responses to the string entry item ``What is your gender?''
+  will be used to create a binary variable (Male = 1, Not male = 0).
+\item
+  Area-unit deprivation: Measured based on 2018 New Zealand Deprivation
+  Index (Atkinson, Salmond, and Crampton 2019) that assigns a
+  decile-rank index (1 = Least Deprived, 10 = Most Deprived) using
+  participants' immediate neighbourhood's aggregate census information.
+  This index is calculated using component factor analysis of nine
+  variables in weighted order as follows: proportion of adults who
+  received a means-tested benefit, household income, proportion not
+  owning own home, proportion of single-parent families, the proportion
+  of unemployed, proportion lacking qualifications, proportion household
+  crowding, proportion no telephone access, and proportion no car
+  access. Hence, this index reflects nationwide mean deprivation level
+  for small neighbourhood-type units (i.e., small community areas
+  consisting about 80-90 people).
+\item
+  Socioeconomic status (Occupational prestige): A census-derived
+  occupation-based measure NZSEI (New Zealand Socioeconomic Index) is
+  used to estimate one's socioeconomic status. It uses an open-ended
+  question regarding one's occupation, which is subsequently classified
+  in accordance with the Australian and New Zealand Standard
+  Classification of Occupations (ANZSCO) Level 3. In the case of missing
+  values, the measures is imputed using a combination of age and
+  education. The measure is assigned scores between 10 = Low and High =
+  90.
+\item
+  Parent: Measured by assigning a binary variable (1 = Those with
+  children, 0 = The rest) to the item: ``How many children have you
+  given birth to, fathered, or adopted?''. (String entry).
+\item
+  Partner: Responses to ``What is you relationship status?'' are
+  assigned a binary variable (1 = Has a partner, 0 = Doesn't have a
+  partner).
+\item
+  Religious identification: Responses to ``Do you identify with a
+  religion and/or spiritual group?'' are coded a binary variable (1 =
+  Yes, 0 = No).
+\item
+  Political orientation: Responses to ``Please rate how politically
+  left-wing versus right-wing you see yourself as being'' are assigned a
+  7-point scale (1 = Extremely left-wing, 7 = Extremely right-wing).
+\item
+  Residence: Urban or rural residence (a two-item nominal variable) is
+  identified based on the physical addresses provided.
+\item
+  Region of habituation: Whether participants are living in an urban or
+  rural area, based on the addresses provided, is coded; 1 = Urban, 0 =
+  Rural.
+\item
+  Race-based rejection anxiety: ``People from other races would be
+  likely to reject me on the basis of my race''. (1 = Strogly Disagree,
+  7 = Strongly Agree).
+\item
+  Big Six personality traits: Six personality traits, agreeableness,
+  conscientiousness, extraversion, openness, honesty-humility, and
+  neuroticism, are measured using a 7-point (1 = Very Inaccurate, 7 =
+  Very Accurate) Mini-IPIP6 scale (Sibley et al. 2011).
+\end{enumerate}
+
+\begin{figure}
+
+\centering{
+
+\includegraphics{figs/ethnic-groups.png}
+
+}
+
+\caption{\label{fig-ethnicgroups}Ethnic groups}
+
+\end{figure}%
 
 \subsection{Ethics}\label{ethics}
 
@@ -1143,7 +1246,19 @@ details and other relevant information can be accessed online
 
 \subsection{Timeline}\label{timeline}
 
-As displayed in \textbf{?@fig-timeline}, the community consultation
+\begin{figure}
+
+\centering{
+
+\includegraphics{figs/project_timeline.png}
+
+}
+
+\caption{\label{fig-timeline}MDS timeline showing tasks and durations}
+
+\end{figure}%
+
+As displayed in Figure~\ref{fig-timeline}, the community consultation
 started before Wave 1 and continued until the end of it. In addition,
 social media marketing has been an integral part of MDS data collection
 campaign. The planned future events, with approximate dates, are
@@ -1196,8 +1311,8 @@ Although these findings are anecdotal, we have witnessed enhanced
 participation by addressing some of the challengers to data collection.
 To better understand and document, we have conducted a qualitative
 research of research assistant experiences in terms of data collection
-(\textbf{afzali2024?}). Findings from this research will be published in
-the near future.
+(Badis and Afzali 2024). Findings from this research will be published
+in the near future.
 
 \subsection{Strengths and limitations}\label{strengths-and-limitations}
 
@@ -1250,6 +1365,11 @@ Wellington, New Zealand: Victoria University Press.
 \bibitem[\citeproctext]{ref-atkinson2019}
 Atkinson, June, Clare Salmond, and Peter Crampton. 2019. {``NZDep2018
 Index of Deprivation.''}
+
+\bibitem[\citeproctext]{ref-badis2024}
+Badis, Jamila Shirley, and Usman Afzali. 2024. {``Enablers and
+Challengers of Collecting Data from Muslim Community in Aotearoa New
+Zealand.''} \emph{OSF}. \url{https://doi.org/10.17605/OSF.IO/8F36H}.
 
 \bibitem[\citeproctext]{ref-barger2010}
 Barger, Brian, Robin Nabi, and Liang Yu Hong. 2010. {``Standard
@@ -1427,6 +1547,427 @@ Attitudes Toward {M}uslims and Support for Diversity.''} \emph{New
 Zealand Journal of Psychology} 48 (1): 29--35.
 
 \end{CSLReferences}
+
+\newpage{}
+
+\section{Appendix A}\label{appendix-a}
+
+\subsection{MDS Runhseet}\label{mds-runhseet}
+
+{[}\texttt{Monospaced} font refers to urls in the actual document.{]}
+
+\noindent Salam alaikum and welcome to the Muslim Diversity Study.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  This \texttt{Dropbox\ folder} consists of all information that you
+  might need.
+\item
+  We have updated our communication and approach strategy, found
+  \texttt{here}.
+\item
+  This \texttt{document} contains message to the community and FAQs.
+  {[}will keep updating{]}
+\item
+  \texttt{Cover\ letter} for the Muslim Diversity Study.
+\item
+  MDS \texttt{Questionnaire} (pdf)
+\item
+  Use this \texttt{message} to send the MDS participation request to
+  individuals. Please remember that individual connection is extremely
+  important, and this is what we bank on.
+\item
+  Use this \texttt{message} to advertise MDS on social media (e.g.,
+  Facebook or LinkedIn); and to send it via WhatsApp or emailing lists
+  to the wider community and organizations.
+\item
+  Use this \texttt{message} for shorter social media platforms (e.g.,
+  Twitter/X).
+\item
+  Access the \texttt{poster} (pdf) here (and png).
+\item
+  Access the \texttt{flyer} (pdf) here (and png).
+\item
+  This \texttt{document} can be shared with organizations to introduce
+  MDS.
+\item
+  Organisation lists: \texttt{Auckland}, \texttt{Hamilton},
+  \texttt{Palmerston\ North}, \texttt{Wellington},
+  \texttt{Christchurch}, \texttt{Dunedin}. In addition, \texttt{this} is
+  the list of organisations that have endorsed us or shared our ads.
+  Please keep adding names to this list.
+\item
+  Please use \texttt{this} guideline for reaching out to organizations.
+\item
+  This \texttt{story} by UC has recorded the motivation behind MDS and
+  its benefits for the Muslim community. It can be shared widely with
+  those that want to know more.
+\item
+  The recent public \texttt{lecture} narrates the whole story of MDS
+  (past, present, future) in a detailed manner. This, again, can be
+  shared extensively with anyone interested.
+\item
+  Find our social media and website \texttt{here}.
+\item
+  The paper questionnaires are valuable, and to ensure meaningful
+  responses, we shall only provide them to individuals who express
+  interest and want them. Please distribute as many copies of
+  \texttt{flyers}, and I can provide more flyers as needed.
+\item
+  Participants using the Qualtrics link should be reminded that they can
+  resume the questionnaire from where they left off if they don't
+  complete it initially. Ideally, an additional message can be sent
+  using this wording: ``You can easily resume the questionnaire where
+  you left off by clicking on the provided link. Feel free to complete
+  the questionnaire in multiple sessions; your previous responses are
+  automatically saved.'' Since it's not part of the ethics approval, it
+  can be sent in the next message as additional guideline (instruction).
+\item
+  To claim your hours, log-in \texttt{here}.
+\item
+  If you are claiming your hours for the first time, use information in
+  this \texttt{folder}.
+\item
+  If you want to have an update on collected data so far, see
+  \texttt{this}.
+\item
+  I am thinking of a qualitative research project based on our
+  experiences with the Muslim community where we'd want to interview our
+  current RA's. It's briefly detailed \texttt{here}. If any of you are
+  keen to be part of this or know someone who might want to take this
+  on, please let me know. It can easily be a master's thesis, and as
+  detailed in the brief, it will attract great impact.
+\item
+  \url{https://linktr.ee/muslims_nz}
+\item
+  \url{https://linktr.ee/muslimdiversity}
+\end{enumerate}
+
+\newpage{}
+
+\section{Appendix B}\label{appendix-b}
+
+\subsection{Message to Individual
+Participnats}\label{message-to-individual-participnats}
+
+Your Voice Matters! Join the Muslim Diversity Study!
+
+\noindent Assalamu Alaikum WR WB {[}person's name{]}
+
+\noindent I'm {[}name of the RA{]}, a research assistant in the Muslim
+Diversity Study.
+
+\noindent We need YOUR perspective!
+
+\noindent The Muslim community is underrepresented, and we're changing
+that with your help. Participate in this first-of-its-kind survey to
+share your views on social attitudes, values, resilience, religiosity,
+flourishing, meaning-making, wellbeing, and experiences of Muslims in
+New Zealand. Let's make our voices heard!
+
+\noindent Why Participate?
+
+\noindent Gather data on underrepresented Muslims, amplifying voices and
+providing insights into issues, wellbeing, and experiences.
+
+\noindent Equip the Muslim community with evidence-based information for
+advocacy.
+
+\noindent Enrich understanding, strengthening the collective voice, and
+shaping a more accurate narrative.
+
+\noindent Your contribution counts and confidentially is assured!
+
+\noindent By participating, you could potentially win one out of five
+\$1000 grocery vouchers.
+
+\noindent The data will be analysed with a focus on the Muslim
+community. Your input guides our research, ensuring authenticity and
+representation. We reassure you that the responses to the questionnaire
+are anonymized, encrypted, and aggregated in a manner that ensure
+confidentiality.
+
+\noindent Spread the Word!
+
+\noindent Please share with your friends, family, and community members!
+Let's come together and make a difference.
+
+\noindent To complete the questionnaire kindly click on the link below
+or message us for a paper copy:
+\url{https://www.nzavs.auckland.ac.nz/muslim_diversity}
+
+\noindent For more info, visit our website (below) or reach out to Dr
+Usman Afzali (the lead researcher): (email address and contact phone
+number)
+\url{https://www.canterbury.ac.nz/science/schools/psyc-speech-hear/research/muslim-diversity/}
+
+\noindent APPROVED BY THE UNIVERSITY OF AUCKLAND HUMAN PARTICIPANTS
+ETHICS COMMITTEE ON 26/05/2021 UNTIL 26/05/2027, REFERENCE NUMBER:
+UAHPEC22576.
+
+\newpage{}
+
+\section{Appendix C}\label{appendix-c}
+
+\subsection{Community and Social Media
+Message}\label{community-and-social-media-message}
+
+Your Voice Matters! Join the Muslim Diversity Study!
+
+\noindent Assalamu Alaikum WR WB, Muslims in New Zealand!
+
+\noindent We need YOUR perspective!
+
+\noindent The Muslim community is underrepresented, and we're changing
+that with your help. Participate in this first-of-its-kind survey to
+share your views on social attitudes, values, resilience, religiosity,
+flourishing, meaning-making, wellbeing, and experiences of Muslims in
+New Zealand. Let's make our voices heard!
+
+\noindent Why Participate?
+
+\noindent Gather data on underrepresented Muslims, amplifying voices and
+providing insights into issues, wellbeing, and experiences.
+
+\noindent Equip the Muslim community with evidence-based information for
+advocacy.
+
+\noindent Enrich understanding, strengthening the collective voice, and
+shaping a more accurate narrative.
+
+\noindent Your contribution counts and confidentially is assured!
+
+\noindent By participating, you could potentially win one out of five
+\$1000 grocery vouchers.
+
+\noindent The data will be analysed with a focus on the Muslim
+community. Your input guides our research, ensuring authenticity and
+representation. We reassure you that the responses to the questionnaire
+are anonymized, encrypted, and aggregated in a manner that ensure
+confidentiality.
+
+\noindent Spread the Word!
+
+\noindent Please share with your friends, family, and community members!
+Let's come together and make a difference.
+
+\noindent To complete the questionnaire kindly click on the link below
+or message us for a paper copy:
+\url{https://www.nzavs.auckland.ac.nz/muslim_diversity}
+
+\noindent For more info, visit our website (below) or reach out to Dr
+Usman Afzali (the lead researcher): (email address and contact phone
+number)
+\url{https://www.canterbury.ac.nz/science/schools/psyc-speech-hear/research/muslim-diversity/}
+
+\noindent APPROVED BY THE UNIVERSITY OF AUCKLAND HUMAN PARTICIPANTS
+ETHICS COMMITTEE ON 26/05/2021 UNTIL 26/05/2027, REFERENCE NUMBER:
+UAHPEC22576.
+
+\newpage{}
+
+\section{Appendix D}\label{appendix-d}
+
+\begin{figure}
+
+\centering{
+
+\includegraphics[width=0.8\textwidth,height=\textheight]{figs/flyer-v1.png}
+
+}
+
+\caption{\label{fig-appendfig}MDS Flyer}
+
+\end{figure}%
+
+\newpage{}
+
+\section{Appendix E}\label{appendix-e}
+
+\begin{figure}
+
+\centering{
+
+\includegraphics[width=0.8\textwidth,height=\textheight]{figs/poster-v1.png}
+
+}
+
+\caption{\label{fig-appendfig1}MDS Poster}
+
+\end{figure}%
+
+\newpage{}
+
+\section{Appendix F}\label{appendix-f}
+
+\subsection{MDS Vision}\label{mds-vision}
+
+The NZAVS is committed to the following three principles for the Muslim
+Diversity Study.
+
+\noindent Protection: The NZAVS is strongly committed to respecting and
+protecting data gathered from all participants and takes confidentiality
+seriously. Our commitment to participant privacy and safety is central
+to the NZAVS.
+
+\noindent Participation: The NZAVS is committed to enhancing the
+research capacity of our communities in Aotearoa New Zealand. Any NZAVS
+research focusing specifically on the Muslim community will be reviewed
+by our Muslim academic advisor Dr Usman Afzali, and/or appropriate
+nominated reviewers from the Muslim community in New Zealand. We are
+committed to Muslim community-led research for Muslim-focussed studies
+to ensure respectful reporting that considers the social, religious, and
+cultural settings of New Zealand's Muslims.
+
+\noindent Partnership: The NZAVS actively fosters opportunities for
+collaborative research with emerging Muslim researchers in New Zealand.
+We seek to mentor Muslim graduate students interested in accessing NZAVS
+data for research in their own postgraduate theses or dissertations. We
+invite students from the Muslim community in New Zealand to contact our
+Muslim academic advisor, or any member of the NZAVS board or leadership
+team for guidance in developing a project.
+
+\newpage{}
+
+\section{Appendix G}\label{appendix-g}
+
+\subsection{Participant
+confidentiality}\label{participant-confidentiality}
+
+\noindent Here at the NZAVS we take our participants' confidentiality
+very seriously. All personal details are encrypted and stored separately
+from questionnaire data. Only Professor Chris Sibley and trusted
+research assistants working on the NZAVS in secure conditions have
+access to participants' contact details. Participants' contact details
+are used solely for the purposes of contacting them to continue their
+participation in the NZAVS each year and to provide them with
+information and feedback about research findings from the NZAVS.
+
+\noindent Reference: \url{https://osf.io/75snb/wiki/home/}
+
+\subsection{Ethics approval}\label{ethics-approval}
+
+\noindent The Muslim Diversity Study is regulated by the University of
+Auckland Human Participants Ethics Committee.
+
+\noindent The current ethics approval statement for the 2021-2027 period
+is as follows: The New Zealand Attitudes and Values Study was approved
+by the University of Auckland Human Participants Ethics Committee on
+26/05/2021 until 26/05/2024, and renewed on 02/05/2023 until 26/05/2027.
+Reference Number: UAHPEC22576.
+
+\noindent For any queries regarding ethical concerns, you may contact
+the Chair, University of Auckland Human Participants Ethics Committee,
+Ethics and Integrity Team, University of Auckland, Private Bag 92019,
+Auckland 1142. Telephone 09 373-7599 ext. 83711. Email:
+\href{mailto:humanethics@auckland.ac.nz}{\nolinkurl{humanethics@auckland.ac.nz}}.
+
+\subsection{Why we need ethics
+approval?}\label{why-we-need-ethics-approval}
+
+\noindent Ethical approval for research is essential to ensure that
+studies involving human participants are conducted in a morally
+responsible and respectful manner. It serves to protect the rights,
+wellbeing, dignity, and confidentiality of those involved in the
+research, as well as the broader community affected by the study.
+Ethical approval ensures that potential risks are minimized, benefits
+are maximized, informed consent is obtained, and any potential conflicts
+of interest or biases are addressed. This oversight helps maintain
+public trust in the scientific community and upholds the fundamental
+principles of fairness, respect, and accountability in research
+endeavours.
+
+\newpage{}
+
+\section{Appendix H}\label{appendix-h}
+
+\section{MDS Cover Letter}\label{mds-cover-letter}
+
+\noindent Salaam alaikum, kia ora, and greetings!
+
+\noindent My name is Dr Usman Afzali, and I am the lead researcher of
+the Muslim Diversity Study. The Muslim Diversity Study is conducted as
+part of the New Zealand Attitudes and Values Study. This is a broad
+longitudinal study aiming to survey people from all across New Zealand
+(see the information sheet on the next page for more details).
+
+\noindent As a researcher and committed member of the New Zealand Muslim
+community, I recognise the importance of including our voices in
+discussions about New Zealand. This inspired me to develop a booster
+study to enhance Muslim representation in the New Zealand Attitudes and
+Values Study, since we are underrepresented at present. I would be
+deeply grateful if you would consider participating in this survey. By
+sharing your perspectives, you will enrich our understanding of the
+attitudes, values, and wellbeing of the Muslim community in New Zealand.
+This will strengthen the voice of our community within New Zealand. We
+will publish the findings of our work in scientific journals, create
+brief reports and infographics, and present our findings to Muslim
+communities across New Zealand over the coming years.
+
+\noindent My research team includes Muslim researchers from across New
+Zealand. By completing this survey, you are contributing to a research
+project led by people from the Muslim community for the Muslim community
+in New Zealand. Furthermore, analysis of the collected data, with a
+specific focus on the Muslim community, will not proceed without seeking
+consultation with researchers who are themselves part of the Muslim
+community.
+
+\noindent As the survey is designed for the general New Zealand
+population, there may be questions that do not necessarily apply to you.
+Please feel free to skip any questions that you do not wish to answer.
+This study is funded by a research grant from a not-for-profit
+organisation, the Templeton Religion Trust, to help increase the
+participation of Muslims in the New Zealand Attitudes and Values Study.
+
+\begin{tcolorbox}[enhanced jigsaw, toprule=.15mm, opacityback=0, colframe=quarto-callout-color-frame, leftrule=.75mm, colback=white, arc=.35mm, bottomrule=.15mm, breakable, rightrule=.15mm, left=2mm]
+
+If you would like to complete this questionnaire online instead of
+returning by post, please use:
+\url{https://www.nzavs.auckland.ac.nz/muslim_diversity}.
+
+\end{tcolorbox}
+
+\noindent If you have any questions or concerns regarding the Muslim
+Diversity Study, please do not hesitate to reach out to me, Dr Usman
+Afzali (contact details below). For general inquiries about the New
+Zealand Attitudes and Values Study, please contact Professor Chris
+Sibley (contact details below).
+
+\noindent If you need help with understanding items of this
+questionnaire, feel free to reach out. Our researcher assistants are
+trained and have a detailed understanding of the questionnaire. Details
+are available at:
+\url{https://www.canterbury.ac.nz/science/schools/psyc-speech-hear/research/muslim-diversity/}
+
+\noindent Your participation in this survey is highly valuable, and your
+input will significantly contribute to our understanding of the social
+values and attitudes of the Muslim community in New Zealand.
+
+\noindent Sincerely,
+
+Dr Usman Afzali,
+
+School of Psychology, Speech and Hearing,
+
+University of Canterbury, Private Bag 4800, Christchurch 8140.
+
+(email address and phone number)
+
+Professor Chris Sibley,
+
+School of Psychology,
+
+University of Auckland,
+
+Private Bag 92019, Auckland 1142.
+
+(email address)
+
+\noindent APPROVED BY THE UNIVERSITY OF AUCKLAND HUMAN PARTICIPANTS
+ETHICS COMMITTEE ON 26/05/2021 UNTIL 26/05/2027, REFERENCE NUMBER:
+UAHPEC22576.
 
 
 
