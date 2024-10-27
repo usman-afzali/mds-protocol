@@ -67,8 +67,7 @@
 \ifnextchar[{\eatarg}{}
 
 
-\caption{\label{fig-timeline}MDS timeline showing various tasks and
-their durations}
+\caption{\label{fig-timeline}MDS timeline showing tasks and durations}
 
 \centering{
 

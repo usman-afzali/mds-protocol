@@ -189,7 +189,7 @@ author:
       - name: Ministry of Education
         department: TBA
     roles:
-      - writing - original draft (strengths and limitations)
+      - writing - original draft (strengths & limitations)
       - writing - review & editing             
   - name: Rizwan Sulehry
     corresponding: false
@@ -199,7 +199,7 @@ author:
         department: School of Management
     roles:
       - data curation
-      - writing - original draft (strengths and limitations)
+      - writing - original draft (strengths & limitations)
       - writing - review & editing     
   - name: Somia Tasneem
     corresponding: false
@@ -208,7 +208,7 @@ author:
       - name: University of Canterbury
         department: School of Psychology, Speech and Hearing
     roles:
-      - writing - original draft (strengths and limitations)
+      - writing - original draft (strengths & limitations)
       - writing - review & editing     
   - name: Aamina Ali
     corresponding: false
@@ -217,7 +217,7 @@ author:
       - name: TBA
         department: TBA
     roles:
-      - writing - original draft (applications and implications)
+      - writing - original draft (applications & implications)
       - writing - review & editing       
   - name: Adepate Mustapha-Koiki
     corresponding: false
@@ -226,7 +226,7 @@ author:
       - name: University of Auckland
         department: Department of Politics and International Relations
     roles:
-      - writing - original draft (applications and implications)
+      - writing - original draft (applications & implications)
       - writing - review & editing     
   - name: Afrah Ali Nadukkudi Puthenpura
     corresponding: false
@@ -297,13 +297,14 @@ author:
       - project administration
       - resources
       - supervision
+      - writing - original draft      
       - writing - review & editing                                                    
 author-note:
   status-changes: 
     affiliation-change: ~
     deceased: ~
   disclosures:
-    study-registration: This hypotheses and data analysis plan for this study are preregistred at OSF <https://doi.org/10.17605/OSF.IO/B39XT>. 
+    study-registration: This hypotheses and data analysis plan for this study were preregistred at OSF <https://doi.org/10.17605/OSF.IO/B39XT>. 
     data-sharing: The data described in this study are part of the Muslim Diversity Study, that is conducted under the [New Zealand Attitudes and Values Study](https://osf.io/75snb/).
     related-report: ~
     conflict-of-interest: The authors have no conflict of interest to disclose.
@@ -764,7 +765,7 @@ ggsave("figs/project_timeline.png",
 
 ```{r}
 #| label: fig-timeline
-#| fig-cap: MDS timeline showing various tasks and their durations
+#| fig-cap: MDS timeline showing tasks and durations
 #| fig-width: 3
 #| out-width: 100%
 knitr::include_graphics("figs/project_timeline.png")

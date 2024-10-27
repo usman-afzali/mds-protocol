@@ -708,6 +708,34 @@ MDS is a crucial booster for the NZAVS because not only it addresses the under-r
 
 {{< pagebreak >}}
 
+# Study Registration 
+
+This hypotheses and data analysis plan for this study were preregistred at OSF <https://doi.org/10.17605/OSF.IO/B39XT>.
+
+# Data Sharing 
+
+The data described in this study are part of the Muslim Diversity Study, that is conducted under the [New Zealand Attitudes and Values Study](https://osf.io/75snb/).
+
+
+# Conflict of Interest
+
+The authors have no conflict of interest to disclose.
+
+# Financial Support
+
+The Muslim Diversity Study - officially known as "A National Longitudinal Study of Muslim Diversity and Flourishing" is supported by a grant from the Templeton Religion Trust (TRT-2022-30579). The funders had no role in preparing the manuscript or the decision to publish it.
+
+# Acknoledgement/Gratitude: 
+
+The authors are grateful to W. Joel Schneider for the [Quarto template](https://github.com/wjschne/apaquarto).
+
+{{< pagebreak >}}
+
+# CRediT Taxonomy Statement
+**M. Usman Afzali:** Conceptualization, Data Curation, Formal Analysis, Funding Acquisition, Investigation, Methodology, Project Administration,Resources, Supervision, Visualization, Writing - Original Draft, Writing - Review & Editing. **Jamila Badis:** Data Curation, Project Administration, Writing - Original Draft, Writing - Review & Editing. **Parus Khoso:** Data Curation, Formal analysis, Writing - Original Draft (Pilot Community Consultation), Writing - Review & Editing. **Farah Shawkat:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Fatima A. Junaid:** Writing - Original Draft (Introduction), Writing - Review & Editing. **Ayca Arkilic:** Writing - Original Draft (Introduction), Writing - Review & Editing. **Mazharuddin Syed Ahmed:** Data Curation, Writing - Review & Editing **Hussain Raissi:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Hala Burhoum:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Tuba Azeem:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Iman Husain:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Zarqa Shaheen Ali:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Zahra Haidary:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Mashal Khan:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Nasratullah Hamid:** Data Curation, Writing - Original Draft (Method), Writing - Review & Editing. **Gul e Aqsa:** Data Curation, Writing - Review & Editing. **Zahra Emamzadeh:** Writing - Original Draft (Strengths and Limitations, Conclusion), Writing - Review & Editing. **Rizwan Sulehry:** Writing - Original Draft (Strengths & Limitations), Writing - Review & Editing. **Somia Tasneem:** Writing - Original Draft (Strengths and Limitations, Conclusion), Writing - Review & Editing. **Aamina Ali** Writing - Original Draft (Applications & Implications), Writing - Review & Editing. **Adepate Mustapha-Koiki:** Writing - original draft (Applications & Implications), Writing - Review & Editing **Afrah Ali Nadukkudi Puthenpura:** Writing - Review & Editing **Sandila Tanveer:** Writing - Review & Editing **Aarif Rasheed:** Conceptualization, Data Curation, Funding Acquisition, Resources, Writing - Review & Editing. **Kumar Yogeeswaran:** Conceptualization, Funding Acquisition, Methodology, Writing - Original Draft, Writing - Review & Editing. **Chris G. Sibley:** Conceptualization, Data Curation, Funding Acquisition, Methodology, Project Administration,Resources, Supervision, Writing - Review & Editing, Development & Management of the New Zealand Attitudes and Values Study Panel Data Collection from 2009 to the Present. **Joseph A. Bulbulia:** Conceptualization, Funding Acquisition, Methodology, Project Administration, Resources, Supervision, Writing - Original Draft, Writing - Review & Editing.
+
+{{< pagebreak >}}
+
 # Appendix A
 
 ## MDS Runhseet
