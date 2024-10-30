@@ -304,7 +304,7 @@ author-note:
     affiliation-change: ~
     deceased: ~
   disclosures:
-    study-registration: This hypotheses and data analysis plan for this study were preregistred at OSF <https://doi.org/10.17605/OSF.IO/B39XT>. 
+    study-registration: The hypotheses and data analysis plan for this study were preregistred at OSF <https://doi.org/10.17605/OSF.IO/B39XT>. 
     data-sharing: The data described in this study are part of the Muslim Diversity Study, that is conducted under the [New Zealand Attitudes and Values Study](https://osf.io/75snb/).
     related-report: ~
     conflict-of-interest: The authors have no conflict of interest to disclose.
