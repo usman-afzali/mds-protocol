@@ -103,16 +103,16 @@ author:
       - data curation
       - writing - original draft (method)
       - writing - review & editing     
-  # - name: Hala Burhoum
-  #   corresponding: false
-  #   orcid: 0000-0000-0000-0001
-  #   affiliations:
-  #     - name: University of Canterbury
-  #       department: School of Psychology, Speech and Hearing
-  #   roles:
-  #     - data curation
-  #     - writing - original draft (method)
-  #     - writing - review & editing     
+  - name: Hala Burhoum
+    corresponding: false
+    orcid: 0000-0000-0000-0001
+    affiliations:
+      - name: University of Canterbury
+        department: School of Psychology, Speech and Hearing
+    roles:
+      - data curation
+      - writing - original draft (method)
+      - writing - review & editing     
   - name: Tuba Azeem
     corresponding: false
     orcid: 0000-0002-0611-8726
@@ -123,26 +123,26 @@ author:
       - data curation
       - writing - original draft (method)
       - writing - review & editing          
-  # - name: Iman Husain
-  #   corresponding: false
-  #   orcid: 0000-0003-4032-4387
-  #   affiliations:
-  #     - name: University of Canterbury
-  #       department: School of Psychology, Speech and Hearing
-  #   roles:
-  #     - data curation
-  #     - writing - original draft (method)
-  #     - writing - review & editing          
-  # - name: Zarqa Shaheen Ali
-  #   corresponding: false
-  #   orcid: 0000-0002-7145-5788
-  #   affiliations:
-  #     - name: New Zealand Skills and Education College
-  #       department: ICL Business School
-  #   roles:
-  #     - data curation
-  #     - writing - original draft (method)
-  #     - writing - review & editing     
+  - name: Iman Husain
+    corresponding: false
+    orcid: 0000-0003-4032-4387
+    affiliations:
+      - name: University of Canterbury
+        department: School of Psychology, Speech and Hearing
+    roles:
+      - data curation
+      - writing - original draft (method)
+      - writing - review & editing          
+  - name: Zarqa Shaheen Ali
+    corresponding: false
+    orcid: 0000-0002-7145-5788
+    affiliations:
+      - name: New Zealand Skills and Education College
+        department: ICL Business School
+    roles:
+      - data curation
+      - writing - original draft (method)
+      - writing - review & editing     
   - name: Zahra Haidary
     corresponding: false
     orcid: 0009-0000-5259-622X
@@ -153,16 +153,16 @@ author:
       - data curation
       - writing - original draft (method)
       - writing - review & editing     
-  # - name: Mashal Khan
-  #   corresponding: false
-  #   orcid: 0000-0000-0000-0000
-  #   affiliations:
-  #     - name: University of Canterbury
-  #       department: School of Psychology, Speech and Hearing 
-  #   roles:
-  #     - data curation
-  #     - writing - original draft (method)
-  #     - writing - review & editing            
+  - name: Mashal Khan
+    corresponding: false
+    orcid: 0000-0000-0000-0000
+    affiliations:
+      - name: University of Canterbury
+        department: School of Psychology, Speech and Hearing 
+    roles:
+      - data curation
+      - writing - original draft (method)
+      - writing - review & editing            
   - name: Nasratullah Hamid
     corresponding: false
     orcid: 0009-0002-0120-7428
@@ -182,15 +182,15 @@ author:
     roles:
       - data curation
       - writing - review & editing           
-  # - name: Zahra Emamzadeh
-  #   corresponding: false
-  #   orcid: 0000-0003-1776-3912
-  #   affiliations:
-  #     - name: Ministry of Education
-  #       department: TBA
-  #   roles:
-  #     - writing - original draft (strengths & limitations)
-  #     - writing - review & editing             
+  - name: Zahra Emamzadeh
+    corresponding: false
+    orcid: 0000-0003-1776-3912
+    affiliations:
+      - name: Ministry of Education
+        department: TBA
+    roles:
+      - writing - original draft (strengths & limitations)
+      - writing - review & editing             
   - name: Rizwan Sulehry
     corresponding: false
     orcid: 0000-0002-1209-0635
@@ -660,9 +660,9 @@ The hypotheses, measures, and proposed data analysis are preregistered on OSF (<
 
 ### Research assistant recruitment and training
 
-The 30 research assistants, as indicated in @tbl-muslim-population, were recruited before the MDS Wave 1. The position was advertised by University of Canterbury and shared via social media, emails, and community organisations. The eligibility criteria included the least of tertiary level education in New Zealand, familiarity with research in humanities, interest in working with community, and experiences of working with a Muslim community organisation. Thirty research assistants were recruited after initial screening and interviews from a total of 95 applicants.
+The 30 research assistants, as indicated in @tbl-muslim-population, were recruited before the MDS Wave 1. The position was advertised by University of Canterbury and shared via social media, emails, and community organisations. The eligibility criteria included the least of tertiary level education in New Zealand, familiarity with research in humanities, interest in working with community, and experiences of working with a Muslim community organisations. Thirty research assistants were recruited after initial screening and interviews from a total of 95 applicants.
 
-Before the commencement of study, a series of comprehensive Zoom trainings took place to familiarise research assistants with NZAVS, the MDS background, and survey questionnaires. In addition, research assistants learned about ethnical guidelines, confidentiality principles, and interacting with a culturally diverse participants pool.
+Before the commencement of study, a series of comprehensive Zoom trainings took place to familiarise research assistants with NZAVS, the MDS background, and survey questionnaires. In addition, research assistants learned about ethical guidelines, confidentiality principles, and interacting with a culturally diverse participants pool. **We also learned about how to plan for hiring participants and promoting the community participation in the study**
 
 ### Data collection
 
@@ -689,19 +689,19 @@ total_responded <- sum(data$Responded)
 #cat("Total number of responses: ", total_responded, "\n")
 ```
 
-Research assistants used the snowball approach for data collection. They started reaching out to their close circles, and kept expanding their reach. The sample was non-representative, and participants had the choice of filling in the online questionnaire using Qualtrics, or a paper questionnaire and returning it to the NZAVS headquarters in Auckland University using a pre-paid postal envelope.
+Research assistants used the snowball approach for data collection. They started reaching out to their close circles, and kept expanding their reach **In my experience, this was the most effective manner to get reliable responses from people, as compared to reaching out to organisations**. The sample was non-representative, and participants had the choice of filling in the online questionnaire using Qualtrics, or a paper questionnaire and returning it to the NZAVS headquarters in Auckland University using a pre-paid postal envelope.
 
 After the initial stage of reaching out to the close circle, the research assistants started reaching out to community organisations. A runsheet was provided, and different documents and promotional materials such as individual messages, community messages, flyers, and posters were at the research assistants disposal based on their needs. We have also developed a clear vision statement and ethics statement that were part of our MDS introductory letter. In addition, an additinal cover letter was sent to all Muslim participants alongside the information sheet. It was aimed to clearly convey the purposes of booster to the community. Please see appendices A-H for these materials. Finally, 10 promotional shirts were designed that the research assistants wore during festivals and community events for study promotion.
 
 The social media campaign started at the beginning of 2024 and continued until the end of Wave 1. Beside regular posts on a weekly, and later on, on a fortnighly basis; we also used paid promotion to increase reach of the project.
 
-For the purposes of community promotion, we relied on a combination of community outreach at local mosques, religious, community, and ethnic organisations, Muslim schools and businesses, and MSA’s (Muslim Student Associations). From available databases and community contacts, we identified `{r} total_organizations` organisations and RAs were able to approach Muslims in `{r} total_reached_out` organisations. Out of these, `{r} total_responded` have endorsed and promoted the study. Different organisations endorsed us in different manners: some allowed us to give speeches to their audience, others shared our promotional material online in social media, community message groups (e.g., WhatsApp), and mailing lists. In addition, tens of posters were placed in community facilities (e.g., mosques) and hundreds of flyers were handed over after Friday prayers as well as cultural and religious festivals.
+For the purposes of community promotion, we relied on a combination of community outreach at local mosques, religious, community, and ethnic organisations, Muslim schools and businesses, and MSA’s (Muslim Student Associations). **Some of them were non- necessarily Muslim**. From available databases and community contacts, we identified `{r} total_organizations` organisations and RAs were able to approach Muslims in `{r} total_reached_out` organisations. Out of these, `{r} total_responded` have endorsed and promoted the study. Different organisations endorsed us in different manners: some allowed us to give speeches to their audience, others shared our promotional material online in social media, community message groups (e.g., WhatsApp), and mailing lists. In addition, tens of posters were placed in community facilities (e.g., mosques) and hundreds of flyers were handed over after Friday prayers as well as cultural and religious festivals. **in addition to these community centers and organisations other organisations such as the libraries, refugee settlement centers  and citizen advice Bureau (CAB) where approached to increase the reach to the community**
 
 In addition to reaching out to organisations, the principal investigator conversed with 28 local and national community leaders, celebrities, religious scholars, and academics to spread our message to the communities. As part of this recruitment drive, the principal investigator also presented 28 talks, presentations, or lectures to Muslim community groups around New Zealand via mosques, universities, or community organisations in the mentioned cities, explaining the goals of the NZAVS, and how it would benefit the New Zealand Muslim community to be represented in this ongoing national longitudinal panel sample. Five additional talks were delivered by research assistants too.
 
 ### Ensuring research assistants' convenience
 
-MDS research assistants come from differnet backgrounds. Some of them have had extensive researcch experience, whereas, for the some of them, it was the first attempt of engaging in data collection. Some research assistants wanted explicit weekly targets and others decided their own targets. The principal investigator conducted fortnightly check-ins with individuals and teams in cities to ensure that questions are answered, and was always available to guide the process, provide feedback. The principal investigator was also available talk with participants if and when needed via audio and video mediums.
+MDS research assistants come from differnet backgrounds. Some of them have had extensive researcch experience, whereas, for the some of them, it was the first attempt of engaging in data collection. Some research assistants wanted explicit weekly targets and others decided their own targets. The principal investigator conducted fortnightly check-ins with individuals and teams in cities to ensure that questions are answered, and was always available to guide the process, provide feedback. The principal investigator was also available talk with participants if and when needed via audio and video mediums. **towards the end of the collection period we focused on paper questionnaires and minimum of three participants each week?**
 
 Research assistants were available to help participants with understanding questions, and if needed, were also present when participants completed questionnaires. 
 
@@ -777,7 +777,7 @@ As displayed in @fig-timeline, the community consultation started before Wave 1 
 
 ## Enablers and challengers of data collection
 
-Some members of the Muslim community, as noted by Kolig (2009), might distrust social research and view it as state surveillance. Based on our interactions with the community, we had anecdotal evidence of increase in such scepticism after the Christchurch shootings. Hence, we ensured that our approach and methodology addressed these issues beforehand, such as buidling trust, highlighting the importance and benefits of academic research, and addressing under-representation of Mulsims in research -- our flyers, posters, social media messages, and individual messages are testiments to this. Based on our interactions with the Muslim community and feedback from research assistants, we anecdotally know that the following elements encourage increased participantion of the Muslim community in research.
+Some members of the Muslim community, **as noted by Kolig (2009)**, might distrust social research and view it as state surveillance. Based on our interactions with the community, we had anecdotal evidence of increase in such scepticism after the Christchurch shootings. Hence, we ensured that our approach and methodology addressed these issues beforehand, such as buidling trust, highlighting the importance and benefits of academic research, and addressing under-representation of Mulsims in research -- our flyers, posters, social media messages, and individual messages are testiments to this. Based on our interactions with the Muslim community and feedback from research assistants, we anecdotally know that the following elements encourage increased participantion of the Muslim community in research.
 
 1.  Building rapport
 2.  Addressing concerns regarding confidentiality and data management
