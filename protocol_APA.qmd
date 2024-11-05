@@ -452,7 +452,7 @@ table
 
 ## Materials
 
-NZAVS questionnaire consists of many psychological measures [see @sibley2024]. In this protocol, we are highlighting measures that are pertinent to the readily planned papers aimed to publish from MDS.
+NZAVS questionnaire consists of many psychological measures [see @sibley2024]. In this protocol, we are highlighting measures that are pertinent to the planned papers aimed at communicating the findings emerging from MDS.
 
 For Likert type scales, the minimum and maximum levels are noted along with description, for instance, 1 = Not Important, 7 = Very Important would mean that a score ranges between 1 and 7, with 1 being the minimum and 7 being the maximum score; whereas (R) indicates the reverse-scored items. Notwithstanding, we might choose to explore further measures which will then be elaborated on in the individual articles.
 
@@ -695,13 +695,13 @@ After the initial stage of reaching out to the close circle, the research assist
 
 The social media campaign started at the beginning of 2024 and continued until the end of Wave 1. Beside regular posts on a weekly, and later on, on a fortnighly basis; we also used paid promotion to increase reach of the project.
 
-For the purposes of community promotion, we relied on a combination of community outreach at local mosques, religious, community, and ethnic organisations, Muslim schools and businesses, and MSA’s (Muslim Student Associations). **Some of them were non- necessarily Muslim**. From available databases and community contacts, we identified `{r} total_organizations` organisations and RAs were able to approach Muslims in `{r} total_reached_out` organisations. Out of these, `{r} total_responded` have endorsed and promoted the study. Different organisations endorsed us in different manners: some allowed us to give speeches to their audience, others shared our promotional material online in social media, community message groups (e.g., WhatsApp), and mailing lists. In addition, tens of posters were placed in community facilities (e.g., mosques) and hundreds of flyers were handed over after Friday prayers as well as cultural and religious festivals. **in addition to these community centers and organisations other organisations such as the libraries, refugee settlement centers and citizen advice Bureau (CAB) where approached to increase the reach to the community**
+For the purposes of community promotion, we relied on a combination of community outreach at local mosques, religious, community, and ethnic organisations, Muslim schools and businesses, and MSA’s (Muslim Student Associations). From available databases and community contacts, we identified `{r} total_organizations` organisations and RAs were able to approach Muslims in `{r} total_reached_out` organisations. Out of these, `{r} total_responded` have endorsed and promoted the study. Different organisations endorsed us in different manners: some allowed us to give speeches to their audience, others shared our promotional material online in social media, community message groups (e.g., WhatsApp), and mailing lists. It is worth nothing that some these organisations did not necessarily belong to the Muslim community (e.g., refugee resettlement centres and ethnic community trusts), though, they still offered support. In addition, tens of posters were placed in community facilities (e.g., mosques and libraries) and hundreds of flyers were handed over after Friday prayers as well as cultural and religious festivals.
 
 In addition to reaching out to organisations, the principal investigator conversed with 28 local and national community leaders, celebrities, religious scholars, and academics to spread our message to the communities. As part of this recruitment drive, the principal investigator also presented 28 talks, presentations, or lectures to Muslim community groups around New Zealand via mosques, universities, or community organisations in the mentioned cities, explaining the goals of the NZAVS, and how it would benefit the New Zealand Muslim community to be represented in this ongoing national longitudinal panel sample. Five additional talks were delivered by research assistants too.
 
 ### Ensuring research assistants' convenience
 
-MDS research assistants come from differnet backgrounds. Some of them have had extensive researcch experience, whereas, for the some of them, it was the first attempt of engaging in data collection. Some research assistants wanted explicit weekly targets and others decided their own targets. The principal investigator conducted fortnightly check-ins with individuals and teams in cities to ensure that questions are answered, and was always available to guide the process, provide feedback. The principal investigator was also available talk with participants if and when needed via audio and video mediums. **towards the end of the collection period we focused on paper questionnaires and minimum of three participants each week?**
+MDS research assistants come from differnet backgrounds. Some of them have had extensive researcch experience, whereas, for the some of them, it was the first attempt of engaging in data collection. Some research assistants wanted explicit weekly targets and others decided their own targets. The principal investigator conducted fortnightly check-ins with individuals and teams in cities to ensure that questions are answered, and was always available to guide the process, provide feedback. The principal investigator was also available talk with participants if and when needed via audio and video mediums.
 
 Research assistants were available to help participants with understanding questions, and if needed, were also present when participants completed questionnaires.
 
@@ -775,15 +775,17 @@ knitr::include_graphics("figs/project_timeline.png")
 
 As displayed in @fig-timeline, the community consultation started before Wave 1 and continued until the end of it. In addition, social media marketing has been an integral part of MDS data collection campaign. The planned future events, with approximate dates, are indicated too.
 
-## Enablers and challengers of data collection
+## Lessons learned
 
-Some members of the Muslim community, **as noted by Kolig (2009)**, might distrust social research and view it as state surveillance. Based on our interactions with the community, we had anecdotal evidence of increase in such scepticism after the Christchurch shootings. Hence, we ensured that our approach and methodology addressed these issues beforehand, such as buidling trust, highlighting the importance and benefits of academic research, and addressing under-representation of Mulsims in research -- our flyers, posters, social media messages, and individual messages are testiments to this. Based on our interactions with the Muslim community and feedback from research assistants, we anecdotally know that the following elements encourage increased participantion of the Muslim community in research.
+Some members of the Muslim community might distrust social research and view it as state surveillance. Based on our interactions with the community, we had anecdotal evidence of increase in such scepticism after the Christchurch shootings. Hence, we ensured that our approach and methodology addressed these issues beforehand, such as buidling trust, highlighting the importance and benefits of academic research, and addressing under-representation of Mulsims in research -- our flyers, posters, social media messages, and individual messages are testiments to this. Based on our interactions with the Muslim community and feedback from research assistants, we anecdotally know that the following elements encourage increased participantion of the Muslim community in research.
 
 1.  Building rapport
 2.  Addressing concerns regarding confidentiality and data management
 3.  Being transparent and truthful with the community
 4.  Approaching the community via trusted leaders
 5.  Reaching out to inviduals personally, not via groups. Reportedly, research assistants have found this, especially by the means of targetting their close circles, and keeping expanding their reach, as a more effective approach to incur higher response rate as compared to targetting the community out via organisations.
+6.  Medium: At the beginning, the focus was on both online and paper questionnaires. Towards the end, based on the feedback from research assistants, we employed paper questionnaires only, which resulted in a comparatively higher turn out.
+7.  Achievable targets: After testing different targets, during the final five months, each research assistant committed to the completion of a minimum of three participants each week. This, coupled with point 6, enhanced our outcomes.
 
 We also learned that the following factors could hinder data collection efforts.
 
@@ -796,25 +798,47 @@ We also learned that the following factors could hinder data collection efforts.
 
 Although these findings are anecdotal, we have witnessed enhanced participation by addressing some of the challengers to data collection. To better understand and document, we have conducted a qualitative research of research assistant experiences in terms of data collection [@afzali2024]. Findings from this research will be published in the near future.
 
-## Strengths and limitations
+## Strengths
 
-Quantitative only. focus on english speakers only 1. Zahra E, Rizwan, Somia
+MDS represents the establishment of a vital strand of knowledge production which has been limited to date. Recognizing that the NZVAS marks a decent contribution on this count, we assert that MDS booster is understandably a huge step in the right direction.
 
-Generalisablity
+As the first contextually rich and socially expansive piece of knowledge on the Kiwi Muslims produced using systematic, standardized research practices, MDS hopes to partially illuminate the decision-making, policy formulation, and inclusion practices of the social power players (especially the news media, political parties, and social action groups) by the way of addressing the under-representation of the Muslim community in research and using an an equitable ratio of NZAVS (\>1% of the target population). The findings of MDS are expected to positively enlighten these entities as regards the political perceptions, sense of diversity, discrimination, self-perception, resilience, meaning-making, and flourishing of the Muslims of New Zealand. 
 
-Mentions Jamila's and Qual here..
+MDS will help the general public develop a better understanding of their Muslim fellows thereby removing misconceptions about Muslims. MDS also provides a rich foundation for future researchers to build on as regards the Muslims of New Zealand.
 
--   This study is groundbreaking as it is among the few studies that, from a quantitative approach, solely focus on the representation of the Muslim community, which is a major strength. However, explaining its importance to the community took more time and effort than expected.
+## Limitations
 
--   
+MDS is a quantitative-only study. This quantitative focus was needed to enable comparison with other groups of NZAVS, and the fact that it is a booster for NZAS. By learning from MDS and gauging the need from community, there is potential for qualitative research in the future. In addition, given the large sample size and several variable examining different social aspects, the MDS specifically, and NZAVS in general, provide unprecedented rich databases on life aspects of New Zealander, evident by tens of peer-reviewed scientific publications.
 
-    -   A limitation that slowed the study and reduced participant numbers was its design. As part of the NZAVS longitudinal research, the study aimed to maintain the same structure. While this allows for comparisons with the wider New Zealand society, it limited our ability to fully adapt the study to the cultural norms and values of the Muslim community.??? Not sure if this is correct..
+MDS aimed to collect data from those who could speak and understand English language, which could hamper generalisability of findings. This constitutes the second limitation of the project. It was necessary because we needed a booster for NZAVS and the data had to be comparable with those collected from other groups. A potential qualitative follow up will address this limitation by aiming to collect data from the wider community and those who cannot comprehend English.
 
-## Application and implications
+The length of the questionnaires perhaps decreased the overall participation and completion. However, it is important to notice that collecting data on these variables (in contrast to a shorter questionnaire with fewer insights) to boost NZAVS and comparing with other religious groups was deemed as an absolute necessity.
 
-Aamina Ali, Adepate Mustapha-Koiki
+Finally, given that MDS follows the exact NZVAS structure, some items might not necessarily be culturally compatible with the Muslim community attitudes and beliefs. However, as mentioned in the Consultation on survey items, a majority of Advisory Group noted that such items did not need to be removed.
 
-Potential contributions of the study to the field of mental health research and implications for policy and practice.
+## **Application and implications**
+
+This research enables Muslims in New Zealand to be active participants in shaping their unique identity. This identity not only encapsulates the diverse ethnocultural societies within the New Zealand Muslim community, but also allows for the formation of a distinct national identity. Often research used to drive policy and intervention targeted at New Zealand Muslims is informed by research undertaken on Muslim communities overseas. Whilst there are many comparable similarities between Muslims worldwide, their everyday life experiences are heavily shaped by the society in which a Muslim resides in. Furthermore, the strengthening of this identity can facilitate greater in-group understanding, connection, and belonging to New Zealand.
+
+This research also has the potential for the Muslim voice to have a greater influence on public perception of Muslims in New Zealand. The visible Muslim voice in many parts of the western world is often reactionary to political events, discriminatory experiences, or accusations of terror. Greater understanding and public discourse of lived experiences of Muslims in New Zealand one allows for a more accurate understanding of these experiences, and two, facilitates a shift in how Muslim voices are ‘allowed’ to participate in society.
+
+This research can also inform international discourse on the experiences of Muslim immigrants, and their views and beliefs on their country of residence. @stockemer2021 completed a comprehensive review on studies focused on Muslim immigrants sense of belonging and identity; results reflected this varied greatly depending on the country of residence at a macro-level, and personal education at the micro-level.
+
+It allows Muslim to have an active, data informed input in shaping policies and intervention targeted at their wellbeing and livelihood; this is especially significant in the aftermath of the March 15th terror attacks targeting Muslims in New Zealand. Research highlights significant long term mental health distress and vulnerability for individuals directly impacted by the attacks.
+
+Insights from the findings could be used as a form of policy advocacy in two ways: first, by engaging with policymakers to advocate for policies that address discrimination and promote inclusivity. This could involve working with local governments and organisations to ensure that the voices of Muslims are heard in policymaking and in organising safety and security initiatives. Second, by collaborating with law enforcement to create safety initiatives that ensure the wellbeing of Muslim communities.
+
+Policymakers can use our findings to develop more effective and equitable policies that better address the needs and rights of Muslim communities. For instance, understanding the impact of community ties and religiosity on the resilience of Muslim communities can guide the government in creating support programmes that strengthen these aspects.
+
+Findings from this study can contribute to government strategies that focus on adaptability and change while engaging with the Muslim community to encourage bonding, bridging, and linking social capital where possible.
+
+Research also highlights the psychological impact that the terror attacks had on wider Muslim communities in New Zealand, who viewed the attack to be of a personal nature through a shared identity with the targeted victims of the attacks @nasier2023. This poses significant responsibility on the health system in New Zealand to be equipped to meet the ongoing and long-term needs of New Zealanders impacted by terror. This research can provide valuable insights into the Muslim community, facilitating the development of interventions that are effectively tailored to meet their needs.
+
+Practically, the findings could guide the development of targeted interventions aimed at reducing Islamophobia and supporting the Muslim community in New Zealand. Since “programmes are the instruments, governments use to implement a policy or achieve a particular outcome” [@rose1991], community-based programmes that strengthen social ties and religious practices could be designed to buffer against anti-Muslim prejudice. Insights from the findings could further pave the way for organising public forums and discussions to bring together Muslims and non-Muslims to address issues of discrimination, resilience, and community well-being, with the aim of fostering dialogue and understanding.
+
+The findings could also inform policy regarding the need for targeted anti-discrimination measures. As the research has provided insights into the challenges faced by Muslims in employment and health, it is expected that targeted interventions to improve these areas for members of the Muslim communities should be policy priorities for the government. Muslims in New Zealand are diverse and the Muslim community organisations have been actively working with local and central governments to provide advice and input regarding ethnic communities [@fianz2024; @nzma2024]. However, it should be noted that while it may be regarded as illusory to develop policies, programmes, and practices that purport to be “blind” to race and ethnicity [@durie2005], socio-economic measures addressing discrimination among Muslims in New Zealand should be tailored to the communities, considering their religious characteristics alongside their ethnicities or races.
+
+Regarding socio-economic concerns, the practical applications of the study’s findings can be seen in interventions focusing on employment and economic support, such as creating programmes that assist Muslims in navigating the job market and addressing the unique challenges they face. This could include mentorship programmes, skills training, and networking opportunities. Additionally, partnerships between local businesses and Muslim community organizations could promote diversity in hiring practices and support entrepreneurs. Culturally sensitive mental health initiatives that are visible within Muslim communities and tailored to their cultural and religious needs would also be effective programmes.
 
 ## Conclusion
 
