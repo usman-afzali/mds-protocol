@@ -248,18 +248,7 @@ author:
       - name: University of Otago Christchurch
         department: Department of Psychological Medicine
     roles:
-      - writing - review & editing           
-  - name: Aarif Rasheed
-    corresponding: false
-    orcid: 0000-0000-0000-0001
-    affiliations:
-      - name: Just Community
-    roles:
-      - conceptualisation
-      - data curation
-      - funding acquisition
-      - resources
-      - writing - review & editing   
+      - writing - review & editing             
   - name: Kumar Yogeeswaran
     corresponding: false
     orcid: 0000-0002-1978-5077
@@ -304,7 +293,18 @@ author:
       - resources
       - supervision
       - writing - original draft      
-      - writing - review & editing                                                    
+      - writing - review & editing
+  - name: Aarif Rasheed
+    corresponding: false
+    orcid: 0000-0000-0000-0001
+    affiliations:
+      - name: Just Community
+    roles:
+      - conceptualisation
+      - data curation
+      - funding acquisition
+      - resources
+      - writing - review & editing                                                           
 author-note:
   status-changes: 
     affiliation-change: ~
@@ -325,8 +325,8 @@ format:
   # apaquarto-html: default
   # apaquarto-pdf:
   # documentmode: man
-  # apaquarto-pdf: default
-  apaquarto-docx: default
+  apaquarto-pdf: default
+  # apaquarto-docx: default
 ---
 
 On 15 March 2019, a devastating far-right extremist attack on two mosques took place in Christchurch, killing 51 Muslims and injuring 40 [@royalco2020]. Although this attack was widely condemned [@worldle2019] and was unprecedented in New Zealand [@jacinda2019b], it was not as surprising to the Muslim community [@rahman2019] due to Muslims' widespread experience of Islamophobia and prejudice in the country [@sibley2020]. Even as Islamophobia has reportedly increased overseas following these attacks [@islamoph2022], the evidence in New Zealand seems to be mixed. While news articles have reported increased hate towards Muslims [@frykberg2023], the New Zealand Attitudes and Values Study (NZAVS) findings were indicative of improved attitudes towards Muslims [@shanaah2021; @bulbulia2023] following the attacks. Addressing this discrepancy is beyond the scope of the current article; however, it is worth noting that most of our research in this area, primarily through the NZAVS [@sibley2024] lens, has so far shed light on such attitudes from a non-Muslim perspective. In other words, we have mostly reported on how Muslims are perceived by non-Muslim members of New Zealand society, rather than how Muslims perceive themselves. While the published NZAVS reports are an absolute necessity, the self-experience of Muslims themselves as the direct victims of this heinous crime is equally important.
@@ -704,21 +704,13 @@ total_responded <- sum(data$Responded)
 #cat("Total number of responses: ", total_responded, "\n")
 ```
 
-<<<<<<< HEAD
 Research assistants used the snowball approach for data collection. As per recommendations from the co-designing process, they started reaching out to their close circles, and kept expanding their reach through secondary contacts. The sample was non-representative, and participants had the choice of filling in the online questionnaire using Qualtrics, or a paper questionnaire which could be returned to the NZAVS headquarters in Auckland University using a prepaid postal envelope.
-=======
-Research assistants used the snowball approach for data collection. As per recommedations from the co-designing process, they started reaching out to their close circles, and kept expanding their reach through secondary contacts. The sample was non-representative, and participants had the choice of filling in the online questionnaire using Qualtrics, or a paper questionnaire which could be returned to the NZAVS headquarters in Auckland University using a prepaid postal envelope.
->>>>>>> 6dfaf26f8138b340bbb86cd92331d10f7cec54b1
 
 After the initial stage of reaching out to their close circles, the research assistants started reaching out to community organisations. A runsheet was provided, and different documents and promotional materials such as individual messages, community messages, flyers, and posters were at the research assistants disposal based on their needs. We also developed clear vision and ethics statements that were part of our MDS introductory letter. In addition, a cover letter was sent to all participants alongside the information sheet. It was aimed to clearly convey the purposes of MDS to the community. Please see appendices A-H for the aforementioned materials. Furthermore, 10 promotional shirts were designed which the research assistants wore during festivals and community events for the study promotion.
 
 The social media campaign started at the beginning of 2024 and continued until the end of Wave 1. Besides regularly posting on a weekly, and later on, a fortnightly basis, we also used paid promotion to increase the reach of the project.
 
-<<<<<<< HEAD
 For the purposes of community promotion, we relied on a combination of community outreach at local mosques, religious, community, and ethnic organisations, Muslim schools and businesses, and MSAs (Muslim Student Associations). From available databases and community contacts, we identified `{r} total_organizations` organisations and the research assistants were able to approach Muslims in `{r} total_reached_out` of these organisations. Out of these, `{r} total_responded` endorsed and promoted the study. Different organisations endorsed us in different manners: some allowed us to give speeches to their audience, while shared our promotional material online on their social media platforms, via community message groups (e.g., WhatsApp), and mailing lists. It is worth noting that some these organisations did not necessarily belong to the Muslim community (e.g., refugee resettlement centres and ethnic community trusts), though, they still offered support. In addition, tens of posters were placed in community facilities (e.g., mosques and libraries) and hundreds of flyers were handed over after Friday prayers as well as cultural and religious festivals.
-=======
-For the purposes of community promotion, we relied on a combination of community outreach at local mosques, religious, community, and ethnic organisations, Muslim schools and businesses, and MSAs (Muslim Student Associations). From available databases and community contacts, we identified `{r} total_organizations` organisations and the research assistants were able to approach Muslims in `{r} total_reached_out` of these organisations. Out of these, `{r} total_responded` endorsed and promoted the study. Different organisations endorsed us in different manners: some allowed us to give speeches to their audience, while shared our promotional material online on their social media platforms, via community message groups (e.g., WhatsApp), and mailing lists. It is worth nothing that some these organisations did not necessarily belong to the Muslim community (e.g., refugee resettlement centres and ethnic community trusts), though, they still offered support. In addition, tens of posters were placed in community facilities (e.g., mosques and libraries) and hundreds of flyers were handed over after Friday prayers as well as cultural and religious festivals.
->>>>>>> 6dfaf26f8138b340bbb86cd92331d10f7cec54b1
 
 In addition to reaching out to organisations, the principal investigator and research assistants conversed with 28 local and national community leaders, celebrities, religious scholars, and academics to disseminate information about the study to the communities. As part of this recruitment drive, the principal investigator also presented 28 talks, presentations, and/or lectures to Muslim community groups around New Zealand via mosques, universities and community organisations in the selected cities, explaining the goals of the NZAVS, and how it would benefit the New Zealand Muslim community to be represented in this ongoing national longitudinal panel sample. Five additional talks were delivered by the research assistants too.
 
@@ -806,13 +798,7 @@ Based on our interactions with the community, we had anecdotal evidence that som
 1.  Building rapport: The community trusts religious and community leaders, intellectuals, academics, and elderly. The first step in any community interaction would be reaching out to such figures and clearly sharing with them the vision, mission, and need for the project. Leaders' endorsement can be extremely influential.
 2.  Addressing concerns regarding confidentiality and data management: Given that a large number of Muslims have taken refuge in New Zealand after escaping oppressive regimes, it is only natural for them to be sceptical of anyone who might ask them to provide data. Therefore, it is extremely important to ensure that the data are secured. At NZAVS, adhere to strict security protocols. Our data are anyonymised yet not publicly available, and is safeguarded with some of the world's most secure encryption.
 3.  Being transparent and truthful with the community: Besides building rapport and ensuring confidentiality, it is extremely important to be transparent and truthful with the community in term of deliverables and outputs. Reportedly, in the past, some researchers have collected data from the community, but the reports were not shared. Being in constant contact with community ensures that future research endeavours could take place effectively.
-=======
-Based on our interactions with the community, we had anecdotal evidence that some members of the Muslim community might distrust social research and view it as state surveillance. We also had anecdotal evidence of increase in such scepticism after the Christchurch shootings. Hence, we ensured that our approach and methodology addressed these issues beforehand, and in-line with recommendations from co-designing with the community, such as buidling trust, highlighting the importance and benefits of academic research, and addressing under-representation of Mulsims in research -- our flyers, posters, social media messages, and individual messages are testiments to this. Based on our interactions with the Muslim community and feedback from the research assistants, we anecdotally inferred that the following elements encourage increased participation of the Muslim community in research:
 
-1.  Building rapport: The community trusts religious and community leaders, intellectuals, academics, and elderly. The first step in any community interaction would be reaching out to such figures and clearly sharing with them the vision, mission, and need for the project. Leaders' endorsement can be extremely influential.
-2.  Addressing concerns regarding confidentiality and data management: Given that a large number of Muslims have taken refuge in New Zealand after escaping oppressive regimes, it is only natural for them to be sceptical of anyone who might ask them to provide data. Therefore, it is extremely important to ensure that the data are secured. At NZAVS, adhere to strict security protocols. Our data are anyonymised yet not publicly available, and is safeguarded with some of the world's most secure encryption.
-3.  Being transparent and truthful with the community: Besides buidling rapport and ensuring confidentiality, it is extremely important to be transparent and truthful with the community in term of deliverables and outputs. Reportedly, in the past, some researchers have collected data from the community, but the reports were not shared. Being in constant contact with community ensures that future research endeavours could take place effectively.
->>>>>>> 6dfaf26f8138b340bbb86cd92331d10f7cec54b1
 4.  Reaching out to individuals personally, and not via groups: Our research assistants have discovered this, especially by the means of targetting their close circles individually and keeping expanding the reach, as a more effective approach to incur higher response rate as compared to targetting the community out via organisations. Notwithstanding, the group approach has its own advantages and helps with dissemination of message.
 5.  Medium: At the beginning, the focus was on both online and paper questionnaires. Towards the end, based on the feedback from research assistants, we employed paper questionnaires only, which resulted in a comparatively higher turn out.
 6.  Achievable targets: After testing different targets, each research assistant committed to the completion of a minimum of three participants each week during the final five months. This, coupled with point 5, enhanced the response rate.
@@ -926,7 +912,7 @@ MDS is a crucial booster for the NZAVS because not only it addresses the under-r
 
 # Appendix
 
-# Message to Individual Participnats
+# Message to Individual Participants
 
 Your Voice Matters! Join the Muslim Diversity Study!
 
