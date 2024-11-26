@@ -705,16 +705,13 @@ total_responded <- sum(data$Responded)
 #cat("Total number of responses: ", total_responded, "\n")
 ```
 
-Research assistants used the snowball approach for data collection. As per recommendations from the co-designing process, they started reaching out to their primary contacts first. These consisted of family members and close friends that the research assistants found the most comfortable to reach out to. Starting in this manner ensured that the research assistant were put in a real-life situation within their comfort zone. MUA provided them with consistent feedback and was available to help those that needed practice communicating the message.
+Research assistants used the snowball approach for data collection. As per recommendations from the co-designing process, they started reaching out to their primary contacts first. These consisted of family members and close friends that the research assistants found the most comfortable to reach out to. Starting in this manner ensured that the research assistants were put in a real-life situation within their comfort zone. MUA provided them with consistent feedback and was available to help those that needed practice communicating the message.
 
-After two weeks, the research assistants were guided to reach out to their secondary contacts.
+After two weeks, the research assistants were guided to reach out to their secondary contacts. These consisted of extended families, peers, and classmates. The process of feedback and support by MUA continued. Finally, they reached out to community organisations. This gradual extension helped research assistants to build confidence in reaching out and attain coherence of narrative regarding the study. Research assistants with extensive previous engagement experience with the community reached out to the community sooner than the rest.
 
-Exceptions.... familiar RA's
+The sample was non-representative, and participants had the choice of filling in the online questionnaire using Qualtrics, or a paper questionnaire which could be returned to the NZAVS headquarters in Auckland University using a prepaid postal envelope.
 
-
- and kept expanding their reach through secondary contacts. The sample was non-representative, and participants had the choice of filling in the online questionnaire using Qualtrics, or a paper questionnaire which could be returned to the NZAVS headquarters in Auckland University using a prepaid postal envelope.
-
-After the initial stage of reaching out to their close circles, the research assistants reached out to community organisations. A runsheet was provided, and different documents and promotional materials such as individual messages, community messages, flyers, and posters were at the research assistants disposal based on their needs. We also developed clear vision and ethics statements that were part of our MDS introductory letter. In addition, a cover letter was sent to all participants alongside the information sheet. It was aimed to clearly convey the purposes of MDS to the community, see appendices A-H for the aforementioned materials. Furthermore, 10 promotional shirts were designed which the research assistants wore during festivals and community events for the study promotion.
+A runsheet was provided, and different documents and promotional materials such as individual messages, community messages, flyers, and posters were at the research assistants disposal based on their needs. We also developed clear vision and ethics statements that were part of our MDS introductory letter. In addition, a cover letter was sent to all participants alongside the information sheet. It was aimed to clearly convey the purposes of MDS to the community, see appendices A-H for the aforementioned materials. Furthermore, 10 promotional shirts were designed which the research assistants wore during festivals and community events for the study promotion.
 
 The social media campaign started at the beginning of 2024 and continued until the end of Wave 1. Besides regularly posting on a weekly, and later on, a fortnightly basis, we also used paid promotion to increase the reach of the project.
 
@@ -824,7 +821,7 @@ Similarly, we learned that the following factors could hinder data collection ef
 
 In addition, we found the use of social media, website, flyers, and posters effective in engaging the community. Contents of the website addressing privacy concerns, ethics, vision, and mission were appreciated by some participants and community leaders. In terms of research assistant training, we learned that a systematic approach, runsheet, manual, frequently asked questions, and evolving data collection targets were useful.
 
-Although these findings are anecdotal, we witnessed enhanced participation by addressing some of these challenges. Some of these recommendations have been reflected in outputs of March 15 research group too [@sulaiman-hill2024]. To better understand and document the process, we have conducted a qualitative study on research assistant experiences in terms of data collection [@afzali2024]. Findings from this research will be published in the near future.
+We witnessed enhanced participation by addressing these challenges. Some of these recommendations have been reflected in outputs of March 15 research group too [@sulaiman-hill2024].
 
 ## Strengths
 
