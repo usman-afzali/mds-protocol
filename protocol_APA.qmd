@@ -36,8 +36,7 @@ author:
       - name: University of Canterbury
         department: School of Psychology, Speech and Hearing
     roles:
-      - data curation
-      - project administration 
+      - supervision 
       - writing - original draft
       - writing - review & editing   
   - name: Parus Khoso
@@ -47,10 +46,160 @@ author:
       - name: University of Canterbury
         department: College of Education
     roles:
-      - data curation
       - formal analysis
-      - writing - original draft (pilot community consultation)
-      - writing - review & editing   
+      - investigation
+      - writing - original draft
+      - writing - review & editing
+  - name: Gul e Aqsa
+    corresponding: false
+    orcid: 0009-0003-0928-8039
+    affiliations:
+      - name: University of Canterbury
+        department: School of Health Sciences
+    roles:
+      - formal analysis
+      - investigation
+      - writing - original draft
+      - writing - review & editing
+  - name: Mazharuddin Syed Ahmed
+    corresponding: false
+    orcid: 0009-0006-9799-4049
+    affiliations:
+      - name: Ara Institute of Canterbury
+        department: Engineering and Architectural Studies
+    roles:
+      - writing - review & editing
+  - name: Aamina Ali
+    corresponding: false
+    orcid: 0009-0000-8153-8432
+    affiliations:
+      - name: PsychologyNZ
+    roles:
+      - writing - original draft
+      - writing - review & editing
+  - name: Afrah Ali
+    corresponding: false
+    orcid: 0009-0004-5856-4025
+    affiliations:
+      - name: Independent Researcher
+    roles:
+      - writing - original draft    
+      - writing - review & editing
+  - name: Zarqa Shaheen Ali
+    corresponding: false
+    orcid: 0000-0002-7145-5788
+    affiliations:
+      - name: New Zealand Skills and Education College
+        department: ICL Business School
+    roles:
+      - investigation
+      - writing - original draft
+      - writing - review & editing
+  - name: Ayca Arkilic
+    corresponding: false
+    orcid: 0000-0002-1775-3311
+    affiliations:
+      - name: Victoria University of Wellington
+        department: School of History, Philosophy, Political Science and International Relations
+    roles:
+      - writing - original draft
+      - writing - review & editing
+  - name: Tuba Azeem
+    corresponding: false
+    orcid: 0000-0002-0611-8726
+    affiliations:
+      - name: Victoria University of Wellington
+        department: Faculty of Law
+    roles:
+      - investigation
+      - writing - review & editing
+  - name: Hala Burhoum
+    corresponding: false
+    orcid: 0000-0000-0000-0001
+    affiliations:
+      - name: University of Canterbury
+        department: School of Psychology, Speech and Hearing
+    roles:
+      - investigation
+      - writing - original draft
+      - writing - review & editing
+  - name: Zahra Emamzadeh
+    corresponding: false
+    orcid: 0009-0007-3065-2199
+    affiliations:
+      - name: University of Canterbury
+        department: School of Language, Social & Political Sciences
+    roles:
+      - writing - original draft (strengths & limitations)
+      - writing - review & editing
+  - name: Zahra Haidary
+    corresponding: false
+    orcid: 0009-0000-5259-622X
+    affiliations:
+      - name: University of Canterbury
+        department: School of Psychology, Speech and Hearing
+    roles:
+      - data curation
+      - writing - original draft (method)
+      - writing - review & editing      
+  - name: Nasratullah Hamid
+    corresponding: false
+    orcid: 0009-0002-0120-7428
+    affiliations:
+      - name: University of Otago Christchurch
+        department: Department of Psychological Medicine
+    roles:
+      - data curation
+      - writing - original draft (method)
+      - writing - review & editing
+  - name: Iman Husain
+    corresponding: false
+    orcid: 0000-0003-4032-4387
+    affiliations:
+      - name: University of Canterbury
+        department: School of Psychology, Speech and Hearing
+    roles:
+      - data curation
+      - writing - original draft (method)
+      - writing - review & editing
+  - name: Fatima A. Junaid
+    corresponding: false
+    orcid: 0000-0002-6656-8120 
+    affiliations:
+      - name: Massey University
+        department: School of Management
+    roles:
+      - writing - original draft (introduction)
+      - writing - review & editing
+  - name: Mashal Khan
+    corresponding: false
+    orcid: 0009-0004-5903-3306
+    affiliations:
+      - name: University of Canterbury
+        department: School of Psychology, Speech and Hearing 
+    roles:
+      - data curation
+      - writing - original draft (method)
+      - writing - review & editing
+  - name: Adepate Mustapha-Koiki
+    corresponding: false
+    orcid: 0000-0003-4731-1781
+    affiliations:
+      - name: University of Auckland
+        department: Department of Politics and International Relations
+    roles:
+      - writing - original draft (applications & implications)
+      - writing - review & editing
+  - name: Hussain Raissi
+    corresponding: false
+    orcid: 0009-0000-7985-1622
+    affiliations:
+      - name: University of Otago
+        department: The National Centre for Peace and Conflict Studies
+    roles:
+      - data curation
+      - writing - original draft (method)
+      - writing - review & editing
   - name: Farah Shawkat
     corresponding: false
     orcid: 0009-0006-0319-9117
@@ -65,139 +214,7 @@ author:
     roles:
       - data curation
       - writing - original draft (method)
-      - writing - review & editing     
-  - name: Fatima A. Junaid
-    corresponding: false
-    orcid: 0000-0002-6656-8120 
-    affiliations:
-      - name: Massey University
-        department: School of Management
-    roles:
-      - writing - original draft (introduction)
-      - writing - review & editing     
-  - name: Ayca Arkilic
-    corresponding: false
-    orcid: 0000-0002-1775-3311 
-    affiliations:
-      - name: Victoria University of Wellington
-        department: School of History, Philosophy, Political Science and International Relations
-    roles:
-      - writing - original draft (introduction)
-      - writing - review & editing     
-  - name: Mazharuddin Syed Ahmed
-    corresponding: false
-    orcid: 0009-0006-9799-4049
-    affiliations:
-      - name: Ara Institute of Canterbury
-        department: Engineering and Architectural Studies
-    roles:
-      - data curation
-      - writing - review & editing     
-  - name: Hussain Raissi
-    corresponding: false
-    orcid: 0009-0000-7985-1622
-    affiliations:
-      - name: University of Otago
-        department: The National Centre for Peace and Conflict Studies
-    roles:
-      - data curation
-      - writing - original draft (method)
-      - writing - review & editing     
-  - name: Hala Burhoum
-    corresponding: false
-    orcid: 0000-0000-0000-0001
-    affiliations:
-      - name: University of Canterbury
-        department: School of Psychology, Speech and Hearing
-    roles:
-      - data curation
-      - writing - original draft (method)
-      - writing - review & editing     
-  - name: Tuba Azeem
-    corresponding: false
-    orcid: 0000-0002-0611-8726
-    affiliations:
-      - name: Victoria University of Wellington
-        department: Faculty of Law
-    roles:
-      - data curation
-      - writing - review & editing          
-  - name: Iman Husain
-    corresponding: false
-    orcid: 0000-0003-4032-4387
-    affiliations:
-      - name: University of Canterbury
-        department: School of Psychology, Speech and Hearing
-    roles:
-      - data curation
-      - writing - original draft (method)
-      - writing - review & editing          
-  - name: Zarqa Shaheen Ali
-    corresponding: false
-    orcid: 0000-0002-7145-5788
-    affiliations:
-      - name: New Zealand Skills and Education College
-        department: ICL Business School
-    roles:
-      - data curation
-      - writing - original draft (method)
-      - writing - review & editing     
-  - name: Zahra Haidary
-    corresponding: false
-    orcid: 0009-0000-5259-622X
-    affiliations:
-      - name: University of Canterbury
-        department: School of Psychology, Speech and Hearing
-    roles:
-      - data curation
-      - writing - original draft (method)
-      - writing - review & editing     
-  - name: Mashal Khan
-    corresponding: false
-    orcid: 0009-0004-5903-3306
-    affiliations:
-      - name: University of Canterbury
-        department: School of Psychology, Speech and Hearing 
-    roles:
-      - data curation
-      - writing - original draft (method)
-      - writing - review & editing
-  - name: Mai Tamimi
-    corresponding: false
-    orcid: 0009-0001-7894-7259
-    affiliations:
-      - name: Independent Researcher
-    roles:
-      - writing - original draft (method)
-      - writing - review & editing               
-  - name: Nasratullah Hamid
-    corresponding: false
-    orcid: 0009-0002-0120-7428
-    affiliations:
-      - name: University of Otago Christchurch
-        department: Department of Psychological Medicine
-    roles:
-      - data curation
-      - writing - original draft (method)
-      - writing - review & editing     
-  - name: Gul e Aqsa
-    corresponding: false
-    orcid: 0009-0003-0928-8039
-    affiliations:
-      - name: University of Canterbury
-        department: School of Health Sciences
-    roles:
-      - data curation
-      - writing - review & editing           
-  - name: Zahra Emamzadeh
-    corresponding: false
-    orcid: 0009-0007-3065-2199
-    affiliations:
-      - name: University of Canterbury
-        department: School of Language, Social & Political Sciences
-    roles:
-      - writing - original draft (strengths & limitations)
-      - writing - review & editing             
+      - writing - review & editing      
   - name: Rizwan Sulehry
     corresponding: false
     orcid: 0000-0002-1209-0635
@@ -207,39 +224,14 @@ author:
     roles:
       - data curation
       - writing - original draft (strengths & limitations)
-      - writing - review & editing     
-  - name: Somia Tasneem
+      - writing - review & editing
+  - name: Mai Tamimi
     corresponding: false
-    orcid: 0000-0001-5471-6934
-    affiliations:
-      - name: Government College University, Faisalabad, Pakistan
-        department: Department of History
-    roles:
-      - writing - original draft (strengths & limitations)
-      - writing - review & editing     
-  - name: Aamina Ali
-    corresponding: false
-    orcid: 0009-0000-8153-8432
-    affiliations:
-      - name: PsychologyNZ
-    roles:
-      - writing - original draft (applications & implications)
-      - writing - review & editing       
-  - name: Adepate Mustapha-Koiki
-    corresponding: false
-    orcid: 0000-0003-4731-1781
-    affiliations:
-      - name: University of Auckland
-        department: Department of Politics and International Relations
-    roles:
-      - writing - original draft (applications & implications)
-      - writing - review & editing     
-  - name: Afrah Ali
-    corresponding: false
-    orcid: 0009-0004-5856-4025
+    orcid: 0009-0001-7894-7259
     affiliations:
       - name: Independent Researcher
     roles:
+      - writing - original draft (method)
       - writing - review & editing
   - name: Sandila Tanveer
     corresponding: false
@@ -248,7 +240,16 @@ author:
       - name: University of Otago Christchurch
         department: Department of Psychological Medicine
     roles:
-      - writing - review & editing             
+      - writing - review & editing      
+  - name: Somia Tasneem
+    corresponding: false
+    orcid: 0000-0001-5471-6934
+    affiliations:
+      - name: Government College University, Faisalabad, Pakistan
+        department: Department of History
+    roles:
+      - writing - original draft (strengths & limitations)
+      - writing - review & editing              
   - name: Kumar Yogeeswaran
     corresponding: false
     orcid: 0000-0002-1978-5077
@@ -636,7 +637,7 @@ The NZAVS was approved by the University of Auckland Human Participants Ethics C
 
 ## Design
 
-The NZAVS is a comprehensive, planned 20-year longitudinal national probability panel study that began in 2009, focusing on social attitudes, personality, ideology, and health outcomes of adults in New Zealand. Currently in its 16th wave, the NZAVS employs quantitative measures to gather data from adult New Zealanders. The MDS serves as a three-year longitudinal booster to the NZAVS, specifically aimed at increasing the participation of Muslims residing in New Zealand. The MDS commenced with Wave 1, corresponding to NZAVS Wave 15 (from October 15, 2023, to October 14, 2024). Subsequent waves of the MDS align with NZAVS Wave 16 (October 15, 2024, to October 14, 2025) and Wave 17 (October 15, 2025, to October 14, 2026). The study will examine various outcome variables to test the proposed MDS hypotheses, including perceived religious and ethnic discrimination, employment status, job satisfaction, job security, feeling valued by the organisation, self-rated health, perceived health decline, chronic diseases and disabilities, psychological distress, meaning of life, life satisfaction, sense of belonging, perceived support, warmth toward various groups, vengeful rumination, and forgiveness. The predictors variables include:
+The NZAVS is a comprehensive, planned 20-year longitudinal national probability panel study that began in 2009, focusing on social attitudes, personality, ideology, and health outcomes of adults in New Zealand. Currently in its 16th wave, the NZAVS employs quantitative measures to gather data from adult New Zealanders. The MDS serves as a three-year longitudinal booster to the NZAVS, specifically aimed at increasing the participation of Muslims residing in New Zealand. The MDS commenced with Wave 1, corresponding to NZAVS Wave 15 (from October 15, 2023, to October 14, 2024). Subsequent waves of the MDS align with NZAVS Wave 16 (October 15, 2024, to October 14, 2025) and Wave 17 (October 15, 2025, to October 14, 2026). The study will examine various outcome variables to test the proposed MDS hypotheses, including perceived religious and ethnic discrimination, employment status, job satisfaction, job security, feeling valued by the organisation, self-rated health, perceived health decline, chronic diseases and disabilities, psychological distress, meaning of life, life satisfaction, sense of belonging, perceived support, warmth toward various groups, vengeful rumination, and forgivingness. The predictors variables include:
 
 1.  Perceived religious discrimination
 2.  Perceived ethnic discrimination
@@ -654,7 +655,7 @@ The NZAVS is a comprehensive, planned 20-year longitudinal national probability 
 14. Perceived support
 15. Warmth toward various groups
 16. Vengeful rumination
-17. Forgiveness
+17. Forgivingness
 
 ## Data Analysis
 
