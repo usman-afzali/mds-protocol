@@ -326,8 +326,8 @@ format:
   # apaquarto-html: default
   # apaquarto-pdf:
   # documentmode: man
-  # apaquarto-pdf: default
-  apaquarto-docx: default
+  apaquarto-pdf: default
+  # apaquarto-docx: default
 ---
 
 ## Introduction
@@ -336,7 +336,7 @@ Officially known as *A national longitudinal study of Muslim diversity and flour
 
 MDS started in 2023 as part of the New Zealand Attitudes and Values Study (NZAVS). The NZAVS is a planned 20-year-long longitudinal national probability annual panel study of social attitudes, personality, ideology and health outcomes that began in 2009 and is currently in its 16th year. It has so far collected data from more than 70,000 New Zealand residents using the electoral roll [@sibley2024]. The NZAVS has been instrumental in exploring key issues related to minorities, including but not limited to discrimination, intergroup relations, identity, distress, security, and the dynamics and mechanisms behind them.
 
-The NZAVS has been uniquely positioned due to its prestigious reputation (over 300 peer-reviewed publications), longitudinal panel design, large sample size, and a large multi-disciplinary research team [@sibley2024]. More importantly, NZAVS has a nationally representative sample with data from different identity and religious group [@sibley2024], thereby allowing researchers to compare data from different identity groups. However, the NZAVS has been undersampling Muslims by ten times lower than those of other religious groups [@sibley2024], which did not allow us to make meaningful inferences regarding Muslim lives and issues in comparison with other religious groups. Hence, the goal of MDS is to achieve as many as 650 Muslim respondents (i.e., \~ 1% of the total nation's Muslim community).
+The NZAVS has been uniquely positioned due to its prestigious reputation (over 300 peer-reviewed publications), longitudinal panel design, large sample size, and a large multi-disciplinary research team [@sibley2024]. More importantly, NZAVS has a nationally representative sample with data from different identity and religious groups [@sibley2024], thereby allowing researchers to compare data from different identity groups. However, the NZAVS has been undersampling Muslims by ten times lower than those of other religious groups [@sibley2024], which did not allow us to make meaningful inferences regarding Muslim lives and issues in comparison with other religious groups. Hence, the goal of MDS is to achieve as many as 650 Muslim respondents (i.e., \~ 1% of the total nation's Muslim community).
 
 This article has three major parts. After providing the broader context of Muslims and MDS, we firstly discuss the process of co-designing and adjustments to the NZAVS design. Secondly, we present the final design and implemented protocol. Thirdly, we share the summary of advice and lessons learned in the process.
 
@@ -358,7 +358,7 @@ The Christchurch shootings prompted many New Zealand research groups and institu
 
 In addition, much of the NZAVS work to date with the Muslim community had focused on conveying information about how Muslims are perceived by the non-Muslim members of New Zealand society. After receiving strong positive suggestions from the Muslim community to scientifically explore diversity, discrimination, self-perception, resilience, meaning-making and flourishing, the MDS was conceptualised in 2022 to address this scholarly and community knowledge gap. Therefore, MDS is effectively a booster to NZAVS, and uses the NZAVS questionnaires to collect data from the members of Muslim community in New Zealand.
 
-Media reports pointed out incredible resilience and flourishing of victims as well as the wider Muslim community post Christchurch shootings [@oliver2024; @greenfield2019]. Limited research on specific cohort of Muslims indicated the same [@sulaiman-hill2024a; @nasier2023]. Research on human flourishing has consistently shown that religiosity and religious service attendance might be associated with various aspects of human flourishing [@vanderweele2017; @vanderweele2017a]. New Zealand Muslims' overall under-representation in research and resilience in the face of prejudice and terror produced a critical research gap in the relationship of Muslim religiosity and flourishing that warranted further empirical investigation. By addressing this line of inquiry with MDS, we contribute to the science of human flourishing in general.
+Media reports pointed out incredible resilience and flourishing of victims as well as the wider Muslim community post Christchurch shootings [@oliver2024; @greenfield2019]. Limited research on specific cohorts of Muslims indicated the same [@sulaiman-hill2024a; @nasier2023]. Research on human flourishing has consistently shown that religiosity and religious service attendance might be associated with various aspects of human flourishing [@vanderweele2017; @vanderweele2017a]. New Zealand Muslims' overall under-representation in research and resilience in the face of prejudice and terror produced a critical research gap in the relationship of Muslim religiosity and flourishing that warranted further empirical investigation. By addressing this line of inquiry with MDS, we contribute to the science of human flourishing in general.
 
 ## MDS research aims
 
@@ -415,7 +415,7 @@ To address potential participant concerns about item relevance, we included in t
 
 ## Sample size estimation and participants
 
-The NZAVS sample of Muslim cohort was *n* = 85 prior to MDS [@sibley2024]. To enhance the representation of Muslims in NZAVS, we initially aimed to recruit an additional 1500 participants, more than doubling the study's proportional sampling of the general population. We were able to recruit *n* = 582 new participants. This target corresponds to about 1.3% of New Zealand's Muslim population based on the 2018 Census [@statsnz2024]. Notably, the 2023 Census that took place after the the start of MDS shows an increased number of Muslims in New Zealand (75,138) [@religi2024]. Data collection was concentrated in six major urban centers—Auckland, Christchurch, Hamilton, Wellington, Palmerston North, and Dunedin—each with a Muslim population of at least 1,000 (see @tbl-muslim-population). Participants were eligible if they self-identify as Muslim, were 18 years or older, and currently resided in New Zealand. There were no exclusion criteria. By conclusion of Wave 15, the sample size of NZAVS is 32,857, with further details available online (<https://osf.io/75snb/>). The total number of Muslim participants in NZAVS Wave 15 is 667.
+The NZAVS sample of Muslim cohort was *n* = 85 prior to MDS [@sibley2024]. To enhance the representation of Muslims in NZAVS, we initially aimed to recruit an additional 1500 participants, more than doubling the study's proportional sampling of the general population. We were able to recruit *n* = 582 new participants. This target corresponds to about 1.3% of New Zealand's Muslim population based on the 2018 Census [@statsnz2024]. Notably, the 2023 Census that took place after the start of MDS shows an increased number of Muslims in New Zealand (75,138) [@religi2024]. Data collection was concentrated in six major urban centers—Auckland, Christchurch, Hamilton, Wellington, Palmerston North, and Dunedin—each with a Muslim population of at least 1,000 (see @tbl-muslim-population). Participants were eligible if they self-identify as Muslim, were 18 years or older, and currently resided in New Zealand. There were no exclusion criteria. By conclusion of Wave 15, the sample size of NZAVS is 32,857, with further details available online (<https://osf.io/75snb/>). The total number of Muslim participants in NZAVS Wave 15 is 667.
 
 ```{r}
 #| echo: false
@@ -498,7 +498,7 @@ knitr::include_graphics("figs/warmth.png")
 
 1.  I know that people in my life accept and value me. (1 = Very Inaccurate, 7 = Very Accurate).
 2.  I feel like an outsider. (1 = Very Inaccurate, 7 = Very Accurate).
-3.  I know that people in around me share my attitudes and beliefs. (1 = Very Inaccurate, 7 = Very Accurate).
+3.  I know that people around me share my attitudes and beliefs. (1 = Very Inaccurate, 7 = Very Accurate).
 
 ### Support
 
@@ -615,7 +615,7 @@ The following demographic variables are measures by which we will compare the sa
 11. Political orientation: Responses to "Please rate how politically left-wing versus right-wing you see yourself as being" are assigned a 7-point scale (1 = Extremely left-wing, 7 = Extremely right-wing).
 12. Residence: Urban or rural residence (a two-item nominal variable) is identified based on the physical addresses provided.
 13. Region of habituation: Whether participants are living in an urban or rural area, based on the addresses provided, is coded 1 = Urban, 0 = Rural.
-14. Race-based rejection anxiety: "People from other races would be likely to reject me on the basis of my race". (1 = Strogly Disagree, 7 = Strongly Agree).
+14. Race-based rejection anxiety: "People from other races would be likely to reject me on the basis of my race". (1 = Strongly Disagree, 7 = Strongly Agree).
 15. Big Six personality traits: Six personality traits -- agreeableness, conscientiousness, extraversion, openness, honesty-humility, and neuroticism -- are measured using a 7-point (1 = Very Inaccurate, 7 = Very Accurate) Mini-IPIP6 scale [@sibley2011].
 
 ```{r}
@@ -782,7 +782,7 @@ ggsave("figs/project_timeline.png",
 knitr::include_graphics("figs/project_timeline.png")
 ```
 
-As displayed in @fig-timeline, the community consultation started before Wave 1 and continued until the end of it. In addition, social media marketing has been an integral part of MDS data collection campaign. The planned future events, with approximate dates, are indicated too.
+As displayed in @fig-timeline, the community consultation started before Wave 1 and continued until the end of it. In addition, social media marketing has been an integral part of MDS data collection campaigns. The planned future events, with approximate dates, are indicated too.
 
 # Part 3: Lessons learned - Guidelines for working with the Muslim community
 
@@ -810,7 +810,7 @@ Similarly, we learned that the following factors could hinder data collection ef
 4.  Political climate: The current political climate and the Middle-East conflict have affected the population as well as the research assistants. Although we lack empirical data, many of our team members and potential participants lost their loved ones since October 2023 and have been grieving. In some of such instances, we tried not to approach affected members of the community.
 5.  Language barriers: Our community consultation revealed that most of our potential participants would comprehend English. This, by design, left out those with limited language abilities from participation.
 
-We witnessed enhanced participation by addressing these challenges. Some of these recommendations have been reflected in outputs of March 15 research group too [@sulaiman-hill2024].
+We witnessed enhanced participation by addressing these challenges. Some of these recommendations have been reflected in outputs of the March 15 research group too [@sulaiman-hill2024].
 
 ## Strengths of MDS
 
