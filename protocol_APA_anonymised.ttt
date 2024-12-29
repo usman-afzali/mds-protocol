@@ -1,0 +1,27 @@
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\caption{{}{\label{tbl-muslim-population}}}
+\vspace{-20pt}}
+
+\begingroup
+\fontsize{12.0pt}{14.4pt}\selectfont
+\begin{longtable*}{lrr}
+\caption*{
+{\large Muslim Population in 2022 by Selected Cities (From Stats NZ, 2024)}
+} \\
+\toprule
+City & Population & Research Assistants \\
+\midrule\addlinespace[2.5pt]
+Auckland & 40,221 & 10 \\
+Christchurch & 3,942 & 8 \\
+Hamilton & 3,561 & 4 \\
+Wellington & 3,294 & 5 \\
+Palmerston North & 1,317 & 1 \\
+Dunedin & 1,299 & 2 \\
+\bottomrule
+\end{longtable*}
+\endgroup
+
+\end{table*}
