@@ -134,6 +134,22 @@
 \usepackage{multirow}
 \usepackage{orcidlink}
 \makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
 \ifdefined\contentsname
@@ -222,7 +238,7 @@ Tasneem$\textsuperscript{17}$~\orcidlink{0000-0001-5471-6934}, Kumar
 Yogeeswaran$\textsuperscript{2}$~\orcidlink{0000-0002-1978-5077}, Chris
 G. Sibley$\textsuperscript{18}$~\orcidlink{0000-0002-4064-8800}, Joseph
 A.
-Bulbulia$\textsuperscript{19,20,2}$~\orcidlink{0000-0002-5861-2056}, Aarif
+Bulbulia$\textsuperscript{19,20}$~\orcidlink{0000-0002-5861-2056}, Aarif
 A. Rasheed$\textsuperscript{21}$~\orcidlink{0009-0004-7513-430X}}
 
 \thanks{CONTACT: M. Usman
@@ -230,11 +246,11 @@ Afzali. Email: \href{mailto:usman.afzali@otago.ac.nz}{\nolinkurl{usman.afzali@ot
 \begin{document}
 \captionsetup{labelsep=space}
 \maketitle
-\textsuperscript{1} Religion Programme, University of Otago, Dunedin,
-Otago, New Zealand\\ \textsuperscript{2} School of Psychology, Speech
-and Hearing, University of Canterbury,  \\ \textsuperscript{3} College
-of Education, University of Canterbury,  \\ \textsuperscript{4} School
-of Health Sciences, University of
+\textsuperscript{1} Religion Programme, University of
+Otago,  \\ \textsuperscript{2} School of Psychology, Speech and
+Hearing, University of Canterbury,  \\ \textsuperscript{3} College of
+Education, University of Canterbury,  \\ \textsuperscript{4} School of
+Health Sciences, University of
 Canterbury,  \\ \textsuperscript{5} Engineering and Architectural
 Studies, Ara Institute of
 Canterbury,  \\ \textsuperscript{6}  PsychologyNZ,  \\ \textsuperscript{7}  Independent
@@ -311,25 +327,24 @@ Study (NZAVS). The NZAVS is a planned 20-year-long longitudinal national
 probability annual panel study of social attitudes, personality,
 ideology and health outcomes that began in 2009 and is currently in its
 16th year. It has so far collected data from more than 70,000 New
-Zealand residents using the electoral roll (\textbf{sibley2024?}). The
-NZAVS has been instrumental in exploring key issues related to
-minorities, including but not limited to discrimination, intergroup
-relations, identity, distress, security, and the dynamics and mechanisms
-behind them.
+Zealand residents using the electoral roll (Sibley 2024). The NZAVS has
+been instrumental in exploring key issues related to minorities,
+including but not limited to discrimination, intergroup relations,
+identity, distress, security, and the dynamics and mechanisms behind
+them.
 
 The NZAVS has been uniquely positioned due to its prestigious reputation
 (over 300 peer-reviewed publications), longitudinal panel design, large
-sample size, and a large multi-disciplinary research team
-(\textbf{sibley2024?}). More importantly, NZAVS has a nationally
-representative sample with data from different identity and religious
-groups (\textbf{sibley2024?}), thereby allowing researchers to compare
-data from different identity groups. However, the NZAVS has been
-undersampling Muslims by ten times lower than those of other religious
-groups (\textbf{sibley2024?}), which did not allow us to make meaningful
-inferences regarding Muslim lives and issues in comparison with other
-religious groups. Hence, the goal of MDS is to achieve as many as 650
-Muslim respondents (i.e., \textasciitilde{} 1\% of the total nation's
-Muslim community).
+sample size, and a large multi-disciplinary research team (Sibley 2024).
+More importantly, NZAVS has a nationally representative sample with data
+from different identity and religious groups (Sibley 2024), thereby
+allowing researchers to compare data from different identity groups.
+However, the NZAVS has been undersampling Muslims by ten times lower
+than those of other religious groups (Sibley 2024), which did not allow
+us to make meaningful inferences regarding Muslim lives and issues in
+comparison with other religious groups. Hence, the goal of MDS is to
+achieve as many as 650 Muslim respondents (i.e., \textasciitilde{} 1\%
+of the total nation's Muslim community).
 
 This article has three major parts. After providing the broader context
 of Muslims and MDS, we firstly discuss the process of co-designing and
@@ -341,80 +356,84 @@ lessons learned in the process.
 
 The Muslim community has been expanding in New Zealand. Based on the
 2018 census, New Zealand had more than 60,000 Muslims which has grown to
-over 75,000 according to the 2023 Census (\textbf{statsnz2024?}).
-Studies also show that the number of converts to Islam has recently
-increased (\textbf{arkilic2020?}). The Muslim community is uniquely
-positioned in New Zealand: a growing religious minority and a
-historically stigmatised group that was the direct target of the 15
-March 2019 terrorist attack (\textbf{royalco2020?};
-\textbf{sibley2020?}).
+over 75,000 according to the 2023 Census ({``Stats NZ''} 2024). Studies
+also show that the number of converts to Islam has recently increased
+(Arkilic 2020). The Muslim community is uniquely positioned in New
+Zealand: a growing religious minority and a historically stigmatised
+group that was the direct target of the 15 March 2019 terrorist attack
+({``Royal {C}ommission of {I}nquiry into the Terrorist Attack on
+{C}hristchurch {M}asjidain on 15 {M}arch 2019''} 2020; Sibley et al.
+2020).
 
 The devastating far-right extremist attack on two mosques took place in
-Christchurch, killing 51 Muslims and injuring 40
-(\textbf{royalco2020?}). Although this attack was widely condemned
-(\textbf{worldle2019?}) and was unprecedented in New Zealand
-(\textbf{jacinda2019b?}), it was not as surprising to the Muslim
-community (\textbf{rahman2019?}). Leading up to the attacks, many
-Muslims had regularly experienced Islamophobia and prejudice
-(\textbf{sibley2020?}; \textbf{shaver2017?}; \textbf{shaver2016?}).
+Christchurch, killing 51 Muslims and injuring 40 ({``Royal {C}ommission
+of {I}nquiry into the Terrorist Attack on {C}hristchurch {M}asjidain on
+15 {M}arch 2019''} 2020). Although this attack was widely condemned
+({``World Leaders Condemn New Zealand Mosque Attacks''} 2019) and was
+unprecedented in New Zealand ({``Jacinda {A}rdern on the {C}hristchurch
+Shooting: {`}One of {N}ew {Z}ealand's Darkest Days'''} 2019), it was not
+as surprising to the Muslim community (A. Rahman 2019). Leading up to
+the attacks, many Muslims had regularly experienced Islamophobia and
+prejudice (Sibley et al. 2020; Shaver et al. 2017, 2016).
 
 Even as Islamophobia has reportedly increased overseas following these
-attacks (\textbf{islamoph2022?}), the evidence in New Zealand seems to
-be mixed. While news articles have reported increased hate
-(\textbf{frykberg2023?}), the NZAVS findings were indicative of improved
-attitudes towards Muslims (\textbf{shanaah2021?};
-\textbf{bulbulia2023?}) following the attacks. Addressing this
-discrepancy is beyond the scope of the current article; however, it is
-worth noting that most of our research in this area, primarily through
-the NZAVS lens, has so far shed light on such attitudes from a
-non-Muslim perspective. In other words, we have mostly reported on how
-Muslims are perceived by non-Muslim members of New Zealand society,
-rather than how Muslims perceive themselves. Although NZAVS studies of
-anti-Muslim prejudice are scientifically important, systematic insights
-into how Muslims are diversely responding to prejudice, and where
-Muslims are diversely found resilience remain unclear.
+attacks ({``Islamophobia After {C}hristchurch Terror Attacks Quadrupled
+- {A}ustralian Report''} 2022), the evidence in New Zealand seems to be
+mixed. While news articles have reported increased hate (Frykberg 2023),
+the NZAVS findings were indicative of improved attitudes towards Muslims
+(Shanaah et al. 2021; Bulbulia et al. 2023) following the attacks.
+Addressing this discrepancy is beyond the scope of the current article;
+however, it is worth noting that most of our research in this area,
+primarily through the NZAVS lens, has so far shed light on such
+attitudes from a non-Muslim perspective. In other words, we have mostly
+reported on how Muslims are perceived by non-Muslim members of New
+Zealand society, rather than how Muslims perceive themselves. Although
+NZAVS studies of anti-Muslim prejudice are scientifically important,
+systematic insights into how Muslims are diversely responding to
+prejudice, and where Muslims are diversely found resilience remain
+unclear.
 
 Muslims have generally faced prejudicial attitudes in New Zealand
-(\textbf{yogeeswaran2019?}; \textbf{sibley2020?};
-\textbf{greaves2020?}). Until the Christchurch terror attack, news
-stories on Islam and Muslims in New Zealand media were mostly an
-extension of `the negative othering rhetoric', and the national media
-tended to link Muslim converts to jihadis (\textbf{drury2016?}).
-Unsurprisingly, such rhetoric has been found to foster anti-Muslim
-prejudice (\textbf{shaver2017?}).
+(Yogeeswaran et al. 2019; Sibley et al. 2020; Greaves et al. 2020).
+Until the Christchurch terror attack, news stories on Islam and Muslims
+in New Zealand media were mostly an extension of `the negative othering
+rhetoric', and the national media tended to link Muslim converts to
+jihadis (Drury 2016). Unsurprisingly, such rhetoric has been found to
+foster anti-Muslim prejudice (Shaver et al. 2017).
 
 In the aftermath of Christchurch shootings, the New Zealand government
 introduced unprecedented counter-terrorism measures such as the
 prohibition of the sale of all military-style semi-automatic and assault
 rifles and creating the Royal Commission of Inquiry into these attacks
-(\textbf{royalco2020?}). The Royal Commission of Inquiry presented an
-800-page report emphasising New Zealand's inclusive and welcoming
-identity, among other measures (\textbf{arkilic2021a?}). In addition,
-the New Zealand press embraced a more inclusive and positive narrative
-with respect to Islam and Muslims (\textbf{rahman2020?};
-\textbf{kabir2024?}).
+({``Royal {C}ommission of {I}nquiry into the Terrorist Attack on
+{C}hristchurch {M}asjidain on 15 {M}arch 2019''} 2020). The Royal
+Commission of Inquiry presented an 800-page report emphasising New
+Zealand's inclusive and welcoming identity, among other measures
+(Arkilic 2021). In addition, the New Zealand press embraced a more
+inclusive and positive narrative with respect to Islam and Muslims (K.
+A. Rahman 2020; Kabir 2024).
 
 In summary, although there have been sporadic reports of increased hate
-crimes after the attacks (\textbf{wilson2020?}), the average sentiments
-towards Muslims have improved in New Zealand. The NZAVS, in a series of
-articles, reported this positive shift in these attitudes toward Muslims
-post Christchurch attacks (\textbf{shanaah2021?};
-\textbf{bulbulia2023?}), and the psychological response of New Zealand
-public to the shootings (\textbf{byrne2022?}).
+crimes after the attacks (Wilson and Shastri 2020), the average
+sentiments towards Muslims have improved in New Zealand. The NZAVS, in a
+series of articles, reported this positive shift in these attitudes
+toward Muslims post Christchurch attacks (Shanaah et al. 2021; Bulbulia
+et al. 2023), and the psychological response of New Zealand public to
+the shootings (Byrne et al. 2022).
 
 The Christchurch shootings prompted many New Zealand research groups and
 institutions to further study about Muslims and with Muslims, who so far
 had been a culturally-distinct, under-researched, minority group. These
-studies included trauma-focused response (\textbf{sulaiman-hill2021?};
-\textbf{sulaiman-hill2024?}), inclusion, Islamophobia and wellbeing
-(\textbf{junaid2024?}), perceived discrimination among Muslim immigrant
-youth (\textbf{raissi2024?}), the political implications of government
-decisions (\textbf{arkilic2021a?}) among others. Given that the NZAVS
-had explored perceptions of Muslims and the mechanisms of attitudinal
-changes towards Muslims following 15 March 2019 attacks
-(\textbf{sibley2020?}; \textbf{shaver2017?}; \textbf{bulbulia2023?};
-\textbf{hawi2019?}), it was a timely necessity that we expanded our
-reach to focus on the experiences of this same group.
+studies included trauma-focused response (Sulaiman-Hill et al. 2021;
+Sulaiman-Hill, Porter, et al. 2024), inclusion, Islamophobia and
+wellbeing (Junaid, Cassim, and Khan-Janif 2024), perceived
+discrimination among Muslim immigrant youth (Raissi 2024), the political
+implications of government decisions (Arkilic 2021) among others. Given
+that the NZAVS had explored perceptions of Muslims and the mechanisms of
+attitudinal changes towards Muslims following 15 March 2019 attacks
+(Sibley et al. 2020; Shaver et al. 2017; Bulbulia et al. 2023; Hawi et
+al. 2019), it was a timely necessity that we expanded our reach to focus
+on the experiences of this same group.
 
 In addition, much of the NZAVS work to date with the Muslim community
 had focused on conveying information about how Muslims are perceived by
@@ -428,17 +447,17 @@ the members of Muslim community in New Zealand.
 
 Media reports pointed out incredible resilience and flourishing of
 victims as well as the wider Muslim community post Christchurch
-shootings (\textbf{oliver2024?}; \textbf{greenfield2019?}). Limited
-research on specific cohorts of Muslims indicated the same
-(\textbf{sulaiman-hill2024a?}; \textbf{nasier2023?}). Research on human
-flourishing has consistently shown that religiosity and religious
-service attendance might be associated with various aspects of human
-flourishing (\textbf{vanderweele2017?}; \textbf{vanderweele2017a?}). New
-Zealand Muslims' overall under-representation in research and resilience
-in the face of prejudice and terror produced a critical research gap in
-the relationship of Muslim religiosity and flourishing that warranted
-further empirical investigation. By addressing this line of inquiry with
-MDS, we contribute to the science of human flourishing in general.
+shootings (Oliver 2024; Greenfield 2019). Limited research on specific
+cohorts of Muslims indicated the same (Sulaiman-Hill, Schluter, et al.
+2024; Nasier 2023). Research on human flourishing has consistently shown
+that religiosity and religious service attendance might be associated
+with various aspects of human flourishing (VanderWeele 2017a, 2017b).
+New Zealand Muslims' overall under-representation in research and
+resilience in the face of prejudice and terror produced a critical
+research gap in the relationship of Muslim religiosity and flourishing
+that warranted further empirical investigation. By addressing this line
+of inquiry with MDS, we contribute to the science of human flourishing
+in general.
 
 \section{MDS research aims}\label{mds-research-aims}
 
@@ -507,8 +526,8 @@ to unfamiliarity with research) and Muslim converts (due to distrust of
 the institutions) might also be low. 4) Community members might be
 suspicious and consider the study to have ulterior or personal motives.
 Similar challenges have been identified by other researchers who have
-worked with the Muslim community in New Zealand
-(\textbf{sulaiman-hill2024?}).
+worked with the Muslim community in New Zealand (Sulaiman-Hill, Porter,
+et al. 2024).
 
 The following recommendations on mitigating these challenges were
 received upon completing the consultation: 1) To encourage more
@@ -547,7 +566,7 @@ Our consultation with the community revealed that the need for
 translation of the questionnaire may be limited to a small subset of New
 Zealand Muslims, as the majority are expected to be proficient in
 English. This finding aligns with the research conducted by the March 15
-Project team (\textbf{sulaiman-hill2021?}), which found that 71\% of
+Project team (Sulaiman-Hill et al. 2021), which found that 71\% of
 participants preferred English for surveys and clinical interviews.
 
 A critical component of the MDS is the comparison of Muslim scores on
@@ -590,16 +609,16 @@ perspectives of participants.
 \subsection{Sample size estimation and
 participants}\label{sample-size-estimation-and-participants}
 
-The NZAVS sample of Muslim cohort was \emph{n} = 85 prior to MDS
-(\textbf{sibley2024?}). To enhance the representation of Muslims in
-NZAVS, we initially aimed to recruit an additional 1500 participants,
-more than doubling the study's proportional sampling of the general
-population. We were able to recruit \emph{n} = 582 new participants.
-This target corresponds to about 1.3\% of New Zealand's Muslim
-population based on the 2018 Census (\textbf{statsnz2024?}). Notably,
-the 2023 Census that took place after the start of MDS shows an
-increased number of Muslims in New Zealand (75,138)
-(\textbf{religi2024?}). Data collection was concentrated in six major
+The NZAVS sample of Muslim cohort was \emph{n} = 85 prior to MDS (Sibley
+2024). To enhance the representation of Muslims in NZAVS, we initially
+aimed to recruit an additional 1500 participants, more than doubling the
+study's proportional sampling of the general population. We were able to
+recruit \emph{n} = 582 new participants. This target corresponds to
+about 1.3\% of New Zealand's Muslim population based on the 2018 Census
+({``Stats NZ''} 2024). Notably, the 2023 Census that took place after
+the start of MDS shows an increased number of Muslims in New Zealand
+(75,138) ({``2023 {C}ensus {P}opulation, {D}welling, and {H}ousing
+{H}ighlights''} 2024). Data collection was concentrated in six major
 urban centers---Auckland, Christchurch, Hamilton, Wellington, Palmerston
 North, and Dunedin---each with a Muslim population of at least 1,000
 (see Table~\ref{tbl-muslim-population}). Participants were eligible if
@@ -866,7 +885,7 @@ distress}\label{subjective-wellbeingpsychological-distress}
 
 Measured using the Kessler-6 items (items 1-6 in
 Figure~\ref{fig-Kess-6}) rated on a 5-point scale (0 = None of the time,
-4 = All of the time) (\textbf{kessler2010?}).
+4 = All of the time) (Kessler et al. 2010).
 
 \begin{figure}
 
@@ -963,8 +982,9 @@ Diversity in New Zealand Public records.
 \item
   Education: Measured by an 11-point ordinal scale (0 = No
   Qualification, 11 = Doctoral Degree, based on the New Zealand
-  Qualification Framework (\textbf{thenew2016?})) from responses to the
-  qualification-related question.
+  Qualification Framework ({``The New Zealand Qualifications
+  Framework''} 2016)) from responses to the qualification-related
+  question.
 \item
   Employment: A binary variable is created (0 = Unemployed, 1 =
   Employed) based on the responses to the employment item ``Are you
@@ -979,18 +999,18 @@ Diversity in New Zealand Public records.
   will be used to create a binary variable (Male = 1, Not male = 0).
 \item
   Area-unit deprivation: Measured based on 2018 New Zealand Deprivation
-  Index (\textbf{atkinson2019?}) that assigns a decile-rank index (1 =
-  Least Deprived, 10 = Most Deprived) using participants' immediate
-  neighbourhood's aggregate census information. This index is calculated
-  using component factor analysis of nine variables in weighted order as
-  follows: proportion of adults who received a means-tested benefit,
-  household income, proportion not owning own home, proportion of
-  single-parent families, proportion of unemployed, proportion lacking
-  qualifications, proportion of household crowding, proportion with no
-  telephone access, and proportion with no car access. Hence, this index
-  reflects nationwide mean deprivation level for small
-  neighbourhood-type units (i.e., small community areas consisting about
-  80-90 people).
+  Index (Atkinson, Salmond, and Crampton 2019) that assigns a
+  decile-rank index (1 = Least Deprived, 10 = Most Deprived) using
+  participants' immediate neighbourhood's aggregate census information.
+  This index is calculated using component factor analysis of nine
+  variables in weighted order as follows: proportion of adults who
+  received a means-tested benefit, household income, proportion not
+  owning own home, proportion of single-parent families, proportion of
+  unemployed, proportion lacking qualifications, proportion of household
+  crowding, proportion with no telephone access, and proportion with no
+  car access. Hence, this index reflects nationwide mean deprivation
+  level for small neighbourhood-type units (i.e., small community areas
+  consisting about 80-90 people).
 \item
   Socioeconomic status (Occupational prestige): A census-derived
   occupation-based measure NZSEI (New Zealand Socioeconomic Index) is
@@ -1032,7 +1052,7 @@ Diversity in New Zealand Public records.
   Big Six personality traits: Six personality traits -- agreeableness,
   conscientiousness, extraversion, openness, honesty-humility, and
   neuroticism -- are measured using a 7-point (1 = Very Inaccurate, 7 =
-  Very Accurate) Mini-IPIP6 scale (\textbf{sibley2011?}).
+  Very Accurate) Mini-IPIP6 scale (Sibley et al. 2011).
 \end{enumerate}
 
 \begin{figure}
@@ -1273,7 +1293,7 @@ The collected data were anonymised and processed in the NZAVS
 headquarters, and only made available to trusted researchers and
 collaborators. The NZAVS data dictionary, sampling procedure, sample
 details and other relevant information can be accessed online
-(\url{https://osf.io/75snb/wiki/home/}) (\textbf{sibley2024?}).
+(\url{https://osf.io/75snb/wiki/home/}) (Sibley 2024).
 
 \subsection{Timeline}\label{timeline}
 
@@ -1413,7 +1433,7 @@ collection efforts.
 
 We witnessed enhanced participation by addressing these challenges. Some
 of these recommendations have been reflected in outputs of the March 15
-research group too (\textbf{sulaiman-hill2024?}).
+research group too (Sulaiman-Hill, Porter, et al. 2024).
 
 \subsection{Strengths of MDS}\label{strengths-of-mds}
 
@@ -1496,18 +1516,19 @@ shift in how Muslim voices are `allowed' to participate in society.
 
 This research can also inform international discourse on the experiences
 of Muslim immigrants, and their views and beliefs on their country of
-residence. (\textbf{stockemer2021?}) completed a comprehensive review on
-studies focused on Muslim immigrants' sense of belonging and identity;
-results reflected this varied greatly depending on the country of
-residence at a macro-level, and personal education at the micro-level.
+residence. Stockemer and Moreau (2021) completed a comprehensive review
+on studies focused on Muslim immigrants' sense of belonging and
+identity; results reflected this varied greatly depending on the country
+of residence at a macro-level, and personal education at the
+micro-level.
 
 MDS allows Muslim to have an active, data informed input in shaping
 policies and intervention targeted at their wellbeing and livelihood.
 This is especially significant in the aftermath of the 15 March terror
 attacks targeting Muslims in New Zealand. Research highlights
 significant long term mental health distress and vulnerability for
-individuals directly impacted by the attacks
-(\textbf{sulaiman-hill2024a?}).
+individuals directly impacted by the attacks (Sulaiman-Hill, Schluter,
+et al. 2024).
 
 Insights from the findings could be used as a form of policy advocacy in
 two ways: first, by engaging with policymakers to advocate for policies
@@ -1532,23 +1553,23 @@ where possible.
 Research also highlights the psychological impact that the terror
 attacks had on wider Muslim communities in New Zealand, who viewed the
 attack to be of a personal nature through a shared identity with the
-targeted victims of the attacks (\textbf{nasier2023?}). This poses
-significant responsibility on the health system in New Zealand to be
-equipped to meet the ongoing and long-term needs of New Zealanders
-impacted by terror. This research can provide valuable insights into the
-Muslim community, facilitating the development of interventions that are
+targeted victims of the attacks (Nasier 2023). This poses significant
+responsibility on the health system in New Zealand to be equipped to
+meet the ongoing and long-term needs of New Zealanders impacted by
+terror. This research can provide valuable insights into the Muslim
+community, facilitating the development of interventions that are
 effectively tailored to meet their needs.
 
 Practically, the findings could guide the development of targeted
 interventions aimed at reducing Islamophobia and supporting the Muslim
 community in New Zealand. Since ``programmes are the instruments,
 governments use to implement a policy or achieve a particular outcome''
-(\textbf{rose1991?}), community-based programmes that strengthen social
-ties and religious practices could be designed to buffer against
-anti-Muslim prejudice. Insights from the findings could further pave the
-way for organising public forums and discussions to bring together
-Muslims and non-Muslims to address issues of discrimination, resilience,
-and community wellbeing, with the aim of fostering dialogue and
+(Rose 1991), community-based programmes that strengthen social ties and
+religious practices could be designed to buffer against anti-Muslim
+prejudice. Insights from the findings could further pave the way for
+organising public forums and discussions to bring together Muslims and
+non-Muslims to address issues of discrimination, resilience, and
+community wellbeing, with the aim of fostering dialogue and
 understanding.
 
 The findings could also inform policy regarding the need for targeted
@@ -1558,10 +1579,11 @@ interventions to improve these areas for Muslim communities should be
 prioritised by the government. Muslims in New Zealand are diverse and
 the Muslim community organisations have been actively working with local
 and central governments to provide advice and input regarding ethnic
-communities (\textbf{fianz2024?}; \textbf{nzma2024?}). However, it
-should be noted that while it may be regarded as illusory to develop
-policies, programmes, and practices that purport to be ``blind'' to race
-and ethnicity (\textbf{durie2005?}), socio-economic measures addressing
+communities ({``Federation of Islamic Associations of New Zealand''}
+2024; {``New Zealand Muslim Association''} 2024). However, it should be
+noted that while it may be regarded as illusory to develop policies,
+programmes, and practices that purport to be ``blind'' to race and
+ethnicity (Durie 2005), socio-economic measures addressing
 discrimination among Muslims in New Zealand should be tailored to the
 communities, considering their religious characteristics alongside their
 ethnicities or races.
@@ -1597,8 +1619,661 @@ similar groups in New Zealand and overseas.
 \addcontentsline{toc}{section}{References}
 
 \phantomsection\label{refs}
-\begin{CSLReferences}{0}{1}
+\begin{CSLReferences}{1}{0}
+\bibitem[\citeproctext]{ref-religi2024}
+{``2023 {C}ensus {P}opulation, {D}welling, and {H}ousing
+{H}ighlights.''} 2024.
+\url{https://www.stats.govt.nz/information-releases/2023-census-population-dwelling-and-housing-highlights/}.
+
+\bibitem[\citeproctext]{ref-arkilic2020}
+Arkilic, Ayca. 2020. {``What Is {I}slam's Appeal to {M}{ā}ori?''}
+\url{http://newsroom.co.nz/2020/08/18/what-is-islams-appeal-to-maori/}.
+
+\bibitem[\citeproctext]{ref-arkilic2021a}
+---------. 2021. {``The {C}hristchurch Shooting and the 2020 {N}ew
+{Z}ealand Election.''} In, edited by Stephen Levine, 225--39.
+Wellington, New Zealand: Victoria University Press.
+
+\bibitem[\citeproctext]{ref-atkinson2019}
+Atkinson, June, Clare Salmond, and Peter Crampton. 2019. {``NZDep2018
+Index of Deprivation.''}
+
+\bibitem[\citeproctext]{ref-bulbulia2023}
+Bulbulia, Joseph A, M Usman Afzali, Kumar Yogeeswaran, and Chris G
+Sibley. 2023. {``Long-Term Causal Effects of Far-Right Terrorism in New
+Zealand.''} Edited by M Gelfand. \emph{PNAS Nexus} 2 (8).
+\url{https://doi.org/10.1093/pnasnexus/pgad242}.
+
+\bibitem[\citeproctext]{ref-byrne2022}
+Byrne, Kate G., Kumar Yogeeswaran, Martin J. Dorahy, Jessica Gale, M.
+Usman Afzali, Joseph Bulbulia, and Chris G. Sibley. 2022.
+{``Psychological Impact of Far-Right Terrorism Against Muslim Minorities
+on National Distress, Community, and Wellbeing.''} \emph{Scientific
+Reports} 12 (1): 1620. \url{https://doi.org/10.1038/s41598-022-05678-x}.
+
+\bibitem[\citeproctext]{ref-drury2016}
+Drury, A. 2016. {``{Islam{'}s} History and Integration in the {N}ew
+{Z}ealand Society: A {convert{'}s} View.''} In, edited by E Kolig and
+Voyce M, 113--29. Maryland, USA: Rowman.
+
+\bibitem[\citeproctext]{ref-durie2005}
+Durie, Mason. 2005. {``Race and Ethnicity in Public Policy: Does It
+Work?''} \emph{Social Policy Journal of New Zealand Te Puna Whakaaro}
+24: 1--11.
+\url{https://www.msd.govt.nz/about-msd-and-our-work/publications-resources/journals-and-magazines/social-policy-journal/spj24/24-race-and-ethnicity-in-public-policydoes-it-work-p1-11.html}.
+
+\bibitem[\citeproctext]{ref-fianz2024}
+{``Federation of Islamic Associations of New Zealand.''} 2024.
+\url{https://fianz.com/general-advocacy/}.
+
+\bibitem[\citeproctext]{ref-frykberg2023}
+Frykberg, Laura. 2023. {``Online Hate Towards Muslims 'Increasing' Since
+Mosque Attacks.''}
+\url{https://www.1news.co.nz/2023/03/12/online-hate-towards-muslims-increasing-since-mosque-attacks/}.
+
+\bibitem[\citeproctext]{ref-greaves2020}
+Greaves, Lara M., Aarif Rasheed, Stephanie D'Souza, Nichola Shackleton,
+Luke D. Oldfield, Chris G. Sibley, Barry Milne, and Joseph Bulbulia.
+2020. {``Comparative Study of Attitudes to Religious Groups in New
+Zealand Reveals Muslim-Specific Prejudice.''} \emph{K{ō}tuitui: New
+Zealand Journal of Social Sciences Online} 15 (2): 260--79.
+\url{https://doi.org/10.1080/1177083x.2020.1733032}.
+
+\bibitem[\citeproctext]{ref-greenfield2019}
+Greenfield, Charlotte. 2019. {``Lives Forever Changed by Christchurch
+Shootings.''} \emph{Reuters}.
+\url{https://widerimage.reuters.com/story/lives-forever-changed-by-christchurch-shootings}.
+
+\bibitem[\citeproctext]{ref-hawi2019}
+Hawi, Diala, Danny Osborne, Joseph Bulbulia, and Chris G. Sibley. 2019.
+{``Terrorism Anxiety and Attitudes Toward Muslims.''} \emph{New Zealand
+Journal of Psychology} 48 (1): 8089.
+
+\bibitem[\citeproctext]{ref-islamoph2022}
+{``Islamophobia After {C}hristchurch Terror Attacks Quadrupled -
+{A}ustralian Report.''} 2022.
+\url{https://www.rnz.co.nz/news/national/463304/islamophobia-after-christchurch-terror-attacks-quadrupled-australian-report}.
+
+\bibitem[\citeproctext]{ref-jacinda2019b}
+{``Jacinda {A}rdern on the {C}hristchurch Shooting: {`}One of {N}ew
+{Z}ealand's Darkest Days'.''} 2019.
+\url{https://www.theguardian.com/world/2019/mar/15/one-of-new-zealands-darkest-days-jacinda-ardern-responds-to-christchurch-shooting}.
+
+\bibitem[\citeproctext]{ref-junaid2024}
+Junaid, Fatima A., S. Cassim, and J. Khan-Janif. 2024. {``Muslims'
+Experiences of Inclusion, Discrimination, {I}slamophobia and Wellbeing
+in {A}otearoa {N}ew {Z}ealand.''}
+\url{https://doi.org/10.13140/RG.2.2.12693.74725/1}.
+
+\bibitem[\citeproctext]{ref-kabir2024}
+Kabir, Shah Nister. 2024. {``{`}They Are Us{'}: Orientalist Perspective
+Challenged in New Zealand Newspapers{'} Coverage.''} \emph{Journal of
+Arab \& Muslim Media Research}, January.
+\url{https://doi.org/10.1386/jammr_00077_1}.
+
+\bibitem[\citeproctext]{ref-kessler2010}
+Kessler, Ronald C., Jennifer Greif Green, Michael J. Gruber, Nancy A.
+Sampson, Evelyn Bromet, Marius Cuitan, Toshi A. Furukawa, et al. 2010.
+{``Screening for Serious Mental Illness in the General Population with
+the K6 Screening Scale: Results from the WHO World Mental Health (WMH)
+Survey Initiative.''} \emph{International Journal of Methods in
+Psychiatric Research} 19 (S1): 4--22.
+\url{https://doi.org/10.1002/mpr.310}.
+
+\bibitem[\citeproctext]{ref-nasier2023}
+Nasier, B A. 2023. {``{`This Is {U}s'}: {Y}oung {N}ew {Z}ealand
+{M}uslims' Responses to the {M}arch 15th {T}errorist {A}ttacks in
+{C}hristchurch.''} PhD thesis, Auckland.
+
+\bibitem[\citeproctext]{ref-nzma2024}
+{``New Zealand Muslim Association.''} 2024.
+\url{https://www.ethniccommunities.govt.nz/community-directory/show/1170}.
+
+\bibitem[\citeproctext]{ref-oliver2024}
+Oliver, Katie. 2024. {``Survivor Who Lost His Wife in Christchurch
+Terror Attack Shares His Love for Forgiveness.''} \emph{Newshub}.
+\url{https://www.newshub.co.nz/home/new-zealand/2024/03/survivor-farid-ahmed-who-lost-his-wife-in-christchurch-terror-attack-shares-his-love-for-forgiveness.html}.
+
+\bibitem[\citeproctext]{ref-rahman2019}
+Rahman, Anjum. 2019. {``Islamic {W}omen's {C}ouncil Repeatedly Lobbied
+to Stem Discrimination.''}
+\url{https://www.rnz.co.nz/news/on-the-inside/384911/islamic-women-s-council-repeatedly-lobbied-to-stem-discrimination}.
+
+\bibitem[\citeproctext]{ref-rahman2020}
+Rahman, Khairiah A. 2020. {``News Media and the Muslim Identity After
+the Christchurch Mosque Massacres.''} \emph{K{ō}tuitui: New Zealand
+Journal of Social Sciences Online} 15 (2): 360--84.
+\url{https://doi.org/10.1080/1177083x.2020.1747503}.
+
+\bibitem[\citeproctext]{ref-raissi2024}
+Raissi, Hussain. 2024. {``Exploring Senses of Belonging: {A}
+Multidimensional Study of {M}uslim Immigrant Youth in {N}ew
+{Z}ealand.''} PhD thesis, Dunedin.
+
+\bibitem[\citeproctext]{ref-rose1991}
+Rose, Richard. 1991. {``What Is Lesson-Drawing?''} \emph{Journal of
+Public Policy} 11 (1): 3--30.
+\url{https://doi.org/10.1017/s0143814x00004918}.
+
+\bibitem[\citeproctext]{ref-royalco2020}
+{``Royal {C}ommission of {I}nquiry into the Terrorist Attack on
+{C}hristchurch {M}asjidain on 15 {M}arch 2019.''} 2020.
+\url{https://christchurchattack.royalcommission.nz}.
+
+\bibitem[\citeproctext]{ref-shanaah2021}
+Shanaah, Sadi, Kumar Yogeeswaran, Lara Greaves, Joseph A. Bulbulia,
+Danny Osborne, M. Usman Afzali, and Chris G. Sibley. 2021. {``Hate
+Begets Warmth? The Impact of an Anti-{M}uslim Terrorist Attack on Public
+Attitudes Toward {M}uslims.''} \emph{Terrorism and Political Violence},
+119.
+
+\bibitem[\citeproctext]{ref-shaver2017}
+Shaver, John H., Chris G. Sibley, Danny Osborne, and Joseph Bulbulia.
+2017. {``News Exposure Predicts Anti-Muslim Prejudice.''} Edited by
+Michiel van Elk. \emph{PLoS One} 12 (3): e0174606.
+\url{https://doi.org/10.1371/journal.pone.0174606}.
+
+\bibitem[\citeproctext]{ref-shaver2016}
+Shaver, John H., Geoffrey Troughton, Chris G. Sibley, and Joseph A.
+Bulbulia. 2016. {``Religion and the Unmaking of Prejudice Toward
+Muslims: Evidence from a Large National Sample.''} Edited by Michiel van
+Elk. \emph{PLoS One} 11 (3): e0150209.
+\url{https://doi.org/10.1371/journal.pone.0150209}.
+
+\bibitem[\citeproctext]{ref-sibley2024}
+Sibley, Chris G. 2024. {``New Zealand Attitudes and Values Study.''}
+\url{https://osf.io/75snb/wiki/home/}.
+
+\bibitem[\citeproctext]{ref-sibley2020}
+Sibley, Chris G., M. Usman Afzali, Nicole Satherley, Anastasia Ejova,
+Samantha Stronge, Kumar Yogeeswaran, Michael Grimshaw, Diala Hawi, Zahra
+Mirnajafi, and Fiona Kate Barlow. 2020. {``Prejudice Toward {M}uslims in
+{N}ew {Z}ealand: Insights from the {N}ew {Z}ealand {A}ttitudes and
+{V}alues {S}tudy.''} \emph{New Zealand Journal of Psychology} 49 (1).
+
+\bibitem[\citeproctext]{ref-sibley2011}
+Sibley, Chris G., N. Luyten, Missy Purnomo, A. Mobberley, L. W. Wootton,
+Matthew Hammond, Nikhil Sengupta, et al. 2011. {``The Mini-IPIP6:
+Validation and Extension of a Short Measure of the {B}ig-{S}ix Factors
+of Personality in {N}ew {Z}ealand.''} \emph{New Zealand Journal of
+Psychology} 40 (3): 142--59.
+
+\bibitem[\citeproctext]{ref-statsnz2024}
+{``Stats NZ.''} 2024. \url{https://www.stats.govt.nz/}.
+
+\bibitem[\citeproctext]{ref-stockemer2021}
+Stockemer, Daniel, and Shona Moreau. 2021. {``Muslim Immigrants' Sense
+of Identity and Belonging in the Western World: A Comprehensive
+Review.''} \emph{Nations and Nationalism} 27 (1): 223--37.
+\url{https://doi.org/10.1111/nana.12691}.
+
+\bibitem[\citeproctext]{ref-sulaiman-hill2024}
+Sulaiman-Hill, Ruqayya C., Richard Porter, Philip Schluter, Ben
+Beaglehole, Shaystah Dean, Sandila Tanveer, Joseph Boden, and Caroline
+Bell. 2024. {``Research Following Trauma in Minority Ethnic and Faith
+Communities: Lessons from a Study of the Psychosocial Sequelae of the
+Christchurch Mosque Terror Attacks.''} \emph{BJPsych Open} 10 (1).
+\url{https://doi.org/10.1192/bjo.2023.641}.
+
+\bibitem[\citeproctext]{ref-sulaiman-hill2021}
+Sulaiman-Hill, Ruqayya C., Richard Porter, Sandila Tanveer, Joseph
+Boden, Ben Beaglehole, Philip J. Schluter, Shaystah Dean, and Caroline
+Bell. 2021. {``Psychosocial Impacts on the {C}hristchurch {M}uslim
+Community Following the 15 March Terrorist Attacks: A Mixed-Methods
+Study Protocol.''} \emph{BMJ Open} 11 (10): e055413.
+
+\bibitem[\citeproctext]{ref-sulaiman-hill2024a}
+Sulaiman-Hill, Ruqayya C., Philip J Schluter, Sandila Tanveer, Joseph M
+Boden, Richard Porter, Ben Beaglehole, Shaystah Dean, Zimna Thaufeeg,
+and Caroline Bell. 2024. {``The Psychosocial Impacts of the 15 March
+Terrorist Attack on the Christchurch Muslim Community: A Descriptive,
+Cross-Sectional Assessment.''} \emph{Australian \& New Zealand Journal
+of Psychiatry} 58 (11): 977--89.
+\url{https://doi.org/10.1177/00048674241276802}.
+
+\bibitem[\citeproctext]{ref-thenew2016}
+{``The New Zealand Qualifications Framework.''} 2016.
+
+\bibitem[\citeproctext]{ref-vanderweele2017}
+VanderWeele, Tyler J. 2017a. {``On the Promotion of Human
+Flourishing.''} \emph{Proceedings of the National Academy of Sciences}
+114 (31): 8148--56. \url{https://doi.org/10.1073/pnas.1702996114}.
+
+\bibitem[\citeproctext]{ref-vanderweele2017a}
+---------. 2017b. {``Religious Communities and Human Flourishing.''}
+\emph{Current Directions in Psychological Science} 26 (5): 476--81.
+\url{https://doi.org/10.1177/0963721417721526}.
+
+\bibitem[\citeproctext]{ref-wilson2020}
+Wilson, Chris, and Sanjal Shastri. 2020. {``Hate Crimes Against
+{M}uslims Spiked After the Mosque Attacks, and {A}rdern Promises to Make
+Such Abuse Illegal.''}
+\url{http://theconversation.com/hate-crimes-against-muslims-spiked-after-the-mosque-attacks-and-ardern-promises-to-make-such-abuse-illegal-147347}.
+
+\bibitem[\citeproctext]{ref-worldle2019}
+{``World Leaders Condemn New Zealand Mosque Attacks.''} 2019.
+\url{https://www.aljazeera.com/news/2019/3/15/the-world-reacts-to-new-zealand-mosque-attacks}.
+
+\bibitem[\citeproctext]{ref-yogeeswaran2019}
+Yogeeswaran, Kumar, M Usman Afzali, Nadia P Andrews, Elizabeth A
+Chivers, Meng-Jie Wang, Thierry Devos, and Chris G Sibley. 2019.
+{``Exploring {N}ew {Z}ealand National Identity and Its Importance for
+Attitudes Toward {M}uslims and Support for Diversity.''} \emph{New
+Zealand Journal of Psychology} 48 (1): 29--35.
+
 \end{CSLReferences}
+
+\newpage{}
+
+\section{Appendix A: MDS Runhseet}\label{appendix-a-mds-runhseet}
+
+{[}\texttt{Monospaced} font refers to urls in the actual document.{]}
+
+\noindent Salam alaikum and welcome to the Muslim Diversity Study.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  This \texttt{Dropbox\ folder} consists of all information that you
+  might need.
+\item
+  We have updated our communication and approach strategy, found
+  \texttt{here}.
+\item
+  This \texttt{document} contains message to the community and FAQs.
+  {[}will keep updating{]}
+\item
+  \texttt{Cover\ letter} for the Muslim Diversity Study.
+\item
+  MDS \texttt{Questionnaire} (pdf)
+\item
+  Use this \texttt{message} to send the MDS participation request to
+  individuals. Please remember that individual connection is extremely
+  important, and this is what we bank on.
+\item
+  Use this \texttt{message} to advertise MDS on social media (e.g.,
+  Facebook or LinkedIn); and to send it via WhatsApp or emailing lists
+  to the wider community and organisations.
+\item
+  Use this \texttt{message} for shorter social media platforms (e.g.,
+  Twitter/X).
+\item
+  Access the \texttt{poster} (pdf) here (and png).
+\item
+  Access the \texttt{flyer} (pdf) here (and png).
+\item
+  This \texttt{document} can be shared with organisations to introduce
+  MDS.
+\item
+  Organisation lists: \texttt{Auckland}, \texttt{Hamilton},
+  \texttt{Palmerston\ North}, \texttt{Wellington},
+  \texttt{Christchurch}, \texttt{Dunedin}. In addition, \texttt{this} is
+  the list of organisations that have endorsed us or shared our ads.
+  Please keep adding names to this list.
+\item
+  Please use \texttt{this} guideline for reaching out to organisations.
+\item
+  This \texttt{story} by UC has recorded the motivation behind MDS and
+  its benefits for the Muslim community. It can be shared widely with
+  those that want to know more.
+\item
+  The recent public \texttt{lecture} narrates the whole story of MDS
+  (past, present, future) in a detailed manner. This, again, can be
+  shared extensively with anyone interested.
+\item
+  Find our social media and website \texttt{here}.
+\item
+  The paper questionnaires are valuable, and to ensure meaningful
+  responses, we shall only provide them to individuals who express
+  interest and want them. Please distribute as many copies of
+  \texttt{flyers}, and I can provide more flyers as needed.
+\item
+  Participants using the Qualtrics link should be reminded that they can
+  resume the questionnaire from where they left off if they don't
+  complete it initially. Ideally, an additional message can be sent
+  using this wording: ``You can easily resume the questionnaire where
+  you left off by clicking on the provided link. Feel free to complete
+  the questionnaire in multiple sessions; your previous responses are
+  automatically saved.'' Since it's not part of the ethics approval, it
+  can be sent in the next message as additional guideline (instruction).
+\item
+  To claim your hours, log-in \texttt{here}.
+\item
+  If you are claiming your hours for the first time, use information in
+  this \texttt{folder}.
+\item
+  If you want to have an update on collected data so far, see
+  \texttt{this}.
+\item
+  I am thinking of a qualitative research project based on our
+  experiences with the Muslim community where we'd want to interview our
+  current RA's. It's briefly detailed \texttt{here}. If any of you are
+  keen to be part of this or know someone who might want to take this
+  on, please let me know. It can easily be a master's thesis, and as
+  detailed in the brief, it will attract great impact.
+\item
+  \url{https://linktr.ee/muslims_nz}
+\item
+  \url{https://linktr.ee/muslimdiversity}
+\end{enumerate}
+
+\newpage{}
+
+\section{Appendix B: Message to Individual
+Participants}\label{appendix-b-message-to-individual-participants}
+
+Your Voice Matters! Join the Muslim Diversity Study!
+
+\noindent Assalamu Alaikum WR WB {[}person's name{]}
+
+\noindent I'm {[}name of the RA{]}, a research assistant in the Muslim
+Diversity Study.
+
+\noindent We need YOUR perspective!
+
+\noindent The Muslim community is underrepresented, and we're changing
+that with your help. Participate in this first-of-its-kind survey to
+share your views on social attitudes, values, resilience, religiosity,
+flourishing, meaning-making, wellbeing, and experiences of Muslims in
+New Zealand. Let's make our voices heard!
+
+\noindent Why Participate?
+
+\noindent Gather data on underrepresented Muslims, amplifying voices and
+providing insights into issues, wellbeing, and experiences.
+
+\noindent Equip the Muslim community with evidence-based information for
+advocacy.
+
+\noindent Enrich understanding, strengthening the collective voice, and
+shaping a more accurate narrative.
+
+\noindent Your contribution counts and confidentially is assured!
+
+\noindent By participating, you could potentially win one out of five
+\$1000 grocery vouchers.
+
+\noindent The data will be analysed with a focus on the Muslim
+community. Your input guides our research, ensuring authenticity and
+representation. We reassure you that the responses to the questionnaire
+are anonymized, encrypted, and aggregated in a manner that ensure
+confidentiality.
+
+\noindent Spread the Word!
+
+\noindent Please share with your friends, family, and community members!
+Let's come together and make a difference.
+
+\noindent To complete the questionnaire kindly click on the link below
+or message us for a paper copy:
+\url{https://www.nzavs.auckland.ac.nz/muslim_diversity}
+
+\noindent For more info, visit our website (below) or reach out to Dr
+Usman Afzali (the lead researcher): (email address and contact phone
+number)
+\url{https://www.canterbury.ac.nz/science/schools/psyc-speech-hear/research/muslim-diversity/}
+
+\noindent APPROVED BY THE UNIVERSITY OF AUCKLAND HUMAN PARTICIPANTS
+ETHICS COMMITTEE ON 26/05/2021 UNTIL 26/05/2027, REFERENCE NUMBER:
+UAHPEC22576.
+
+\newpage{}
+
+\section{Appendix C: Community and Social Media
+Message}\label{appendix-c-community-and-social-media-message}
+
+Your Voice Matters! Join the Muslim Diversity Study!
+
+\noindent Assalamu Alaikum WR WB, Muslims in New Zealand!
+
+\noindent We need YOUR perspective!
+
+\noindent The Muslim community is underrepresented, and we're changing
+that with your help. Participate in this first-of-its-kind survey to
+share your views on social attitudes, values, resilience, religiosity,
+flourishing, meaning-making, wellbeing, and experiences of Muslims in
+New Zealand. Let's make our voices heard!
+
+\noindent Why Participate?
+
+\noindent Gather data on underrepresented Muslims, amplifying voices and
+providing insights into issues, wellbeing, and experiences.
+
+\noindent Equip the Muslim community with evidence-based information for
+advocacy.
+
+\noindent Enrich understanding, strengthening the collective voice, and
+shaping a more accurate narrative.
+
+\noindent Your contribution counts and confidentially is assured!
+
+\noindent By participating, you could potentially win one out of five
+\$1000 grocery vouchers.
+
+\noindent The data will be analysed with a focus on the Muslim
+community. Your input guides our research, ensuring authenticity and
+representation. We reassure you that the responses to the questionnaire
+are anonymized, encrypted, and aggregated in a manner that ensure
+confidentiality.
+
+\noindent Spread the Word!
+
+\noindent Please share with your friends, family, and community members!
+Let's come together and make a difference.
+
+\noindent To complete the questionnaire kindly click on the link below
+or message us for a paper copy:
+\url{https://www.nzavs.auckland.ac.nz/muslim_diversity}
+
+\noindent For more info, visit our website (below) or reach out to Dr
+Usman Afzali (the lead researcher): (email address and contact phone
+number)
+\url{https://www.canterbury.ac.nz/science/schools/psyc-speech-hear/research/muslim-diversity/}
+
+\noindent APPROVED BY THE UNIVERSITY OF AUCKLAND HUMAN PARTICIPANTS
+ETHICS COMMITTEE ON 26/05/2021 UNTIL 26/05/2027, REFERENCE NUMBER:
+UAHPEC22576.
+
+\newpage{}
+
+\section{Appendix D: MDS Flyer}\label{appendix-d-mds-flyer}
+
+\begin{figure}
+
+\centering{
+
+\includegraphics[width=0.8\linewidth,height=\textheight,keepaspectratio]{figs/flyer-v1.png}
+
+}
+
+\caption{\label{fig-appendfig}}
+
+\end{figure}%
+
+\newpage{}
+
+\section{Appendix E:}\label{appendix-e}
+
+\begin{figure}
+
+\centering{
+
+\includegraphics[width=0.8\linewidth,height=\textheight,keepaspectratio]{figs/poster-v1.png}
+
+}
+
+\caption{\label{fig-appendfig1}MDS Poster}
+
+\end{figure}%
+
+\newpage{}
+
+\section{Appendix F: MDS Vision}\label{appendix-f-mds-vision}
+
+The NZAVS is committed to the following three principles for the Muslim
+Diversity Study.
+
+\noindent Protection: The NZAVS is strongly committed to respecting and
+protecting data gathered from all participants and takes confidentiality
+seriously. Our commitment to participant privacy and safety is central
+to the NZAVS.
+
+\noindent Participation: The NZAVS is committed to enhancing the
+research capacity of our communities in Aotearoa New Zealand. Any NZAVS
+research focusing specifically on the Muslim community will be reviewed
+by our Muslim academic advisor Dr Usman Afzali, and/or appropriate
+nominated reviewers from the Muslim community in New Zealand. We are
+committed to Muslim community-led research for Muslim-focussed studies
+to ensure respectful reporting that considers the social, religious, and
+cultural settings of New Zealand's Muslims.
+
+\noindent Partnership: The NZAVS actively fosters opportunities for
+collaborative research with emerging Muslim researchers in New Zealand.
+We seek to mentor Muslim graduate students interested in accessing NZAVS
+data for research in their own postgraduate theses or dissertations. We
+invite students from the Muslim community in New Zealand to contact our
+Muslim academic advisor, or any member of the NZAVS board or leadership
+team for guidance in developing a project.
+
+\newpage{}
+
+\section{Appendix G}\label{appendix-g}
+
+\subsection{Participant
+confidentiality}\label{participant-confidentiality}
+
+\noindent Here at the NZAVS we take our participants' confidentiality
+very seriously. All personal details are encrypted and stored separately
+from questionnaire data. Only Professor Chris Sibley and trusted
+research assistants working on the NZAVS in secure conditions have
+access to participants' contact details. Participants' contact details
+are used solely for the purposes of contacting them to continue their
+participation in the NZAVS each year and to provide them with
+information and feedback about research findings from the NZAVS.
+
+\noindent Reference: \url{https://osf.io/75snb/wiki/home/}
+
+\subsection{Ethics approval}\label{ethics-approval}
+
+\noindent The Muslim Diversity Study is regulated by the University of
+Auckland Human Participants Ethics Committee.
+
+\noindent The current ethics approval statement for the 2021-2027 period
+is as follows: The New Zealand Attitudes and Values Study was approved
+by the University of Auckland Human Participants Ethics Committee on
+26/05/2021 until 26/05/2024, and renewed on 02/05/2023 until 26/05/2027.
+Reference Number: UAHPEC22576.
+
+\noindent For any queries regarding ethical concerns, you may contact
+the Chair, University of Auckland Human Participants Ethics Committee,
+Ethics and Integrity Team, University of Auckland, Private Bag 92019,
+Auckland 1142. Telephone 09 373-7599 ext. 83711. Email:
+\href{mailto:humanethics@auckland.ac.nz}{\nolinkurl{humanethics@auckland.ac.nz}}.
+
+\subsection{Why we need ethics
+approval?}\label{why-we-need-ethics-approval}
+
+\noindent Ethical approval for research is essential to ensure that
+studies involving human participants are conducted in a morally
+responsible and respectful manner. It serves to protect the rights,
+wellbeing, dignity, and confidentiality of those involved in the
+research, as well as the broader community affected by the study.
+Ethical approval ensures that potential risks are minimized, benefits
+are maximized, informed consent is obtained, and any potential conflicts
+of interest or biases are addressed. This oversight helps maintain
+public trust in the scientific community and upholds the fundamental
+principles of fairness, respect, and accountability in research
+endeavours.
+
+\newpage{}
+
+\section{Appendix H: MDS Cover
+Letter}\label{appendix-h-mds-cover-letter}
+
+\noindent Salaam alaikum, kia ora, and greetings!
+
+\noindent My name is Dr Usman Afzali, and I am the lead researcher of
+the Muslim Diversity Study. The Muslim Diversity Study is conducted as
+part of the New Zealand Attitudes and Values Study. This is a broad
+longitudinal study aiming to survey people from all across New Zealand
+(see the information sheet on the next page for more details).
+
+\noindent As a researcher and committed member of the New Zealand Muslim
+community, I recognise the importance of including our voices in
+discussions about New Zealand. This inspired me to develop a booster
+study to enhance Muslim representation in the New Zealand Attitudes and
+Values Study, since we are underrepresented at present. I would be
+deeply grateful if you would consider participating in this survey. By
+sharing your perspectives, you will enrich our understanding of the
+attitudes, values, and wellbeing of the Muslim community in New Zealand.
+This will strengthen the voice of our community within New Zealand. We
+will publish the findings of our work in scientific journals, create
+brief reports and infographics, and present our findings to Muslim
+communities across New Zealand over the coming years.
+
+\noindent My research team includes Muslim researchers from across New
+Zealand. By completing this survey, you are contributing to a research
+project led by people from the Muslim community for the Muslim community
+in New Zealand. Furthermore, analysis of the collected data, with a
+specific focus on the Muslim community, will not proceed without seeking
+consultation with researchers who are themselves part of the Muslim
+community.
+
+\noindent As the survey is designed for the general New Zealand
+population, there may be questions that do not necessarily apply to you.
+Please feel free to skip any questions that you do not wish to answer.
+This study is funded by a research grant from a not-for-profit
+organisation, the Templeton Religion Trust, to help increase the
+participation of Muslims in the New Zealand Attitudes and Values Study.
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, toprule=.15mm, breakable, arc=.35mm, colframe=quarto-callout-color-frame, bottomrule=.15mm, rightrule=.15mm, leftrule=.75mm, left=2mm, colback=white]
+
+If you would like to complete this questionnaire online instead of
+returning by post, please use:
+\url{https://www.nzavs.auckland.ac.nz/muslim_diversity}.
+
+\end{tcolorbox}
+
+\noindent If you have any questions or concerns regarding the Muslim
+Diversity Study, please do not hesitate to reach out to me, Dr Usman
+Afzali (contact details below). For general inquiries about the New
+Zealand Attitudes and Values Study, please contact Professor Chris
+Sibley (contact details below).
+
+\noindent If you need help with understanding items of this
+questionnaire, feel free to reach out. Our researcher assistants are
+trained and have a detailed understanding of the questionnaire. Details
+are available at:
+\url{https://www.canterbury.ac.nz/science/schools/psyc-speech-hear/research/muslim-diversity/}
+
+\noindent Your participation in this survey is highly valuable, and your
+input will significantly contribute to our understanding of the social
+values and attitudes of the Muslim community in New Zealand.
+
+\noindent Sincerely,
+
+Dr Usman Afzali,
+
+School of Psychology, Speech and Hearing,
+
+University of Canterbury, Private Bag 4800, Christchurch 8140.
+
+(email address and phone number)
+
+Professor Chris Sibley,
+
+School of Psychology,
+
+University of Auckland,
+
+Private Bag 92019, Auckland 1142.
+
+(email address)
+
+\noindent APPROVED BY THE UNIVERSITY OF AUCKLAND HUMAN PARTICIPANTS
+ETHICS COMMITTEE ON 26/05/2021 UNTIL 26/05/2027, REFERENCE NUMBER:
+UAHPEC22576.
 
 
 
