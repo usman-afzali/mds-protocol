@@ -738,6 +738,36 @@ MDS is a crucial booster for the NZAVS because not only it addresses the under-r
 
 {{< pagebreak >}}
 
+# Data Sharing
+
+The data described in this study are part of the Muslim Diversity Study, which is conducted under the [New Zealand Attitudes and Values Study](https://osf.io/75snb/).
+
+{{< pagebreak >}}
+
+# Conflict of Interest
+
+ The authors have no conflicts of interest to disclose.
+
+{{< pagebreak >}}
+
+# Funding
+
+The Muslim Diversity Study - officially known as "A National Longitudinal Study of Muslim Diversity and Flourishing" is supported by a grant from the Templeton Religion Trust (TRT-2022-30579). The funders had no role in preparing the manuscript or the decision to publish it.
+
+{{< pagebreak >}}
+
+# Acknowledgement 
+
+The authors are grateful to Michael Mahoney for the [Quarto template](https://github.com/mikemahoney218/quarto-tandf).
+
+{{< pagebreak >}}
+
+# Author Roles
+
+*anonymised (TBA)*
+
+{{< pagebreak >}}
+
 # Appendix A: MDS Runhseet
 
 \[`Monospaced` font refers to urls in the actual document.\]
@@ -848,12 +878,12 @@ Your Voice Matters! Join the Muslim Diversity Study!
 
 # Appendix D: MDS Flyer
 
-![](figs/flyer-v1.png){#fig-appendfig width="80%"}
+![MDS Flyer](figs/flyer-v1.png){#fig-appendfig width="80%"}
 
 {{< pagebreak >}}
 
 
-# Appendix E: 
+# Appendix E: MDS Poster
 
 ![MDS Poster](figs/poster-v1.png){#fig-appendfig1 width="80%"}
 
